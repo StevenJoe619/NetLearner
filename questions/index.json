@@ -1,0 +1,42 @@
+{
+  "version": 4,
+  "lastUpdated": "2026-05-26",
+  "exams": [
+    {
+      "id": "ccna-level-demo",
+      "title": "CCNA 水平测试",
+      "type": "level-test",
+      "target": "CCNA",
+      "questionCount": 10,
+      "timeLimit": 0,
+      "difficultyDistribution": { "easy": 3, "medium": 5, "hard": 2 }
+    },
+    {
+      "id": "ccna-mock-1",
+      "title": "CCNA 模拟考试（60题 · 六大域配比）",
+      "type": "mock-exam",
+      "target": "CCNA",
+      "questionCount": 60,
+      "timeLimit": 120,
+      "difficultyDistribution": { "easy": 18, "medium": 30, "hard": 12 }
+    },
+    {
+      "id": "ccnp-encor-level-demo",
+      "title": "CCNP ENCOR 水平测试",
+      "type": "level-test",
+      "target": "CCNP ENCOR",
+      "questionCount": 10,
+      "timeLimit": 0,
+      "difficultyDistribution": { "easy": 3, "medium": 5, "hard": 2 }
+    },
+    {
+      "id": "ccnp-encor-mock-1",
+      "title": "CCNP ENCOR 模拟考试（60题）",
+      "type": "mock-exam",
+      "target": "CCNP ENCOR",
+      "questionCount": 60,
+      "timeLimit": 120,
+      "difficultyDistribution": { "easy": 18, "medium": 30, "hard": 12 }
+    }
+  ]
+}

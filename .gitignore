@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs & env
+*.log
+.env
+.env.local
+
+# Claude Code (个人配置 / API Key / 会话历史)
+.claude/
+.claude.json*
+backups/
+
+# Project artifacts (dev only)
+scripts/build-all-questions.js
+scripts/expand-ccnp-mock.js
+scripts/add-ccnp-questions.js

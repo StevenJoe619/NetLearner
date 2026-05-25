@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NetLearner — CCNA/CCNP 备考</title>
+<meta name="description" content="考纲驱动 · AI 动态出题。基于 Cisco 官方 Exam Topics 实时生成试题，永远对标最新考纲。">
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<link rel="stylesheet" href="assets/css/main.css?v=v4.0">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-brand">NetLearner</div>
+  <div class="nav-links">
+    <a class="nav-link active" data-page="page-home" onclick="router.go('/')">首页</a>
+    <a class="nav-link" data-page="page-level-test" onclick="router.go('/level-test')">水平测试</a>
+    <a class="nav-link" data-page="page-exam" onclick="router.go('/exam')">模拟考试</a>
+    <a class="nav-link" data-page="page-wrong-answers" onclick="router.go('/wrong-answers')">错题本</a>
+    <a class="nav-link" data-page="page-planner" onclick="router.go('/planner')">学习计划</a>
+    <a class="nav-link" data-page="page-settings" onclick="router.go('/settings')">设置</a>
+  </div>
+</nav>
+
+<!-- HOME -->
+<div id="page-home" class="page active">
+  <div class="container">
+    <div class="hero">
+      <h1><span>NetLearner</span></h1>
+      <div class="tagline">考纲驱动 · AI 动态出题</div>
+      <p class="desc">不再依赖任何静态题库。基于 Cisco 官方 Exam Topics 实时生成试题，永远对标最新考纲。</p>
+      <div class="badges">
+        <span class="badge">📖 官方考纲驱动</span>
+        <span class="badge">🤖 AI 动态出题</span>
+        <span class="badge">🔒 数据本地私有</span>
+        <span class="badge">⚡ 纯前端免部署</span>
+      </div>
+      <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
+        <button class="btn btn-primary" onclick="router.go('/level-test')">🔍 开始水平测试</button>
+        <button class="btn" onclick="router.go('/exam')">📝 模拟考试</button>
+      </div>
+    </div>
+    <div class="card-grid">
+      <div class="card card-feature" onclick="router.go('/level-test')"><div class="icon">📊</div><h3>水平测试</h3><p>10 题快速摸底</p></div>
+      <div class="card card-feature" onclick="router.go('/exam')"><div class="icon">📝</div><h3>模拟考试</h3><p>60 题全真模考</p></div>
+      <div class="card card-feature" onclick="router.go('/wrong-answers')"><div class="icon">❌</div><h3>错题本</h3><p>自动收录针对性重练</p></div>
+      <div class="card card-feature" onclick="router.go('/planner')"><div class="icon">📋</div><h3>学习计划</h3><p>根据测评生成计划</p></div>
+    </div>
+    <div id="home-stats" style="margin-top:8px"></div>
+    <div style="display:flex;gap:8px;justify-content:center;margin-top:8px;padding:12px">
+      <button class="btn btn-sm" onclick="storage.export()">📤 导出数据</button>
+      <button class="btn btn-sm" onclick="importData()">📥 导入数据</button>
+    </div>
+    <div style="text-align:center;margin-top:24px;padding:12px;border-top:1px solid var(--border);font-size:12px;color:var(--text-muted)">
+      <p>🔒 所有数据存储在浏览器本地，不发送到任何服务器</p>
+    </div>
+  </div>
+</div>
+
+<!-- LEVEL TEST -->
+<div id="page-level-test" class="page">
+  <div class="container">
+    <h2 style="margin-bottom:6px">水平测试</h2>
+    <p class="text-muted" style="font-size:13px;margin-bottom:16px">10 道题覆盖核心知识域，评估当前水平</p>
+    <div id="lt-setup">
+      <div class="card" style="margin-bottom:12px">
+        <h3 style="margin-bottom:10px">选择目标认证</h3>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn btn-primary" onclick="startLT('CCNA')">CCNA 200-301</button>
+          <button class="btn" onclick="startLT('CCNP ENCOR')">CCNP ENCOR 350-401</button>
+        </div>
+      </div>
+      <div class="card"><p class="text-muted" style="font-size:13px">水平测试共 10 题，不可回退，提交后获得等级评定和学习计划。</p></div>
+    </div>
+    <div id="lt-exam" style="display:none">
+      <div class="flex-between" style="margin-bottom:12px">
+        <button class="btn btn-sm" onclick="resetLT()">⬅ 重新选择</button>
+        <span id="lt-title" style="font-weight:600;font-size:14px"></span>
+      </div>
+      <div id="lt-body"></div>
+    </div>
+  </div>
+</div>
+
+<!-- EXAM (Mock) -->
+<div id="page-exam" class="page">
+  <div class="container">
+    <h2 style="margin-bottom:12px">模拟考试</h2>
+    <div id="mock-list"></div>
+    <div id="mock-exam" style="display:none">
+      <div style="margin-bottom:8px"><button class="btn btn-sm" onclick="backMock()">⬅ 返回试卷列表</button></div>
+      <div class="exam-header">
+        <div><span id="exam-name" style="font-weight:600"></span></div>
+        <div class="timer" id="exam-timer"></div>
+      </div>
+      <div class="exam-progress">
+        <span id="exam-pos"></span>
+        <div class="progress-bar"><div class="progress-fill" id="pf"></div></div>
+      </div>
+      <div id="exam-body" style="margin-top:12px"></div>
+      <div class="qa">
+        <div class="qa-l">
+          <button class="btn btn-sm" onclick="examMark()">🏴 标记</button>
+          <button class="btn btn-sm" onclick="examGo('prev')">◀ 上一题</button>
+          <button class="btn btn-sm" onclick="examGo('next')">下一题 ▶</button>
+        </div>
+        <div class="qa-r">
+          <button class="btn btn-sm" onclick="toggleSheet()">📋 答题卡</button>
+          <button class="btn btn-sm btn-danger" onclick="confirmSubmit()">📝 交卷</button>
+        </div>
+      </div>
+      <div id="sheet-box" style="display:none;margin-top:12px">
+        <div class="card">
+          <div class="flex-between" style="margin-bottom:8px">
+            <span style="font-weight:600">答题卡</span>
+            <span id="sheet-cnt" class="text-muted" style="font-size:13px"></span>
+          </div>
+          <div class="sheet" id="sheet-grid"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RESULT -->
+<div id="page-result" class="page">
+  <div class="container"><div id="result-box" class="card"></div></div>
+</div>
+
+<!-- WRONG ANSWERS -->
+<div id="page-wrong-answers" class="page">
+  <div class="container">
+    <div class="flex-between" style="margin-bottom:12px">
+      <h2>错题本</h2>
+      <div><button class="btn btn-sm" onclick="storage.export()">📤 导出</button> <button class="btn btn-sm btn-danger" onclick="clearWA()">🗑️ 清空</button></div>
+    </div>
+    <div id="wa-stats" style="margin-bottom:12px"></div>
+    <div class="fbar">
+      <select id="wa-dom" onchange="renderWA()"><option value="">全部域</option></select>
+      <select id="wa-st" onchange="renderWA()">
+        <option value="">全部状态</option>
+        <option value="need_review">需要复习</option>
+        <option value="almost">基本掌握</option>
+        <option value="mastered">已掌握</option>
+      </select>
+      <button class="btn btn-sm" onclick="startWR()">🔄 错题重练</button>
+    </div>
+    <div id="wa-list"></div>
+  </div>
+</div>
+
+<!-- PLANNER -->
+<div id="page-planner" class="page">
+  <div class="container">
+    <div id="planner-empty" class="empty" style="display:none">
+      <div class="icon">📋</div><p>还没有学习计划</p>
+      <button class="btn btn-primary" onclick="router.go('/level-test')">完成水平测试</button>
+    </div>
+    <div id="planner-box" style="display:none">
+      <div class="flex-between" style="margin-bottom:12px">
+        <div><h2 id="plan-title"></h2><p class="text-muted" id="plan-sub" style="font-size:13px"></p></div>
+        <button class="btn btn-sm btn-danger" onclick="clearPlan()">清除</button>
+      </div>
+      <div id="plan-weeks"></div>
+    </div>
+  </div>
+</div>
+
+<!-- SETTINGS -->
+<div id="page-settings" class="page">
+  <div class="container">
+    <h2 style="margin-bottom:20px">设置</h2>
+    <div class="card ss">
+      <h2>主题</h2>
+      <div class="sr">
+        <div><div class="lbl">显示主题</div><div class="desc">深色或浅色</div></div>
+        <div class="theme-tog">
+          <button class="theme-opt active" data-t="dark" onclick="setTheme('dark')">🌙 深色</button>
+          <button class="theme-opt" data-t="light" onclick="setTheme('light')">☀️ 浅色</button>
+        </div>
+      </div>
+    </div>
+    <div class="card ss">
+      <h2>📊 数据管理</h2>
+      <div class="sr">
+        <div><div class="lbl">存储</div><div class="desc">浏览器 localStorage</div></div>
+        <span style="font-size:13px;color:var(--text-muted)" id="sz">--</span>
+      </div>
+      <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap">
+        <button class="btn btn-sm" onclick="storage.export()">📤 导出全部数据</button>
+        <button class="btn btn-sm" onclick="importData()">📥 导入数据</button>
+        <button class="btn btn-sm btn-danger" onclick="clearAll()">🗑️ 清除所有</button>
+      </div>
+      <p style="font-size:12px;color:var(--text-muted);margin-top:8px">⚠️ 导出的 JSON 包含全部学习数据，请定期备份。</p>
+    </div>
+    <div class="card">
+      <h2 style="margin-bottom:8px">关于</h2>
+      <p style="font-size:14px;color:var(--text-secondary);line-height:1.7">
+        <strong>NetLearner</strong> — 考纲驱动 · AI 动态出题<br><br>
+        🔒 数据存在本地，不经过服务器<br>
+        📖 出题仅限 Cisco 官方 Exam Topics，零版权风险<br>
+        ⚡ 纯前端，GitHub Pages 部署
+      </p>
+      <p style="font-size:12px;color:var(--text-muted);margin-top:8px">v4.0 · MIT License</p>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="overlay" id="modal">
+  <div class="modal">
+    <h3 id="modal-t"></h3>
+    <p id="modal-msg"></p>
+    <div class="modal-actions">
+      <button class="btn btn-sm" onclick="closeModal()">取消</button>
+      <button class="btn btn-sm btn-danger" id="modal-confirm" onclick="closeModal()">确认</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="assets/js/storage.js?v=v4.0"></script>
+<script src="assets/js/router.js?v=v4.0"></script>
+<script src="assets/js/exam-engine.js?v=v4.0"></script>
+<script src="assets/js/wrong-answer-service.js?v=v4.0"></script>
+<script src="assets/js/planner-generator.js?v=v4.0"></script>
+<script src="assets/js/app.js?v=v4.0"></script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+{
+  "_meta": {
+    "examId": "ccnp-encor-level-demo",
+    "title": "CCNP ENCOR 水平测试",
+    "type": "level-test",
+    "target": "CCNP ENCOR",
+    "syllabusVersion": "ENCOR-350401-v1.2",
+    "generatedAt": "2026-05-26",
+    "questionCount": 10,
+    "difficultyDistribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "q_ccnp_arch_001",
+      "text": "In SD-Access, which node maintains the EID-to-RLOC mapping database?",
+      "options": [
+        "A. Fabric Edge Node",
+        "B. Control Plane Node",
+        "C. Border Node",
+        "D. Intermediate Node"
+      ],
+      "answer": "B",
+      "explanation": "The Control Plane Node uses LISP to maintain endpoint identifier to routing locator mappings. Edge Nodes connect endpoints. Border Nodes connect to external networks.",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "tags": [
+        "sd-access",
+        "lisp",
+        "control-plane"
+      ],
+      "source": "ccnp-encor-level-demo"
+    },
+    {
+      "id": "q_ccnp_arch_002",
+      "text": "What is the primary benefit of a spine-leaf architecture?",
+      "options": [
+        "A. Reduced cost",
+        "B. Predictable east-west latency and ECMP",
+        "C. Support for legacy protocols",
+        "D. Simplified management"
+      ],
+      "answer": "B",
+      "explanation": "Spine-leaf provides consistent latency between any two leaf switches and enables equal-cost multipathing (ECMP). Every leaf connects to every spine, providing predictable performance for data center east-west traffic.",
+      "domain": "Architecture",
+      "difficulty": "easy",
+      "tags": [
+        "spine-leaf",
+        "clos",
+        "datacenter"
+      ],
+      "source": "ccnp-encor-level-demo"
+    },
+    {
+      "id": "q_ccnp_virt_001",
+      "text": "What does VRF (Virtual Routing and Forwarding) enable on a single router?",
+      "options": [
+        "A. Multiple independent routing tables",
+        "B. Faster routing lookups",
+        "C. Automatic route summarization",
+        "D. Encrypted routing updates"
+      ],
+      "answer": "A",
+      "explanation": "VRF allows multiple independent routing table instances, enabling overlapping IP addresses across different tenants. This is foundational for MPLS L3VPN services.",
+      "domain": "Virtualization",
+      "difficulty": "easy",
+      "tags": [
+        "vrf",
+        "virtualization",
+        "mpls"
+      ],
+      "source": "ccnp-encor-level-demo"
+    },
+    {
+      "id": "q_ccnp_infra_001",
+      "text": "Which BGP attribute influences outbound traffic from the local AS?",
+      "options": [
+        "A. AS_PATH",
+        "B. Local Preference",
+        "C. MED",
+        "D. Community"
+      ],
+      "answer": "B",
+      "explanation": "Local Preference influences outbound traffic from the local AS. Higher LP is preferred. MED influences inbound traffic. AS_PATH prepending is another method for outbound TE.",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "tags": [
+        "bgp",
+        "local-preference"
+      ],
+      "source": "ccnp-encor-level-demo"
+    },
+    {
+      "id": "q_ccnp_infra_002",
+      "text": "What is the default OSPF network type on a serial interface with HDLC?",
+      "options": [
+        "A. Broadcast",
+        "B. Non-Broadcast",
+        "C. Point-to-Point",
+        "D. Point-to-Multipoint"
+      ],
+      "answer": "C",
+      "explanation": "Serial interfaces with HDLC/PPP default to point-to-point. No DR/BDR election occurs. Broadcast is default on Ethernet. Non-Broadcast was default on Frame Relay multipoint.",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "tags": [
+        "ospf",
+        "network-type",
+        "serial"
+      ],
+      "source": "ccnp-encor-level-demo"
+    },
+    {
+      "id": "q_ccnp_infra_003",
+      "text": "Which multicast protocol uses explicit joins toward an RP and switches to an SPT after the first packet?",
+      "options": [
+        "A. PIM Dense Mode",
+        "B. PIM Sparse Mode",
+        "C. PIM Bidirectional",
+        "D. PIM SSM"
+      ],
+      "answer": "B",
+      "explanation": "PIM Sparse Mode uses shared trees rooted at the RP. After the first packet, the last-hop router can switch to a source-specific SPT for optimal forwarding. Dense Mode uses flood-and-prune.",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "tags": [
+        "pim",
+        "sparse-mode",
+        "rp"
+      ],
+      "source": "ccnp-encor-level-demo"
+    },
+    {
+      "id": "q_ccnp_assurance_001",
+      "text": "Which technology streams structured telemetry from devices to collectors using a push model?",
+      "options": [
+        "A. SNMP polling",
+        "B. Model-driven telemetry (gRPC)",
+        "C. Syslog",
+        "D. NetFlow"
+      ],
+      "answer": "B",
+      "explanation": "Model-driven telemetry uses gRPC/gNMI to push structured data to collectors, eliminating polling overhead. This is more scalable than SNMP pulls. SNMP traps are push-based but unstructured.",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "tags": [
+        "telemetry",
+        "grpc",
+        "monitoring"
+      ],
+      "source": "ccnp-encor-level-demo"
+    },
+    {
+      "id": "q_ccnp_sec_001",
+      "text": "Which Cisco ISE component enforces authentication and authorization policies?",
+      "options": [
+        "A. Administration Node",
+        "B. Policy Service Node",
+        "C. Monitoring Node",
+        "D. pxGrid"
+      ],
+      "answer": "B",
+      "explanation": "The Policy Service Node (PSN) enforces authentication, authorization, and posture assessment. The Admin Node provides the UI. The Monitoring Node collects logs. pxGrid enables data sharing.",
+      "domain": "Security",
+      "difficulty": "medium",
+      "tags": [
+        "ise",
+        "psn",
+        "authentication"
+      ],
+      "source": "ccnp-encor-level-demo"
+    },
+    {
+      "id": "q_ccnp_sec_002",
+      "text": "Which encryption protocol does WPA3 use for personal mode?",
+      "options": [
+        "A. TKIP",
+        "B. AES-CCMP",
+        "C. AES-GCMP",
+        "D. WEP"
+      ],
+      "answer": "C",
+      "explanation": "WPA3 uses AES-GCMP (Galois/Counter Mode Protocol) with SAE (Simultaneous Authentication of Equals) for secure key exchange. WPA2 uses AES-CCMP. TKIP is deprecated.",
+      "domain": "Security",
+      "difficulty": "medium",
+      "tags": [
+        "wpa3",
+        "gcmp",
+        "wireless"
+      ],
+      "source": "ccnp-encor-level-demo"
+    },
+    {
+      "id": "q_ccnp_auto_001",
+      "text": "In JSON, what is the difference between {} and []?",
+      "options": [
+        "A. {} is object, [] is array",
+        "B. {} is array, [] is object",
+        "C. Both are the same",
+        "D. {} is string, [] is number"
+      ],
+      "answer": "A",
+      "explanation": "Curly braces define objects (key-value pairs). Square brackets define arrays (ordered lists). Both are fundamental to REST API data exchange in network automation.",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "tags": [
+        "json",
+        "data-format",
+        "rest-api"
+      ],
+      "source": "ccnp-encor-level-demo"
+    }
+  ]
+}

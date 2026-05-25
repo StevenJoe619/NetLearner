@@ -1,0 +1,1099 @@
+{
+  "_meta": {
+    "examId": "ccna-mock-1",
+    "title": "CCNA 模拟考试（60题 · 六大域配比）",
+    "type": "mock-exam",
+    "target": "CCNA",
+    "syllabusVersion": "CCNA-200301-v1.1",
+    "generatedAt": "2026-05-26",
+    "questionCount": 60,
+    "timeLimit": 120,
+    "difficultyDistribution": {
+      "easy": 18,
+      "medium": 30,
+      "hard": 12
+    }
+  },
+  "questions": [
+    {
+      "id": "q_ccna_nf_01",
+      "text": "Which OSI layer do switches operate at?",
+      "options": [
+        "A. Layer 1",
+        "B. Layer 2",
+        "C. Layer 3",
+        "D. Layer 4"
+      ],
+      "answer": "B",
+      "explanation": "Switches operate at Layer 2 using MAC addresses. Hubs are Layer 1. Routers are Layer 3.",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "tags": [
+        "network-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_nf_02",
+      "text": "How many usable hosts in a /26 subnet?",
+      "options": [
+        "A. 30",
+        "B. 62",
+        "C. 126",
+        "D. 254"
+      ],
+      "answer": "B",
+      "explanation": "/26 = 6 host bits. 2^6=64 total, minus 2 = 62 usable.",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "tags": [
+        "network-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_nf_03",
+      "text": "Which TCP flag starts the three-way handshake?",
+      "options": [
+        "A. SYN",
+        "B. SYN-ACK",
+        "C. ACK",
+        "D. FIN"
+      ],
+      "answer": "A",
+      "explanation": "The client sends SYN to initiate. Server responds SYN-ACK. Client sends ACK.",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "tags": [
+        "network-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_nf_04",
+      "text": "What is the binary of 192?",
+      "options": [
+        "A. 11000000",
+        "B. 10101010",
+        "C. 11110000",
+        "D. 10000001"
+      ],
+      "answer": "A",
+      "explanation": "128+64=192 → 11000000. 10101010=170, 11110000=240, 10000001=129.",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "tags": [
+        "network-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_nf_05",
+      "text": "When a switch receives a frame with an unknown destination MAC, what does it do?",
+      "options": [
+        "A. Drops it",
+        "B. Sends ARP",
+        "C. Floods all ports except received",
+        "D. Sends to gateway"
+      ],
+      "answer": "C",
+      "explanation": "Unknown unicast flooding sends the frame to all ports except the receiving port. The switch learns from any reply.",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "tags": [
+        "network-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_nf_06",
+      "text": "Describe the CSMA/CD process used by half-duplex Ethernet.",
+      "options": [
+        "A. Carrier sense with collision detection",
+        "B. Token passing",
+        "C. Polling",
+        "D. Circuit switching"
+      ],
+      "answer": "A",
+      "explanation": "CSMA/CD listens before transmitting and detects collisions. Token passing is Token Ring. Modern Ethernet uses full-duplex.",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "tags": [
+        "network-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_nf_07",
+      "text": "Which address range is used for APIPA?",
+      "options": [
+        "A. 10.0.0.0/8",
+        "B. 172.16.0.0/12",
+        "C. 169.254.0.0/16",
+        "D. 192.168.0.0/16"
+      ],
+      "answer": "C",
+      "explanation": "APIFA (169.254.0.0/16) is auto-assigned by Windows when DHCP fails. The other ranges are RFC 1918 private addresses.",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "tags": [
+        "network-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_nf_08",
+      "text": "Two buildings 60km apart need 10Gbps connectivity. Which fiber?",
+      "options": [
+        "A. OM3 MMF",
+        "B. OM4 MMF",
+        "C. OS2 SMF",
+        "D. Cat6a"
+      ],
+      "answer": "C",
+      "explanation": "Single-mode OS2 supports 10G over 40-80km. OM4 MMF reaches 550m at 10G. Cat6a is limited to 100m.",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "tags": [
+        "network-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_nf_09",
+      "text": "A network needs 500 subnets from 10.0.0.0/8 with 100+ hosts each. Which mask?",
+      "options": [
+        "A. 255.240.0.0",
+        "B. 255.255.128.0",
+        "C. 255.255.192.0",
+        "D. 255.255.224.0"
+      ],
+      "answer": "B",
+      "explanation": "/8 + 9 bits = /17 (255.255.128.0). 2^9=512 subnets, 2^15=32768 hosts each.",
+      "domain": "Network Fundamentals",
+      "difficulty": "hard",
+      "tags": [
+        "network-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_nf_10",
+      "text": "What does a wildcard mask of 0.0.0.255 match?",
+      "options": [
+        "A. All hosts in /24",
+        "B. A single host",
+        "C. All hosts in /16",
+        "D. All hosts in /8"
+      ],
+      "answer": "A",
+      "explanation": "0=must match, 1=ignore. 0.0.0.255 matches the first 24 bits exactly, ignoring the last 8.",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "tags": [
+        "network-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_nf_11",
+      "text": "Which statement about CRC errors is correct?",
+      "options": [
+        "A. Caused by duplex mismatch",
+        "B. Indicates physical layer issues",
+        "C. Caused by VLAN mismatch",
+        "D. Caused by routing loops"
+      ],
+      "answer": "B",
+      "explanation": "CRC errors indicate corrupted frames, almost always physical layer issues (cable, EMI). Duplex mismatch causes runts/collisions.",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "tags": [
+        "network-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_nf_12",
+      "text": "What is a characteristic of UDP?",
+      "options": [
+        "A. Connection-oriented",
+        "B. Guaranteed delivery",
+        "C. Low overhead",
+        "D. Windowing"
+      ],
+      "answer": "C",
+      "explanation": "UDP is connectionless with minimal overhead. TCP provides guaranteed delivery, sequencing, and windowing.",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "tags": [
+        "network-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_na_01",
+      "text": "What is the effect of \"switchport port-security maximum 2 violation restrict\"?",
+      "options": [
+        "A. Only 2 MACs; violations error-disable",
+        "B. Only 2 MACs; violations logged but port stays up",
+        "C. Unlimited MACs; 2 learned",
+        "D. 2 MACs; violations shut port"
+      ],
+      "answer": "B",
+      "explanation": "Restrict mode drops violations, logs them, and keeps the port up. Shutdown mode error-disables the port. Police mode drops silently.",
+      "domain": "Network Access",
+      "difficulty": "hard",
+      "tags": [
+        "network-access"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_na_02",
+      "text": "On an 802.1Q trunk, native VLAN frames are:",
+      "options": [
+        "A. Always tagged",
+        "B. Sent untagged",
+        "C. Never forwarded",
+        "D. Encrypted"
+      ],
+      "answer": "B",
+      "explanation": "Native VLAN frames are sent untagged on 802.1Q trunks. This allows legacy devices to connect to trunk ports.",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "tags": [
+        "network-access"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_na_03",
+      "text": "Which feature lets access ports skip STP listening/learning?",
+      "options": [
+        "A. BPDU Guard",
+        "B. Root Guard",
+        "C. PortFast",
+        "D. UplinkFast"
+      ],
+      "answer": "C",
+      "explanation": "PortFast immediately transitions to forwarding on access ports. BPDU Guard error-disables on BPDU reception. Root Guard prevents root bridge election.",
+      "domain": "Network Access",
+      "difficulty": "easy",
+      "tags": [
+        "network-access"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_na_04",
+      "text": "In RSTP, which port immediately takes over when the root port fails?",
+      "options": [
+        "A. Backup",
+        "B. Alternate",
+        "C. Designated",
+        "D. Disabled"
+      ],
+      "answer": "B",
+      "explanation": "The Alternate Port provides a backup path to the root bridge. In RSTP it transitions to forwarding immediately without listening/learning.",
+      "domain": "Network Access",
+      "difficulty": "hard",
+      "tags": [
+        "network-access"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_na_05",
+      "text": "Which LACP mode initiates negotiations?",
+      "options": [
+        "A. Passive",
+        "B. Active",
+        "C. On",
+        "D. Auto"
+      ],
+      "answer": "B",
+      "explanation": "LACP Active sends negotiation packets. Passive only responds. \"On\" is static without negotiation. \"Auto\" is PAgP (Cisco proprietary).",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "tags": [
+        "network-access"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_na_06",
+      "text": "Inter-VLAN routing requires:",
+      "options": [
+        "A. A trunk port",
+        "B. A Layer 3 device",
+        "C. An access port",
+        "D. A bridge"
+      ],
+      "answer": "B",
+      "explanation": "VLANs are separate broadcast domains. A Layer 3 device (router or Layer 3 switch with SVI) is required for inter-VLAN routing.",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "tags": [
+        "network-access"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_na_07",
+      "text": "Which IEEE standard defines RSTP?",
+      "options": [
+        "A. 802.1D",
+        "B. 802.1w",
+        "C. 802.1s",
+        "D. 802.1Q"
+      ],
+      "answer": "B",
+      "explanation": "802.1w = RSTP (fast convergence). 802.1D = original STP. 802.1s = MSTP. 802.1Q = VLAN trunking.",
+      "domain": "Network Access",
+      "difficulty": "easy",
+      "tags": [
+        "network-access"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_na_08",
+      "text": "What does \"show interfaces trunk\" display?",
+      "options": [
+        "A. Allowed VLANs on trunk links",
+        "B. MAC addresses on trunk",
+        "C. Routing table for VLANs",
+        "D. Access port assignments"
+      ],
+      "answer": "A",
+      "explanation": "It displays trunking status, native VLAN, and allowed VLANs per trunk link. Essential for verifying trunk configuration.",
+      "domain": "Network Access",
+      "difficulty": "easy",
+      "tags": [
+        "network-access"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_na_09",
+      "text": "PortFast + BPDU Guard: receiving a BPDU causes:",
+      "options": [
+        "A. Port transitions to blocking",
+        "B. Port becomes error-disabled",
+        "C. BPDU ignored",
+        "D. Syslog generated only"
+      ],
+      "answer": "B",
+      "explanation": "BPDU Guard error-disables a port that receives any BPDU. This prevents unauthorized switch connections on access ports.",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "tags": [
+        "network-access"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_na_10",
+      "text": "What is the Split-MAC architecture in Cisco wireless?",
+      "options": [
+        "A. AP handles data, WLC handles management",
+        "B. WLC handles all processing",
+        "C. AP handles all processing",
+        "D. No controller needed"
+      ],
+      "answer": "A",
+      "explanation": "Split-MAC separates real-time data (AP) from management/control (WLC). This is the foundation of Cisco unified wireless.",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "tags": [
+        "network-access"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_na_11",
+      "text": "Which command enables 802.1Q trunking on a Catalyst switch?",
+      "options": [
+        "A. switchport mode access",
+        "B. switchport mode trunk; encapsulation dot1q",
+        "C. switchport mode dynamic desirable",
+        "D. no switchport"
+      ],
+      "answer": "B",
+      "explanation": "\"switchport mode trunk\" + \"switchport trunk encapsulation dot1q\" enables 802.1Q trunking. Access mode prevents trunking.",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "tags": [
+        "network-access"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_na_12",
+      "text": "Which protocol dynamically assigns VLANs based on MAC address?",
+      "options": [
+        "A. VMPS",
+        "B. VTP",
+        "C. DTP",
+        "D. STP"
+      ],
+      "answer": "A",
+      "explanation": "VMPS (VLAN Membership Policy Server) assigns ports to VLANs based on source MAC. VTP distributes VLAN configs. DTP negotiates trunks.",
+      "domain": "Network Access",
+      "difficulty": "hard",
+      "tags": [
+        "network-access"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_01",
+      "text": "EIGRP has AD 90, OSPF has AD 110. Which route is preferred?",
+      "options": [
+        "A. OSPF",
+        "B. EIGRP",
+        "C. Both",
+        "D. Neither"
+      ],
+      "answer": "B",
+      "explanation": "Lower administrative distance is preferred. EIGRP (90) beats OSPF (110). AD is compared between different protocols, metric within same protocol.",
+      "domain": "IP Connectivity",
+      "difficulty": "easy",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_02",
+      "text": "\"ip route 10.0.0.0 255.0.0.0 192.168.1.1 200\" - what does 200 mean?",
+      "options": [
+        "A. Metric",
+        "B. Floating static AD",
+        "C. Cost",
+        "D. Hop count"
+      ],
+      "answer": "B",
+      "explanation": "The 200 is the administrative distance, making this a floating static route used only if the primary route (with lower AD) fails.",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_03",
+      "text": "On Ethernet, how does OSPF reduce adjacencies?",
+      "options": [
+        "A. Passive interfaces",
+        "B. DR/BDR election",
+        "C. Route summarization",
+        "D. Area design"
+      ],
+      "answer": "B",
+      "explanation": "DR/BDR election reduces full adjacencies from n(n-1)/2 to 2n-3 on broadcast multi-access networks.",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_04",
+      "text": "Which FHRP is an open standard?",
+      "options": [
+        "A. HSRP",
+        "B. VRRP",
+        "C. GLBP",
+        "D. IRDP"
+      ],
+      "answer": "B",
+      "explanation": "VRRP is an open standard (RFC 5798). HSRP and GLBP are Cisco proprietary. IRDP is an obsolete discovery protocol.",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_05",
+      "text": "Default OSPF Hello timer on broadcast networks:",
+      "options": [
+        "A. 10s",
+        "B. 30s",
+        "C. 40s",
+        "D. 5s"
+      ],
+      "answer": "A",
+      "explanation": "OSPF Hello defaults to 10s on broadcast and point-to-point networks. 30s on NBMA. Dead timer is 4x Hello (40s).",
+      "domain": "IP Connectivity",
+      "difficulty": "easy",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_06",
+      "text": "What is the default OSPF cost of a Gigabit Ethernet?",
+      "options": [
+        "A. 1",
+        "B. 10",
+        "C. 100",
+        "D. 1000"
+      ],
+      "answer": "A",
+      "explanation": "Default reference bandwidth is 100Mbps. Cost = 100/1000 = 0.1, rounded to 1. This is why adjusting the reference bandwidth is often needed.",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_07",
+      "text": "Router R1 has a floating static route with AD 200. EIGRP learns the same route. Which is used?",
+      "options": [
+        "A. Static",
+        "B. EIGRP (AD 90 < 200)",
+        "C. Both",
+        "D. The better metric"
+      ],
+      "answer": "B",
+      "explanation": "The EIGRP route (AD 90) is used while available. If it fails, the floating static (AD 200) becomes active as a backup.",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_08",
+      "text": "Which route has AD 0?",
+      "options": [
+        "A. Static",
+        "B. Connected",
+        "C. OSPF",
+        "D. EIGRP"
+      ],
+      "answer": "B",
+      "explanation": "Connected interfaces have AD 0 (highest priority). Static routes have AD 1. OSPF 110. EIGRP internal 90.",
+      "domain": "IP Connectivity",
+      "difficulty": "easy",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_09",
+      "text": "OSPF neighbor shows \"Init\" state. What does this mean?",
+      "options": [
+        "A. Full adjacency formed",
+        "B. Hello received, but own RID not seen",
+        "C. Exchanging databases",
+        "D. Mismatched MTU"
+      ],
+      "answer": "B",
+      "explanation": "Init means Hello received from neighbor, but neighbor has not yet seen this router's RID in its Hellos. Next state is 2WAY.",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_10",
+      "text": "In OSPF, what does an ABR generate?",
+      "options": [
+        "A. Type 1 LSAs",
+        "B. Type 3 LSAs",
+        "C. Type 5 LSAs",
+        "D. Type 7 LSAs"
+      ],
+      "answer": "B",
+      "explanation": "ABRs generate Type 3 (Summary) LSAs to advertise networks between areas. Type 1 = Router LSA. Type 5 = AS External.",
+      "domain": "IP Connectivity",
+      "difficulty": "hard",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_11",
+      "text": "Which FHRP allows multiple routers to forward simultaneously?",
+      "options": [
+        "A. HSRP",
+        "B. VRRP",
+        "C. GLBP",
+        "D. HSRP v2"
+      ],
+      "answer": "C",
+      "explanation": "GLBP provides active-active forwarding with load balancing. HSRP/VRRP have one active router at a time with standby/backup.",
+      "domain": "IP Connectivity",
+      "difficulty": "hard",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_12",
+      "text": "What does \"ip classless\" enable?",
+      "options": [
+        "A. Routing to unknown subnets of known networks",
+        "B. VLSM",
+        "C. Classful routing",
+        "D. CIDR notation"
+      ],
+      "answer": "A",
+      "explanation": "ip classless allows forwarding packets using the default route when the destination is a subnet of a known network not in the routing table.",
+      "domain": "IP Connectivity",
+      "difficulty": "hard",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_13",
+      "text": "How is an IPv6 default route configured?",
+      "options": [
+        "A. ipv6 route ::/0 {next-hop}",
+        "B. ipv6 route 0.0.0.0/0",
+        "C. ipv6 route default",
+        "D. ipv6 default-gateway"
+      ],
+      "answer": "A",
+      "explanation": "IPv6 default route uses ::/0. The syntax is \"ipv6 route ::/0 interface next-hop\".",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_14",
+      "text": "Type 3 LSAs carry:",
+      "options": [
+        "A. External routes",
+        "B. Inter-area routes",
+        "C. Router interfaces",
+        "D. DR information"
+      ],
+      "answer": "B",
+      "explanation": "Type 3 LSAs carry inter-area routes, generated by ABRs. Type 5 carries external routes. Type 1 describes router interfaces.",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ic_15",
+      "text": "ECMP in OSPF: maximum paths default?",
+      "options": [
+        "A. 2",
+        "B. 4",
+        "C. 8",
+        "D. 16"
+      ],
+      "answer": "B",
+      "explanation": "Default maximum-paths in OSPF is typically 4 on Cisco IOS. The \"maximum-paths\" command controls equal-cost multipathing.",
+      "domain": "IP Connectivity",
+      "difficulty": "easy",
+      "tags": [
+        "ip-connectivity"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_is_01",
+      "text": "DHCPDISCOVER is sent as:",
+      "options": [
+        "A. Unicast",
+        "B. Broadcast",
+        "C. Multicast",
+        "D. Anycast"
+      ],
+      "answer": "B",
+      "explanation": "DHCPDISCOVER is a broadcast (255.255.255.255) sent by clients to find DHCP servers. DORA: Discover, Offer, Request, Ack.",
+      "domain": "IP Services",
+      "difficulty": "easy",
+      "tags": [
+        "ip-services"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_is_02",
+      "text": "What does NTP synchronize?",
+      "options": [
+        "A. Domain names",
+        "B. Device clocks",
+        "C. IP addresses",
+        "D. Neighbor tables"
+      ],
+      "answer": "B",
+      "explanation": "NTP synchronizes clocks on network devices. Essential for log correlation, authentication, and troubleshooting.",
+      "domain": "IP Services",
+      "difficulty": "easy",
+      "tags": [
+        "ip-services"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_is_03",
+      "text": "Which SNMP version uses community strings in plaintext?",
+      "options": [
+        "A. SNMPv1",
+        "B. SNMPv2c",
+        "C. SNMPv3",
+        "D. v1 and v2c"
+      ],
+      "answer": "D",
+      "explanation": "SNMPv1 and v2c use plaintext community strings. SNMPv3 provides authentication and encryption for security.",
+      "domain": "IP Services",
+      "difficulty": "easy",
+      "tags": [
+        "ip-services"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_is_04",
+      "text": "What is the purpose of QoS EF (Expedited Forwarding)?",
+      "options": [
+        "A. Low-loss, low-latency service",
+        "B. Assured delivery",
+        "C. Best effort",
+        "D. Default forwarding"
+      ],
+      "answer": "A",
+      "explanation": "EF (DSCP 46) provides low-loss, low-latency, low-jitter service, typically used for voice traffic.",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "tags": [
+        "ip-services"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_is_05",
+      "text": "A DHCP server responds to a DISCOVER with what message?",
+      "options": [
+        "A. OFFER",
+        "B. REQUEST",
+        "C. ACK",
+        "D. NAK"
+      ],
+      "answer": "A",
+      "explanation": "The server responds with DHCPOFFER containing an available IP address. The client then sends DHCPREQUEST to accept.",
+      "domain": "IP Services",
+      "difficulty": "easy",
+      "tags": [
+        "ip-services"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_is_06",
+      "text": "NTP client syncing to stratum 3 becomes:",
+      "options": [
+        "A. Stratum 1",
+        "B. Stratum 2",
+        "C. Stratum 3",
+        "D. Stratum 4"
+      ],
+      "answer": "D",
+      "explanation": "Stratum increments by 1 per hop. Client syncing to stratum 3 becomes stratum 4. Stratum 1 is an authoritative time source.",
+      "domain": "IP Services",
+      "difficulty": "easy",
+      "tags": [
+        "ip-services"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_sf_01",
+      "text": "Extended ACLs should be placed:",
+      "options": [
+        "A. Closest to source",
+        "B. Closest to destination",
+        "C. On the core",
+        "D. On the internet edge"
+      ],
+      "answer": "A",
+      "explanation": "Extended ACLs are placed closest to the source to filter traffic early. Standard ACLs are placed near the destination.",
+      "domain": "Security Fundamentals",
+      "difficulty": "easy",
+      "tags": [
+        "security-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_sf_02",
+      "text": "An attacker connects a switch to an access port and becomes STP root. Which feature prevents this?",
+      "options": [
+        "A. BPDU Guard",
+        "B. Root Guard",
+        "C. Port Security",
+        "D. Storm Control"
+      ],
+      "answer": "A",
+      "explanation": "BPDU Guard error-disables a port receiving BPDUs on an access port. Root Guard prevents a port from becoming root but does not error-disable.",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "tags": [
+        "security-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_sf_03",
+      "text": "Which attack exhausts the DHCP pool with fake requests?",
+      "options": [
+        "A. DHCP starvation",
+        "B. DHCP spoofing",
+        "C. ARP poisoning",
+        "D. MAC flooding"
+      ],
+      "answer": "A",
+      "explanation": "DHCP starvation floods the server with fake requests to exhaust the address pool. DHCP Snooping mitigates this.",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "tags": [
+        "security-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_sf_04",
+      "text": "What is the final entry in every ACL?",
+      "options": [
+        "A. permit any any",
+        "B. deny any any",
+        "C. permit ip any any",
+        "D. deny all"
+      ],
+      "answer": "B",
+      "explanation": "Every ACL has an implicit \"deny any any\" at the end. At least one permit entry must exist to allow traffic.",
+      "domain": "Security Fundamentals",
+      "difficulty": "easy",
+      "tags": [
+        "security-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_sf_05",
+      "text": "AAA stands for:",
+      "options": [
+        "A. Access, Accounting, Auditing",
+        "B. Authentication, Authorization, Accounting",
+        "C. Access, Authorization, Authentication",
+        "D. Authentication, Auditing, Accounting"
+      ],
+      "answer": "B",
+      "explanation": "AAA: Authentication (who you are), Authorization (what you can do), Accounting (what you did).",
+      "domain": "Security Fundamentals",
+      "difficulty": "easy",
+      "tags": [
+        "security-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_sf_06",
+      "text": "What is the function of DHCP Snooping?",
+      "options": [
+        "A. Filters DHCP messages from untrusted ports",
+        "B. Assigns IP addresses",
+        "C. Validates ARP",
+        "D. Authenticates users"
+      ],
+      "answer": "A",
+      "explanation": "DHCP Snooping filters DHCP server messages from untrusted (access) ports and builds a binding database of valid IP-MAC mappings.",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "tags": [
+        "security-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_sf_07",
+      "text": "Which type of firewall tracks connection state?",
+      "options": [
+        "A. Packet filter",
+        "B. Stateful firewall",
+        "C. Application gateway",
+        "D. Proxy"
+      ],
+      "answer": "B",
+      "explanation": "A stateful firewall maintains a state table of active connections, allowing return traffic for established sessions.",
+      "domain": "Security Fundamentals",
+      "difficulty": "easy",
+      "tags": [
+        "security-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_sf_08",
+      "text": "Cisco TrustSec uses which tags for identity-based policies?",
+      "options": [
+        "A. VLAN tags",
+        "B. SGTs",
+        "C. QoS tags",
+        "D. MPLS labels"
+      ],
+      "answer": "B",
+      "explanation": "Security Group Tags identify users/devices for role-based access control, independent of IP addresses.",
+      "domain": "Security Fundamentals",
+      "difficulty": "hard",
+      "tags": [
+        "security-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_sf_09",
+      "text": "Control Plane Policing (CoPP) protects what?",
+      "options": [
+        "A. The data plane",
+        "B. The control plane",
+        "C. The management plane",
+        "D. Forwarding hardware"
+      ],
+      "answer": "B",
+      "explanation": "CoPP protects the route processor by rate-limiting traffic directed to the control plane, preventing CPU overload.",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "tags": [
+        "security-fundamentals"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ap_01",
+      "text": "What is the primary use of JSON in network automation?",
+      "options": [
+        "A. Data interchange in REST APIs",
+        "B. Device configuration backup",
+        "C. Monitoring",
+        "D. Routing"
+      ],
+      "answer": "A",
+      "explanation": "JSON is the standard data format for REST API requests and responses in network automation. Lightweight and human-readable.",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ap_02",
+      "text": "In Cisco DNA Center, which component translates business intent into network config?",
+      "options": [
+        "A. Design",
+        "B. Policy",
+        "C. Provision",
+        "D. Assurance"
+      ],
+      "answer": "B",
+      "explanation": "The Policy component translates intent (e.g., voice priority) into device configuration. Design creates profiles. Provision deploys. Assurance monitors.",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ap_03",
+      "text": "Which data format uses indentation for hierarchy (Ansible playbooks)?",
+      "options": [
+        "A. JSON",
+        "B. XML",
+        "C. YAML",
+        "D. CSV"
+      ],
+      "answer": "C",
+      "explanation": "YAML uses indentation with spaces for hierarchy. It is the default format for Ansible playbooks and Kubernetes manifests.",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ap_04",
+      "text": "What transport does NETCONF use?",
+      "options": [
+        "A. HTTP",
+        "B. SSH",
+        "C. Telnet",
+        "D. SNMP"
+      ],
+      "answer": "B",
+      "explanation": "NETCONF uses SSH (port 830) as its secure transport. RESTCONF uses HTTP/HTTPS. Both access YANG data models.",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ap_05",
+      "text": "Which Python library simplifies SSH connections to network devices?",
+      "options": [
+        "A. requests",
+        "B. netmiko",
+        "C. flask",
+        "D. scapy"
+      ],
+      "answer": "B",
+      "explanation": "Netmiko simplifies SSH connections with a consistent API across vendors. Requests handles HTTP. Flask is a web framework.",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccna-mock-1"
+    },
+    {
+      "id": "q_ccna_ap_06",
+      "text": "What is the purpose of git in network automation?",
+      "options": [
+        "A. Version control",
+        "B. Configuration deployment",
+        "C. Performance monitoring",
+        "D. Topology mapping"
+      ],
+      "answer": "A",
+      "explanation": "Git provides version control for config files and automation scripts, enabling change tracking, collaboration, and rollback.",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccna-mock-1"
+    }
+  ]
+}

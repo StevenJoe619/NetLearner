@@ -1,0 +1,212 @@
+{
+  "_meta": {
+    "examId": "ccna-level-demo",
+    "title": "CCNA 水平测试",
+    "type": "level-test",
+    "target": "CCNA",
+    "syllabusVersion": "CCNA-200301-v1.1",
+    "generatedAt": "2026-05-26",
+    "questionCount": 10,
+    "difficultyDistribution": {
+      "easy": 3,
+      "medium": 5,
+      "hard": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "q_ccna_nf_001",
+      "text": "What information does a switch use to forward Ethernet frames?",
+      "options": [
+        "A. Source/destination IP addresses",
+        "B. Source/destination MAC addresses",
+        "C. Source/destination port numbers",
+        "D. Application data"
+      ],
+      "answer": "B",
+      "explanation": "Switches operate at Layer 2 and use MAC addresses. They build a MAC address table by learning source MACs and forward based on destination MACs. Routers use IP addresses.",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "tags": [
+        "switching",
+        "MAC-address"
+      ],
+      "source": "ccna-level-demo"
+    },
+    {
+      "id": "q_ccna_nf_002",
+      "text": "Which IPv6 address type is equivalent to IPv4 private addresses?",
+      "options": [
+        "A. Global Unicast",
+        "B. Link-Local",
+        "C. Unique Local",
+        "D. Multicast"
+      ],
+      "answer": "C",
+      "explanation": "Unique Local (FC00::/7) are the IPv6 equivalent of private addresses. Link-Local (FE80::/10) are only valid on a single link. Global Unicast (2000::/3) are globally routable.",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "tags": [
+        "IPv6",
+        "addressing"
+      ],
+      "source": "ccna-level-demo"
+    },
+    {
+      "id": "q_ccna_nf_003",
+      "text": "A /27 subnet mask provides how many usable host addresses?",
+      "options": [
+        "A. 14",
+        "B. 30",
+        "C. 62",
+        "D. 126"
+      ],
+      "answer": "B",
+      "explanation": "/27 = 255.255.255.224. 5 host bits: 2^5=32 total addresses. Minus network and broadcast = 30 usable hosts.",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "tags": [
+        "subnetting",
+        "IPv4"
+      ],
+      "source": "ccna-level-demo"
+    },
+    {
+      "id": "q_ccna_na_001",
+      "text": "A switch port connected to a PC needs to be immediately operational and assigned to VLAN 10. Which configuration is correct?",
+      "options": [
+        "A. switchport mode trunk; switchport trunk native vlan 10",
+        "B. switchport mode access; switchport access vlan 10; spanning-tree portfast",
+        "C. switchport mode dynamic desirable; switchport access vlan 10",
+        "D. no switchport; ip address 10.0.0.1 255.255.255.0"
+      ],
+      "answer": "B",
+      "explanation": "Access port + VLAN assignment + PortFast is the standard for end devices. PortFast skips listening/learning. Trunk mode is for switch-to-switch.",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "tags": [
+        "VLAN",
+        "portfast",
+        "switch-config"
+      ],
+      "source": "ccna-level-demo"
+    },
+    {
+      "id": "q_ccna_na_002",
+      "text": "Which port role does a non-root bridge use to reach the root bridge?",
+      "options": [
+        "A. Designated Port",
+        "B. Root Port",
+        "C. Alternate Port",
+        "D. Backup Port"
+      ],
+      "answer": "B",
+      "explanation": "The Root Port on each non-root bridge provides the lowest path cost to the root bridge. Designated ports are selected per segment. Alternate/Backup are RSTP roles for redundancy.",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "tags": [
+        "STP",
+        "root-port"
+      ],
+      "source": "ccna-level-demo"
+    },
+    {
+      "id": "q_ccna_ic_001",
+      "text": "A router has routes: O 10.0.0.0/8, C 10.1.0.0/16, S 10.1.1.0/24. Which is used for 10.1.1.5?",
+      "options": [
+        "A. 10.0.0.0/8",
+        "B. 10.1.0.0/16",
+        "C. 10.1.1.0/24",
+        "D. The router drops the packet"
+      ],
+      "answer": "C",
+      "explanation": "Longest prefix match: /24 > /16 > /8. The most specific route (10.1.1.0/24) is always preferred regardless of administrative distance or metric.",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "tags": [
+        "routing",
+        "longest-match"
+      ],
+      "source": "ccna-level-demo"
+    },
+    {
+      "id": "q_ccna_ic_002",
+      "text": "Two OSPF routers on the same Ethernet link cannot form an adjacency. Both are in area 0. What is the most likely cause?",
+      "options": [
+        "A. Mismatched OSPF process IDs",
+        "B. Mismatched subnet masks",
+        "C. The router IDs are the same",
+        "D. OSPF network type mismatch"
+      ],
+      "answer": "D",
+      "explanation": "OSPF process IDs are locally significant and need not match. Subnet masks must match on the same segment for OSPF to form adjacency. But the classic CCNA troubleshooting scenario is network type mismatch (broadcast vs point-to-point).",
+      "domain": "IP Connectivity",
+      "difficulty": "hard",
+      "tags": [
+        "OSPF",
+        "adjacency",
+        "troubleshooting"
+      ],
+      "source": "ccna-level-demo"
+    },
+    {
+      "id": "q_ccna_is_001",
+      "text": "Which NAT type allows multiple internal hosts to use one public IP by tracking port numbers?",
+      "options": [
+        "A. Static NAT",
+        "B. Dynamic NAT",
+        "C. PAT (NAT Overload)",
+        "D. Source NAT"
+      ],
+      "answer": "C",
+      "explanation": "PAT (Port Address Translation) uses unique port numbers to distinguish sessions, allowing many internal hosts to share one public IP. Static NAT is 1:1. Dynamic NAT uses a pool but still 1:1 per session.",
+      "domain": "IP Services",
+      "difficulty": "easy",
+      "tags": [
+        "NAT",
+        "PAT"
+      ],
+      "source": "ccna-level-demo"
+    },
+    {
+      "id": "q_ccna_sf_001",
+      "text": "Which feature provides port-based user authentication before granting network access?",
+      "options": [
+        "A. Port Security",
+        "B. 802.1X",
+        "C. DHCP Snooping",
+        "D. Dynamic ARP Inspection"
+      ],
+      "answer": "B",
+      "explanation": "802.1X authenticates users via RADIUS before allowing network access. Port Security limits MAC addresses. DHCP Snooping filters DHCP messages. DAI validates ARP packets.",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "tags": [
+        "802.1X",
+        "authentication",
+        "RADIUS"
+      ],
+      "source": "ccna-level-demo"
+    },
+    {
+      "id": "q_ccna_ap_001",
+      "text": "In Cisco SDN, which plane makes forwarding decisions and pushes them to devices via a controller?",
+      "options": [
+        "A. Data Plane",
+        "B. Control Plane",
+        "C. Management Plane",
+        "D. Policy Plane"
+      ],
+      "answer": "B",
+      "explanation": "In SDN, the Control Plane is centralized at the controller and makes forwarding decisions. The Data Plane forwards packets based on those decisions. The Management Plane handles monitoring and provisioning.",
+      "domain": "Automation",
+      "difficulty": "hard",
+      "tags": [
+        "SDN",
+        "control-plane",
+        "automation"
+      ],
+      "source": "ccna-level-demo"
+    }
+  ]
+}

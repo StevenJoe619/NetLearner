@@ -1,0 +1,1099 @@
+{
+  "_meta": {
+    "examId": "ccnp-encor-mock-1",
+    "title": "CCNP ENCOR 模拟考试（60题）",
+    "type": "mock-exam",
+    "target": "CCNP ENCOR",
+    "syllabusVersion": "ENCOR-350401-v1.2",
+    "generatedAt": "2026-05-26",
+    "questionCount": 60,
+    "timeLimit": 120,
+    "difficultyDistribution": {
+      "easy": 18,
+      "medium": 30,
+      "hard": 12
+    }
+  },
+  "questions": [
+    {
+      "id": "ccnp_arch_001",
+      "text": "DNA Center Assurance provides:",
+      "options": [
+        "A. Device config automation",
+        "B. Network monitoring with proactive insights",
+        "C. Wireless design",
+        "D. Policy enforcement"
+      ],
+      "answer": "B",
+      "explanation": "Assurance provides health scores, packet analysis, and guided remediation.",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "tags": [
+        "architecture"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_arch_002",
+      "text": "Layer 3 boundary in campus design is placed at:",
+      "options": [
+        "A. Access-distribution",
+        "B. Distribution-core",
+        "C. Access-edge",
+        "D. Core-only"
+      ],
+      "answer": "B",
+      "explanation": "Traditional best practice places the Layer 3 boundary between distribution and core.",
+      "domain": "Architecture",
+      "difficulty": "easy",
+      "tags": [
+        "architecture"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_arch_003",
+      "text": "In SD-WAN, vManage provides:",
+      "options": [
+        "A. Authentication",
+        "B. Management and monitoring",
+        "C. Route distribution",
+        "D. Data forwarding"
+      ],
+      "answer": "B",
+      "explanation": "vManage is the centralized management plane. vBond handles authentication. vSmart handles routing policies.",
+      "domain": "Architecture",
+      "difficulty": "easy",
+      "tags": [
+        "architecture"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_arch_004",
+      "text": "Which design uses two tiers, collapsing core and distribution?",
+      "options": [
+        "A. Spine-Leaf",
+        "B. Collapsed Core",
+        "C. Three-tier",
+        "D. Fabric"
+      ],
+      "answer": "B",
+      "explanation": "Collapsed Core combines core and distribution layers for smaller networks.",
+      "domain": "Architecture",
+      "difficulty": "easy",
+      "tags": [
+        "architecture"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_arch_005",
+      "text": "LISP separates what from what?",
+      "options": [
+        "A. Routing from switching",
+        "B. EID from RLOC",
+        "C. IPv4 from IPv6",
+        "D. Data from control"
+      ],
+      "answer": "B",
+      "explanation": "LISP separates Endpoint Identifier from Routing Locator, enabling endpoint mobility in SD-Access.",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "tags": [
+        "architecture"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_arch_006",
+      "text": "In SD-WAN, vBond handles:",
+      "options": [
+        "A. Management",
+        "B. Authentication and NAT traversal",
+        "C. Policy distribution",
+        "D. Data plane"
+      ],
+      "answer": "B",
+      "explanation": "vBond orchestrates device authentication and NAT traversal as the first contact point.",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "tags": [
+        "architecture"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_arch_007",
+      "text": "Cisco DNA Center Policy translates:",
+      "options": [
+        "A. Business intent to config",
+        "B. IP to MAC",
+        "C. SNMP to CLI",
+        "D. JSON to YAML"
+      ],
+      "answer": "A",
+      "explanation": "Policy component translates business requirements into network configurations and policies.",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "tags": [
+        "architecture"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_arch_008",
+      "text": "SD-Access Border Node connects:",
+      "options": [
+        "A. Endpoints to fabric",
+        "B. Fabric to external networks",
+        "C. APs to WLC",
+        "D. Spine to leaf"
+      ],
+      "answer": "B",
+      "explanation": "Border Nodes connect the SD-Access fabric to external networks (WAN, internet, data center).",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "tags": [
+        "architecture"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_arch_009",
+      "text": "Enterprise campus architecture with predictable east-west latency:",
+      "options": [
+        "A. Three-tier",
+        "B. Spine-Leaf",
+        "C. Collapsed Core",
+        "D. Hub-Spoke"
+      ],
+      "answer": "B",
+      "explanation": "Spine-Leaf provides consistent latency and ECMP for data center east-west traffic.",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "tags": [
+        "architecture"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_virt_001",
+      "text": "VXLAN VNI is how many bits?",
+      "options": [
+        "A. 12",
+        "B. 24",
+        "C. 16",
+        "D. 32"
+      ],
+      "answer": "B",
+      "explanation": "VNI is 24 bits, supporting up to 16 million segments (vs 4096 VLANs).",
+      "domain": "Virtualization",
+      "difficulty": "easy",
+      "tags": [
+        "virtualization"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_virt_002",
+      "text": "What is the difference between VRF-lite and MPLS L3VPN?",
+      "options": [
+        "A. VRF-lite uses BGP",
+        "B. VRF-lite has no MPLS labels",
+        "C. VRF-lite supports IPv6 only",
+        "D. No difference"
+      ],
+      "answer": "B",
+      "explanation": "VRF-lite creates separate routing tables without MPLS. MPLS L3VPN uses MPLS labels across the core.",
+      "domain": "Virtualization",
+      "difficulty": "hard",
+      "tags": [
+        "virtualization"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_virt_003",
+      "text": "Type 1 hypervisor:",
+      "options": [
+        "A. Runs on host OS",
+        "B. Runs directly on hardware",
+        "C. Runs as application",
+        "D. Runs in browser"
+      ],
+      "answer": "B",
+      "explanation": "Type 1 (bare-metal) runs directly on hardware without a host OS. VMware ESXi is Type 1.",
+      "domain": "Virtualization",
+      "difficulty": "easy",
+      "tags": [
+        "virtualization"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_virt_004",
+      "text": "VRF enables:",
+      "options": [
+        "A. Multiple routing tables on one router",
+        "B. Faster lookups",
+        "C. Automatic summarization",
+        "D. Encrypted routing"
+      ],
+      "answer": "A",
+      "explanation": "VRF enables independent routing tables with overlapping IP addresses per tenant.",
+      "domain": "Virtualization",
+      "difficulty": "easy",
+      "tags": [
+        "virtualization"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_virt_005",
+      "text": "VTEP performs:",
+      "options": [
+        "A. Encryption",
+        "B. VXLAN encapsulation",
+        "C. Routing",
+        "D. Authentication"
+      ],
+      "answer": "B",
+      "explanation": "VTEP (VXLAN Tunnel Endpoint) encapsulates/decapsulates Ethernet frames in VXLAN packets.",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "tags": [
+        "virtualization"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_virt_006",
+      "text": "Containers use which Linux feature for isolation?",
+      "options": [
+        "A. KVM",
+        "B. Namespaces",
+        "C. Xen",
+        "D. Hyper-V"
+      ],
+      "answer": "B",
+      "explanation": "Containers use Linux namespaces for isolation and cgroups for resource limits.",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "tags": [
+        "virtualization"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_001",
+      "text": "Which BGP community prevents advertisement to any peer?",
+      "options": [
+        "A. NO_EXPORT",
+        "B. NO_ADVERTISE",
+        "C. LOCAL_AS",
+        "D. INTERNET"
+      ],
+      "answer": "B",
+      "explanation": "NO_ADVERTISE (0xFFFFFF02) prevents advertisement to any peer. NO_EXPORT prevents outside the AS.",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_002",
+      "text": "OSPF area X range Y command does:",
+      "options": [
+        "A. Route summarization at ABR",
+        "B. Filters neighbors",
+        "C. NSSA translation",
+        "D. Interface config"
+      ],
+      "answer": "A",
+      "explanation": "\"area X range Y\" creates inter-area route summarization on ABRs, reducing routing table size.",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_003",
+      "text": "\"mls qos trust dscp\" on a switch port:",
+      "options": [
+        "A. Marks traffic as trusted",
+        "B. Enables port security",
+        "C. Configures STP",
+        "D. Enables EtherChannel"
+      ],
+      "answer": "A",
+      "explanation": "Trust dscp makes the switch honor incoming DSCP markings from connected devices (e.g., IP phones).",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_004",
+      "text": "show ip eigrp topology shows passive state:",
+      "options": [
+        "A. Route is stable",
+        "B. Route is being recomputed",
+        "C. EIGRP is disabled",
+        "D. SIA detected"
+      ],
+      "answer": "A",
+      "explanation": "Passive = stable. Active = router is sending queries after a topology change. SIA = stuck-in-active.",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_005",
+      "text": "BGP route reflectors reduce:",
+      "options": [
+        "A. Routing table size",
+        "B. iBGP peerings",
+        "C. Convergence time",
+        "D. Path attributes"
+      ],
+      "answer": "B",
+      "explanation": "Route reflectors reduce full-mesh iBGP peerings from n(n-1)/2 to simpler hub-and-spoke.",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_006",
+      "text": "Default BGP hold time:",
+      "options": [
+        "A. 90s",
+        "B. 120s",
+        "C. 180s",
+        "D. 240s"
+      ],
+      "answer": "C",
+      "explanation": "Default BGP hold time is 180s with keepalive at 60s on Cisco IOS.",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_007",
+      "text": "BGP AS_PATH is used for:",
+      "options": [
+        "A. Load balancing",
+        "B. Loop prevention",
+        "C. Authentication",
+        "D. Encryption"
+      ],
+      "answer": "B",
+      "explanation": "AS_PATH tracks the AS sequence a route traverses. If a router sees its own AS, the update is dropped to prevent loops.",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_008",
+      "text": "OSPF Type 3 LSAs are generated by:",
+      "options": [
+        "A. ASBR",
+        "B. ABR",
+        "C. DR",
+        "D. Every router"
+      ],
+      "answer": "B",
+      "explanation": "ABRs generate Type 3 Summary LSAs to advertise networks between OSPF areas.",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_009",
+      "text": "EIGRP internal AD:",
+      "options": [
+        "A. 90",
+        "B. 100",
+        "C. 110",
+        "D. 170"
+      ],
+      "answer": "A",
+      "explanation": "EIGRP internal = 90. EIGRP external = 170. OSPF = 110. RIP = 120.",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_010",
+      "text": "Which STP enhancement provides fast root port failover?",
+      "options": [
+        "A. PortFast",
+        "B. UplinkFast",
+        "C. BackboneFast",
+        "D. Loop Guard"
+      ],
+      "answer": "B",
+      "explanation": "UplinkFast immediately transitions an alternate root port to forwarding on direct link failure.",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_011",
+      "text": "PIM Sparse Mode default behavior:",
+      "options": [
+        "A. Floods then prunes",
+        "B. Uses RP and switches to SPT",
+        "C. Uses only shared trees",
+        "D. No RP needed"
+      ],
+      "answer": "B",
+      "explanation": "PIM-SM builds shared tree via RP, then can switch to source-specific SPT after first packet.",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_012",
+      "text": "OSPF Stub area:",
+      "options": [
+        "A. Blocks Type 3 and 5",
+        "B. Blocks Type 5 only",
+        "C. Blocks Type 3 only",
+        "D. Blocks Type 1 and 2"
+      ],
+      "answer": "B",
+      "explanation": "Stub blocks Type 5 (external) LSAs. Totally stubby blocks Type 3 and 5. NSSA allows limited external via Type 7.",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_013",
+      "text": "EtherChannel src-dst-ip balances:",
+      "options": [
+        "A. By MAC",
+        "B. By IP pair",
+        "C. By port",
+        "D. By protocol"
+      ],
+      "answer": "B",
+      "explanation": "src-dst-ip hashing ensures packets between the same hosts always use the same link.",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_014",
+      "text": "Link-local multicast range:",
+      "options": [
+        "A. 224.0.0.0/24",
+        "B. 224.0.0.0/16",
+        "C. 239.0.0.0/8",
+        "D. 232.0.0.0/8"
+      ],
+      "answer": "A",
+      "explanation": "224.0.0.0/24 is link-local (not forwarded by routers). Used by OSPF (224.0.0.5), EIGRP (224.0.0.10).",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_015",
+      "text": "R1 and R2 cannot form OSPF adjacency over Ethernet. Both in area 0. What to check first?",
+      "options": [
+        "A. Process ID",
+        "B. Subnet mask",
+        "C. Router ID",
+        "D. Network type"
+      ],
+      "answer": "D",
+      "explanation": "Network type mismatch (broadcast vs point-to-point) prevents adjacency formation. Process IDs are local.",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_016",
+      "text": "Which technology prevents loops at Layer 2?",
+      "options": [
+        "A. OSPF",
+        "B. STP/RSTP",
+        "C. EIGRP",
+        "D. BGP"
+      ],
+      "answer": "B",
+      "explanation": "STP and RSTP prevent Layer 2 loops in switched networks. OSPF/EIGRP/BGP are Layer 3 routing protocols.",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_017",
+      "text": "VLAN Trunking Protocol (VTP) distributes:",
+      "options": [
+        "A. VLAN configurations",
+        "B. MAC addresses",
+        "C. Routing tables",
+        "D. STP topology"
+      ],
+      "answer": "A",
+      "explanation": "VTP distributes VLAN information (add/delete/rename) across VTP domain switches.",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_infra_018",
+      "text": "OSPF ABR connects:",
+      "options": [
+        "A. OSPF to EIGRP",
+        "B. Two OSPF areas",
+        "C. OSPF to BGP",
+        "D. Two routing processes"
+      ],
+      "answer": "B",
+      "explanation": "ABR connects OSPF areas (at least one interface in area 0). ASBR connects to external routing domains.",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "tags": [
+        "infrastructure"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_assur_001",
+      "text": "IP SLA ICMP Echo measures:",
+      "options": [
+        "A. RTT",
+        "B. Jitter",
+        "C. Packet loss",
+        "D. Throughput"
+      ],
+      "answer": "A",
+      "explanation": "IP SLA ICMP Echo measures round-trip time, similar to ping. UDP Jitter measures delay variation.",
+      "domain": "Network Assurance",
+      "difficulty": "easy",
+      "tags": [
+        "network-assurance"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_assur_002",
+      "text": "SPAN (Switched Port Analyzer):",
+      "options": [
+        "A. Increases bandwidth",
+        "B. Mirrors traffic for monitoring",
+        "C. Aggregates links",
+        "D. Analyzes routing"
+      ],
+      "answer": "B",
+      "explanation": "SPAN copies traffic from source ports to a monitor port for analysis (IDS, protocol analyzer).",
+      "domain": "Network Assurance",
+      "difficulty": "easy",
+      "tags": [
+        "network-assurance"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_assur_003",
+      "text": "Health score in DNA Center Assurance:",
+      "options": [
+        "A. Device/client well-being score",
+        "B. Port utilization",
+        "C. Bandwidth available",
+        "D. Latency"
+      ],
+      "answer": "A",
+      "explanation": "Health scores (0-10) measure network device, client, and application well-being from telemetry.",
+      "domain": "Network Assurance",
+      "difficulty": "easy",
+      "tags": [
+        "network-assurance"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_assur_004",
+      "text": "NetFlow exports:",
+      "options": [
+        "A. Traffic flow metadata",
+        "B. SNMP traps",
+        "C. Syslog",
+        "D. Configuration"
+      ],
+      "answer": "A",
+      "explanation": "NetFlow exports flow-level information (IPs, ports, protocols) to collectors for analysis.",
+      "domain": "Network Assurance",
+      "difficulty": "easy",
+      "tags": [
+        "network-assurance"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_assur_005",
+      "text": "\"errdisable recovery cause psecure-violation\" does:",
+      "options": [
+        "A. Auto-recovers ports after port security violation",
+        "B. Prevents error-disable",
+        "C. Ignores violations",
+        "D. Increases MAC limit"
+      ],
+      "answer": "A",
+      "explanation": "Auto-recovery re-enables error-disabled ports after the recovery interval (default 300s).",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "tags": [
+        "network-assurance"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_assur_006",
+      "text": "Model-driven telemetry uses:",
+      "options": [
+        "A. Push model with gRPC",
+        "B. Pull model with SNMP",
+        "C. Push model with Syslog",
+        "D. Batch processing"
+      ],
+      "answer": "A",
+      "explanation": "gRPC-based telemetry pushes structured data to collectors, eliminating polling overhead.",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "tags": [
+        "network-assurance"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_sec_001",
+      "text": "Cisco TrustSec SGT enables:",
+      "options": [
+        "A. IP-based ACLs",
+        "B. Identity-based policies",
+        "C. QoS marking",
+        "D. Encryption"
+      ],
+      "answer": "B",
+      "explanation": "SGTs enforce policies based on user/device identity, not IP addresses, simplifying policy management.",
+      "domain": "Security",
+      "difficulty": "hard",
+      "tags": [
+        "security"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_sec_002",
+      "text": "CoPP protects against:",
+      "options": [
+        "A. MAC flooding",
+        "B. Control plane overload",
+        "C. ARP spoofing",
+        "D. VLAN hopping"
+      ],
+      "answer": "B",
+      "explanation": "CoPP rate-limits control plane traffic (SSH, BGP, ICMP) to protect the route processor.",
+      "domain": "Security",
+      "difficulty": "medium",
+      "tags": [
+        "security"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_sec_003",
+      "text": "In 802.1X, the authenticator is:",
+      "options": [
+        "A. The client",
+        "B. The switch relaying EAP",
+        "C. The RADIUS server",
+        "D. The DHCP server"
+      ],
+      "answer": "B",
+      "explanation": "The authenticator (switch) relays EAP messages between supplicant (client) and RADIUS server.",
+      "domain": "Security",
+      "difficulty": "medium",
+      "tags": [
+        "security"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_sec_004",
+      "text": "CoA Session Reauthenticate:",
+      "options": [
+        "A. Disconnects user",
+        "B. Triggers reauthentication",
+        "C. Changes VLAN",
+        "D. Restarts port"
+      ],
+      "answer": "B",
+      "explanation": "Session Reauthenticate triggers 802.1X reauthentication without disrupting connectivity.",
+      "domain": "Security",
+      "difficulty": "hard",
+      "tags": [
+        "security"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_sec_005",
+      "text": "DHCP Snooping binding database contains:",
+      "options": [
+        "A. IP-MAC-VLAN-port mappings",
+        "B. User credentials",
+        "C. Routing table entries",
+        "D. ARP cache"
+      ],
+      "answer": "A",
+      "explanation": "The snooping binding database tracks valid IP-MAC-VLAN-port assignments from DHCP transactions.",
+      "domain": "Security",
+      "difficulty": "medium",
+      "tags": [
+        "security"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_sec_006",
+      "text": "DAI validates:",
+      "options": [
+        "A. DHCP messages",
+        "B. ARP packets",
+        "C. Routing updates",
+        "D. DNS queries"
+      ],
+      "answer": "B",
+      "explanation": "Dynamic ARP Inspection validates ARP packets against the DHCP snooping database, dropping spoofed ARP.",
+      "domain": "Security",
+      "difficulty": "medium",
+      "tags": [
+        "security"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_sec_007",
+      "text": "Reflexive ACL:",
+      "options": [
+        "A. Creates dynamic permit for return traffic",
+        "B. Filters source IP only",
+        "C. Encrypts traffic",
+        "D. Logs all traffic"
+      ],
+      "answer": "A",
+      "explanation": "Reflexive ACLs auto-create temporary permit entries for returning traffic when outbound is permitted.",
+      "domain": "Security",
+      "difficulty": "medium",
+      "tags": [
+        "security"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_sec_008",
+      "text": "IPsec VTI vs crypto maps:",
+      "options": [
+        "A. VTI supports multicast",
+        "B. VTI is harder",
+        "C. VTI uses IKEv1 only",
+        "D. VTI is deprecated"
+      ],
+      "answer": "A",
+      "explanation": "VTI supports multicast and dynamic routing through the tunnel, unlike crypto maps.",
+      "domain": "Security",
+      "difficulty": "hard",
+      "tags": [
+        "security"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_sec_009",
+      "text": "What is the difference between authentication and authorization?",
+      "options": [
+        "A. Auth=who you are, Authz=what you can do",
+        "B. Auth=what you do, Authz=who you are",
+        "C. Same thing",
+        "D. Auth=logging, Authz=identity"
+      ],
+      "answer": "A",
+      "explanation": "AAA: Authentication verifies identity. Authorization determines access permissions. Accounting tracks activities.",
+      "domain": "Security",
+      "difficulty": "easy",
+      "tags": [
+        "security"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_sec_010",
+      "text": "TACACS+ vs RADIUS: TACACS+",
+      "options": [
+        "A. Encrypts entire packet",
+        "B. Only encrypts password",
+        "C. Uses UDP",
+        "D. Is open standard"
+      ],
+      "answer": "A",
+      "explanation": "TACACS+ encrypts the entire packet body, separates AAA functions, and uses TCP. RADIUS encrypts only password.",
+      "domain": "Security",
+      "difficulty": "hard",
+      "tags": [
+        "security"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_sec_011",
+      "text": "Port Security with sticky MAC:",
+      "options": [
+        "A. Learns and converts MACs to secure entries",
+        "B. Blocks all traffic",
+        "C. Enables trunking",
+        "D. Disables STP"
+      ],
+      "answer": "A",
+      "explanation": "Sticky MAC dynamically learns and converts MAC addresses to secure entries in running config.",
+      "domain": "Security",
+      "difficulty": "medium",
+      "tags": [
+        "security"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_sec_012",
+      "text": "Which feature prevents rogue DHCP servers?",
+      "options": [
+        "A. DAI",
+        "B. DHCP Snooping",
+        "C. IPSG",
+        "D. Port Security"
+      ],
+      "answer": "B",
+      "explanation": "DHCP Snooping blocks DHCP server messages on untrusted (access) ports, preventing rogue DHCP servers.",
+      "domain": "Security",
+      "difficulty": "easy",
+      "tags": [
+        "security"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_auto_001",
+      "text": "Ansible playbooks are written in:",
+      "options": [
+        "A. JSON",
+        "B. XML",
+        "C. YAML",
+        "D. Python"
+      ],
+      "answer": "C",
+      "explanation": "Ansible playbooks use YAML with declarative syntax describing the desired state.",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_auto_002",
+      "text": "RESTCONF uses which HTTP method to retrieve data?",
+      "options": [
+        "A. POST",
+        "B. GET",
+        "C. PUT",
+        "D. DELETE"
+      ],
+      "answer": "B",
+      "explanation": "GET retrieves data without modification. POST creates. PUT updates. DELETE removes.",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_auto_003",
+      "text": "Idempotent means:",
+      "options": [
+        "A. Runs once",
+        "B. Same result each time",
+        "C. Can be reversed",
+        "D. Manual approval"
+      ],
+      "answer": "B",
+      "explanation": "Idempotent: applying the same automation multiple times produces the same desired state without side effects.",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_auto_004",
+      "text": "Git in network automation provides:",
+      "options": [
+        "A. Version control",
+        "B. Configuration deployment",
+        "C. Performance monitoring",
+        "D. Topology mapping"
+      ],
+      "answer": "A",
+      "explanation": "Git tracks changes to files (configs, scripts, playbooks), enabling collaboration and rollback.",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_auto_005",
+      "text": "Python dict is created with:",
+      "options": [
+        "A. ()",
+        "B. []",
+        "C. {}",
+        "D. <>"
+      ],
+      "answer": "C",
+      "explanation": "Python dictionaries use curly braces with key: value pairs, equivalent to JSON objects.",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_auto_006",
+      "text": "NETCONF transport protocol:",
+      "options": [
+        "A. HTTP",
+        "B. SSH",
+        "C. HTTPS",
+        "D. Telnet"
+      ],
+      "answer": "B",
+      "explanation": "NETCONF uses SSH (port 830). RESTCONF uses HTTP/HTTPS. Both access YANG data models.",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_auto_007",
+      "text": "Ansible inventory file typically:",
+      "options": [
+        "A. hosts.ini",
+        "B. playbook.yml",
+        "C. ansible.cfg",
+        "D. requirements.txt"
+      ],
+      "answer": "A",
+      "explanation": "The inventory file (hosts.ini) defines managed devices and groups.",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_auto_008",
+      "text": "In Cisco DNA Center, which component monitors performance?",
+      "options": [
+        "A. Design",
+        "B. Policy",
+        "C. Provision",
+        "D. Assurance"
+      ],
+      "answer": "D",
+      "explanation": "Assurance monitors network health using telemetry and proactive analytics.",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccnp-encor-mock-1"
+    },
+    {
+      "id": "ccnp_auto_009",
+      "text": "YANG is used with:",
+      "options": [
+        "A. NETCONF/RESTCONF",
+        "B. SNMP",
+        "C. CLI",
+        "D. Telnet"
+      ],
+      "answer": "A",
+      "explanation": "YANG models define data structures accessed via NETCONF or RESTCONF for model-driven programmability.",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "tags": [
+        "automation"
+      ],
+      "source": "ccnp-encor-mock-1"
+    }
+  ]
+}
