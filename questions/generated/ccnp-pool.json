@@ -4,8 +4,8 @@
     "vendor": "cisco",
     "type": "pool",
     "syllabusVersion": "CCNP-350401-v1.1",
-    "totalQuestions": 113,
-    "lastUpdated": "2026-05-26"
+    "totalQuestions": 300,
+    "lastUpdated": "2026-05-27"
   },
   "questions": [
     {
@@ -2517,6 +2517,4318 @@
       "id": "ccnp_gen_113",
       "source": "ccnp-pool",
       "tags": []
+    },
+    {
+      "id": "ccnp_gen_114",
+      "conceptId": "ccnp-architecture-1",
+      "concept": "Cisco SD-Access fabric",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "sda"
+      ],
+      "variants": [
+        {
+          "text": "In Cisco SD-Access, what device acts as the fabric control plane?",
+          "options": [
+            "A. Edge Node",
+            "B. Control Plane Node",
+            "C. Border Node",
+            "D. Fabric WLC"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_115",
+      "conceptId": "ccnp-architecture-2",
+      "concept": "Cisco SD-WAN architecture",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "sdwan"
+      ],
+      "variants": [
+        {
+          "text": "Which component in Cisco SD-WAN is responsible for orchestrating control plane connections?",
+          "options": [
+            "A. vBond orchestrator",
+            "B. vSmart controller",
+            "C. vManage NMS",
+            "D. vEdge router"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_116",
+      "conceptId": "ccnp-architecture-3",
+      "concept": "Enterprise network design",
+      "domain": "Architecture",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "design"
+      ],
+      "variants": [
+        {
+          "text": "Which Cisco architectural framework uses a three-tier model of core, distribution, and access?",
+          "options": [
+            "A. Cisco Enterprise Campus Architecture",
+            "B. Cisco SD-Access",
+            "C. Cisco SD-WAN",
+            "D. Cisco ACI"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_117",
+      "conceptId": "ccnp-architecture-4",
+      "concept": "High availability design",
+      "domain": "Architecture",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "ha"
+      ],
+      "variants": [
+        {
+          "text": "What is the primary benefit of deploying redundant devices in a campus network core?",
+          "options": [
+            "A. Increased network availability",
+            "B. Lower operational cost",
+            "C. Simplified management",
+            "D. Improved security"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_118",
+      "conceptId": "ccnp-architecture-5",
+      "concept": "Cisco Catalyst 9000",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "cat9k"
+      ],
+      "variants": [
+        {
+          "text": "What is the Cisco UADP ASIC in Catalyst 9000 switches designed for?",
+          "options": [
+            "A. Programmable pipeline for flexible forwarding",
+            "B. Only layer 2 switching",
+            "C. Wireless signal processing",
+            "D. Power over Ethernet"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_119",
+      "conceptId": "ccnp-architecture-6",
+      "concept": "QoS classification",
+      "domain": "Architecture",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "qos"
+      ],
+      "variants": [
+        {
+          "text": "Which QoS marking is used at Layer 2 for Class of Service?",
+          "options": [
+            "A. 802.1p",
+            "B. DSCP",
+            "C. IP Precedence",
+            "D. MPLS EXP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_120",
+      "conceptId": "ccnp-architecture-7",
+      "concept": "QoS trust boundary",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "qos"
+      ],
+      "variants": [
+        {
+          "text": "What command extends the QoS trust boundary to the end device?",
+          "options": [
+            "A. mls qos trust device cisco-phone",
+            "B. trust qos end-device",
+            "C. qos trust boundary extend",
+            "D. auto qos trust"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_121",
+      "conceptId": "ccnp-architecture-8",
+      "concept": "Cisco SD-Access LISP",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "sda",
+        "lisp"
+      ],
+      "variants": [
+        {
+          "text": "In SD-Access, what is the purpose of LISP in the fabric?",
+          "options": [
+            "A. Control plane: maps EIDs to RLOCs",
+            "B. Data plane: VXLAN encapsulation",
+            "C. Policy plane: SGACL enforcement",
+            "D. Management plane: device onboarding"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_122",
+      "conceptId": "ccnp-architecture-9",
+      "concept": "Cisco SD-Access VXLAN",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "sda",
+        "vxlan"
+      ],
+      "variants": [
+        {
+          "text": "Which protocol is used as the data plane encapsulation in Cisco SD-Access?",
+          "options": [
+            "A. VXLAN-GPO",
+            "B. GRE",
+            "C. MPLS",
+            "D. IPsec"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_123",
+      "conceptId": "ccnp-architecture-10",
+      "concept": "Cisco SD-WAN OMP",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "sdwan",
+        "omp"
+      ],
+      "variants": [
+        {
+          "text": "What protocol is used for control plane communication in Cisco SD-WAN?",
+          "options": [
+            "A. OMP (Overlay Management Protocol)",
+            "B. BGP",
+            "C. OSPF",
+            "D. EIGRP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_124",
+      "conceptId": "ccnp-architecture-11",
+      "concept": "Cisco DNA Center",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "dnac"
+      ],
+      "variants": [
+        {
+          "text": "Which Cisco DNA Center role provides intent-based networking capabilities?",
+          "options": [
+            "A. Automation and Assurance",
+            "B. Only device management",
+            "C. Only monitoring",
+            "D. Only inventory"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_125",
+      "conceptId": "ccnp-architecture-12",
+      "concept": "ISE architecture",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ise"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of a Cisco ISE PAN (Policy Administration Node)?",
+          "options": [
+            "A. Centralized policy management and reporting",
+            "B. RADIUS authentication only",
+            "C. Guest portal hosting",
+            "D. Certificate authority"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_126",
+      "conceptId": "ccnp-architecture-13",
+      "concept": "Network device hardening",
+      "domain": "Architecture",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "hardening"
+      ],
+      "variants": [
+        {
+          "text": "Which feature prevents unauthorized access to the device console port?",
+          "options": [
+            "A. Password protection and exec-timeout",
+            "B. STP BPDU Guard",
+            "C. VLAN ACL",
+            "D. DHCP snooping"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_127",
+      "conceptId": "ccnp-architecture-14",
+      "concept": "Cisco SD-WAN vManage",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "sdwan",
+        "vmanage"
+      ],
+      "variants": [
+        {
+          "text": "What is the role of vManage in the Cisco SD-WAN solution?",
+          "options": [
+            "A. Centralized management and monitoring dashboard",
+            "B. Data plane forwarding",
+            "C. Route redistribution",
+            "D. Firewall inspection"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_128",
+      "conceptId": "ccnp-architecture-15",
+      "concept": "Campus LAN design",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "design",
+        "stp"
+      ],
+      "variants": [
+        {
+          "text": "In a campus LAN, what is the recommended STP root bridge placement?",
+          "options": [
+            "A. Distribution layer switches",
+            "B. Access layer switches",
+            "C. Core layer switches",
+            "D. Internet edge router"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_129",
+      "conceptId": "ccnp-architecture-16",
+      "concept": "WAN architecture",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "wan"
+      ],
+      "variants": [
+        {
+          "text": "Which WAN technology provides a private connection between enterprise sites using MPLS?",
+          "options": [
+            "A. MPLS L3VPN",
+            "B. IPsec VPN over internet",
+            "C. DSL",
+            "D. Cable modem"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_130",
+      "conceptId": "ccnp-architecture-17",
+      "concept": "Cisco SD-WAN policies",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "sdwan-policy"
+      ],
+      "variants": [
+        {
+          "text": "In Cisco SD-WAN, what type of policy controls which paths traffic takes?",
+          "options": [
+            "A. App-route policy",
+            "B. cflowd policy",
+            "C. VPN policy",
+            "D. VSmart policy"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_131",
+      "conceptId": "ccnp-architecture-18",
+      "concept": "Cisco SD-Access roles",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "sda"
+      ],
+      "variants": [
+        {
+          "text": "Which Cisco SD-Access node type provides external connectivity to the fabric?",
+          "options": [
+            "A. Border Node",
+            "B. Edge Node",
+            "C. Control Plane Node",
+            "D. Wireless Controller"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_132",
+      "conceptId": "ccnp-architecture-19",
+      "concept": "Meraki architecture",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "meraki"
+      ],
+      "variants": [
+        {
+          "text": "Where is the control plane located in a Cisco Meraki cloud-managed network?",
+          "options": [
+            "A. Cisco Meraki cloud",
+            "B. On-premises controller",
+            "C. Each Meraki device",
+            "D. Local server"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_133",
+      "conceptId": "ccnp-architecture-20",
+      "concept": "Cisco ACI",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "aci"
+      ],
+      "variants": [
+        {
+          "text": "In Cisco ACI, what is the function of the APIC controller?",
+          "options": [
+            "A. Centralized policy and management",
+            "B. Data plane forwarding",
+            "C. Leaf-spine interconnection",
+            "D. External routing"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_134",
+      "conceptId": "ccnp-architecture-21",
+      "concept": "QoS tools",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "qos"
+      ],
+      "variants": [
+        {
+          "text": "Which QoS tool can be used to guarantee bandwidth to specific traffic classes?",
+          "options": [
+            "A. LLQ (Low Latency Queuing)",
+            "B. WRED",
+            "C. FIFO",
+            "D. Tail Drop"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_135",
+      "conceptId": "ccnp-architecture-22",
+      "concept": "Network telemetry",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "telemetry"
+      ],
+      "variants": [
+        {
+          "text": "What is Model-Driven Telemetry (MDT)?",
+          "options": [
+            "A. Push-based data streaming from network devices",
+            "B. Pull-based SNMP polling",
+            "C. Syslog message collection",
+            "D. CLI output scraping"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_136",
+      "conceptId": "ccnp-architecture-23",
+      "concept": "Software-defined networking",
+      "domain": "Architecture",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "sdn"
+      ],
+      "variants": [
+        {
+          "text": "Which plane is separated from the data plane in SDN architecture?",
+          "options": [
+            "A. Control plane",
+            "B. Management plane",
+            "C. Policy plane",
+            "D. Forwarding plane"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_137",
+      "conceptId": "ccnp-architecture-24",
+      "concept": "Cisco SD-WAN TLOC",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "sdwan"
+      ],
+      "variants": [
+        {
+          "text": "What does TLOC (Transport Location) represent in Cisco SD-WAN?",
+          "options": [
+            "A. A WAN interface with color, IP, and encapsulation",
+            "B. A routing protocol instance",
+            "C. A VPN segment",
+            "D. A policy rule"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_138",
+      "conceptId": "ccnp-architecture-25",
+      "concept": "Cisco DNA Spaces",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "dna-spaces"
+      ],
+      "variants": [
+        {
+          "text": "What is Cisco DNA Spaces used for?",
+          "options": [
+            "A. Location analytics using wireless infrastructure",
+            "B. Wired network automation",
+            "C. SD-WAN management",
+            "D. Data center orchestration"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_139",
+      "conceptId": "ccnp-architecture-26",
+      "concept": "Multicast in campus",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "multicast"
+      ],
+      "variants": [
+        {
+          "text": "Which multicast protocol runs between the last-hop router and the host?",
+          "options": [
+            "A. IGMP",
+            "B. PIM",
+            "C. MSDP",
+            "D. MBGP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_140",
+      "conceptId": "ccnp-architecture-27",
+      "concept": "Network scalability",
+      "domain": "Architecture",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "scalability"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of route summarization in a large enterprise network?",
+          "options": [
+            "A. Reduce routing table size and update overhead",
+            "B. Increase routing security",
+            "C. Improve network encryption",
+            "D. Enable faster switching"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_141",
+      "conceptId": "ccnp-architecture-28",
+      "concept": "Enterprise wireless",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "wireless"
+      ],
+      "variants": [
+        {
+          "text": "In Cisco wireless, what is the purpose of FlexConnect?",
+          "options": [
+            "A. Allow APs to locally switch traffic when WAN to WLC fails",
+            "B. Increase Wi-Fi speed",
+            "C. Provide mesh networking",
+            "D. Support IoT devices"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_142",
+      "conceptId": "ccnp-virtualization-10",
+      "concept": "OTV",
+      "domain": "Virtualization",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "otv"
+      ],
+      "variants": [
+        {
+          "text": "What does OTV (Overlay Transport Virtualization) extend across a Layer 3 network?",
+          "options": [
+            "A. Layer 2 connectivity between data centers",
+            "B. Layer 3 routing between VRF instances",
+            "C. IPsec VPN connectivity",
+            "D. Wireless signal range"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_143",
+      "conceptId": "ccnp-virtualization-11",
+      "concept": "VPC in Nexus",
+      "domain": "Virtualization",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "vpc"
+      ],
+      "variants": [
+        {
+          "text": "In Cisco Nexus vPC, what is the function of the keepalive link?",
+          "options": [
+            "A. Detect peer switch failure",
+            "B. Forward data traffic",
+            "C. Carry STP BPDUs",
+            "D. Synchronize routing updates"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_144",
+      "conceptId": "ccnp-virtualization-12",
+      "concept": "Virtual routing",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "vrf"
+      ],
+      "variants": [
+        {
+          "text": "How does a VRF instance maintain separate routing tables?",
+          "options": [
+            "A. Each VRF has its own RIB and FIB",
+            "B. VRFs share the same routing table with different markings",
+            "C. VRF uses policy-based routing",
+            "D. VRF is a physical routing concept"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_145",
+      "conceptId": "ccnp-virtualization-13",
+      "concept": "NFV",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "nfv"
+      ],
+      "variants": [
+        {
+          "text": "What is Network Functions Virtualization (NFV)?",
+          "options": [
+            "A. Running network functions as software on commodity hardware",
+            "B. Virtualizing only switching functions",
+            "C. Creating virtual LANs",
+            "D. Virtual private networking"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_146",
+      "conceptId": "ccnp-virtualization-14",
+      "concept": "Cisco CSR 1000V",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "csr1kv"
+      ],
+      "variants": [
+        {
+          "text": "What is the Cisco CSR 1000V?",
+          "options": [
+            "A. A virtual router for cloud and virtualized environments",
+            "B. A physical campus router",
+            "C. A wireless LAN controller VM",
+            "D. A network management VM"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_147",
+      "conceptId": "ccnp-virtualization-15",
+      "concept": "IOS-XE and IOS-XR",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "iosxe",
+        "iosxr"
+      ],
+      "variants": [
+        {
+          "text": "What is a key difference between Cisco IOS-XE and IOS-XR?",
+          "options": [
+            "A. IOS-XR has a modular microkernel architecture",
+            "B. IOS-XE is only for service providers",
+            "C. IOS-XR does not support routing",
+            "D. IOS-XE is monolithic only"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_148",
+      "conceptId": "ccnp-virtualization-16",
+      "concept": "MPLS L3VPN",
+      "domain": "Virtualization",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "mpls-vpn"
+      ],
+      "variants": [
+        {
+          "text": "In an MPLS L3VPN, what does the Route Distinguisher (RD) do?",
+          "options": [
+            "A. Makes globally unique IPv4 prefixes that may overlap",
+            "B. Selects the best path to a destination",
+            "C. Labels packets for forwarding",
+            "D. Encrypts VPN traffic"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_149",
+      "conceptId": "ccnp-virtualization-17",
+      "concept": "VXLAN VTEP",
+      "domain": "Virtualization",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "vxlan"
+      ],
+      "variants": [
+        {
+          "text": "What is the role of a VTEP in VXLAN?",
+          "options": [
+            "A. Encapsulates and decapsulates VXLAN frames",
+            "B. Routes VXLAN packets between VLANs",
+            "C. Provides virtual switching for containers",
+            "D. Manages VXLAN policy"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_150",
+      "conceptId": "ccnp-virtualization-18",
+      "concept": "GENEVE",
+      "domain": "Virtualization",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "geneve"
+      ],
+      "variants": [
+        {
+          "text": "What is the GENEVE encapsulation protocol designed for?",
+          "options": [
+            "A. Flexible, extensible overlay encapsulation",
+            "B. IPsec encryption replacement",
+            "C. GRE replacement for routing",
+            "D. Layer 3 VPN only"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_151",
+      "conceptId": "ccnp-virtualization-19",
+      "concept": "VTEP redundancy",
+      "domain": "Virtualization",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "vxlan",
+        "evpn"
+      ],
+      "variants": [
+        {
+          "text": "How is VTEP redundancy achieved in VXLAN EVPN?",
+          "options": [
+            "A. Using Anycast VTEP IP with multiple VTEPs",
+            "B. Using HSRP between VTEPs",
+            "C. VRRP on the VXLAN interface",
+            "D. Static routing between VTEPs"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_152",
+      "conceptId": "ccnp-virtualization-1",
+      "concept": "VRF Lite",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "vrf"
+      ],
+      "variants": [
+        {
+          "text": "What is VRF-Lite used for?",
+          "options": [
+            "A. Multiple routing table instances on a single device",
+            "B. Virtual switching",
+            "C. GRE tunneling",
+            "D. MPLS L3VPN only"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_153",
+      "conceptId": "ccnp-virtualization-2",
+      "concept": "Generic Routing Encapsulation",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "gre"
+      ],
+      "variants": [
+        {
+          "text": "What is the protocol number used by GRE in the IP header?",
+          "options": [
+            "A. 47",
+            "B. 50",
+            "C. 51",
+            "D. 89"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_154",
+      "conceptId": "ccnp-virtualization-3",
+      "concept": "IPsec tunneling",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ipsec"
+      ],
+      "variants": [
+        {
+          "text": "Which IPsec mode encrypts the entire IP packet including the original header?",
+          "options": [
+            "A. Tunnel mode",
+            "B. Transport mode",
+            "C. AH mode",
+            "D. ESP mode"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_155",
+      "conceptId": "ccnp-virtualization-4",
+      "concept": "DMVPN Phase 2",
+      "domain": "Virtualization",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "dmvpn"
+      ],
+      "variants": [
+        {
+          "text": "In DMVPN Phase 2, what is the key feature of spoke-to-spoke tunnels?",
+          "options": [
+            "A. Direct spoke-to-spoke communication without going through hub",
+            "B. All traffic traverses the hub",
+            "C. Spokes cannot form tunnels between each other",
+            "D. Requires MPLS"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_156",
+      "conceptId": "ccnp-virtualization-5",
+      "concept": "VXLAN",
+      "domain": "Virtualization",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "vxlan"
+      ],
+      "variants": [
+        {
+          "text": "What encapsulation does VXLAN use to transport Layer 2 frames over Layer 3 networks?",
+          "options": [
+            "A. MAC-in-UDP",
+            "B. MAC-in-IP",
+            "C. IP-in-IP",
+            "D. GRE"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_157",
+      "conceptId": "ccnp-virtualization-6",
+      "concept": "Device virtualization",
+      "domain": "Virtualization",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "subinterface"
+      ],
+      "variants": [
+        {
+          "text": "What is the Cisco IOS advantage of using Subinterfaces with 802.1Q?",
+          "options": [
+            "A. Support multiple VLANs on a single physical interface",
+            "B. Increase interface bandwidth",
+            "C. Reduce CPU load",
+            "D. Eliminate routing table size"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_158",
+      "conceptId": "ccnp-virtualization-7",
+      "concept": "Virtual Switching System",
+      "domain": "Virtualization",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "vss"
+      ],
+      "variants": [
+        {
+          "text": "What is Cisco VSS (Virtual Switching System)?",
+          "options": [
+            "A. Two physical switches operate as a single logical switch",
+            "B. A virtual machine hypervisor",
+            "C. A cloud switching service",
+            "D. A virtual firewall"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_159",
+      "conceptId": "ccnp-virtualization-8",
+      "concept": "VMware vSphere",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "vswitch"
+      ],
+      "variants": [
+        {
+          "text": "In a data center virtualization, what is a virtual switch (vSwitch)?",
+          "options": [
+            "A. A software-based switch within the hypervisor",
+            "B. A physical switch used in a virtualized environment",
+            "C. A cloud-based switch service",
+            "D. A routing protocol for VMs"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_160",
+      "conceptId": "ccnp-virtualization-9",
+      "concept": "Cisco Nexus 1000V",
+      "domain": "Virtualization",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "n1kv"
+      ],
+      "variants": [
+        {
+          "text": "What is the Cisco Nexus 1000V?",
+          "options": [
+            "A. A software virtual switch for VMware hypervisor",
+            "B. A physical data center switch",
+            "C. A virtual firewall",
+            "D. A routing appliance"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_161",
+      "conceptId": "ccnp-infrastructure-48",
+      "concept": "NetFlow",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "netflow"
+      ],
+      "variants": [
+        {
+          "text": "What is the role of the NetFlow collector?",
+          "options": [
+            "A. Receives and stores exported flow records for analysis",
+            "B. Captures raw packets from the wire",
+            "C. Generates NetFlow packets on the router",
+            "D. Configures NetFlow export parameters"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_162",
+      "conceptId": "ccnp-infrastructure-49",
+      "concept": "SD-WAN routing",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "sdwan-routing"
+      ],
+      "variants": [
+        {
+          "text": "In Cisco SD-WAN, how does OMP propagate routes across the fabric?",
+          "options": [
+            "A. OMP advertises routes with TLOC next-hop information",
+            "B. Traditional BGP between vEdge routers",
+            "C. OSPF over IPsec tunnels",
+            "D. Static routes on each vEdge"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_163",
+      "conceptId": "ccnp-infrastructure-50",
+      "concept": "EIGRP Stub",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "eigrp-stub"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of deploying EIGRP stub routers at remote sites?",
+          "options": [
+            "A. Prevent the remote site from being a transit router",
+            "B. Reduce EIGRP query scope",
+            "C. Improve convergence at hub",
+            "D. All of the above"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_164",
+      "conceptId": "ccnp-infrastructure-51",
+      "concept": "OSPF fast convergence",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ospf-bfd"
+      ],
+      "variants": [
+        {
+          "text": "How can OSPF convergence be improved in a campus network?",
+          "options": [
+            "A. Use BFD with OSPF for sub-second failure detection",
+            "B. Increase OSPF Hello timer to 30 seconds",
+            "C. Disable LSA throttling",
+            "D. Use a single area for all routers"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_165",
+      "conceptId": "ccnp-infrastructure-52",
+      "concept": "IPv6 tunneling",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "ipv6-tunnel"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of an IPv6 tunnel (e.g., 6to4 or GRE)?",
+          "options": [
+            "A. Carry IPv6 traffic over IPv4 infrastructure",
+            "B. Encrypt IPv6 packets",
+            "C. Convert IPv6 to IPv4 packets",
+            "D. Compress IPv6 headers"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_166",
+      "conceptId": "ccnp-infrastructure-53",
+      "concept": "VLAN load balancing",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "vlan-lb"
+      ],
+      "variants": [
+        {
+          "text": "How can VLAN load balancing be achieved across multiple switches?",
+          "options": [
+            "A. Using different STP priorities for different VLANs in PVST+",
+            "B. Using VTP pruning",
+            "C. Using DTP dynamic trunks",
+            "D. Using LLDP-MED"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_167",
+      "conceptId": "ccnp-infrastructure-54",
+      "concept": "Ethernet OAM CFM",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "oam-cfm"
+      ],
+      "variants": [
+        {
+          "text": "What is Connectivity Fault Management (CFM) used for?",
+          "options": [
+            "A. End-to-end Ethernet path fault detection and isolation",
+            "B. Cable diagnostics",
+            "C. PoE power management",
+            "D. Fiber optic cleaning"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_168",
+      "conceptId": "ccnp-infrastructure-55",
+      "concept": "VXLAN BGP EVPN",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "vxlan-evpn"
+      ],
+      "variants": [
+        {
+          "text": "What control plane protocol is used for VXLAN in modern data centers?",
+          "options": [
+            "A. MP-BGP EVPN",
+            "B. OSPF",
+            "C. ISIS",
+            "D. EIGRP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_169",
+      "conceptId": "ccnp-infrastructure-56",
+      "concept": "MPLS traffic engineering",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "mpls-te"
+      ],
+      "variants": [
+        {
+          "text": "What is the benefit of MPLS TE?",
+          "options": [
+            "A. Optimize traffic paths based on bandwidth and constraints",
+            "B. Reduce MPLS label stack depth",
+            "C. Simplify router configuration",
+            "D. Automate BGP peering"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_170",
+      "conceptId": "ccnp-infrastructure-1",
+      "concept": "OSPF network types",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ospf-network"
+      ],
+      "variants": [
+        {
+          "text": "Which OSPF network type defaults to using unicast neighbors?",
+          "options": [
+            "A. Non-broadcast (NBMA)",
+            "B. Broadcast",
+            "C. Point-to-point",
+            "D. Point-to-multipoint"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_171",
+      "conceptId": "ccnp-infrastructure-2",
+      "concept": "OSPF LSA propagation",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ospf-lsa"
+      ],
+      "variants": [
+        {
+          "text": "Which OSPF LSA Type is not flooded beyond its originating area?",
+          "options": [
+            "A. Type 1 (Router LSA)",
+            "B. Type 5 (External LSA)",
+            "C. Type 4 (ASBR Summary)",
+            "D. Type 7 (NSSA External)"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_172",
+      "conceptId": "ccnp-infrastructure-3",
+      "concept": "OSPF LSA filtering",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "ospf-filter"
+      ],
+      "variants": [
+        {
+          "text": "What command filters Type 3 LSA at an ABR?",
+          "options": [
+            "A. area [id] filter-list prefix [prefix-list] in|out",
+            "B. distribute-list in",
+            "C. route-map to filter OSPF",
+            "D. prefix-list deny"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_173",
+      "conceptId": "ccnp-infrastructure-4",
+      "concept": "OSPF authentication",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ospf-auth"
+      ],
+      "variants": [
+        {
+          "text": "What is the strongest OSPF authentication method?",
+          "options": [
+            "A. MD5 cryptographic authentication",
+            "B. Null authentication",
+            "C. Simple password authentication",
+            "D. SHA-256 HMAC"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_174",
+      "conceptId": "ccnp-infrastructure-5",
+      "concept": "EIGRP named mode",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "eigrp"
+      ],
+      "variants": [
+        {
+          "text": "What is a benefit of EIGRP named mode configuration?",
+          "options": [
+            "A. Hierarchical configuration structure with AF and topology",
+            "B. Support for only IPv4",
+            "C. Requires all routes to be redistributed",
+            "D. No authentication support"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_175",
+      "conceptId": "ccnp-infrastructure-6",
+      "concept": "EIGRP metrics",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "eigrp"
+      ],
+      "variants": [
+        {
+          "text": "By default, what metrics does EIGRP use to calculate the composite metric?",
+          "options": [
+            "A. Bandwidth and Delay",
+            "B. Bandwidth and Hop count",
+            "C. Load and Reliability",
+            "D. MTU and Delay"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_176",
+      "conceptId": "ccnp-infrastructure-7",
+      "concept": "EIGRP successor",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "eigrp"
+      ],
+      "variants": [
+        {
+          "text": "In EIGRP, what defines a feasible successor route?",
+          "options": [
+            "A. A backup route that meets the feasibility condition (AD < FD)",
+            "B. The primary route in the routing table",
+            "C. Any route learned from a neighbor",
+            "D. A redistributed static route"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_177",
+      "conceptId": "ccnp-infrastructure-8",
+      "concept": "BGP attributes",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "bgp"
+      ],
+      "variants": [
+        {
+          "text": "Which BGP attribute is the first in the path selection process?",
+          "options": [
+            "A. Weight (highest)",
+            "B. Local Preference (highest)",
+            "C. AS_PATH (shortest)",
+            "D. MED (lowest)"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_178",
+      "conceptId": "ccnp-infrastructure-9",
+      "concept": "BGP local preference",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "bgp"
+      ],
+      "variants": [
+        {
+          "text": "How is BGP local preference propagated within an AS?",
+          "options": [
+            "A. Via IBGP updates (all IBGP speakers receive it)",
+            "B. In the IP header as a DSCP value",
+            "C. Only in EBGP updates",
+            "D. Via IGP redistribution"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_179",
+      "conceptId": "ccnp-infrastructure-10",
+      "concept": "BGP communities",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "bgp"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of BGP communities?",
+          "options": [
+            "A. Tag routes with attributes for policy enforcement",
+            "B. Group BGP speakers by geographic location",
+            "C. Create virtual routing tables",
+            "D. Aggregate multiple AS paths"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_180",
+      "conceptId": "ccnp-infrastructure-11",
+      "concept": "BGP synchronization",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "bgp-sync"
+      ],
+      "variants": [
+        {
+          "text": "What does BGP synchronization require before advertising iBGP routes to EBGP peers?",
+          "options": [
+            "A. The prefix must be in the IGP routing table",
+            "B. The prefix must be learned via OSPF",
+            "C. The AS path must be empty",
+            "D. The next hop must be reachable"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_181",
+      "conceptId": "ccnp-infrastructure-12",
+      "concept": "BGP multipath",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "bgp-multipath"
+      ],
+      "variants": [
+        {
+          "text": "What enables BGP to install multiple paths for load balancing?",
+          "options": [
+            "A. maximum-paths command",
+            "B. multipath enable",
+            "C. bgp multipath-relax",
+            "D. load-balance bgp"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_182",
+      "conceptId": "ccnp-infrastructure-13",
+      "concept": "Route redistribution",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "redistribution"
+      ],
+      "variants": [
+        {
+          "text": "When redistributing OSPF into EIGRP, what metric must be specified?",
+          "options": [
+            "A. Bandwidth, Delay, Reliability, Load, MTU",
+            "B. Cost and Hop Count",
+            "C. Only Bandwidth",
+            "D. Administrative Distance"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_183",
+      "conceptId": "ccnp-infrastructure-14",
+      "concept": "Route redistribution pitfalls",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "redistribution"
+      ],
+      "variants": [
+        {
+          "text": "What is a common route redistribution issue called when routes are re-injected back into the source protocol?",
+          "options": [
+            "A. Route feedback loop",
+            "B. Suboptimal routing",
+            "C. Routing blackhole",
+            "D. Load balancing imbalance"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_184",
+      "conceptId": "ccnp-infrastructure-15",
+      "concept": "MSTP",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "mstp"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of MSTP (Multiple Spanning Tree Protocol)?",
+          "options": [
+            "A. Map multiple VLANs into fewer spanning tree instances",
+            "B. Replace RSTP entirely",
+            "C. Eliminate all Layer 2 loops",
+            "D. Faster convergence than RSTP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_185",
+      "conceptId": "ccnp-infrastructure-16",
+      "concept": "EtherChannel load balancing",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "etherchannel"
+      ],
+      "variants": [
+        {
+          "text": "On what basis does Cisco EtherChannel load-balance by default?",
+          "options": [
+            "A. Source and destination MAC address",
+            "B. Source and destination IP address",
+            "C. Layer 4 port numbers",
+            "D. Round-robin per packet"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_186",
+      "conceptId": "ccnp-infrastructure-17",
+      "concept": "LACP",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "lacp"
+      ],
+      "variants": [
+        {
+          "text": "Which LACP mode actively initiates negotiation?",
+          "options": [
+            "A. Active",
+            "B. Passive",
+            "C. On",
+            "D. Auto"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_187",
+      "conceptId": "ccnp-infrastructure-18",
+      "concept": "UniDirectional Link Detection",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "udld"
+      ],
+      "variants": [
+        {
+          "text": "What does UDLD protect against?",
+          "options": [
+            "A. Unidirectional links (one-way fiber failures)",
+            "B. Broadcast storms",
+            "C. MAC table overflow",
+            "D. Routing loops"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_188",
+      "conceptId": "ccnp-infrastructure-19",
+      "concept": "PIM sparse mode",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "pim"
+      ],
+      "variants": [
+        {
+          "text": "How does PIM Sparse Mode build multicast distribution trees?",
+          "options": [
+            "A. Receivers join via explicit RP discovery",
+            "B. Routers flood all multicast traffic",
+            "C. RPF checks are not needed",
+            "D. Dense flooding first then pruning"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_189",
+      "conceptId": "ccnp-infrastructure-20",
+      "concept": "IGMP snooping",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "igmp"
+      ],
+      "variants": [
+        {
+          "text": "What is the primary benefit of IGMP snooping on a switch?",
+          "options": [
+            "A. Limit multicast traffic to only interested receivers",
+            "B. Eliminate all multicast traffic",
+            "C. Increase multicast transmission speed",
+            "D. Convert multicast to unicast"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_190",
+      "conceptId": "ccnp-infrastructure-21",
+      "concept": "IPv6 OSPFv3",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ospf",
+        "ipv6"
+      ],
+      "variants": [
+        {
+          "text": "What is the key difference between OSPFv2 and OSPFv3?",
+          "options": [
+            "A. OSPFv3 runs on a per-link basis, not per-subnet",
+            "B. OSPFv3 does not support authentication",
+            "C. OSPFv3 only supports IPv4",
+            "D. OSPFv3 uses a different SPF algorithm"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_191",
+      "conceptId": "ccnp-infrastructure-22",
+      "concept": "OSPF stub area",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ospf-area"
+      ],
+      "variants": [
+        {
+          "text": "What LSA types are blocked in an OSPF Stub area?",
+          "options": [
+            "A. Type 4 and Type 5",
+            "B. Type 3 and Type 4",
+            "C. Type 1 and Type 2",
+            "D. Only Type 5"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_192",
+      "conceptId": "ccnp-infrastructure-23",
+      "concept": "OSPF path selection",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ospf"
+      ],
+      "variants": [
+        {
+          "text": "Which OSPF path type has the highest preference?",
+          "options": [
+            "A. Intra-area (O)",
+            "B. Inter-area (O IA)",
+            "C. External Type 1 (E1)",
+            "D. External Type 2 (E2)"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_193",
+      "conceptId": "ccnp-infrastructure-24",
+      "concept": "EIGRP wide metrics",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "eigrp"
+      ],
+      "variants": [
+        {
+          "text": "What is the scale factor for EIGRP wide metrics (named mode)?",
+          "options": [
+            "A. 256 × classic metric",
+            "B. 1 (same as classic)",
+            "C. 65536 × classic metric",
+            "D. 1000 × classic metric"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_194",
+      "conceptId": "ccnp-infrastructure-25",
+      "concept": "BGP MED",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "bgp-med"
+      ],
+      "variants": [
+        {
+          "text": "How is BGP MED used in path selection?",
+          "options": [
+            "A. Lower MED is preferred, sent to EBGP peers",
+            "B. Higher MED is preferred",
+            "C. MED is only used in IBGP",
+            "D. MED replaces AS_PATH"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_195",
+      "conceptId": "ccnp-infrastructure-26",
+      "concept": "BGP AS_PATH prepend",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "bgp"
+      ],
+      "variants": [
+        {
+          "text": "What does AS_PATH prepending do?",
+          "options": [
+            "A. Adds dummy AS numbers to make path appear longer",
+            "B. Removes AS numbers from the AS_PATH",
+            "C. Encrypts the AS_PATH attribute",
+            "D. Sorts the AS_PATH in numerical order"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_196",
+      "conceptId": "ccnp-infrastructure-27",
+      "concept": "BGP route reflector",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "bgp-rr"
+      ],
+      "variants": [
+        {
+          "text": "What problem does a BGP route reflector solve?",
+          "options": [
+            "A. Reduces the number of IBGP peering sessions required",
+            "B. Eliminates EBGP peering",
+            "C. Increases bandwidth between BGP peers",
+            "D. Automatically redistributes IGP routes"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_197",
+      "conceptId": "ccnp-infrastructure-28",
+      "concept": "BGP confederations",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "bgp-confed"
+      ],
+      "variants": [
+        {
+          "text": "BGP confederations are an alternative to what?",
+          "options": [
+            "A. Route reflectors for IBGP scalability",
+            "B. EBGP multihop",
+            "C. BGP communities",
+            "D. BGP multipath"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_198",
+      "conceptId": "ccnp-infrastructure-29",
+      "concept": "IP SLA",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ipsla"
+      ],
+      "variants": [
+        {
+          "text": "What is the primary use of Cisco IP SLA?",
+          "options": [
+            "A. Measure network performance metrics like latency and jitter",
+            "B. Improve routing convergence",
+            "C. Configure QoS policies",
+            "D. Automate device backups"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_199",
+      "conceptId": "ccnp-infrastructure-30",
+      "concept": "NAT64",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "nat64"
+      ],
+      "variants": [
+        {
+          "text": "What does NAT64 enable?",
+          "options": [
+            "A. IPv6-only clients to communicate with IPv4 servers",
+            "B. IPv4-to-IPv4 translation",
+            "C. IPv6-to-IPv6 only translation",
+            "D. Encrypted network traversal"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_200",
+      "conceptId": "ccnp-infrastructure-31",
+      "concept": "DHCPv6",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "dhcpv6"
+      ],
+      "variants": [
+        {
+          "text": "In DHCPv6 stateful operation, what does the server assign?",
+          "options": [
+            "A. IPv6 address and other parameters",
+            "B. Only prefix information",
+            "C. Only DNS server",
+            "D. Only domain name"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_201",
+      "conceptId": "ccnp-infrastructure-32",
+      "concept": "First Hop Redundancy",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "fhrp"
+      ],
+      "variants": [
+        {
+          "text": "Which FHRP protocol is Cisco proprietary and uses an active/standby model?",
+          "options": [
+            "A. HSRP",
+            "B. VRRP",
+            "C. GLBP",
+            "D. ICMP Router Discovery"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_202",
+      "conceptId": "ccnp-infrastructure-33",
+      "concept": "GLBP",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "glbp"
+      ],
+      "variants": [
+        {
+          "text": "What unique feature does GLBP provide that HSRP does not?",
+          "options": [
+            "A. Load balancing across multiple routers",
+            "B. Active/standby failover",
+            "C. Virtual IP address",
+            "D. Preemption capability"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_203",
+      "conceptId": "ccnp-infrastructure-34",
+      "concept": "EtherChannel LACP",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "lacp"
+      ],
+      "variants": [
+        {
+          "text": "What is the maximum number of LACP ports allowed in a single EtherChannel on Cisco switches?",
+          "options": [
+            "A. 16 (8 active, 8 standby)",
+            "B. 8 (all active)",
+            "C. 4 (all active)",
+            "D. 32 (16 active, 16 standby)"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_204",
+      "conceptId": "ccnp-infrastructure-35",
+      "concept": "FlexLinks",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "flexlinks"
+      ],
+      "variants": [
+        {
+          "text": "What are Cisco FlexLinks?",
+          "options": [
+            "A. A pair of Layer 2 interfaces with one active and one standby",
+            "B. A type of fiber optic connector",
+            "C. A QoS scheduling mechanism",
+            "D. A virtual port channel technology"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_205",
+      "conceptId": "ccnp-infrastructure-36",
+      "concept": "StackWise Virtual",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "stackwise"
+      ],
+      "variants": [
+        {
+          "text": "What is Cisco StackWise Virtual on Catalyst 9500 switches?",
+          "options": [
+            "A. Two physical switches operate as one logical switch",
+            "B. A physical stacking cable technology",
+            "C. A virtual router redundancy protocol",
+            "D. A cloud-based switching service"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_206",
+      "conceptId": "ccnp-infrastructure-37",
+      "concept": "VTP",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "vtp"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of VTP (VLAN Trunking Protocol)?",
+          "options": [
+            "A. Distribute VLAN information across switches",
+            "B. Automatically assign IP addresses to switches",
+            "C. Configure trunk ports dynamically",
+            "D. Manage switch MAC address tables"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_207",
+      "conceptId": "ccnp-infrastructure-38",
+      "concept": "PBR",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "pbr"
+      ],
+      "variants": [
+        {
+          "text": "What is Policy-Based Routing used for?",
+          "options": [
+            "A. Forward packets based on extended ACL matching",
+            "B. Replace the routing table",
+            "C. Dynamically adjust OSPF metrics",
+            "D. Filter BGP routes"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_208",
+      "conceptId": "ccnp-infrastructure-39",
+      "concept": "DHCP relay",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "dhcp"
+      ],
+      "variants": [
+        {
+          "text": "What command configures a DHCP relay on a Cisco interface?",
+          "options": [
+            "A. ip helper-address x.x.x.x",
+            "B. ip dhcp relay x.x.x.x",
+            "C. dhcp relay agent",
+            "D. ip forward-address x.x.x.x"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_209",
+      "conceptId": "ccnp-infrastructure-40",
+      "concept": "Cisco Express Forwarding",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "cef"
+      ],
+      "variants": [
+        {
+          "text": "What are the two main tables used in CEF?",
+          "options": [
+            "A. FIB and Adjacency Table",
+            "B. Routing Table and ARP Cache",
+            "C. MAC Table and CAM Table",
+            "D. CAM and TCAM"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_210",
+      "conceptId": "ccnp-infrastructure-41",
+      "concept": "TCAM",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "tcam"
+      ],
+      "variants": [
+        {
+          "text": "What is TCAM used for in switches?",
+          "options": [
+            "A. High-speed lookups for ACLs and QoS at line rate",
+            "B. Store routing tables for OSPF",
+            "C. Encrypt data plane traffic",
+            "D. Manage power over Ethernet"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_211",
+      "conceptId": "ccnp-infrastructure-42",
+      "concept": "IP multicast RP",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "pim-rp"
+      ],
+      "variants": [
+        {
+          "text": "In PIM SM, what is the function of the RP (Rendezvous Point)?",
+          "options": [
+            "A. Meeting point for multicast sources and receivers",
+            "B. Root of the shared distribution tree",
+            "C. Router that forwards broadcast to multicast",
+            "D. Multicast source discovery"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_212",
+      "conceptId": "ccnp-infrastructure-43",
+      "concept": "Anycast RP",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "anycast-rp"
+      ],
+      "variants": [
+        {
+          "text": "What is Anycast RP used for in PIM?",
+          "options": [
+            "A. Redundancy and load sharing for RP function",
+            "B. Replace the need for MSDP",
+            "C. Eliminate IGMP snooping",
+            "D. Faster PIM convergence"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_213",
+      "conceptId": "ccnp-infrastructure-44",
+      "concept": "OSPF Graceful Restart",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "ospf-ha"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of OSPF Graceful Restart?",
+          "options": [
+            "A. Continue forwarding during control plane restart",
+            "B. Reboot the router faster",
+            "C. Reduce OSPF database size",
+            "D. Automatically adjust OSPF timers"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_214",
+      "conceptId": "ccnp-infrastructure-45",
+      "concept": "BGP add-path",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "bgp-addpath"
+      ],
+      "variants": [
+        {
+          "text": "What does BGP add-path feature enable?",
+          "options": [
+            "A. Advertise multiple paths for the same prefix",
+            "B. Add new paths to the routing table",
+            "C. Dynamically add BGP peers",
+            "D. Add route reflectors automatically"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_215",
+      "conceptId": "ccnp-infrastructure-46",
+      "concept": "OSPF prefix suppression",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "ospf"
+      ],
+      "variants": [
+        {
+          "text": "What does OSPF prefix suppression do?",
+          "options": [
+            "A. Do not advertise certain prefixes in Type 1 LSAs",
+            "B. Suppress all LSA flooding on a link",
+            "C. Filter Type 5 LSAs",
+            "D. Disable OSPF on an interface"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_216",
+      "conceptId": "ccnp-infrastructure-47",
+      "concept": "BGP Flowspec",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "bgp-flowspec"
+      ],
+      "variants": [
+        {
+          "text": "What is BGP Flowspec used for?",
+          "options": [
+            "A. Distribute traffic flow specifications for filtering or rate-limiting",
+            "B. Accelerate BGP convergence",
+            "C. Compress BGP update messages",
+            "D. Encrypt BGP sessions"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_217",
+      "conceptId": "ccnp-network-assurance-9",
+      "concept": "Cisco DNA Assurance",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "dna-assurance"
+      ],
+      "variants": [
+        {
+          "text": "What does Cisco DNA Assurance provide?",
+          "options": [
+            "A. Proactive network monitoring with AI/ML insights",
+            "B. Basic SNMP polling and alerts",
+            "C. Manual CLI-based troubleshooting",
+            "D. Only wireless monitoring"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_218",
+      "conceptId": "ccnp-network-assurance-10",
+      "concept": "Configuration archival",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "config-archive"
+      ],
+      "variants": [
+        {
+          "text": "What Cisco feature automatically backs up configurations?",
+          "options": [
+            "A. Archive and RCP/TFTP",
+            "B. Auto-backup",
+            "C. Config rollback timer",
+            "D. Version control integration"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_219",
+      "conceptId": "ccnp-network-assurance-11",
+      "concept": "Network Time Protocol",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ntp"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of NTP authentication?",
+          "options": [
+            "A. Prevent unauthorized time source manipulation",
+            "B. Encrypt NTP packets",
+            "C. Speed up NTP synchronization",
+            "D. Reduce NTP traffic"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_220",
+      "conceptId": "ccnp-network-assurance-12",
+      "concept": "Smart Licensing",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "licensing"
+      ],
+      "variants": [
+        {
+          "text": "How does Cisco Smart Licensing differ from traditional licensing?",
+          "options": [
+            "A. No PAK keys: licenses are consumed from a pool",
+            "B. Requires per-device license keys",
+            "C. Only available for routers",
+            "D. Licenses expire after 30 days"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_221",
+      "conceptId": "ccnp-network-assurance-13",
+      "concept": "DNA Center monitoring",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "dnac-mon"
+      ],
+      "variants": [
+        {
+          "text": "What protocols does Cisco DNA Center use for device monitoring?",
+          "options": [
+            "A. SNMP, CLI (SSH), NETCONF, and Telemetry",
+            "B. Only SNMP",
+            "C. Only ICMP",
+            "D. Only Syslog"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_222",
+      "conceptId": "ccnp-network-assurance-14",
+      "concept": "EEM (Embedded Event Manager)",
+      "domain": "Network Assurance",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "eem"
+      ],
+      "variants": [
+        {
+          "text": "What can Cisco EEM be used for?",
+          "options": [
+            "A. Automate responses to network events (e.g., send email, reload)",
+            "B. Replace SNMP polling",
+            "C. Automate routing protocol configuration",
+            "D. Replace NetFlow"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_223",
+      "conceptId": "ccnp-network-assurance-15",
+      "concept": "SLA monitoring",
+      "domain": "Network Assurance",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "ipsla-responder"
+      ],
+      "variants": [
+        {
+          "text": "What is the primary use of IP SLA responder?",
+          "options": [
+            "A. Enable accurate one-way delay and jitter measurements",
+            "B. Respond to ICMP echo requests faster",
+            "C. Provide SNMP trap generation",
+            "D. Increase IP SLA security"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_224",
+      "conceptId": "ccnp-network-assurance-16",
+      "concept": "Telemetry data types",
+      "domain": "Network Assurance",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "telemetry"
+      ],
+      "variants": [
+        {
+          "text": "What is the difference between periodic and event-driven telemetry?",
+          "options": [
+            "A. Periodic streams data at intervals; event-driven sends on state change",
+            "B. Periodic requires more bandwidth",
+            "C. Event-driven uses more CPU",
+            "D. No difference in operation"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_225",
+      "conceptId": "ccnp-network-assurance-17",
+      "concept": "YANG models",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "yang"
+      ],
+      "variants": [
+        {
+          "text": "What is a YANG model?",
+          "options": [
+            "A. A data model defining configuration and state for network devices",
+            "B. A scripting language for automation",
+            "C. A transport protocol for network management",
+            "D. A database schema"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_226",
+      "conceptId": "ccnp-network-assurance-18",
+      "concept": "Device discovery",
+      "domain": "Network Assurance",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "cdp"
+      ],
+      "variants": [
+        {
+          "text": "What protocol does Cisco devices use to discover directly connected neighbors?",
+          "options": [
+            "A. CDP (Cisco Discovery Protocol)",
+            "B. LLDP only",
+            "C. ARP only",
+            "D. STP only"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_227",
+      "conceptId": "ccnp-network-assurance-19",
+      "concept": "Performance monitoring",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "assurance"
+      ],
+      "variants": [
+        {
+          "text": "What metric does Cisco DNA Assurance use for client experience scoring?",
+          "options": [
+            "A. Network, Application, and Device scores",
+            "B. Only bandwidth utilization",
+            "C. Only uptime",
+            "D. Only signal strength"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_228",
+      "conceptId": "ccnp-network-assurance-1",
+      "concept": "NetFlow components",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "netflow"
+      ],
+      "variants": [
+        {
+          "text": "What are the three main components of Cisco NetFlow?",
+          "options": [
+            "A. Exporter, Collector, Analyzer",
+            "B. Sensor, Server, Database",
+            "C. Agent, Manager, Monitor",
+            "D. Source, Destination, Flow"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_229",
+      "conceptId": "ccnp-network-assurance-2",
+      "concept": "NetFlow flow record",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "netflow"
+      ],
+      "variants": [
+        {
+          "text": "What is a NetFlow flow key typically defined by?",
+          "options": [
+            "A. 7-tuple (IP, ports, protocol, ToS, interface)",
+            "B. Source IP only",
+            "C. Destination IP only",
+            "D. MAC address only"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_230",
+      "conceptId": "ccnp-network-assurance-3",
+      "concept": "SNMPv3 security",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "snmp"
+      ],
+      "variants": [
+        {
+          "text": "Which SNMPv3 security level uses authentication but no encryption?",
+          "options": [
+            "A. authNoPriv",
+            "B. noAuthNoPriv",
+            "C. authPriv",
+            "D. noAuthPriv"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_231",
+      "conceptId": "ccnp-network-assurance-4",
+      "concept": "SNMP MIB",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "snmp-mib"
+      ],
+      "variants": [
+        {
+          "text": "What is stored in an SNMP MIB?",
+          "options": [
+            "A. Hierarchical object identifiers for managed device attributes",
+            "B. Logging configuration",
+            "C. User credentials",
+            "D. Backup configuration files"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_232",
+      "conceptId": "ccnp-network-assurance-5",
+      "concept": "IP SLA operations",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ipsla"
+      ],
+      "variants": [
+        {
+          "text": "Which IP SLA operation measures UDP jitter?",
+          "options": [
+            "A. UDP Jitter",
+            "B. ICMP Echo",
+            "C. TCP Connect",
+            "D. DHCP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_233",
+      "conceptId": "ccnp-network-assurance-6",
+      "concept": "SPAN and RSPAN",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "span"
+      ],
+      "variants": [
+        {
+          "text": "What is the difference between SPAN and RSPAN?",
+          "options": [
+            "A. RSPAN transports mirrored traffic across network to a remote analyzer",
+            "B. SPAN uses VLAN tags, RSPAN does not",
+            "C. RSPAN can only monitor one port at a time",
+            "D. SPAN only works on routers"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_234",
+      "conceptId": "ccnp-network-assurance-7",
+      "concept": "ERSPAN",
+      "domain": "Network Assurance",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "erspan"
+      ],
+      "variants": [
+        {
+          "text": "What encapsulation does ERSPAN use to transport mirrored traffic?",
+          "options": [
+            "A. GRE encapsulation IP-in-IP",
+            "B. MPLS encapsulation",
+            "C. UDP encapsulation",
+            "D. VLAN stacking"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_235",
+      "conceptId": "ccnp-network-assurance-8",
+      "concept": "Syslog severity",
+      "domain": "Network Assurance",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "syslog"
+      ],
+      "variants": [
+        {
+          "text": "Which syslog severity level indicates a critical condition?",
+          "options": [
+            "A. Level 2 (Critical)",
+            "B. Level 3 (Error)",
+            "C. Level 4 (Warning)",
+            "D. Level 1 (Alert)"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_236",
+      "conceptId": "ccnp-security-12",
+      "concept": "RADIUS ports",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "aaa"
+      ],
+      "variants": [
+        {
+          "text": "Which UDP ports does RADIUS use?",
+          "options": [
+            "A. 1812 (auth) and 1813 (accounting)",
+            "B. 1645 and 1646",
+            "C. 389 and 636",
+            "D. 443 and 80"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_237",
+      "conceptId": "ccnp-security-13",
+      "concept": "TACACS+ ports",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "aaa"
+      ],
+      "variants": [
+        {
+          "text": "Which TCP port does TACACS+ use?",
+          "options": [
+            "A. TCP 49",
+            "B. TCP 1812",
+            "C. TCP 1645",
+            "D. TCP 389"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_238",
+      "conceptId": "ccnp-security-14",
+      "concept": "IPv6 RA Guard",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "ra-guard"
+      ],
+      "variants": [
+        {
+          "text": "What does IPv6 RA Guard prevent?",
+          "options": [
+            "A. Rogue router advertisements on the segment",
+            "B. Duplicate address detection attacks",
+            "C. DHCPv6 spoofing",
+            "D. IPv6 fragmentation attacks"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_239",
+      "conceptId": "ccnp-security-15",
+      "concept": "DHCPv6 Guard",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "dhcpv6-guard"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of DHCPv6 Guard?",
+          "options": [
+            "A. Block unauthorized DHCPv6 server replies",
+            "B. Encrypt DHCPv6 traffic",
+            "C. Block IPv6 Neighbor Discovery",
+            "D. Rate-limit DHCPv6 requests"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_240",
+      "conceptId": "ccnp-security-16",
+      "concept": "Unicast RPF",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "urpf"
+      ],
+      "variants": [
+        {
+          "text": "What does Unicast RPF (Reverse Path Forwarding) check?",
+          "options": [
+            "A. Source IP matches routing table entry for return path",
+            "B. Destination IP reachability",
+            "C. TCP sequence numbers",
+            "D. ARP cache validity"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_241",
+      "conceptId": "ccnp-security-17",
+      "concept": "Private VLANs",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "pvlan"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of a Private VLAN?",
+          "options": [
+            "A. Isolate ports within the same VLAN at Layer 2",
+            "B. Encrypt VLAN traffic",
+            "C. Extend VLAN across WAN",
+            "D. Create private VLAN for guests"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_242",
+      "conceptId": "ccnp-security-18",
+      "concept": "BPDU Guard",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "stp-guard"
+      ],
+      "variants": [
+        {
+          "text": "What does BPDU Guard do on an access port?",
+          "options": [
+            "A. Shut down the port if a BPDU is received",
+            "B. Block BPDU transmission on trunk ports",
+            "C. Filter all BPDUs on the switch",
+            "D. Rate-limit BPDUs received"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_243",
+      "conceptId": "ccnp-security-19",
+      "concept": "Root Guard",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "stp-guard"
+      ],
+      "variants": [
+        {
+          "text": "What does STP Root Guard do?",
+          "options": [
+            "A. Prevent a port from becoming STP root port",
+            "B. Prevent the switch from becoming root bridge",
+            "C. Block BPDUs on the port",
+            "D. Disable STP on the port"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_244",
+      "conceptId": "ccnp-security-20",
+      "concept": "IP Source Guard",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ipsg"
+      ],
+      "variants": [
+        {
+          "text": "What does IP Source Guard prevent?",
+          "options": [
+            "A. IP spoofing by binding IP to port and MAC",
+            "B. ARP spoofing attacks",
+            "C. DHCP starvation attacks",
+            "D. VLAN hopping attacks"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_245",
+      "conceptId": "ccnp-security-21",
+      "concept": "Dynamic ARP Inspection",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "dai"
+      ],
+      "variants": [
+        {
+          "text": "What does Dynamic ARP Inspection (DAI) rely on for validation?",
+          "options": [
+            "A. DHCP Snooping binding database",
+            "B. STATIC ARP entries",
+            "C. DNS replies",
+            "D. CDP neighbor information"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_246",
+      "conceptId": "ccnp-security-22",
+      "concept": "Storm Control",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "storm-control"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of storm control?",
+          "options": [
+            "A. Limit broadcast, multicast, or unknown unicast traffic rate",
+            "B. Block all broadcast traffic",
+            "C. Prevent routing protocol storms",
+            "D. Control CPU storm conditions"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_247",
+      "conceptId": "ccnp-security-23",
+      "concept": "AAA authorization",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "aaa"
+      ],
+      "variants": [
+        {
+          "text": "What does AAA authorization control?",
+          "options": [
+            "A. What services a user can access after authentication",
+            "B. User password complexity",
+            "C. Encryption methods for VPN",
+            "D. Logging level for user actions"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_248",
+      "conceptId": "ccnp-security-24",
+      "concept": "AAA accounting",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "aaa-acc"
+      ],
+      "variants": [
+        {
+          "text": "What does AAA accounting track?",
+          "options": [
+            "A. User activity for auditing and billing",
+            "B. Password changes only",
+            "C. Routing updates only",
+            "D. Interface state changes only"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_249",
+      "conceptId": "ccnp-security-25",
+      "concept": "Local AAA",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "aaa-local"
+      ],
+      "variants": [
+        {
+          "text": "What is a limitation of local AAA authentication?",
+          "options": [
+            "A. Scales poorly as each device stores its own user database",
+            "B. Cannot encrypt passwords",
+            "C. Does not support SSH",
+            "D. Only works with Telnet"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_250",
+      "conceptId": "ccnp-security-26",
+      "concept": "IPsec VPN IKEv2",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "ikev2"
+      ],
+      "variants": [
+        {
+          "text": "What is an advantage of IKEv2 over IKEv1?",
+          "options": [
+            "A. Built-in NAT traversal, DPD, and MOBIKE support",
+            "B. Requires fewer packets for setup",
+            "C. Does not need certificates",
+            "D. Only uses AES encryption"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_251",
+      "conceptId": "ccnp-security-27",
+      "concept": "FlexVPN",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "flexvpn"
+      ],
+      "variants": [
+        {
+          "text": "What is Cisco FlexVPN based on?",
+          "options": [
+            "A. IKEv2 with extensive use of AAA for policy",
+            "B. DMVPN Phase 3",
+            "C. GET VPN",
+            "D. SSL VPN"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_252",
+      "conceptId": "ccnp-security-28",
+      "concept": "GET VPN",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "getvpn"
+      ],
+      "variants": [
+        {
+          "text": "What is GET VPN primarily used for?",
+          "options": [
+            "A. Group encryption without tunnels, preserving IP header",
+            "B. Remote access VPN",
+            "C. Site-to-site IPsec VPN",
+            "D. SSL VPN for enterprise"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_253",
+      "conceptId": "ccnp-security-29",
+      "concept": "MACsec",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "macsec"
+      ],
+      "variants": [
+        {
+          "text": "What does MACsec (802.1AE) provide?",
+          "options": [
+            "A. Layer 2 encryption between directly connected devices",
+            "B. Layer 3 IPsec encryption",
+            "C. Application layer encryption",
+            "D. Wireless encryption"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_254",
+      "conceptId": "ccnp-security-30",
+      "concept": "Control Plane Protection",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "copp"
+      ],
+      "variants": [
+        {
+          "text": "What is the difference between CoPP and CPPr?",
+          "options": [
+            "A. CPPr provides more granular sub-classification within control plane",
+            "B. CoPP is more granular",
+            "C. CPPr only applies to the management plane",
+            "D. CoPP applies to Layer 3 only"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_255",
+      "conceptId": "ccnp-security-31",
+      "concept": "Cisco Umbrella",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "umbrella"
+      ],
+      "variants": [
+        {
+          "text": "What security function does Cisco Umbrella provide?",
+          "options": [
+            "A. Cloud-delivered DNS-layer security and internet threat protection",
+            "B. On-premises firewall",
+            "C. Network access control",
+            "D. Endpoint antivirus"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_256",
+      "conceptId": "ccnp-security-32",
+      "concept": "Stealthwatch",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "stealthwatch"
+      ],
+      "variants": [
+        {
+          "text": "What does Cisco Stealthwatch analyze for security threats?",
+          "options": [
+            "A. NetFlow data to detect anomalous behavior",
+            "B. Packet payload content",
+            "C. Application logs only",
+            "D. User passwords"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_257",
+      "conceptId": "ccnp-security-33",
+      "concept": "Cisco AMP",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "amp"
+      ],
+      "variants": [
+        {
+          "text": "What is Cisco AMP (Advanced Malware Protection) for networks?",
+          "options": [
+            "A. File analysis and threat detection across network traffic",
+            "B. Firewall replacement",
+            "C. VPN concentrator",
+            "D. Wireless security scanner"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_258",
+      "conceptId": "ccnp-security-34",
+      "concept": "Cisco AnyConnect",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "anyconnect"
+      ],
+      "variants": [
+        {
+          "text": "What VPN types does Cisco AnyConnect support?",
+          "options": [
+            "A. SSL VPN and IPsec IKEv2 VPN",
+            "B. Only PPTP VPN",
+            "C. Only L2TP VPN",
+            "D. Only DMVPN"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_259",
+      "conceptId": "ccnp-security-35",
+      "concept": "MACsec key agreement",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "macsec"
+      ],
+      "variants": [
+        {
+          "text": "What protocol is used for MACsec key agreement on Cisco switches?",
+          "options": [
+            "A. MKA (MACsec Key Agreement)",
+            "B. IKEv2",
+            "C. EAP-TLS",
+            "D. RADIUS Key Management"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_260",
+      "conceptId": "ccnp-security-36",
+      "concept": "Cisco pxGrid",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "pxgrid"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of pxGrid in the Cisco security ecosystem?",
+          "options": [
+            "A. Real-time sharing of context and policy between security products",
+            "B. RADIUS proxy service",
+            "C. Certificate management",
+            "D. VPN session management"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_261",
+      "conceptId": "ccnp-security-37",
+      "concept": "Control Plane Policing (variant)",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "copp"
+      ],
+      "variants": [
+        {
+          "text": "What does CoPP protect the router control plane from?",
+          "options": [
+            "A. Excessive traffic overwhelming the CPU",
+            "B. MAC address table overflow",
+            "C. VLAN hopping attacks",
+            "D. DHCP starvation"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_262",
+      "conceptId": "ccnp-security-1",
+      "concept": "Control Plane Policing",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "copp"
+      ],
+      "variants": [
+        {
+          "text": "What does CoPP protect the router control plane from?",
+          "options": [
+            "A. Excessive traffic overwhelming the CPU",
+            "B. MAC address table overflow",
+            "C. VLAN hopping attacks",
+            "D. DHCP starvation"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_263",
+      "conceptId": "ccnp-security-2",
+      "concept": "CoPP classification",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "copp"
+      ],
+      "variants": [
+        {
+          "text": "How is CoPP configured on a Cisco router?",
+          "options": [
+            "A. Class-map matching traffic, policy-map with police, applied to control-plane",
+            "B. ACL on the management interface",
+            "C. Zone-based firewall policy",
+            "D. QoS on all interfaces"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_264",
+      "conceptId": "ccnp-security-3",
+      "concept": "802.1X authentication",
+      "domain": "Security",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "802.1x"
+      ],
+      "variants": [
+        {
+          "text": "What are the three roles in 802.1X authentication?",
+          "options": [
+            "A. Supplicant, Authenticator, Authentication Server",
+            "B. Client, Switch, Router",
+            "C. User, AP, Controller",
+            "D. Host, NAS, DNS Server"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_265",
+      "conceptId": "ccnp-security-4",
+      "concept": "MAB (MAC Auth Bypass)",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "mab"
+      ],
+      "variants": [
+        {
+          "text": "When is MAB used in the 802.1X framework?",
+          "options": [
+            "A. For devices that do not support 802.1X supplicant",
+            "B. As a replacement for RADIUS",
+            "C. To encrypt the authentication process",
+            "D. To replace VLAN assignment"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_266",
+      "conceptId": "ccnp-security-5",
+      "concept": "Cisco TrustSec",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "trustsec"
+      ],
+      "variants": [
+        {
+          "text": "What does Cisco TrustSec use for endpoint classification?",
+          "options": [
+            "A. SGT (Security Group Tag)",
+            "B. VLAN ID",
+            "C. IP address",
+            "D. MAC address"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_267",
+      "conceptId": "ccnp-security-6",
+      "concept": "SXP",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "sxp"
+      ],
+      "variants": [
+        {
+          "text": "What is SXP (SGT Exchange Protocol) used for?",
+          "options": [
+            "A. Propagate SGT mappings across network devices",
+            "B. Encrypt IPsec packets",
+            "C. Replace 802.1X authentication",
+            "D. Monitor network traffic"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_268",
+      "conceptId": "ccnp-security-7",
+      "concept": "Zone-based firewall",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "zfwa"
+      ],
+      "variants": [
+        {
+          "text": "In Cisco Zone-Based Firewall, traffic from Zone A to Zone B must be...",
+          "options": [
+            "A. Explicitly permitted by a zone-pair policy",
+            "B. Always permitted",
+            "C. Always denied",
+            "D. Permitted if ACL allows"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_269",
+      "conceptId": "ccnp-security-8",
+      "concept": "Zone-pair policy",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "zfwa"
+      ],
+      "variants": [
+        {
+          "text": "What is the default action for inter-zone traffic in ZBFW?",
+          "options": [
+            "A. Deny (no inspect, no pass)",
+            "B. Permit",
+            "C. Inspect all traffic",
+            "D. Log only"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_270",
+      "conceptId": "ccnp-security-9",
+      "concept": "Cisco ISE",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ise"
+      ],
+      "variants": [
+        {
+          "text": "What is Cisco ISE primarily used for?",
+          "options": [
+            "A. Identity-based network access control and policy enforcement",
+            "B. Routing protocol management",
+            "C. WAN optimization",
+            "D. Network automation"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_271",
+      "conceptId": "ccnp-security-10",
+      "concept": "ISE PSN",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ise"
+      ],
+      "variants": [
+        {
+          "text": "What is the function of a Cisco ISE PSN (Policy Service Node)?",
+          "options": [
+            "A. Handle RADIUS authentication and authorization requests",
+            "B. Store all policy configurations",
+            "C. Generate reports only",
+            "D. Act as a certificate authority"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_272",
+      "conceptId": "ccnp-security-11",
+      "concept": "RADIUS vs TACACS+",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "aaa"
+      ],
+      "variants": [
+        {
+          "text": "Which protocol encrypts all communication including the body of packets?",
+          "options": [
+            "A. TACACS+ (encrypts entire payload)",
+            "B. RADIUS (encrypts only password)",
+            "C. Both encrypt all traffic",
+            "D. Neither provides encryption"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_273",
+      "conceptId": "ccnp-automation-20",
+      "concept": "Cisco APIs",
+      "domain": "Automation",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "iosxe-api"
+      ],
+      "variants": [
+        {
+          "text": "What is the Cisco IOS XE REST API based on?",
+          "options": [
+            "A. RESTful API with YANG data models via RESTCONF",
+            "B. SOAP-based API",
+            "C. NetFlow export format",
+            "D. Simple CLI command output"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_274",
+      "conceptId": "ccnp-automation-21",
+      "concept": "YANG module types",
+      "domain": "Automation",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "yang"
+      ],
+      "variants": [
+        {
+          "text": "What is the difference between a YANG native model and an open model?",
+          "options": [
+            "A. Native models are vendor-specific; open models are standards-based",
+            "B. Native models are always used for configuration",
+            "C. Open models are easier to implement",
+            "D. Native models cannot be extended"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_275",
+      "conceptId": "ccnp-automation-22",
+      "concept": "Model-driven programmability",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "mdt"
+      ],
+      "variants": [
+        {
+          "text": "What is the benefit of model-driven programmability?",
+          "options": [
+            "A. Structured data, programmatic access, and multivendor support",
+            "B. Faster CLI scripting",
+            "C. Reduced need for authentication",
+            "D. Manual configuration with less errors"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_276",
+      "conceptId": "ccnp-automation-23",
+      "concept": "Python nornir",
+      "domain": "Automation",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "python",
+        "nornir"
+      ],
+      "variants": [
+        {
+          "text": "What is the Nornir automation framework?",
+          "options": [
+            "A. A Python framework for multi-threaded network automation",
+            "B. Ansible alternative written in Go",
+            "C. A network monitoring tool",
+            "D. A YANG validator"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_277",
+      "conceptId": "ccnp-automation-24",
+      "concept": "Git for networking",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "git"
+      ],
+      "variants": [
+        {
+          "text": "How is Git used in network automation?",
+          "options": [
+            "A. Version control for network configurations and automation scripts",
+            "B. Run automation playbooks",
+            "C. Configure network devices directly",
+            "D. Monitor network performance"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_278",
+      "conceptId": "ccnp-automation-25",
+      "concept": "CI/CD for networks",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "cicd"
+      ],
+      "variants": [
+        {
+          "text": "What is the benefit of CI/CD pipelines for network changes?",
+          "options": [
+            "A. Automated testing and validation before deployment",
+            "B. Manual approval process",
+            "C. Automatically rejecting all changes",
+            "D. Replacing the need for network engineers"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_279",
+      "conceptId": "ccnp-automation-26",
+      "concept": "Cisco SD-WAN API",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "sdwan-api"
+      ],
+      "variants": [
+        {
+          "text": "What can the Cisco SD-WAN vManage API be used for?",
+          "options": [
+            "A. Automate policy creation, device template deployment, and monitoring",
+            "B. Only read syslog messages",
+            "C. Only backup configurations",
+            "D. Only view dashboard graphs"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_280",
+      "conceptId": "ccnp-automation-27",
+      "concept": "Ansible Cisco modules",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ansible"
+      ],
+      "variants": [
+        {
+          "text": "Which module does Ansible use to run CLI commands on Cisco devices?",
+          "options": [
+            "A. cisco.ios.ios_command",
+            "B. cisco_command",
+            "C. ios_cli",
+            "D. run_ios_commands"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_281",
+      "conceptId": "ccnp-automation-28",
+      "concept": "Postman for APIs",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "postman"
+      ],
+      "variants": [
+        {
+          "text": "What is Postman commonly used for in network automation?",
+          "options": [
+            "A. Testing REST API calls against network controllers",
+            "B. Automation scripting",
+            "C. YANG model compilation",
+            "D. Configuration backup"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_282",
+      "conceptId": "ccnp-automation-1",
+      "concept": "REST API methods",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "rest"
+      ],
+      "variants": [
+        {
+          "text": "Which HTTP method is used to retrieve data from a REST API?",
+          "options": [
+            "A. GET",
+            "B. POST",
+            "C. PUT",
+            "D. DELETE"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_283",
+      "conceptId": "ccnp-automation-2",
+      "concept": "REST API status codes",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "rest"
+      ],
+      "variants": [
+        {
+          "text": "What does HTTP status code 201 indicate in a REST API response?",
+          "options": [
+            "A. Created (resource created successfully)",
+            "B. OK (success)",
+            "C. No Content",
+            "D. Accepted"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_284",
+      "conceptId": "ccnp-automation-3",
+      "concept": "JSON data format",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "json"
+      ],
+      "variants": [
+        {
+          "text": "Which data types are valid in JSON?",
+          "options": [
+            "A. String, Number, Boolean, Array, Object, Null",
+            "B. Only String and Number",
+            "C. Only String and Boolean",
+            "D. String, Number, Boolean, Function"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_285",
+      "conceptId": "ccnp-automation-4",
+      "concept": "XML vs JSON",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "json"
+      ],
+      "variants": [
+        {
+          "text": "What is a key advantage of JSON over XML for API communication?",
+          "options": [
+            "A. More compact and easier to parse",
+            "B. Supports namespaces",
+            "C. Better suited for document markup",
+            "D. Supports comments natively"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_286",
+      "conceptId": "ccnp-automation-5",
+      "concept": "NETCONF protocol",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "netconf"
+      ],
+      "variants": [
+        {
+          "text": "What transport protocol does NETCONF use?",
+          "options": [
+            "A. SSH",
+            "B. HTTP",
+            "C. TLS",
+            "D. Telnet"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_287",
+      "conceptId": "ccnp-automation-6",
+      "concept": "NETCONF layers",
+      "domain": "Automation",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "netconf"
+      ],
+      "variants": [
+        {
+          "text": "What are the layers in the NETCONF protocol stack?",
+          "options": [
+            "A. Transport, Messages, Operations, Content",
+            "B. Physical, Data, Network, Transport",
+            "C. JSON, XML, YANG, SSH",
+            "D. HTTP, TLS, TCP, IP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_288",
+      "conceptId": "ccnp-automation-7",
+      "concept": "YANG data modeling",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "yang"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of YANG in network automation?",
+          "options": [
+            "A. Define data models for configuration and state data",
+            "B. A scripting language for automation scripts",
+            "C. A transport protocol for network management",
+            "D. A database query language"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_289",
+      "conceptId": "ccnp-automation-8",
+      "concept": "YANG container",
+      "domain": "Automation",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "yang"
+      ],
+      "variants": [
+        {
+          "text": "In YANG, what does a container statement define?",
+          "options": [
+            "A. An interior data node used to group related leaf nodes",
+            "B. A list of configuration entries",
+            "C. A single configuration parameter",
+            "D. A data type definition"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_290",
+      "conceptId": "ccnp-automation-9",
+      "concept": "RESTCONF protocol",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "restconf"
+      ],
+      "variants": [
+        {
+          "text": "What transport and encoding does RESTCONF use?",
+          "options": [
+            "A. HTTP/HTTPS with JSON or XML",
+            "B. SSH with JSON",
+            "C. Telnet with XML",
+            "D. UDP with JSON"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_291",
+      "conceptId": "ccnp-automation-10",
+      "concept": "RESTCONF vs NETCONF",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "restconf",
+        "netconf"
+      ],
+      "variants": [
+        {
+          "text": "What is a key difference between RESTCONF and NETCONF?",
+          "options": [
+            "A. RESTCONF uses HTTP methods (GET/PUT/POST/DELETE); NETCONF uses RPC operations",
+            "B. RESTCONF uses SSH; NETCONF uses HTTP",
+            "C. RESTCONF uses XML only; NETCONF uses JSON only",
+            "D. RESTCONF is for monitoring; NETCONF is for configuration"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_292",
+      "conceptId": "ccnp-automation-11",
+      "concept": "Cisco DNA Center API",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "dnac-api"
+      ],
+      "variants": [
+        {
+          "text": "What can the Cisco DNA Center REST API be used for?",
+          "options": [
+            "A. Automate network provisioning, assurance, and device management",
+            "B. Only read configuration from devices",
+            "C. Only backup configurations",
+            "D. Only monitor network status"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_293",
+      "conceptId": "ccnp-automation-12",
+      "concept": "Cisco Meraki API",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "meraki-api"
+      ],
+      "variants": [
+        {
+          "text": "What encoding does the Cisco Meraki REST API primarily return?",
+          "options": [
+            "A. JSON",
+            "B. XML",
+            "C. YAML",
+            "D. CSV"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_294",
+      "conceptId": "ccnp-automation-13",
+      "concept": "Ansible network modules",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ansible"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of an Ansible Playbook in network automation?",
+          "options": [
+            "A. Define automation tasks as a YAML play against managed devices",
+            "B. Compile Python code",
+            "C. Store device configurations",
+            "D. Replace the need for a network OS"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_295",
+      "conceptId": "ccnp-automation-14",
+      "concept": "Ansible inventory",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ansible"
+      ],
+      "variants": [
+        {
+          "text": "What is the purpose of the Ansible inventory file?",
+          "options": [
+            "A. Defines managed hosts and groups",
+            "B. Stores automation tasks",
+            "C. Contains playbook execution logs",
+            "D. Defines YANG models"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_296",
+      "conceptId": "ccnp-automation-15",
+      "concept": "Python automation",
+      "domain": "Automation",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "python"
+      ],
+      "variants": [
+        {
+          "text": "What Python library is commonly used for network automation with NETCONF?",
+          "options": [
+            "A. ncclient",
+            "B. requests",
+            "C. paramiko",
+            "D. netmiko"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_297",
+      "conceptId": "ccnp-automation-16",
+      "concept": "Python paramiko",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "python"
+      ],
+      "variants": [
+        {
+          "text": "What is the Python Paramiko library used for?",
+          "options": [
+            "A. SSH protocol implementation for Python",
+            "B. HTTP/HTTPS client",
+            "C. NETCONF client library",
+            "D. YANG model parser"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_298",
+      "conceptId": "ccnp-automation-17",
+      "concept": "Python netmiko",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "python",
+        "netmiko"
+      ],
+      "variants": [
+        {
+          "text": "What is Netmiko used for?",
+          "options": [
+            "A. Multi-vendor SSH library for network devices",
+            "B. REST API client for network devices",
+            "C. SNMP library for Python",
+            "D. YANG data model compiler"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_299",
+      "conceptId": "ccnp-automation-18",
+      "concept": "EEM applet",
+      "domain": "Automation",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "eem"
+      ],
+      "variants": [
+        {
+          "text": "What is a Cisco EEM applet?",
+          "options": [
+            "A. A CLI-defined automation script triggered by events",
+            "B. A Python script running on the device",
+            "C. A TCL script for SNMP",
+            "D. A shell command executed manually"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_gen_300",
+      "conceptId": "ccnp-automation-19",
+      "concept": "EEM event types",
+      "domain": "Automation",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "eem-events"
+      ],
+      "variants": [
+        {
+          "text": "Which event type can an EEM applet respond to?",
+          "options": [
+            "A. syslog pattern match, timer, CLI command, counter threshold",
+            "B. Only routing protocol events",
+            "C. Only interface state changes",
+            "D. Only periodic timers"
+          ],
+          "answer": "A"
+        }
+      ]
     }
   ]
 }
