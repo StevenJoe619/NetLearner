@@ -5,8 +5,8 @@
     "type": "pool",
     "syllabusVersion": "H12-821-V1.0",
     "syllabusDate": "2025-2026",
-    "totalQuestions": 107,
-    "lastUpdated": "2026-05-26"
+    "totalQuestions": 300,
+    "lastUpdated": "2026-05-27"
   },
   "questions": [
     {
@@ -3733,6 +3733,4638 @@
             "B. 负载均衡网络流量",
             "C. 增加路由表容量",
             "D. 提供 NAT 服务"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_108",
+      "conceptId": "hcip-bgp-1",
+      "concept": "BGP 邻居状态机",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-state"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 邻居状态从 Idle 到 Established 的正确顺序是？",
+          "options": [
+            "A. Idle→Connect→Active→OpenSent→OpenConfirm→Established",
+            "B. Idle→Active→Connect→OpenSent→OpenConfirm→Established",
+            "C. Idle→Connect→OpenSent→Active→OpenConfirm→Established",
+            "D. Idle→OpenSent→Connect→Active→OpenConfirm→Established"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_109",
+      "conceptId": "hcip-bgp-2",
+      "concept": "BGP 路由优选",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-bestpath"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 选路规则中，Preferred-Value 值越大优先级越高的作用范围是？",
+          "options": [
+            "A. 仅本地有效",
+            "B. 在整个 AS 内传递",
+            "C. 在 IBGP 邻居间传递",
+            "D. 在 EBGP 邻居间传递"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_110",
+      "conceptId": "hcip-bgp-3",
+      "concept": "BGP 路由优选",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-bestpath"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 选路时，Local_Preference 默认值是多少？",
+          "options": [
+            "A. 100",
+            "B. 0",
+            "C. 200",
+            "D. 50"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_111",
+      "conceptId": "hcip-bgp-4",
+      "concept": "BGP Community",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-community"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 公认团体属性 NO_EXPORT（0xFFFFFF01）的含义是？",
+          "options": [
+            "A. 不将路由通告给任何 EBGP 对等体",
+            "B. 不通告给任何 IBGP 对等体",
+            "C. 不通告给任何对等体",
+            "D. 仅通告给本地 AS 内对等体"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_112",
+      "conceptId": "hcip-bgp-5",
+      "concept": "BGP 路由反射器",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-rr"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 路由反射器 Client 从非 Client 学到路由后，会反射给哪些邻居？",
+          "options": [
+            "A. 所有 Client",
+            "B. 所有非 Client",
+            "C. 所有 EBGP 邻居",
+            "D. 所有 IBGP 邻居"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_113",
+      "conceptId": "hcip-bgp-6",
+      "concept": "BGP 路由反射器",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-rr"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 路由反射器中 Cluster_List 的作用是？",
+          "options": [
+            "A. 防止路由反射环路",
+            "B. 记录 AS 路径",
+            "C. 标识下一跳",
+            "D. 标记团体属性"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_114",
+      "conceptId": "hcip-bgp-7",
+      "concept": "BGP 联盟",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-confed"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 联盟（Confederation）中，子 AS 之间使用什么类型的邻居关系？",
+          "options": [
+            "A. 特殊 EBGP 关系（保留 Next_Hop 和 MED 等属性）",
+            "B. 普通 IBGP 关系",
+            "C. 普通 EBGP 关系",
+            "D. 不需要建立邻居关系"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_115",
+      "conceptId": "hcip-bgp-8",
+      "concept": "BGP 路由聚合",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-aggregate"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 手动聚合路由时，使用 aggregate 命令的哪个参数可以抑制具体路由的通告？",
+          "options": [
+            "A. detail-suppressed",
+            "B. suppress-policy",
+            "C. AS-set",
+            "D. attribute-policy"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_116",
+      "conceptId": "hcip-bgp-9",
+      "concept": "BGP 路由聚合",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-aggregate"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 自动聚合路由与手动聚合相比，哪个可以携带 AS_Set 属性？",
+          "options": [
+            "A. 手动聚合（配置 AS-Set 参数）",
+            "B. 自动聚合",
+            "C. 两者都可以",
+            "D. 两者都不可以"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_117",
+      "conceptId": "hcip-bgp-10",
+      "concept": "BGP 团体",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-community"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 团体属性 NO_ADVERTISE 的含义是？",
+          "options": [
+            "A. 不通告给任何对等体",
+            "B. 不通告给 EBGP 对等体",
+            "C. 不通告给 IBGP 对等体",
+            "D. 仅通告给本地邻居"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_118",
+      "conceptId": "hcip-bgp-11",
+      "concept": "BGP 安全",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-security"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 使用 GTSM（通用 TTL 安全机制）时，EBGP 会话的 TTL 值设置为？",
+          "options": [
+            "A. 1（只接受直连邻居的 BGP 报文）",
+            "B. 255",
+            "C. 64",
+            "D. 128"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_119",
+      "conceptId": "hcip-bgp-12",
+      "concept": "BGP GR",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-ha"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP Graceful Restart 中，End-of-RIB 标记的作用是？",
+          "options": [
+            "A. 标识初始路由更新完毕",
+            "B. 标识邻居关系中断",
+            "C. 标识路由删除完成",
+            "D. 标识 BGP 进程重启"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_120",
+      "conceptId": "hcip-bgp-13",
+      "concept": "BGP ORF",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-orf"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 出站路由过滤（ORF）的好处是？",
+          "options": [
+            "A. 减少不必要的路由更新和带宽消耗",
+            "B. 提高 BGP 收敛速度",
+            "C. 加密路由更新",
+            "D. 替代路由策略"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_121",
+      "conceptId": "hcip-bgp-14",
+      "concept": "BGP 负载分担",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-ecmp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 负载分担（load-balancing）与 BGP 多路径（multipath）的关系是？",
+          "options": [
+            "A. 配置多路径后，设备将多条等价路由同时加入路由表实现负载分担",
+            "B. 两者无关",
+            "C. 多路径不加入路由表",
+            "D. 负载分担不需要多路径配置"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_122",
+      "conceptId": "hcip-bgp-15",
+      "concept": "BGP 路径选择",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-bestpath"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 选路中，如果所有比较属性都相同，最后一条比较规则是？",
+          "options": [
+            "A. 选择 Router ID 最小的对等体发来的路由",
+            "B. 选择邻居 IP 地址最大的",
+            "C. 选择 AS 路径最短的",
+            "D. 选择 MED 值最小的"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_123",
+      "conceptId": "hcip-bgp-16",
+      "concept": "BGP 路由过滤",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-filter"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为设备使用 IP-Prefix 过滤 BGP 路由时，如果某条路由不在前缀列表中，默认处理是？",
+          "options": [
+            "A. 拒绝（deny）",
+            "B. 允许（permit）",
+            "C. 跳过继续匹配下一条",
+            "D. 根据序列号大小决定"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_124",
+      "conceptId": "hcip-bgp-17",
+      "concept": "BGP AS_Path",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-asp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 路由从 IBGP 邻居学到后，在向 EBGP 邻居通告时，对 AS_Path 的处理是？",
+          "options": [
+            "A. 在 AS_PATH 序列最前面添加本地 AS 号",
+            "B. 不修改 AS_PATH",
+            "C. 删除 AS_PATH",
+            "D. 在末尾添加 AS 号"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_125",
+      "conceptId": "hcip-bgp-18",
+      "concept": "BGP Next_Hop",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-nh"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 将从 EBGP 邻居学到的路由通告给 IBGP 邻居时，Next_Hop 默认如何处理？",
+          "options": [
+            "A. 保持不变（仍为 EBGP 对等体地址）",
+            "B. 修改为本地路由器地址",
+            "C. 修改为 IBGP 对等体地址",
+            "D. 清空 Next_Hop"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_126",
+      "conceptId": "hcip-bgp-19",
+      "concept": "BGP 邻居建立",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-peer"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 使用 Loopback 接口建立 IBGP 邻居时，必须配置什么？",
+          "options": [
+            "A. peer connect-interface LoopBackX",
+            "B. peer update-source LoopBackX",
+            "C. peer source-interface LoopBackX",
+            "D. peer local-interface LoopBackX"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_127",
+      "conceptId": "hcip-bgp-20",
+      "concept": "BGP MED",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-med"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP MED 属性在 AS 之间传递时，默认行为是？",
+          "options": [
+            "A. 仅传递给直接相邻的 AS，不会穿透 AS",
+            "B. 穿透所有 AS",
+            "C. 仅在 IBGP 间传递",
+            "D. 随路由一起传递到任何 AS"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_128",
+      "conceptId": "hcip-bgp-21",
+      "concept": "BGP 路由优先级",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-pref"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为设备中 BGP 路由的默认优先级（Preference）是多少？",
+          "options": [
+            "A. 255",
+            "B. 100",
+            "C. 170",
+            "D. 10"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_129",
+      "conceptId": "hcip-bgp-22",
+      "concept": "BGP 路由优选",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-bestpath"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 选路规则中，如果配置了 Preferred-Value，则该值的影响是？",
+          "options": [
+            "A. 值越大越优先",
+            "B. 值越小越优先",
+            "C. 值为 0 时最优先",
+            "D. 不影响选路"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_130",
+      "conceptId": "hcip-bgp-23",
+      "concept": "BGP 路由振荡",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-flap"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 路由振荡（Route Flap）可能导致什么问题？",
+          "options": [
+            "A. 占用大量 CPU 资源并导致路由不稳定",
+            "B. 立即中断所有流量",
+            "C. 导致设备重启",
+            "D. 自动删除路由表"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_131",
+      "conceptId": "hcip-bgp-24",
+      "concept": "BGP 团体传播",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-community"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 向 EBGP 邻居通告路由时，如果需要传播团体属性，必须配置什么命令？",
+          "options": [
+            "A. peer xxx advertise-community",
+            "B. peer xxx community-set",
+            "C. peer xxx send-community",
+            "D. peer xxx community-filter"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_132",
+      "conceptId": "hcip-bgp-25",
+      "concept": "BGP 路由反射器集群",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-rr"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "同一集群内多个路由反射器使用相同的 Cluster_ID 时，会？",
+          "options": [
+            "A. 每个 RR 都可以反射路由，Cluster_List 相同避免环路",
+            "B. 导致路由反射环路",
+            "C. 只有主 RR 生效",
+            "D. 不能配置相同 Cluster_ID"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_133",
+      "conceptId": "hcip-bgp-26",
+      "concept": "BGP MBGP",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-mp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "MP-BGP（多协议 BGP）使用什么属性传递 IPv6 路由信息？",
+          "options": [
+            "A. MP_REACH_NLRI 和 MP_UNREACH_NLRI",
+            "B. IPv6_NLRI",
+            "C. BGP_IPv6_PATH",
+            "D. EXTENDED_COMMUNITY"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_134",
+      "conceptId": "hcip-bgp-27",
+      "concept": "BGP MBGP",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-mp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "MP-BGP 中，AFI 和 SAFI 分别代表什么？",
+          "options": [
+            "A. 地址族标识和子地址族标识",
+            "B. AS 号标识和路由标识",
+            "C. 属性标志和属性类型",
+            "D. 区域标识和子区域标识"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_135",
+      "conceptId": "hcip-bgp-28",
+      "concept": "BGP 路由衰减",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-damp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 路由衰减（Dampening）对哪种路由不适用？",
+          "options": [
+            "A. IBGP 路由",
+            "B. EBGP 路由",
+            "C. 聚合路由",
+            "D. 默认路由"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_136",
+      "conceptId": "hcip-bgp-29",
+      "concept": "BGP 路由衰减",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-damp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 路由衰减中，抑制惩罚值（Suppress Value）的默认值是？",
+          "options": [
+            "A. 2000",
+            "B. 1000",
+            "C. 3000",
+            "D. 500"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_137",
+      "conceptId": "hcip-bgp-30",
+      "concept": "BGP 路由更新",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-update"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 路由更新使用什么报文格式？",
+          "options": [
+            "A. UPDATE 报文携带可达路由和撤销路由",
+            "B. KEEPALIVE 报文携带路由更新",
+            "C. NOTIFICATION 报文携带路由",
+            "D. OPEN 报文携带路由"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_138",
+      "conceptId": "hcip-bgp-31",
+      "concept": "BGP 路由优选",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-bestpath"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 选路中，如果收到多条相同路由且无法优选，设备会？",
+          "options": [
+            "A. 选择最早收到的路由或根据负载分担配置",
+            "B. 随机选择一条",
+            "C. 全部删除",
+            "D. 丢弃所有路由"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_139",
+      "conceptId": "hcip-bgp-32",
+      "concept": "BGP 安全性",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-security"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 的 TTL Security（GTSM）特性适用于什么场景？",
+          "options": [
+            "A. 非直连 EBGP 邻居的安全防护",
+            "B. IBGP 邻居之间的安全",
+            "C. BGP 路由器的管理安全",
+            "D. BGP 报文的加密传输"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_bgp_140",
+      "conceptId": "hcip-bgp-33",
+      "concept": "BGP 默认路由",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp-default"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BGP 中，向对等体发布默认路由的命令是？",
+          "options": [
+            "A. peer xxx default-route-advertise",
+            "B. network 0.0.0.0",
+            "C. default-information originate",
+            "D. ip route 0.0.0.0 bgp"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_141",
+      "conceptId": "hcip-ospf-3",
+      "concept": "OSPF LSA 类型",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-lsa"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF Type 7 LSA 在 NSSA ABR 上会转换成哪种 LSA？",
+          "options": [
+            "A. Type 5 LSA",
+            "B. Type 3 LSA",
+            "C. Type 4 LSA",
+            "D. Type 1 LSA"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_142",
+      "conceptId": "hcip-ospf-4",
+      "concept": "OSPF 特殊区域",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-area"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF Totally Stub 区域不允许哪种 LSA 进入？",
+          "options": [
+            "A. Type 3/4/5（但有一条 Type 3 默认路由）",
+            "B. 仅不允许 Type 5",
+            "C. 允许所有 LSA",
+            "D. 仅允许 Type 1 和 Type 2"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_143",
+      "conceptId": "hcip-ospf-5",
+      "concept": "OSPF 特殊区域",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-area"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF NSSA 区域与 Stub 区域的主要区别是什么？",
+          "options": [
+            "A. NSSA 允许 Type 7 LSA 引入外部路由",
+            "B. NSSA 不允许任何外部路由",
+            "C. NSSA 没有默认路由",
+            "D. NSSA 不需要 ABR"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_144",
+      "conceptId": "hcip-ospf-6",
+      "concept": "OSPF 虚连接",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-vlink"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 虚链路（Virtual Link）可以在什么区域上建立？",
+          "options": [
+            "A. 非骨干区域（需穿越一个普通非骨干区域）",
+            "B. 骨干区域",
+            "C. Stub 区域",
+            "D. NSSA 区域"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_145",
+      "conceptId": "hcip-ospf-7",
+      "concept": "OSPF 虚连接",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-vlink"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 虚链路的两端必须是什么类型的路由器？",
+          "options": [
+            "A. ABR",
+            "B. ASBR",
+            "C. 内部路由器",
+            "D. 骨干路由器"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_146",
+      "conceptId": "hcip-ospf-8",
+      "concept": "OSPF 网络类型",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-network"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF NBMA 网络类型中，邻居关系建立必须依靠什么？",
+          "options": [
+            "A. 手动指定邻居（peer 命令）",
+            "B. 自动广播发现",
+            "C. 组播 Hello",
+            "D. 单播 Hello 自动发现"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_147",
+      "conceptId": "hcip-ospf-9",
+      "concept": "OSPF DR 选举",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-dr"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF DR 选举中，如果优先级相同，如何决定谁是 DR？",
+          "options": [
+            "A. 比较 Router ID，最大的当选",
+            "B. 比较 MAC 地址",
+            "C. 先启动的为 DR",
+            "D. 比较接口 IP 地址"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_148",
+      "conceptId": "hcip-ospf-10",
+      "concept": "OSPF DR 选举",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-dr"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 路由器接口优先级为 0 表示什么？",
+          "options": [
+            "A. 不参与 DR/BDR 选举",
+            "B. 优先级最低",
+            "C. 一定成为 DR",
+            "D. 一定成为 BDR"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_149",
+      "conceptId": "hcip-ospf-11",
+      "concept": "OSPF 路由汇总",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-summary"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF ABR 上配置路由汇总的命令是？",
+          "options": [
+            "A. area x range x.x.x.x x.x.x.x",
+            "B. summary-address x.x.x.x x.x.x.x",
+            "C. aggregate x.x.x.x x.x.x.x",
+            "D. route-summary x.x.x.x x.x.x.x"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_150",
+      "conceptId": "hcip-ospf-12",
+      "concept": "OSPF 路由汇总",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-summary"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF ASBR 上的外部路由汇总命令是？",
+          "options": [
+            "A. summary-address x.x.x.x x.x.x.x",
+            "B. area x range x.x.x.x x.x.x.x",
+            "C. aggregate x.x.x.x x.x.x.x",
+            "D. asbr-summary x.x.x.x x.x.x.x"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_151",
+      "conceptId": "hcip-ospf-13",
+      "concept": "OSPF 报文类型",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-packet"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 中 LSU（Link State Update）报文的主要作用？",
+          "options": [
+            "A. 发送完整 LSA 给邻居",
+            "B. 维护邻居关系",
+            "C. 确认 DD 报文",
+            "D. 请求缺失 LSA"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_152",
+      "conceptId": "hcip-ospf-14",
+      "concept": "OSPF 报文类型",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-packet"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF LSR（Link State Request）报文的作用是？",
+          "options": [
+            "A. 向邻居请求本地缺失的 LSA",
+            "B. 发送链路状态信息",
+            "C. 确认收到 LSU",
+            "D. 维护邻居可达性"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_153",
+      "conceptId": "hcip-ospf-15",
+      "concept": "OSPF 邻居",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-neighbor"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 两台设备邻居关系停留在 2-Way 状态，说明什么？",
+          "options": [
+            "A. 不是 DR/BDR 关系，不需要交换 LSA",
+            "B. 链路状态不同步",
+            "C. MTU 不匹配",
+            "D. 认证失败"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_154",
+      "conceptId": "hcip-ospf-16",
+      "concept": "OSPF LSA 更新",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-lsa"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 中一条 LSA 的老化时间（Age）最大值是多少？",
+          "options": [
+            "A. 3600 秒",
+            "B. 1800 秒",
+            "C. 7200 秒",
+            "D. 5400 秒"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_155",
+      "conceptId": "hcip-ospf-17",
+      "concept": "OSPF LSA 校验",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-lsa"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 如何确保 LSA 的完整性？",
+          "options": [
+            "A. LSA 头部包含校验和字段",
+            "B. TCP 校验和",
+            "C. IP 校验和",
+            "D. 应用层校验"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_156",
+      "conceptId": "hcip-ospf-18",
+      "concept": "OSPF SPF 算法",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-spf"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 的 SPF 算法计算什么？",
+          "options": [
+            "A. 以本路由器为根的最短路径树",
+            "B. 以目的网络为根的最短路径树",
+            "C. 所有路由器到所有网络的最短路径",
+            "D. 所有路径的 Cost 值"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_157",
+      "conceptId": "hcip-ospf-19",
+      "concept": "OSPF 开销值",
+      "domain": "OSPF",
+      "difficulty": "easy",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-cost"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 接口 Cost 值默认基于什么计算？",
+          "options": [
+            "A. 100 Mbps / 接口带宽",
+            "B. 接口带宽 / 100 Mbps",
+            "C. 固定的 1",
+            "D. 接口延迟"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_158",
+      "conceptId": "hcip-ospf-20",
+      "concept": "OSPF 认证",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-auth"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 区域认证与接口认证的关系是？",
+          "options": [
+            "A. 两者配置其一即可，接口认证优先级更高",
+            "B. 必须同时配置",
+            "C. 区域认证覆盖所有接口",
+            "D. 接口认证覆盖区域认证"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_159",
+      "conceptId": "hcip-ospf-21",
+      "concept": "OSPF 路由选择",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-select"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 不同区域内路由的优先级排序正确的是？",
+          "options": [
+            "A. Intra-Area (O) > Inter-Area (O IA) > External Type 1 > External Type 2",
+            "B. O IA > O > E1 > E2",
+            "C. O > O IA > E2 > E1",
+            "D. 所有类型优先级相同"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_160",
+      "conceptId": "hcip-ospf-22",
+      "concept": "OSPF 默认路由",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-default"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 特殊区域（Stub/NSSA）的默认路由由谁产生？",
+          "options": [
+            "A. ABR 自动下发默认路由",
+            "B. ASBR 下发默认路由",
+            "C. 手工在每台路由器配置",
+            "D. DR 下发默认路由"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_161",
+      "conceptId": "hcip-ospf-23",
+      "concept": "OSPF 报文验证",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-auth"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 支持的最安全的认证方式是什么？",
+          "options": [
+            "A. HMAC-SHA256（基于 RFC 5709）",
+            "B. MD5",
+            "C. 明文密码",
+            "D. 空认证"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_162",
+      "conceptId": "hcip-ospf-24",
+      "concept": "OSPF 邻居状态",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-state"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 点到点链路上两台路由器形成 Full 邻接关系需要交换哪些报文？",
+          "options": [
+            "A. Hello→DD→LSR→LSU→LSACK",
+            "B. Hello→LSU→DD",
+            "C. DD→Hello→LSR",
+            "D. LSU→LSACK→Hello"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_163",
+      "conceptId": "hcip-ospf-25",
+      "concept": "OSPF GR",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-gr"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF Graceful Restart 的目的是？",
+          "options": [
+            "A. 主备切换时保持转发不中断",
+            "B. 重启 OSPF 进程",
+            "C. 快速收敛路由",
+            "D. 更新 LSA 数据库"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_164",
+      "conceptId": "hcip-ospf-26",
+      "concept": "OSPF stub router",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-stub"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF Stub Router 特性通过什么方式实现？",
+          "options": [
+            "A. 发布最大 Cost 的 Link-LSA 让其他路由器不选此路径",
+            "B. 停止发送 Hello 报文",
+            "C. 断开所有邻居关系",
+            "D. 删除所有 Type 1 LSA"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_165",
+      "conceptId": "hcip-ospf-27",
+      "concept": "OSPF LSA 过滤",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-filter"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF ABR 上过滤 Type 3 LSA 可以使用什么方式？",
+          "options": [
+            "A. area x filter-list prefix x in/out",
+            "B. distribute-list in",
+            "C. prefix-list 过滤",
+            "D. route-map 过滤 LSDB"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_166",
+      "conceptId": "hcip-ospf-28",
+      "concept": "OSPF 多进程",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-process"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "一台华为路由器上可以运行多个 OSPF 进程吗？",
+          "options": [
+            "A. 可以，进程间相互独立，需要路由引入才能互通",
+            "B. 不可以",
+            "C. 只能运行 2 个进程",
+            "D. 可以但进程间自动互通"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_167",
+      "conceptId": "hcip-ospf-29",
+      "concept": "OSPFv3 新特性",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospfv3"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPFv3 相比 OSPFv2 去掉了哪些功能？",
+          "options": [
+            "A. 去掉认证功能（由 IPv6 AH/ESP 替代）",
+            "B. 去掉 LSA 类型",
+            "C. 去掉 Hello 机制",
+            "D. 去掉 DR/BDR 选举"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_168",
+      "conceptId": "hcip-ospf-30",
+      "concept": "OSPF 邻居建立",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-trouble"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 邻居建立失败的可能原因不包括？",
+          "options": [
+            "A. Router ID 相同",
+            "B. Hello 间隔不一致",
+            "C. 区域 ID 不一致",
+            "D. 接口速率不一致"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_169",
+      "conceptId": "hcip-ospf-31",
+      "concept": "OSPF 邻居建立",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-rid"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 的 Router ID 修改后需要执行什么操作才能生效？",
+          "options": [
+            "A. 重置 OSPF 进程（reset ospf process）",
+            "B. 重启设备",
+            "C. 重新配置区域",
+            "D. 自动生效无需操作"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_170",
+      "conceptId": "hcip-ospf-1",
+      "concept": "OSPF LSA 类型",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-lsa"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF Type 4 LSA（ASBR Summary LSA）由谁产生？",
+          "options": [
+            "A. ABR",
+            "B. ASBR",
+            "C. DR",
+            "D. 每个区域内的所有路由器"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ospf_171",
+      "conceptId": "hcip-ospf-2",
+      "concept": "OSPF LSA 类型",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-lsa"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF Type 7 LSA 在什么区域中使用？",
+          "options": [
+            "A. NSSA 区域",
+            "B. Stub 区域",
+            "C. Totally Stub 区域",
+            "D. 骨干区域"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_172",
+      "conceptId": "hcip-route-control-8",
+      "concept": "路由标记",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-tag"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "在路由引入时使用 tag 标记的作用是？",
+          "options": [
+            "A. 标识路由来源，方便后续策略控制",
+            "B. 提高路由优先级",
+            "C. 加密路由信息",
+            "D. 修改路由开销"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_173",
+      "conceptId": "hcip-route-control-9",
+      "concept": "路由策略应用",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "使用 Route-Policy 过滤路由时，默认未匹配的规则处理方式是？",
+          "options": [
+            "A. 拒绝（deny）",
+            "B. 允许（permit）",
+            "C. 继续匹配下一节点",
+            "D. 跳转到默认节点"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_174",
+      "conceptId": "hcip-route-control-10",
+      "concept": "路由优先级修改",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-pref"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为设备修改特定路由的优先级可以使用什么命令？",
+          "options": [
+            "A. preference route-policy",
+            "B. route-priority",
+            "C. ip route-preference",
+            "D. set priority"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_175",
+      "conceptId": "hcip-route-control-11",
+      "concept": "路由策略比较",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-compare"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "Route-Policy 与 Filter-Policy 的主要区别是？",
+          "options": [
+            "A. Route-Policy 功能更强大，可以修改属性；Filter-Policy 仅过滤",
+            "B. Filter-Policy 可以修改属性",
+            "C. 两者功能完全相同",
+            "D. Route-Policy 只能匹配源地址"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_176",
+      "conceptId": "hcip-route-control-12",
+      "concept": "路由策略调用",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-import"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 中 import-route 命令调用 Route-Policy 的作用是？",
+          "options": [
+            "A. 对引入的外部路由进行过滤和属性设置",
+            "B. 对所有 OSPF 路由进行过滤",
+            "C. 修改 OSPF 接口参数",
+            "D. 控制 LSA 的泛洪范围"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_177",
+      "conceptId": "hcip-route-control-13",
+      "concept": "路由撤销",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-withdraw"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "在路由引入的场景中，如果源协议的路由撤销了，目标协议会？",
+          "options": [
+            "A. 自动撤销对应的引入路由",
+            "B. 保留路由直到老化",
+            "C. 手工删除",
+            "D. 路由标记为不可达"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_178",
+      "conceptId": "hcip-route-control-14",
+      "concept": "路由备份",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-backup"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "使用不同协议部署路由备份时，通过什么参数决定主备关系？",
+          "options": [
+            "A. 路由协议优先级（Preference）",
+            "B. 路由开销（Cost）",
+            "C. 路由跳数",
+            "D. 路由标记"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_179",
+      "conceptId": "hcip-route-control-15",
+      "concept": "负载分担",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ecmp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为设备支持哪种类型的负载分担？",
+          "options": [
+            "A. 基于流的负载分担",
+            "B. 基于包的负载分担",
+            "C. 基于连接的负载分担",
+            "D. 基于应用的负载分担"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_180",
+      "conceptId": "hcip-route-control-16",
+      "concept": "路由策略节点",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "Route-Policy 中不同节点（node）之间是什么关系？",
+          "options": [
+            "A. 顺序匹配，命中一个节点后不再继续",
+            "B. 同时匹配所有节点",
+            "C. 随机匹配",
+            "D. 按节点号倒序匹配"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_181",
+      "conceptId": "hcip-route-control-17",
+      "concept": "条件路由控制",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf-stub"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 中配置 Stub 区域时，该区域会自动产生一条默认路由，这条默认路由的度量值类型是？",
+          "options": [
+            "A. Type 3 LSA 的 Inter-Area 路由",
+            "B. Type 5 LSA 的外部路由",
+            "C. Type 7 LSA 的 NSSA 路由",
+            "D. Type 1 LSA 的区域内部路由"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_182",
+      "conceptId": "hcip-route-control-18",
+      "concept": "路由引入防环",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "route-feedback"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "双点双向路由引入时，需要使用什么机制防止路由回注？",
+          "options": [
+            "A. 路由标记（Tag）+ 策略过滤",
+            "B. 修改管理距离",
+            "C. 使用路由汇总",
+            "D. 配置静默接口"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_183",
+      "conceptId": "hcip-route-control-19",
+      "concept": "路由策略调试",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "查看 Route-Policy 应用效果的命令是？",
+          "options": [
+            "A. display route-policy",
+            "B. show ip policy",
+            "C. display ip policy",
+            "D. show route-map"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_184",
+      "conceptId": "hcip-route-control-1",
+      "concept": "路由策略 Route-Policy",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 Route-Policy 的匹配顺序是基于什么的？",
+          "options": [
+            "A. 节点号（node）从小到大依次匹配",
+            "B. 配置时间先后",
+            "C. 随机顺序",
+            "D. 规则复杂度"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_185",
+      "conceptId": "hcip-route-control-2",
+      "concept": "路由策略 Route-Policy",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "Route-Policy 中 if-match 和 apply 子句的作用分别是？",
+          "options": [
+            "A. if-match 匹配条件，apply 设置属性",
+            "B. if-match 设置属性，apply 匹配条件",
+            "C. 两者都是匹配条件",
+            "D. 两者都是设置属性"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_186",
+      "conceptId": "hcip-route-control-3",
+      "concept": "IP-Prefix 列表",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "prefix-list"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IP-Prefix 10.0.0.0/16 ge 24 le 28 匹配哪些前缀？",
+          "options": [
+            "A. 匹配 10.0.0.0/16 且掩码长度 24~28 位的前缀",
+            "B. 匹配掩码为 16 位的前缀",
+            "C. 匹配任意前缀",
+            "D. 匹配 10.0.0.0/24"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_187",
+      "conceptId": "hcip-route-control-4",
+      "concept": "Filter-Policy",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "filter-policy"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "OSPF 中使用 Filter-Policy 对入方向路由过滤时，被过滤的路由会？",
+          "options": [
+            "A. 不加入路由表但 LSDB 中仍然存在",
+            "B. 从 LSDB 中删除",
+            "C. 从邻居设备上删除",
+            "D. 在所有设备上删除"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_188",
+      "conceptId": "hcip-route-control-5",
+      "concept": "Filter-Policy",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "filter-policy"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS 中 Filter-Policy 对路由的过滤作用于哪个阶段？",
+          "options": [
+            "A. 路由表加入阶段（RIB）",
+            "B. LSDB 同步阶段",
+            "C. LSP 生成阶段",
+            "D. Hello 报文交互阶段"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_189",
+      "conceptId": "hcip-route-control-6",
+      "concept": "路由引入",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "route-import"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "将 OSPF 路由引入 IS-IS 时，如果不指定开销值，默认开销是多少？",
+          "options": [
+            "A. 0",
+            "B. 10",
+            "C. 1",
+            "D. 默认不能引入"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_route_control_190",
+      "conceptId": "hcip-route-control-7",
+      "concept": "路由引入",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-import"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "路由引入时，如果源协议和目标协议的开销度量标准不同，需要做什么？",
+          "options": [
+            "A. 手动指定开销值或使用默认开销",
+            "B. 自动适配",
+            "C. 不能在不同协议间引入",
+            "D. 需要重启设备"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_191",
+      "conceptId": "hcip-multicast-16",
+      "concept": "组播转发树",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "pim-spt"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "PIM SM 中从 RPT 切换到 SPT 的阈值是多少？",
+          "options": [
+            "A. 默认立即切换（收到第一个组播包后）",
+            "B. 永远不切换",
+            "C. 达到指定速率后切换",
+            "D. 由 RP 决定何时切换"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_192",
+      "conceptId": "hcip-multicast-17",
+      "concept": "IGMP 查询器",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "igmp-querier"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "同一网段中 IGMP 查询器是如何选举的？",
+          "options": [
+            "A. IP 地址最小的路由器当选",
+            "B. 最先启动的路由器",
+            "C. 优先级最高的路由器",
+            "D. 随机选举"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_193",
+      "conceptId": "hcip-multicast-1",
+      "concept": "组播 IP 地址",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "multicast-mac"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "组播 MAC 地址的前 24 位固定值是什么？",
+          "options": [
+            "A. 01-00-5E",
+            "B. 01-80-C2",
+            "C. 00-00-5E",
+            "D. FF-FF-FF"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_194",
+      "conceptId": "hcip-multicast-2",
+      "concept": "IGMP 版本",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "igmp-v2"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IGMPv2 相比 IGMPv1 新增了什么机制？",
+          "options": [
+            "A. 特定组查询和离开组报文",
+            "B. 源特定组播",
+            "C. SSM 支持",
+            "D. 认证机制"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_195",
+      "conceptId": "hcip-multicast-3",
+      "concept": "IGMP 版本",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "igmp-v3"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IGMPv3 相比 IGMPv2 最大的改进是什么？",
+          "options": [
+            "A. 支持指定组播源的加入（Include/Exclude 模式）",
+            "B. 支持更多组成员",
+            "C. 减少了查询间隔",
+            "D. 支持 IPv6"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_196",
+      "conceptId": "hcip-multicast-4",
+      "concept": "IGMP Snooping",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "igmp-snooping"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IGMP Snooping 中路由器端口是如何学习的？",
+          "options": [
+            "A. 监听 IGMP Query 报文的接收端口",
+            "B. 所有端口默认为路由器端口",
+            "C. 手工配置",
+            "D. 监听 IGMP Report 报文"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_197",
+      "conceptId": "hcip-multicast-5",
+      "concept": "IGMP Snooping",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "igmp-snooping"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IGMP Snooping 中组成员端口是如何学习的？",
+          "options": [
+            "A. 监听 IGMP Report 报文的接收端口",
+            "B. 监听 IGMP Query 报文的接收端口",
+            "C. 所有端口默认为组成员端口",
+            "D. 手工配置每个端口"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_198",
+      "conceptId": "hcip-multicast-6",
+      "concept": "PIM 协议",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "pim"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "PIM 协议报文的 IP 协议号是多少？",
+          "options": [
+            "A. 103",
+            "B. 2",
+            "C. 89",
+            "D. 17"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_199",
+      "conceptId": "hcip-multicast-7",
+      "concept": "PIM 模式",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "pim-sm"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "PIM SM 中 RP 的发现方式不包括以下哪种？",
+          "options": [
+            "A. 静态指定 RP",
+            "B. BSR 动态选举",
+            "C. Auto-RP 发现",
+            "D. DHCP 分配"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_200",
+      "conceptId": "hcip-multicast-8",
+      "concept": "组播分发树",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "pim-tree"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "PIM SM 中从源到接收者的最短路径树（SPT）切换由谁发起？",
+          "options": [
+            "A. 最后一跳路由器（Leaf Router）",
+            "B. 第一跳路由器",
+            "C. RP",
+            "D. 组播源"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_201",
+      "conceptId": "hcip-multicast-9",
+      "concept": "组播分发树",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "pim-tree"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "PIM 组播中 RPT（共享树）以什么为根？",
+          "options": [
+            "A. RP（汇合点）",
+            "B. 组播源",
+            "C. 接收者",
+            "D. 最后一跳路由器"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_202",
+      "conceptId": "hcip-multicast-10",
+      "concept": "组播 RPF",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "pim-rpf"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "组播 RPF 检查的主要目的是？",
+          "options": [
+            "A. 防止组播路由环路和重复报文",
+            "B. 提高转发速率",
+            "C. 减少组播延迟",
+            "D. 加密组播数据"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_203",
+      "conceptId": "hcip-multicast-11",
+      "concept": "组播 RPF",
+      "domain": "Multicast",
+      "difficulty": "easy",
+      "source": "hcip-pool",
+      "tags": [
+        "pim-rpf"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "组播 RPF 检查失败的报文会被？",
+          "options": [
+            "A. 丢弃",
+            "B. 转发到所有接口",
+            "C. 缓存后再处理",
+            "D. 转发到 RPF 接口"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_204",
+      "conceptId": "hcip-multicast-12",
+      "concept": "MSDP",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "msdp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "MSDP（组播源发现协议）的作用是？",
+          "options": [
+            "A. 在不同 RP 之间交换活跃源信息",
+            "B. 发现组播接收者",
+            "C. 替代 IGMP 查询器",
+            "D. 发现组播路由器邻居"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_205",
+      "conceptId": "hcip-multicast-13",
+      "concept": "MSDP SA",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "msdp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "MSDP SA 报文中携带的信息包括？",
+          "options": [
+            "A. 组播源地址和组地址（S,G）",
+            "B. 完整的组播数据",
+            "C. 所有接收者信息",
+            "D. RP 配置信息"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_206",
+      "conceptId": "hcip-multicast-14",
+      "concept": "Anycast RP",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "anycast-rp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "Anycast RP 技术中多个 RP 使用相同的 IP 地址的作用是？",
+          "options": [
+            "A. 实现 RP 冗余和负载分担",
+            "B. 减少组播路由条目",
+            "C. 加速组播转发",
+            "D. 替代 PIM 协议"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multicast_207",
+      "conceptId": "hcip-multicast-15",
+      "concept": "SSM 模型",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ssm"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "SSM（源特定组播）使用的组播地址范围是？",
+          "options": [
+            "A. 232.0.0.0/8",
+            "B. 224.0.0.0/4",
+            "C. 239.0.0.0/8",
+            "D. 224.0.1.0/24"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_208",
+      "conceptId": "hcip-network-security-16",
+      "concept": "PKI 证书",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "pki"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "PKI 体系中 CA 的作用是？",
+          "options": [
+            "A. 签发和管理数字证书",
+            "B. 加密网络流量",
+            "C. 管理用户密码",
+            "D. 提供 VPN 接入"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_209",
+      "conceptId": "hcip-network-security-17",
+      "concept": "安全策略分析",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "security-policy"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为防火墙安全策略建议的配置原则是？",
+          "options": [
+            "A. 最小权限原则：只开放必要的服务",
+            "B. 允许所有流量通过",
+            "C. 拒绝所有入向流量",
+            "D. 基于用户的全开放策略"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_210",
+      "conceptId": "hcip-network-security-1",
+      "concept": "防火墙会话表",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "session"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为防火墙会话表的 aging time 如果设置过短会有什么影响？",
+          "options": [
+            "A. 正常连接可能被错误切断",
+            "B. 提高转发性能",
+            "C. 减少内存占用",
+            "D. 增加会话表容量"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_211",
+      "conceptId": "hcip-network-security-2",
+      "concept": "防火墙安全策略",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "security-policy"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为防火墙安全策略中，不同区域间的缺省包过滤规则是？",
+          "options": [
+            "A. Local→Any 允许，Any→Local 按策略；其他区域间按安全策略",
+            "B. 所有区域间默认禁止",
+            "C. 所有区域间默认允许",
+            "D. 只有 Trust→Untrust 允许"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_212",
+      "conceptId": "hcip-network-security-3",
+      "concept": "防火墙 NAT",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "nat"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为防火墙 NAT 中，NAT No-PAT 与 NAPT 的区别是？",
+          "options": [
+            "A. No-PAT 只转换地址不转换端口，NAPT 同时转换地址和端口",
+            "B. No-PAT 不转换地址只转换端口",
+            "C. 两者功能完全相同",
+            "D. No-PAT 用于 IPv6"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_213",
+      "conceptId": "hcip-network-security-4",
+      "concept": "防火墙双机热备",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "hrp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为防火墙双机热备中，VRRP 与 HRP 的配合方式是？",
+          "options": [
+            "A. VRRP 监控接口状态，HRP 同步会话和配置",
+            "B. HRP 监控接口，VRRP 同步会话",
+            "C. 两者功能完全相同",
+            "D. 只需要 VRRP 无需 HRP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_214",
+      "conceptId": "hcip-network-security-5",
+      "concept": "防火墙 NAT",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "nat"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为防火墙 Smart NAT 的实现方式是？",
+          "options": [
+            "A. 一个公网 IP 做地址转换，一个公网 IP 段做端口转换",
+            "B. 使用多个公网地址池",
+            "C. 自动选择出接口 IP",
+            "D. 只转换 TCP 流量不转换 UDP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_215",
+      "conceptId": "hcip-network-security-6",
+      "concept": "IPSec 安全协议",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ipsec-ah"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IPSec AH 协议使用什么协议号？",
+          "options": [
+            "A. 51",
+            "B. 50",
+            "C. 47",
+            "D. 89"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_216",
+      "conceptId": "hcip-network-security-7",
+      "concept": "IPSec 安全协议",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ipsec-esp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IPSec ESP 协议使用什么协议号？",
+          "options": [
+            "A. 50",
+            "B. 51",
+            "C. 47",
+            "D. 89"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_217",
+      "conceptId": "hcip-network-security-8",
+      "concept": "IPSec IKE",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ike"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IKEv1 野蛮模式（Aggressive Mode）相比主模式（Main Mode）的特点？",
+          "options": [
+            "A. 消息数量少但安全性较低（以明文传输身份信息）",
+            "B. 安全性更高",
+            "C. 需要更多消息交互",
+            "D. 不支持预共享密钥"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_218",
+      "conceptId": "hcip-network-security-9",
+      "concept": "IPSec 封装",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ipsec-ah"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IPSec 隧道模式中 AH 协议保护的封装范围是？",
+          "options": [
+            "A. 整个 IP 报文（包括新 IP 头）",
+            "B. 仅原 IP 有效载荷",
+            "C. 仅 TCP/UDP 数据",
+            "D. 仅 IP 头"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_219",
+      "conceptId": "hcip-network-security-10",
+      "concept": "IPSec 封装",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ipsec-esp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IPSec 隧道模式中 ESP 协议是否加密 IP 头？",
+          "options": [
+            "A. 不加密原 IP 头，加密原 IP 有效载荷",
+            "B. 加密整个 IP 报文包括新 IP 头",
+            "C. 不加密任何部分",
+            "D. 只加密 TCP 头"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_220",
+      "conceptId": "hcip-network-security-11",
+      "concept": "IPSec NAT 穿越",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ipsec-nat"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IPSec 穿越 NAT 设备时使用什么机制？",
+          "options": [
+            "A. UDP 封装（4500 端口）",
+            "B. TCP 封装",
+            "C. GRE 封装",
+            "D. HTTP 隧道"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_221",
+      "conceptId": "hcip-network-security-12",
+      "concept": "IPSec 认证",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ipsec-psk"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IPSec IKE 认证使用 PSK 时，两端预共享密钥必须满足什么条件？",
+          "options": [
+            "A. 两端密钥必须一致",
+            "B. 只需要本端配置",
+            "C. 两端密钥可以不同",
+            "D. 密钥长度至少 128 位"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_222",
+      "conceptId": "hcip-network-security-13",
+      "concept": "防火墙攻击防范",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ips"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为防火墙的 Trojan 防范属于哪种安全功能？",
+          "options": [
+            "A. 入侵防御（IPS）",
+            "B. ACL 过滤",
+            "C. NAT 转换",
+            "D. 带宽管理"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_223",
+      "conceptId": "hcip-network-security-14",
+      "concept": "防火墙带宽管理",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bandwidth"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为防火墙的带宽管理（限速）基于哪种方式？",
+          "options": [
+            "A. 每 IP 限速或每用户限速",
+            "B. 全局统一限速",
+            "C. 基于物理接口限速",
+            "D. 基于 VLAN 限速"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_security_224",
+      "conceptId": "hcip-network-security-15",
+      "concept": "SSL VPN",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "sslvpn"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为防火墙 SSL VPN 支持的资源发布方式有哪些？",
+          "options": [
+            "A. Web 转发、端口转发和网络扩展",
+            "B. 仅 Web 转发",
+            "C. 仅端口转发",
+            "D. 仅 IPsec 隧道"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_225",
+      "conceptId": "hcip-is-is-13",
+      "concept": "IS-IS 路由渗透",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-leaking"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS 路由渗透（Route Leaking）的作用是？",
+          "options": [
+            "A. 将 Level-2 路由引入 Level-1 区域",
+            "B. 将 Level-1 路由引入 Level-2",
+            "C. 在 Level-1-2 路由器间同步路由",
+            "D. 过滤 IS-IS 路由"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_226",
+      "conceptId": "hcip-is-is-14",
+      "concept": "IS-IS 网络标识",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-net"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS 中 NET（Network Entity Title）地址的最大长度是多少字节？",
+          "options": [
+            "A. 20 字节",
+            "B. 8 字节",
+            "C. 10 字节",
+            "D. 64 字节"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_227",
+      "conceptId": "hcip-is-is-15",
+      "concept": "IS-IS 开销",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-metric"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS 窄度量模式下，一条路径的最大 Cost 值不能超过多少？",
+          "options": [
+            "A. 1023",
+            "B. 63",
+            "C. 255",
+            "D. 65535"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_228",
+      "conceptId": "hcip-is-is-1",
+      "concept": "IS-IS 基础",
+      "domain": "IS-IS",
+      "difficulty": "easy",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-basic"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS 协议属于哪种类型的路由协议？",
+          "options": [
+            "A. 链路状态路由协议",
+            "B. 距离矢量路由协议",
+            "C. 路径矢量路由协议",
+            "D. 混合路由协议"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_229",
+      "conceptId": "hcip-is-is-2",
+      "concept": "IS-IS 区域",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-level"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS 中 Level-1 路由器的作用是？",
+          "options": [
+            "A. 维护同一区域内的链路状态信息",
+            "B. 维护全网的链路状态信息",
+            "C. 连接不同区域间的路由",
+            "D. 只处理外部路由"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_230",
+      "conceptId": "hcip-is-is-3",
+      "concept": "IS-IS 区域",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-level"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS Level-2 路由器的作用是？",
+          "options": [
+            "A. 维护区域间的链路状态信息，在不同区域间交换路由",
+            "B. 只维护本区域路由",
+            "C. 只连接终端设备",
+            "D. 只处理默认路由"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_231",
+      "conceptId": "hcip-is-is-4",
+      "concept": "IS-IS 网络类型",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-dis"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS 广播网络中 DIS 的作用类似于 OSPF 的什么角色？",
+          "options": [
+            "A. DR（Designated Router）",
+            "B. BDR",
+            "C. ABR",
+            "D. ASBR"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_232",
+      "conceptId": "hcip-is-is-5",
+      "concept": "IS-IS DIS",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-dis"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS DIS 选举的依据是什么？",
+          "options": [
+            "A. 优先级和 MAC 地址（优先级越高越优先，相同则 MAC 地址越大越优先）",
+            "B. Router ID 最大",
+            "C. 系统 ID 最小",
+            "D. 接口 IP 地址最小"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_233",
+      "conceptId": "hcip-is-is-6",
+      "concept": "IS-IS DIS",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-dis"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS 广播网络上 DIS 与 OSPF DR 的一个关键区别是？",
+          "options": [
+            "A. DIS 支持抢占（新增路由器优先级更高会抢占 DIS）",
+            "B. DIS 不支持抢占",
+            "C. DIS 没有备份机制",
+            "D. DIS 由管理员指定"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_234",
+      "conceptId": "hcip-is-is-7",
+      "concept": "IS-IS 度量",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-metric"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS 默认度量值（Metric）的范围是多少？",
+          "options": [
+            "A. 1~63（窄度量）",
+            "B. 1~255",
+            "C. 1~1024",
+            "D. 1~65535"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_235",
+      "conceptId": "hcip-is-is-8",
+      "concept": "IS-IS 度量",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-metric"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS 宽度量模式（Wide Metric）支持的最大度量值是多少？",
+          "options": [
+            "A. 16777215（24 位）",
+            "B. 255",
+            "C. 65535",
+            "D. 4294967295"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_236",
+      "conceptId": "hcip-is-is-9",
+      "concept": "IS-IS LSP",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-lsp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS LSP 与 OSPF LSA 的一个主要区别是？",
+          "options": [
+            "A. IS-IS LSP 使用泛洪扩散，没有 LSAck 确认机制（使用 PSNP 确认）",
+            "B. IS-IS 没有 LSA 泛洪机制",
+            "C. OSPF 使用 PSNP 确认",
+            "D. 两者完全相同"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_237",
+      "conceptId": "hcip-is-is-10",
+      "concept": "IS-IS 报文",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-packet"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS 协议支持几种报文类型？",
+          "options": [
+            "A. 3 种：IIH、LSP、PSNP/CSNP",
+            "B. 4 种",
+            "C. 5 种",
+            "D. 2 种"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_238",
+      "conceptId": "hcip-is-is-11",
+      "concept": "IS-IS 报文",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-packet"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS CSNP（Complete Sequence Numbers PDU）的作用是？",
+          "options": [
+            "A. 描述本地 LSDB 中所有 LSP 的摘要信息",
+            "B. 请求特定的 LSP",
+            "C. 确认收到 LSP",
+            "D. 建立邻居关系"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_is_is_239",
+      "conceptId": "hcip-is-is-12",
+      "concept": "IS-IS 邻居",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis-neighbor"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IS-IS Level-1 与 Level-2 路由器可以建立邻居关系吗？",
+          "options": [
+            "A. 可以，使用 Level-1-2 路由器过渡",
+            "B. 不可以，Level 必须一致才能建立邻居",
+            "C. 可以直连建立邻居",
+            "D. 只有 Level-2 可以互连"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_240",
+      "conceptId": "hcip-network-reliability-13",
+      "concept": "DLDP",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "dldp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 DLDP（动态链路聚合协议）的作用是？",
+          "options": [
+            "A. 检测单向链路（光纤收发异常）并自动关闭接口",
+            "B. 实现链路聚合",
+            "C. 提高转发速率",
+            "D. 检测 STP 环路"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_241",
+      "conceptId": "hcip-network-reliability-14",
+      "concept": "Monitor Link",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "monitor-link"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 Monitor Link 技术的作用是？",
+          "options": [
+            "A. 上行接口故障时自动关闭下行接口，触发切换",
+            "B. 监控设备 CPU 使用率",
+            "C. 监控设备温度",
+            "D. 监控接口流量"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_242",
+      "conceptId": "hcip-network-reliability-15",
+      "concept": "冗余网关",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "vrrp-track"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 VRRP 与上行链路联动时，降低的优先级值由什么决定？",
+          "options": [
+            "A. Track 配置的减权值（Reduce Value）",
+            "B. 固定的 10",
+            "C. 自动计算",
+            "D. 设备型号决定"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_243",
+      "conceptId": "hcip-network-reliability-1",
+      "concept": "BFD 基础",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bfd"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BFD 的检测报文发送间隔最小可以配置到多少毫秒？",
+          "options": [
+            "A. 3ms",
+            "B. 10ms",
+            "C. 50ms",
+            "D. 100ms"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_244",
+      "conceptId": "hcip-network-reliability-2",
+      "concept": "BFD 与路由协议联动",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bfd-ospf"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BFD 与 OSPF 联动后，链路故障的检测时间可以降低到多少？",
+          "options": [
+            "A. 亚秒级（毫秒级）",
+            "B. 秒级",
+            "C. 分钟级",
+            "D. 不减少检测时间"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_245",
+      "conceptId": "hcip-network-reliability-3",
+      "concept": "BFD 检测模式",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bfd-mode"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BFD 支持哪两种检测模式？",
+          "options": [
+            "A. 异步模式和查询模式",
+            "B. 主动模式和被动模式",
+            "C. 主模式和从模式",
+            "D. 快速模式和正常模式"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_246",
+      "conceptId": "hcip-network-reliability-4",
+      "concept": "VRRP 基础",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "vrrp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "VRRP 中 Master 设备发送 VRRP 通告报文的时间间隔默认是多少秒？",
+          "options": [
+            "A. 1 秒",
+            "B. 3 秒",
+            "C. 5 秒",
+            "D. 10 秒"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_247",
+      "conceptId": "hcip-network-reliability-5",
+      "concept": "VRRP 优先级",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "vrrp-priority"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "VRRP 的优先级范围是多少？",
+          "options": [
+            "A. 0~255",
+            "B. 1~254",
+            "C. 0~100",
+            "D. 1~255"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_248",
+      "conceptId": "hcip-network-reliability-6",
+      "concept": "VRRP 抢占",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "vrrp-preempt"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "VRRP 中配置抢占延迟（preempt delay）的作用是？",
+          "options": [
+            "A. 避免频繁的主备切换导致网络震荡",
+            "B. 加速切换",
+            "C. 阻止主设备接管",
+            "D. 删除备份组"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_249",
+      "conceptId": "hcip-network-reliability-7",
+      "concept": "VRRP 监视",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "vrrp-track"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "VRRP 联动接口状态（Track Interface）的作用是？",
+          "options": [
+            "A. 上行接口故障时自动降低优先级触发主备切换",
+            "B. 监视链路速率",
+            "C. 监视设备 CPU",
+            "D. 监视路由表变化"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_250",
+      "conceptId": "hcip-network-reliability-8",
+      "concept": "BFD 多跳",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bfd-multihop"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "BFD 多跳检测与单跳检测的区别是？",
+          "options": [
+            "A. 多跳检测的 TTL 为 255，单跳为 1",
+            "B. 多跳只能检测直连链路",
+            "C. 两者没有区别",
+            "D. 单跳 TTL 为 255"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_251",
+      "conceptId": "hcip-network-reliability-9",
+      "concept": "BFD 配置",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bfd-config"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为设备上 BFD 会话的本地标识符（Local Discriminator）的作用是？",
+          "options": [
+            "A. 唯一标识本端的 BFD 会话",
+            "B. 标识路由协议进程",
+            "C. 标识接口编号",
+            "D. 标识设备 MAC 地址"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_252",
+      "conceptId": "hcip-network-reliability-10",
+      "concept": "链路捆绑",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "eth-trunk"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "Eth-Trunk 中链路 Up/Down 状态变化时，聚合组自动调整使用的算法是？",
+          "options": [
+            "A. 根据哈希算法重新分配流量",
+            "B. 停止所有流量",
+            "C. 手动调整",
+            "D. 依次轮询备份链路"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_253",
+      "conceptId": "hcip-network-reliability-11",
+      "concept": "NQA 技术",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "nqa"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "NQA（网络质量分析）与 IP SLA 的主要区别是？",
+          "options": [
+            "A. NQA 是华为私有技术，IP SLA 是 Cisco 技术，功能类似",
+            "B. NQA 只能测试 ICMP",
+            "C. IP SLA 是华为私有技术",
+            "D. 两者完全不同"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_reliability_254",
+      "conceptId": "hcip-network-reliability-12",
+      "concept": "NQA 测试",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "nqa"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 NQA 可以测试哪些网络指标？",
+          "options": [
+            "A. 延迟、抖动、丢包率、TCP 连接时间等",
+            "B. 仅延迟",
+            "C. 仅丢包率",
+            "D. 仅带宽"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_switching_255",
+      "conceptId": "hcip-switching-8",
+      "concept": "堆叠分裂",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "stack-split"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "堆叠分裂（Split）检测可以使用什么技术？",
+          "options": [
+            "A. MAD（多 Active 检测）通过直连或代理方式",
+            "B. 自动合并",
+            "C. BFD 检测",
+            "D. VRRP 检测"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_switching_256",
+      "conceptId": "hcip-switching-9",
+      "concept": "堆叠 MAD",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "stack-mad"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "堆叠 MAD 检测中，MAD 代理方式需要什么条件？",
+          "options": [
+            "A. 堆叠系统与代理设备之间配置 Eth-Trunk 并启用 MAD 检测",
+            "B. 直连线缆",
+            "C. 对端设备也必须是堆叠系统",
+            "D. 不需要额外配置"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_switching_257",
+      "conceptId": "hcip-switching-10",
+      "concept": "端口隔离",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "port-isolate"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为交换机端口隔离（Port Isolation）中，同一端口隔离组的端口之间？",
+          "options": [
+            "A. 二层互相隔离不能通信",
+            "B. 可以自由通信",
+            "C. 只能通过 VLANIF 通信",
+            "D. 只能接收不能发送"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_switching_258",
+      "conceptId": "hcip-switching-11",
+      "concept": "RRPP",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "rrpp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 RRPP（快速环网保护协议）的主环和子环交接点是什么设备？",
+          "options": [
+            "A. 相交节点（Transfer Node）",
+            "B. 主节点（Master Node）",
+            "C. 边缘节点（Edge Node）",
+            "D. 辅助节点（Assistant Node）"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_switching_259",
+      "conceptId": "hcip-switching-12",
+      "concept": "RRPP",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "rrpp"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "RRPP 环网中主节点发送的探测报文是？",
+          "options": [
+            "A. Health 报文（沿环逐跳发送）",
+            "B. Echo 请求",
+            "C. Hello 报文",
+            "D. BPDU"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_switching_260",
+      "conceptId": "hcip-switching-13",
+      "concept": "SEP",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "sep"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 SEP（Smart Ethernet Protection）相比 RRPP 的优势？",
+          "options": [
+            "A. 配置更简单，适用于较简单的环网场景",
+            "B. 收敛速度更快",
+            "C. 支持更多节点",
+            "D. 支持多环"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_switching_261",
+      "conceptId": "hcip-switching-14",
+      "concept": "二层协议透传",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "l2pt"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "二层协议透传（L2PT）的作用是？",
+          "options": [
+            "A. 将 STP/LACP/LLDP 等二层协议报文在公网中透明传输",
+            "B. 过滤二层协议报文",
+            "C. 加密二层协议报文",
+            "D. 转换二层协议类型"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_switching_262",
+      "conceptId": "hcip-switching-1",
+      "concept": "MUX VLAN",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "mux-vlan"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 MUX VLAN 中 Principal VLAN 的特点？",
+          "options": [
+            "A. 可以与所有 VLAN 通信",
+            "B. 只能与同 VLAN 通信",
+            "C. 不能与其他 VLAN 通信",
+            "D. 只能与 Group VLAN 通信"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_switching_263",
+      "conceptId": "hcip-switching-2",
+      "concept": "MUX VLAN",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "mux-vlan"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 MUX VLAN 中隔离型从 VLAN（Separate VLAN）的特点？",
+          "options": [
+            "A. 只能与 Principal VLAN 通信，彼此隔离",
+            "B. 可以与所有 VLAN 通信",
+            "C. 只能与同 VLAN 通信",
+            "D. 彼此可以通信"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_switching_264",
+      "conceptId": "hcip-switching-3",
+      "concept": "Super VLAN",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "super-vlan"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 Super VLAN 的作用是？",
+          "options": [
+            "A. 多个 Sub VLAN 共享一个 VLANIF 接口 IP，节省 IP 地址",
+            "B. 增加 VLAN 数量",
+            "C. 隔离广播域",
+            "D. 提高转发速率"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_switching_265",
+      "conceptId": "hcip-switching-4",
+      "concept": "Super VLAN",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "super-vlan"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "Super VLAN 中 Sub VLAN 之间能否二层互通？",
+          "options": [
+            "A. 默认隔离，需要三层转发才能通信",
+            "B. 可以二层互通",
+            "C. 不能通信",
+            "D. 需要配置 VLAN Mapping"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_switching_266",
+      "conceptId": "hcip-switching-5",
+      "concept": "VLAN 聚合",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "vlan-aggr"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 VLAN 聚合（VLAN Aggregation）的好处是？",
+          "options": [
+            "A. 节省 IP 地址并减少 VLANIF 接口数量",
+            "B. 提高安全性",
+            "C. 增加端口密度",
+            "D. 简化 STP 配置"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_switching_267",
+      "conceptId": "hcip-switching-6",
+      "concept": "堆叠技术",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "stack"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 iStack 堆叠中主交换机如何选举？",
+          "options": [
+            "A. 比较堆叠优先级和 MAC 地址",
+            "B. 最先启动的成为主",
+            "C. 根据接口数量",
+            "D. 根据运行时间"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_switching_268",
+      "conceptId": "hcip-switching-7",
+      "concept": "堆叠技术",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "stack"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 iStack 堆叠系统的主交换机故障后会？",
+          "options": [
+            "A. 备交换机自动升为主，业务不中断（有切换延迟）",
+            "B. 整个堆叠系统停止工作",
+            "C. 所有业务完全中断",
+            "D. 需要手动切换"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_wlan_269",
+      "conceptId": "hcip-wlan-6",
+      "concept": "WLAN 射频",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan-power"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "AP 的发射功率调整策略中，降低功率过多可能导致什么？",
+          "options": [
+            "A. 覆盖空洞和信号盲区",
+            "B. 提高用户速率",
+            "C. 减少干扰",
+            "D. 增加并发用户数"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_wlan_270",
+      "conceptId": "hcip-wlan-7",
+      "concept": "WLAN 认证",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "portal-auth"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 WLAN 中 Portal 认证的典型应用场景是？",
+          "options": [
+            "A. 访客无线网络上网认证",
+            "B. 企业内部员工认证",
+            "C. 服务器认证",
+            "D. 管理员认证"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_wlan_271",
+      "conceptId": "hcip-wlan-8",
+      "concept": "WLAN 认证",
+      "domain": "WLAN",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan-auth"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 WLAN 中 MAC 地址认证与 802.1X 认证的配合方式是？",
+          "options": [
+            "A. 可配置 MAC 优先认证，MAC 认证失败再尝试 802.1X",
+            "B. 只能使用一种认证方式",
+            "C. 两者必须同时配置",
+            "D. MAC 认证必须在 802.1X 之后"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_wlan_272",
+      "conceptId": "hcip-wlan-9",
+      "concept": "WLAN 用户隔离",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan-isolation"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 WLAN 中用户间隔离（User-Isolation）的作用是？",
+          "options": [
+            "A. 禁止同一 AP 下无线用户之间的直接通信",
+            "B. 禁止用户访问互联网",
+            "C. 禁止用户访问内部网络",
+            "D. 禁止不同 AP 间的通信"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_wlan_273",
+      "conceptId": "hcip-wlan-10",
+      "concept": "WLAN 负载均衡",
+      "domain": "WLAN",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan-lb"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 AC 基于用户数的负载均衡策略是？",
+          "options": [
+            "A. AC 根据各 AP 用户数，引导新用户接入用户数最少的 AP",
+            "B. 随机分配用户",
+            "C. 轮询分配用户",
+            "D. 优先选择信号最好的 AP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_wlan_274",
+      "conceptId": "hcip-wlan-11",
+      "concept": "WLAN 双频",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan-dual"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 AP 同时工作在 2.4 GHz 和 5 GHz 时，终端优选哪个频段？",
+          "options": [
+            "A. 5 GHz（带宽大、干扰少）",
+            "B. 2.4 GHz（穿墙能力强）",
+            "C. 随机选择",
+            "D. 由 AP 强制分配"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_wlan_275",
+      "conceptId": "hcip-wlan-12",
+      "concept": "WLAN 漫游",
+      "domain": "WLAN",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan-roam"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "802.11k 邻居报告的作用是？",
+          "options": [
+            "A. 向客户端提供候选漫游 AP 列表，加速扫描过程",
+            "B. 分配 IP 地址",
+            "C. 加密用户数据",
+            "D. 管理 AP 功率"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_wlan_276",
+      "conceptId": "hcip-wlan-1",
+      "concept": "WLAN 组网",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "capwap"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 AC 集中式转发架构中，AP 与 AC 之间的 CAPWAP 隧道使用什么端口？",
+          "options": [
+            "A. 控制隧道 UDP 5246，数据隧道 UDP 5247",
+            "B. 控制隧道 TCP 5246，数据隧道 TCP 5247",
+            "C. 控制隧道 UDP 500，数据隧道 UDP 4500",
+            "D. 控制隧道 UDP 1700，数据隧道 UDP 1701"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_wlan_277",
+      "conceptId": "hcip-wlan-2",
+      "concept": "WLAN 漫游",
+      "domain": "WLAN",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan-roam"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 WLAN AC 间漫游时，用户的 IP 地址如何变化？",
+          "options": [
+            "A. IP 地址不变，漫游前 AC 将流量转发给漫游后 AC",
+            "B. IP 地址重新分配",
+            "C. 需要重新 DHCP 获取",
+            "D. IP 地址变为 0.0.0.0"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_wlan_278",
+      "conceptId": "hcip-wlan-3",
+      "concept": "WLAN 漫游",
+      "domain": "WLAN",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan-roam"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 WLAN 快速漫游（Fast Roaming）使用哪种协议？",
+          "options": [
+            "A. 802.11r（FT 认证）",
+            "B. 802.11k（邻居列表）",
+            "C. 802.11v（网络辅助）",
+            "D. 802.11w（管理帧保护）"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_wlan_279",
+      "conceptId": "hcip-wlan-4",
+      "concept": "WLAN 安全",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan-security"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 WLAN 中 WPA2-Enterprise 与 WPA2-PSK 的区别？",
+          "options": [
+            "A. Enterprise 使用 802.1X + RADIUS 认证，PSK 使用预共享密钥",
+            "B. Enterprise 加密更强",
+            "C. PSK 使用 802.1X 认证",
+            "D. 两者完全相同"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_wlan_280",
+      "conceptId": "hcip-wlan-5",
+      "concept": "WLAN 射频",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan-rf"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 AP 的自动信道选择（ACS）默认扫描频段是？",
+          "options": [
+            "A. 所有支持的信道（根据国家码限制）",
+            "B. 仅 2.4 GHz",
+            "C. 仅 5 GHz",
+            "D. 仅信道 1、6、11"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ipv6_281",
+      "conceptId": "hcip-ipv6-6",
+      "concept": "IPv6 无状态地址",
+      "domain": "IPv6",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ipv6-slaac"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IPv6 SLAAC 中，EUI-64 地址基于什么生成接口标识符？",
+          "options": [
+            "A. MAC 地址（插入 FFFE）",
+            "B. 随机生成",
+            "C. DHCPv6 分配",
+            "D. 手动指定"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ipv6_282",
+      "conceptId": "hcip-ipv6-1",
+      "concept": "IPv6 地址表示",
+      "domain": "IPv6",
+      "difficulty": "easy",
+      "source": "hcip-pool",
+      "tags": [
+        "ipv6-addr"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IPv6 地址 2001:0db8:0000:0000:0000:ff00:0042:8329 简化后是什么？",
+          "options": [
+            "A. 2001:db8::ff00:42:8329",
+            "B. 2001:db8:0:0:0:ff00:42:8329",
+            "C. 2001:db8:0:0:0:ff00:0042:8329",
+            "D. 2001:db8::ff00:0:42:8329"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ipv6_283",
+      "conceptId": "hcip-ipv6-2",
+      "concept": "IPv6 地址类型",
+      "domain": "IPv6",
+      "difficulty": "easy",
+      "source": "hcip-pool",
+      "tags": [
+        "ipv6-addr"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IPv6 组播地址以什么开头？",
+          "options": [
+            "A. FF00::/8",
+            "B. FE80::/10",
+            "C. 2000::/3",
+            "D. FC00::/7"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ipv6_284",
+      "conceptId": "hcip-ipv6-3",
+      "concept": "IPv6 过渡技术",
+      "domain": "IPv6",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ipv6-transition"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IPv6 过渡技术中，双栈技术的原理是？",
+          "options": [
+            "A. 设备同时运行 IPv4 和 IPv6 协议栈",
+            "B. IPv6 封装在 IPv4 隧道中",
+            "C. IPv4 封装在 IPv6 隧道中",
+            "D. IPv6 和 IPv4 互相转换"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ipv6_285",
+      "conceptId": "hcip-ipv6-4",
+      "concept": "IPv6 过渡技术",
+      "domain": "IPv6",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "nat64"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "NAT64 技术中，IPv6 地址前缀 64:ff9b::/96 用于什么场景？",
+          "options": [
+            "A. 将 IPv6 地址映射到 IPv4 地址",
+            "B. 将 IPv4 地址映射到 IPv6 地址",
+            "C. IPv6 组播地址前缀",
+            "D. 站点本地地址"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_ipv6_286",
+      "conceptId": "hcip-ipv6-5",
+      "concept": "IPv6 邻居发现",
+      "domain": "IPv6",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ipv6-nd"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "IPv6 邻居发现协议（NDP）中，地址解析使用什么报文替代 ARP？",
+          "options": [
+            "A. NS（邻居请求）和 NA（邻居通告）",
+            "B. RS 和 RA",
+            "C. 重定向报文",
+            "D. 路由器请求"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_routing_basics_287",
+      "conceptId": "hcip-routing-basics-6",
+      "concept": "路由黑洞",
+      "domain": "Routing Basics",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-blackhole"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "汇总路由导致路由黑洞的原因是？",
+          "options": [
+            "A. 子网掩码范围内的部分子网实际不存在（设备上没有具体路由）",
+            "B. 下一跳不可达",
+            "C. 路由协议不兼容",
+            "D. 路由优先级冲突"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_routing_basics_288",
+      "conceptId": "hcip-routing-basics-1",
+      "concept": "路由表查找",
+      "domain": "Routing Basics",
+      "difficulty": "easy",
+      "source": "hcip-pool",
+      "tags": [
+        "route-lookup"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "当一个数据包目的 IP 同时匹配路由表中多条路由时，优先选择？",
+          "options": [
+            "A. 掩码最长的路由（最长前缀匹配）",
+            "B. 优先级最高的路由",
+            "C. 开销最小的路由",
+            "D. 跳数最少的路由"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_routing_basics_289",
+      "conceptId": "hcip-routing-basics-2",
+      "concept": "路由协议分类",
+      "domain": "Routing Basics",
+      "difficulty": "easy",
+      "source": "hcip-pool",
+      "tags": [
+        "protocol-class"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "按照路由协议的工作范围，以下哪些是 IGP？",
+          "options": [
+            "A. OSPF、IS-IS、RIP、EIGRP",
+            "B. BGP、OSPF",
+            "C. RIP、BGP",
+            "D. IS-IS、BGP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_routing_basics_290",
+      "conceptId": "hcip-routing-basics-3",
+      "concept": "路由收敛",
+      "domain": "Routing Basics",
+      "difficulty": "easy",
+      "source": "hcip-pool",
+      "tags": [
+        "convergence"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "路由收敛时间对网络的影响是？",
+          "options": [
+            "A. 收敛越快，故障恢复越快，业务中断时间越短",
+            "B. 收敛速度不影响业务",
+            "C. 慢速收敛更稳定",
+            "D. 收敛速度只影响路由协议"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_routing_basics_291",
+      "conceptId": "hcip-routing-basics-4",
+      "concept": "默认路由",
+      "domain": "Routing Basics",
+      "difficulty": "easy",
+      "source": "hcip-pool",
+      "tags": [
+        "default-route"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "默认路由（0.0.0.0/0）的匹配规则是？",
+          "options": [
+            "A. 匹配所有不在路由表中的目的地址",
+            "B. 只匹配公网地址",
+            "C. 只匹配私有地址",
+            "D. 不匹配任何地址"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_routing_basics_292",
+      "conceptId": "hcip-routing-basics-5",
+      "concept": "浮动路由",
+      "domain": "Routing Basics",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "floating-route"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为配置浮动静态路由时，如何指定备份路由的优先级？",
+          "options": [
+            "A. 使用 preference 参数设置更大的值",
+            "B. 使用 metric 参数",
+            "C. 使用 backup 参数",
+            "D. 使用 weight 参数"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_services_293",
+      "conceptId": "hcip-network-services-2",
+      "concept": "DHCP 攻击防范",
+      "domain": "Network Services",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "dhcp-snooping"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为交换机 DHCP Snooping 的信任端口如何设置？",
+          "options": [
+            "A. 连接合法 DHCP 服务器的端口设为信任端口",
+            "B. 所有端口默认都是信任端口",
+            "C. 连接客户端的端口设为信任端口",
+            "D. 不需要配置信任端口"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_services_294",
+      "conceptId": "hcip-network-services-3",
+      "concept": "DHCP Option",
+      "domain": "Network Services",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "dhcp-option"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "DHCP Option 43 通常用于什么场景？",
+          "options": [
+            "A. 为 AP 提供 AC 的 IP 地址列表",
+            "B. 提供 DNS 服务器地址",
+            "C. 提供默认网关",
+            "D. 提供域名后缀"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_services_295",
+      "conceptId": "hcip-network-services-4",
+      "concept": "DHCP Option",
+      "domain": "Network Services",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "dhcp-option"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "DHCP Option 150 的作用是？",
+          "options": [
+            "A. TFTP 服务器地址（通常用于 IP 电话等设备的配置文件下载）",
+            "B. 日志服务器地址",
+            "C. NTP 服务器地址",
+            "D. 代理自动配置 PAC 文件"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_services_296",
+      "conceptId": "hcip-network-services-1",
+      "concept": "DHCP 中继",
+      "domain": "Network Services",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "dhcp-relay"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "DHCP 中继（DHCP Relay）的应用场景是？",
+          "options": [
+            "A. DHCP 客户端与服务器不在同一个广播域时",
+            "B. 客户端数量超过 254",
+            "C. 需要静态 IP 分配时",
+            "D. 需要使用 IPv6 时"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_solutions_297",
+      "conceptId": "hcip-network-solutions-2",
+      "concept": "NFV 架构",
+      "domain": "Network Solutions",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "nfv"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "NFV 中 VNF（虚拟网络功能）运行在什么之上？",
+          "options": [
+            "A. 虚拟机或容器（基于 hypervisor）",
+            "B. 专用硬件设备",
+            "C. 物理服务器裸机",
+            "D. 云存储平台"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_solutions_298",
+      "conceptId": "hcip-network-solutions-3",
+      "concept": "SD-WAN 方案",
+      "domain": "Network Solutions",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "sdwan"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "华为 SD-WAN 解决方案中，控制器的角色是？",
+          "options": [
+            "A. 集中管理和策略编排",
+            "B. 只做数据转发",
+            "C. 只做路由计算",
+            "D. 只做安全防护"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_solutions_299",
+      "conceptId": "hcip-network-solutions-4",
+      "concept": "网络编排",
+      "domain": "Network Solutions",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "orchestration"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "网络自动化编排中，声明式模型（Declarative）与命令式模型（Imperative）的区别是？",
+          "options": [
+            "A. 声明式描述期望状态，命令式描述具体操作步骤",
+            "B. 声明式更复杂",
+            "C. 命令式描述期望状态",
+            "D. 两者完全相同"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_network_solutions_300",
+      "conceptId": "hcip-network-solutions-1",
+      "concept": "SDN 架构",
+      "domain": "Network Solutions",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "sdn"
+      ],
+      "explanation": "",
+      "variants": [
+        {
+          "text": "SDN 架构的核心思想是什么？",
+          "options": [
+            "A. 转发与控制分离",
+            "B. 分布式控制平面",
+            "C. 全分布式架构",
+            "D. 集中式数据平面"
           ],
           "answer": "A"
         }
