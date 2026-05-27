@@ -5,8 +5,8 @@
     "type": "pool",
     "syllabusVersion": "H12-811-V1.0",
     "syllabusDate": "2025-2026",
-    "totalQuestions": 200,
-    "lastUpdated": "2026-05-26"
+    "totalQuestions": 400,
+    "lastUpdated": "2026-05-27"
   },
   "questions": [
     {
@@ -5742,6 +5742,4829 @@
             "B. 增加 IP 地址数量",
             "C. 支持 IPv6",
             "D. 自动分配 IP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_201",
+      "conceptId": "hcia-exp-network-fundamentals-1",
+      "concept": "冲突域与广播域",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "collision",
+        "broadcast"
+      ],
+      "explanation": "交换机每个端口是一个独立的冲突域。",
+      "variants": [
+        {
+          "text": "以下哪个设备可以隔离冲突域？",
+          "options": [
+            "A. 集线器",
+            "B. 交换机",
+            "C. 中继器",
+            "D. 网桥"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_202",
+      "conceptId": "hcia-exp-network-fundamentals-2",
+      "concept": "冲突域与广播域",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "collision",
+        "broadcast"
+      ],
+      "explanation": "二层交换机所有端口在同一个广播域内。",
+      "variants": [
+        {
+          "text": "以下哪个设备不能隔离广播域？",
+          "options": [
+            "A. 路由器",
+            "B. 三层交换机",
+            "C. 二层交换机",
+            "D. 防火墙"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_203",
+      "conceptId": "hcia-exp-network-fundamentals-3",
+      "concept": "数据封装过程",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "encapsulation"
+      ],
+      "explanation": "数据链路层将 IP 报文封装成帧，添加帧头部和帧尾部。",
+      "variants": [
+        {
+          "text": "在数据传输过程中，数据链路层添加的头部是什么？",
+          "options": [
+            "A. IP 头部",
+            "B. TCP 头部",
+            "C. 帧头部",
+            "D. 应用层头部"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_204",
+      "conceptId": "hcia-exp-network-fundamentals-4",
+      "concept": "数据封装过程",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "encapsulation"
+      ],
+      "explanation": "应用层→传输层添加TCP/UDP头部成段→网络层添加IP头部成包→数据链路层封装成帧→物理层转为比特流。",
+      "variants": [
+        {
+          "text": "数据从应用层到网络接口层的封装顺序正确的是？",
+          "options": [
+            "A. 数据段→数据包→数据帧→比特流",
+            "B. 数据帧→数据包→数据段→比特流",
+            "C. 数据包→数据段→数据帧→比特流",
+            "D. 比特流→数据帧→数据包→数据段"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_205",
+      "conceptId": "hcia-exp-network-fundamentals-5",
+      "concept": "MAC 地址",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "mac"
+      ],
+      "explanation": "MAC 地址由 48 位（6 字节）组成。",
+      "variants": [
+        {
+          "text": "MAC 地址长度为多少位？",
+          "options": [
+            "A. 32 位",
+            "B. 48 位",
+            "C. 64 位",
+            "D. 128 位"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_206",
+      "conceptId": "hcia-exp-network-fundamentals-6",
+      "concept": "MAC 地址",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "mac"
+      ],
+      "explanation": "MAC 地址前 24 位是 OUI（组织唯一标识符），标识设备制造商。",
+      "variants": [
+        {
+          "text": "MAC 地址中前 24 位代表什么？",
+          "options": [
+            "A. 设备序列号",
+            "B. 厂商 OUI",
+            "C. 主机标识",
+            "D. 网络号"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_207",
+      "conceptId": "hcia-exp-network-fundamentals-7",
+      "concept": "IP 地址分类",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "ip-class"
+      ],
+      "explanation": "C 类地址范围 192.0.0.0~223.255.255.255。",
+      "variants": [
+        {
+          "text": "以下哪个 IP 地址属于 C 类地址？",
+          "options": [
+            "A. 10.0.0.1",
+            "B. 172.16.0.1",
+            "C. 192.168.1.1",
+            "D. 224.0.0.1"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_208",
+      "conceptId": "hcia-exp-network-fundamentals-8",
+      "concept": "IP 地址分类",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "ip-class"
+      ],
+      "explanation": "B 类地址默认子网掩码为 255.255.0.0（/16）。",
+      "variants": [
+        {
+          "text": "B 类地址的默认子网掩码是什么？",
+          "options": [
+            "A. 255.0.0.0",
+            "B. 255.255.0.0",
+            "C. 255.255.255.0",
+            "D. 255.255.255.240"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_209",
+      "conceptId": "hcia-exp-network-fundamentals-9",
+      "concept": "ARP 协议",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "arp"
+      ],
+      "explanation": "ARP 通过已知 IP 地址获取目标设备的 MAC 地址。",
+      "variants": [
+        {
+          "text": "ARP 协议的主要功能是什么？",
+          "options": [
+            "A. 将域名解析为 IP 地址",
+            "B. 将 IP 地址解析为 MAC 地址",
+            "C. 将 MAC 地址解析为 IP 地址",
+            "D. 将端口号映射到 IP 地址"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_210",
+      "conceptId": "hcia-exp-network-fundamentals-10",
+      "concept": "ARP 协议",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "arp"
+      ],
+      "explanation": "ARP 请求以广播发送，目标 MAC 为 FF-FF-FF-FF-FF-FF。",
+      "variants": [
+        {
+          "text": "主机 A 不知道 B 的 MAC 地址时，发送的是什么 ARP 报文？",
+          "options": [
+            "A. ARP 请求（广播）",
+            "B. ARP 响应（单播）",
+            "C. ARP 应答（广播）",
+            "D. RARP 请求"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_211",
+      "conceptId": "hcia-exp-ethernet-switching-11",
+      "concept": "RSTP 端口",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "stp",
+        "rstp"
+      ],
+      "explanation": "RSTP 定义了根端口、指定端口、Alternate 端口和 Backup 端口四种角色。",
+      "variants": [
+        {
+          "text": "RSTP 中定义了几种端口角色？",
+          "options": [
+            "A. 3 种",
+            "B. 4 种",
+            "C. 5 种",
+            "D. 6 种"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_212",
+      "conceptId": "hcia-exp-ethernet-switching-12",
+      "concept": "RSTP 端口",
+      "domain": "Ethernet Switching",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "stp",
+        "rstp"
+      ],
+      "explanation": "Alternate 端口是根端口的备份端口，根端口故障时接管。",
+      "variants": [
+        {
+          "text": "Alternate 端口是哪种端口的备份？",
+          "options": [
+            "A. 指定端口",
+            "B. 根端口",
+            "C. 边缘端口",
+            "D. Backup 端口"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_213",
+      "conceptId": "hcia-exp-ethernet-switching-13",
+      "concept": "端口安全",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "port-security"
+      ],
+      "explanation": "端口安全通过限制端口上允许学习的 MAC 地址数量增强安全。",
+      "variants": [
+        {
+          "text": "端口安全可以限制什么？",
+          "options": [
+            "A. 端口速率",
+            "B. 通过端口的 MAC 地址数量",
+            "C. 端口带宽",
+            "D. 端口 VLAN 数量"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_214",
+      "conceptId": "hcia-exp-ethernet-switching-14",
+      "concept": "端口安全",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "port-security"
+      ],
+      "explanation": "处理方式包括 Protect、Restrict 和 Shutdown 三种。",
+      "variants": [
+        {
+          "text": "端口安全违规处理方式不包括以下哪种？",
+          "options": [
+            "A. Protect",
+            "B. Restrict",
+            "C. Shutdown",
+            "D. Forward"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_215",
+      "conceptId": "hcia-exp-ethernet-switching-15",
+      "concept": "MAC 地址表",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "mac-table"
+      ],
+      "explanation": "华为交换机动态 MAC 地址默认老化时间 300 秒。",
+      "variants": [
+        {
+          "text": "动态 MAC 地址默认老化时间是多少？",
+          "options": [
+            "A. 60 秒",
+            "B. 120 秒",
+            "C. 300 秒",
+            "D. 600 秒"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_216",
+      "conceptId": "hcia-exp-ethernet-switching-16",
+      "concept": "MAC 地址表",
+      "domain": "Ethernet Switching",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "mac-table"
+      ],
+      "explanation": "静态 MAC 地址优先级高于动态 MAC 地址且不会老化。",
+      "variants": [
+        {
+          "text": "以下哪种 MAC 地址优先级最高？",
+          "options": [
+            "A. 动态 MAC",
+            "B. 静态 MAC",
+            "C. 黑洞 MAC",
+            "D. 黑名单 MAC"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_217",
+      "conceptId": "hcia-exp-ethernet-switching-17",
+      "concept": "VLAN 间路由",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "vlan-routing"
+      ],
+      "explanation": "二层交换机无法实现 VLAN 间路由。",
+      "variants": [
+        {
+          "text": "实现 VLAN 间通信的方法不包括？",
+          "options": [
+            "A. 单臂路由",
+            "B. 三层交换机 VLANIF",
+            "C. 二层交换机",
+            "D. 路由器子接口"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_218",
+      "conceptId": "hcia-exp-ethernet-switching-18",
+      "concept": "VLAN 间路由",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "vlan-routing"
+      ],
+      "explanation": "华为设备使用 dot1q termination vid 命令配置子接口 VLAN 封装。",
+      "variants": [
+        {
+          "text": "华为设备子接口终结 VLAN 的命令是？",
+          "options": [
+            "A. dot1q termination vid",
+            "B. vlan dot1q tag",
+            "C. encapsulation dot1q",
+            "D. vlan encapsulation"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_219",
+      "conceptId": "hcia-exp-ethernet-switching-19",
+      "concept": "Hybrid 端口",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "hybrid"
+      ],
+      "explanation": "华为端口链路类型有 Access、Trunk 和 Hybrid 三种。",
+      "variants": [
+        {
+          "text": "华为交换机链路类型不包括以下哪种？",
+          "options": [
+            "A. Access",
+            "B. Trunk",
+            "C. Hybrid",
+            "D. Tunnel"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_220",
+      "conceptId": "hcia-exp-ethernet-switching-20",
+      "concept": "Hybrid 端口",
+      "domain": "Ethernet Switching",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "hybrid"
+      ],
+      "explanation": "Hybrid 端口可灵活控制，对某些 VLAN 打标签，另一些不打标签。",
+      "variants": [
+        {
+          "text": "Hybrid 端口对 Untagged 列表中的 VLAN 如何处理？",
+          "options": [
+            "A. 打标签发送",
+            "B. 不打标签发送",
+            "C. 丢弃",
+            "D. 根据 PVID 决定"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_221",
+      "conceptId": "hcia-exp-ethernet-switching-1",
+      "concept": "交换机工作原理",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "switch"
+      ],
+      "explanation": "未知单播帧会被交换机泛洪处理。",
+      "variants": [
+        {
+          "text": "目的 MAC 不在 MAC 地址表中时，交换机会如何处理？",
+          "options": [
+            "A. 丢弃该帧",
+            "B. 泛洪到所有端口（除接收端口）",
+            "C. 只转发到接收端口",
+            "D. 向所有端口发 ARP 请求"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_222",
+      "conceptId": "hcia-exp-ethernet-switching-2",
+      "concept": "交换机工作原理",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "switch"
+      ],
+      "explanation": "MAC 地址表包含 MAC 地址、端口和 VLAN 信息，不含 IP 地址。",
+      "variants": [
+        {
+          "text": "MAC 地址表中不包含以下哪项信息？",
+          "options": [
+            "A. MAC 地址",
+            "B. 对应端口",
+            "C. VLAN ID",
+            "D. IP 地址"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_223",
+      "conceptId": "hcia-exp-ethernet-switching-3",
+      "concept": "VLAN 基础",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "vlan",
+        "802.1q"
+      ],
+      "explanation": "802.1Q 标签为 4 字节，包含优先级、CFI 和 12 位 VLAN ID。",
+      "variants": [
+        {
+          "text": "IEEE 802.1Q VLAN 标签的长度是多少字节？",
+          "options": [
+            "A. 2 字节",
+            "B. 4 字节",
+            "C. 6 字节",
+            "D. 8 字节"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_224",
+      "conceptId": "hcia-exp-ethernet-switching-4",
+      "concept": "VLAN 基础",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "vlan"
+      ],
+      "explanation": "12 位 VLAN ID 取值范围 0~4095，可用范围 1~4094。",
+      "variants": [
+        {
+          "text": "VLAN ID 的最大数量是多少？",
+          "options": [
+            "A. 256",
+            "B. 1024",
+            "C. 2048",
+            "D. 4096"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_225",
+      "conceptId": "hcia-exp-ethernet-switching-5",
+      "concept": "Access 端口",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "vlan",
+        "access"
+      ],
+      "explanation": "Access 端口发送帧时剥离 VLAN 标签，以无标签帧发送。",
+      "variants": [
+        {
+          "text": "Access 端口发送帧时如何处理 VLAN 标签？",
+          "options": [
+            "A. 不打标签发送",
+            "B. 打上 PVID 标签发送",
+            "C. 打上所有允许的 VLAN 标签",
+            "D. 根据对端配置决定"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_226",
+      "conceptId": "hcia-exp-ethernet-switching-6",
+      "concept": "Trunk 端口",
+      "domain": "Ethernet Switching",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "vlan",
+        "trunk"
+      ],
+      "explanation": "Trunk 端口发送 PVID 所属 VLAN 的帧时默认不打标签，可通过配置改变。",
+      "variants": [
+        {
+          "text": "Trunk 端口发送 PVID 所在 VLAN 的帧时默认如何处理？",
+          "options": [
+            "A. 不打标签发送",
+            "B. 打标签发送",
+            "C. 丢弃该帧",
+            "D. 根据配置可选打或不打标签"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_227",
+      "conceptId": "hcia-exp-ethernet-switching-7",
+      "concept": "链路聚合",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "lag"
+      ],
+      "explanation": "链路聚合主要提供带宽提升、冗余和负载分担，不降低单包延迟。",
+      "variants": [
+        {
+          "text": "链路聚合的优点不包括以下哪项？",
+          "options": [
+            "A. 增加带宽",
+            "B. 提供链路冗余",
+            "C. 减少网络延迟",
+            "D. 负载均衡"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_228",
+      "conceptId": "hcia-exp-ethernet-switching-8",
+      "concept": "链路聚合",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "lag"
+      ],
+      "explanation": "华为交换机 Eth-Trunk 最多支持 8 个成员端口。",
+      "variants": [
+        {
+          "text": "华为 Eth-Trunk 最大支持多少成员端口？",
+          "options": [
+            "A. 4",
+            "B. 8",
+            "C. 16",
+            "D. 32"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_229",
+      "conceptId": "hcia-exp-ethernet-switching-9",
+      "concept": "STP 协议",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "stp"
+      ],
+      "explanation": "STP 通过逻辑阻断冗余链路来防止二层环路。",
+      "variants": [
+        {
+          "text": "STP 的主要作用是什么？",
+          "options": [
+            "A. 提高转发速率",
+            "B. 防止网络环路",
+            "C. 实现 VLAN 间路由",
+            "D. 增加网络带宽"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_230",
+      "conceptId": "hcia-exp-ethernet-switching-10",
+      "concept": "STP 协议",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "stp"
+      ],
+      "explanation": "STP 端口状态包括 Blocking、Listening、Learning 和 Forwarding。",
+      "variants": [
+        {
+          "text": "STP 端口状态不包括以下哪个？",
+          "options": [
+            "A. Blocking",
+            "B. Listening",
+            "C. Forwarding",
+            "D. Available"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_231",
+      "conceptId": "hcia-exp-ip-routing-6",
+      "concept": "浮动静态路由",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "static",
+        "floating"
+      ],
+      "explanation": "浮动静态路由设置更高的优先级值（更低优先级），主路由失效后生效。",
+      "variants": [
+        {
+          "text": "浮动静态路由通过调整什么实现主备切换？",
+          "options": [
+            "A. 路由开销（Cost）",
+            "B. 路由优先级（Preference）",
+            "C. 下一跳地址",
+            "D. 出接口"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_232",
+      "conceptId": "hcia-exp-ip-routing-7",
+      "concept": "OSPF 邻居",
+      "domain": "IP Routing",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf"
+      ],
+      "explanation": "Hello 报文用于发现邻居和维护邻居关系。",
+      "variants": [
+        {
+          "text": "OSPF Hello 报文的作用是什么？",
+          "options": [
+            "A. 传递链路状态",
+            "B. 发现和维护邻居关系",
+            "C. 计算路由",
+            "D. 确认 LSU 接收"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_233",
+      "conceptId": "hcia-exp-ip-routing-8",
+      "concept": "OSPF DR/BDR",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf"
+      ],
+      "explanation": "广播多路访问网络中需要选举 DR/BDR 减少邻接关系数量。",
+      "variants": [
+        {
+          "text": "OSPF 的 DR/BDR 选举在哪种网络类型中进行？",
+          "options": [
+            "A. 点到点",
+            "B. 广播多路访问",
+            "C. NBMA",
+            "D. 点到多点"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_234",
+      "conceptId": "hcia-exp-ip-routing-9",
+      "concept": "OSPF LSA",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf",
+        "lsa"
+      ],
+      "explanation": "Type 1 为 Router LSA，由每台路由器产生描述本地的链路状态。",
+      "variants": [
+        {
+          "text": "OSPF LSA 类型中 Type 1 是什么？",
+          "options": [
+            "A. Network LSA",
+            "B. Router LSA",
+            "C. Summary LSA",
+            "D. External LSA"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_235",
+      "conceptId": "hcia-exp-ip-routing-10",
+      "concept": "OSPF 状态机",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf"
+      ],
+      "explanation": "顺序：Down→Init→2-Way→ExStart→Exchange→Loading→Full。",
+      "variants": [
+        {
+          "text": "OSPF 邻居状态从 Down 到 Full 的正确顺序是？",
+          "options": [
+            "A. Init→2-Way→ExStart→Exchange→Loading→Full",
+            "B. Init→Exchange→ExStart→Loading→Full",
+            "C. 2-Way→Init→ExStart→Exchange→Full",
+            "D. Init→Loading→Exchange→ExStart→Full"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_236",
+      "conceptId": "hcia-exp-ip-routing-11",
+      "concept": "OSPF Router ID",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf"
+      ],
+      "explanation": "优先使用手动配置，否则取最大 Loopback 地址，再取最大物理接口地址。",
+      "variants": [
+        {
+          "text": "OSPF Router ID 的确定顺序是？",
+          "options": [
+            "A. 手动配置→最大Loopback→最大物理接口地址",
+            "B. 随机生成",
+            "C. 使用 MAC 地址",
+            "D. 由 DR 分配"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_237",
+      "conceptId": "hcia-exp-ip-routing-12",
+      "concept": "OSPF DD 报文",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf"
+      ],
+      "explanation": "DD（Database Description）报文描述本地 LSDB 摘要，用于邻居间同步。",
+      "variants": [
+        {
+          "text": "OSPF DD 报文的作用是？",
+          "options": [
+            "A. 确认 LSU 接收",
+            "B. 描述 LSDB 摘要",
+            "C. 请求特定 LSA",
+            "D. 发送完整 LSA"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_238",
+      "conceptId": "hcia-exp-ip-routing-13",
+      "concept": "路由选路",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "routing"
+      ],
+      "explanation": "最长前缀匹配指选择子网掩码最长的精确路由。",
+      "variants": [
+        {
+          "text": "最长前缀匹配原则的含义是？",
+          "options": [
+            "A. 选择优先级最高的路由",
+            "B. 选择掩码最长的路由",
+            "C. 选择 Cost 最小的路由",
+            "D. 选择跳数最小的路由"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_239",
+      "conceptId": "hcia-exp-ip-routing-14",
+      "concept": "路由迭代",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "routing"
+      ],
+      "explanation": "路由迭代根据下一跳地址查找对应的出接口。",
+      "variants": [
+        {
+          "text": "路由迭代是指什么？",
+          "options": [
+            "A. 路由重新收敛过程",
+            "B. 查找下一跳地址出接口的过程",
+            "C. 多条路由合并",
+            "D. 路由协议切换"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_240",
+      "conceptId": "hcia-exp-ip-routing-15",
+      "concept": "RIP 协议",
+      "domain": "IP Routing",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "rip"
+      ],
+      "explanation": "RIP 最大跳数 15（16 表示不可达），用于防环。",
+      "variants": [
+        {
+          "text": "RIP 最大跳数是多少？",
+          "options": [
+            "A. 15",
+            "B. 16",
+            "C. 32",
+            "D. 255"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_241",
+      "conceptId": "hcia-exp-ip-routing-16",
+      "concept": "RIP 协议",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "rip"
+      ],
+      "explanation": "RIP 每 30 秒发送一次完整路由表更新。",
+      "variants": [
+        {
+          "text": "RIP 更新周期是多少？",
+          "options": [
+            "A. 30 秒",
+            "B. 60 秒",
+            "C. 90 秒",
+            "D. 180 秒"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_242",
+      "conceptId": "hcia-exp-ip-routing-17",
+      "concept": "路由引入",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "route-import"
+      ],
+      "explanation": "华为使用 import-route 命令引入外部路由。",
+      "variants": [
+        {
+          "text": "华为设备将 OSPF 路由引入 RIP 的命令是？",
+          "options": [
+            "A. import-route ospf",
+            "B. redistribute ospf",
+            "C. route import ospf",
+            "D. inject ospf"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_243",
+      "conceptId": "hcia-exp-ip-routing-18",
+      "concept": "路由汇总",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "route-summary"
+      ],
+      "explanation": "路由汇总减少路由条目和 LSA 数量，降低带宽消耗。",
+      "variants": [
+        {
+          "text": "关于路由汇总的描述正确的是？",
+          "options": [
+            "A. 减少路由表条目",
+            "B. 增加收敛时间",
+            "C. 减少带宽消耗",
+            "D. A 和 C 均正确"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_244",
+      "conceptId": "hcia-exp-ip-routing-19",
+      "concept": "路由策略",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "route-policy",
+        "filter"
+      ],
+      "explanation": "Filter-Policy 在入方向过滤路由，阻止特定路由加入路由表。",
+      "variants": [
+        {
+          "text": "Filter-Policy 对 OSPF 的作用是？",
+          "options": [
+            "A. 过滤 LSA",
+            "B. 过滤路由添加到路由表中",
+            "C. 过滤 Hello 报文",
+            "D. 过滤 LSU"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_245",
+      "conceptId": "hcia-exp-ip-routing-20",
+      "concept": "路由协议比较",
+      "domain": "IP Routing",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "protocol-compare"
+      ],
+      "explanation": "OSPF 是链路状态协议，RIP 是距离矢量协议，BGP 是路径矢量协议。",
+      "variants": [
+        {
+          "text": "以下属于链路状态路由协议的是？",
+          "options": [
+            "A. RIP",
+            "B. BGP",
+            "C. OSPF",
+            "D. 静态路由"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_246",
+      "conceptId": "hcia-exp-ip-routing-21",
+      "concept": "路由协议比较",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "protocol-compare"
+      ],
+      "explanation": "距离矢量协议定期将完整路由表发给邻居，不掌握全网拓扑。",
+      "variants": [
+        {
+          "text": "距离矢量路由协议的特点是？",
+          "options": [
+            "A. 发送完整路由表给邻居",
+            "B. 了解全网拓扑",
+            "C. 收敛速度快",
+            "D. 使用 SPF 算法"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_247",
+      "conceptId": "hcia-exp-ip-routing-22",
+      "concept": "路由负载分担",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ecmp"
+      ],
+      "explanation": "华为支持 ECMP，等价路由间实施负载分担。",
+      "variants": [
+        {
+          "text": "存在等价路由时华为设备默认如何处理？",
+          "options": [
+            "A. 只选一条",
+            "B. 全部添加并负载分担",
+            "C. 随机丢弃",
+            "D. 仅保留最优 3 条"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_248",
+      "conceptId": "hcia-exp-ip-routing-23",
+      "concept": "浮动路由",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "floating-route"
+      ],
+      "explanation": "华为优先级值越小越优先，备用路由设置更大的值。",
+      "variants": [
+        {
+          "text": "备用浮动静态路由的优先级应如何设置？",
+          "options": [
+            "A. 比主路由优先级值更小",
+            "B. 比主路由优先级值更大",
+            "C. 与主路由相同",
+            "D. 不需要设置"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_249",
+      "conceptId": "hcia-exp-ip-routing-24",
+      "concept": "路由标记",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "route-tag"
+      ],
+      "explanation": "路由标记用于标识不同来源的路由，方便策略控制。",
+      "variants": [
+        {
+          "text": "路由标记（Tag）的作用是？",
+          "options": [
+            "A. 标识路由优先级",
+            "B. 标识路由来源以便策略控制",
+            "C. 标识下一跳",
+            "D. 标识跳数"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_250",
+      "conceptId": "hcia-exp-ip-routing-25",
+      "concept": "IPv6 路由",
+      "domain": "IP Routing",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "ipv6"
+      ],
+      "explanation": "IPv6 链路本地地址前缀 FE80::/10，用于同一链路上的通信。",
+      "variants": [
+        {
+          "text": "IPv6 链路本地地址前缀是？",
+          "options": [
+            "A. 2000::/3",
+            "B. FC00::/7",
+            "C. FE80::/10",
+            "D. FF00::/8"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_251",
+      "conceptId": "hcia-exp-ip-routing-1",
+      "concept": "路由基础",
+      "domain": "IP Routing",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "routing-basics"
+      ],
+      "explanation": "直连路由优先级最高，接口配置 IP 并 up 后自动添加。",
+      "variants": [
+        {
+          "text": "路由表中优先级最高的是哪类路由？",
+          "options": [
+            "A. 直连路由",
+            "B. 静态路由",
+            "C. RIP 路由",
+            "D. OSPF 路由"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_252",
+      "conceptId": "hcia-exp-ip-routing-2",
+      "concept": "路由基础",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "routing-basics"
+      ],
+      "explanation": "华为设备中，值越小越优先。",
+      "variants": [
+        {
+          "text": "华为设备中不同路由协议通过什么值选择最优路由？",
+          "options": [
+            "A. 优先级（Preference）",
+            "B. 跳数",
+            "C. 开销（Cost）",
+            "D. 路由标记"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_253",
+      "conceptId": "hcia-exp-ip-routing-3",
+      "concept": "路由基础",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "routing-basics"
+      ],
+      "explanation": "OSPF 默认优先级 10，直连 0，静态 60。",
+      "variants": [
+        {
+          "text": "OSPF 在华为设备上的默认优先级是多少？",
+          "options": [
+            "A. 0",
+            "B. 10",
+            "C. 15",
+            "D. 150"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_254",
+      "conceptId": "hcia-exp-ip-routing-4",
+      "concept": "静态路由",
+      "domain": "IP Routing",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "static"
+      ],
+      "explanation": "华为静态默认路由格式：ip route-static 0.0.0.0 0.0.0.0 下一跳。",
+      "variants": [
+        {
+          "text": "配置默认静态路由的正确命令是？",
+          "options": [
+            "A. ip route-static 0.0.0.0 0.0.0.0 10.0.0.1",
+            "B. ip route 0.0.0.0 0.0.0.0 10.0.0.1",
+            "C. ip route-default 10.0.0.1",
+            "D. ip default-gateway 10.0.0.1"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_255",
+      "conceptId": "hcia-exp-ip-routing-5",
+      "concept": "静态路由",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "static"
+      ],
+      "explanation": "静态路由不发送协议报文，不占用带宽。缺点是需手动配置。",
+      "variants": [
+        {
+          "text": "静态路由的优点是什么？",
+          "options": [
+            "A. 自动适应网络变化",
+            "B. 不占用额外带宽和处理资源",
+            "C. 配置简单无需人工干预",
+            "D. 自动故障切换"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_256",
+      "conceptId": "hcia-exp-network-security-11",
+      "concept": "RADIUS",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "aaa",
+        "radius"
+      ],
+      "explanation": "RADIUS 使用 UDP，认证端口 1812，计费端口 1813。",
+      "variants": [
+        {
+          "text": "RADIUS 认证使用的传输协议和端口？",
+          "options": [
+            "A. TCP 1812",
+            "B. UDP 1812",
+            "C. UDP 1645",
+            "D. TCP 1645"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_257",
+      "conceptId": "hcia-exp-network-security-12",
+      "concept": "DHCP Snooping",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "dhcp",
+        "snooping"
+      ],
+      "explanation": "DHCP Snooping 通过信任端口防非法 DHCP 服务器。",
+      "variants": [
+        {
+          "text": "DHCP Snooping 的主要作用？",
+          "options": [
+            "A. 防 DHCP 服务器假冒",
+            "B. 动态分配 IP",
+            "C. 记录 DHCP 日志",
+            "D. 实现 DHCP 中继"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_258",
+      "conceptId": "hcia-exp-network-security-13",
+      "concept": "DHCP 可信端口",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "dhcp",
+        "snooping"
+      ],
+      "explanation": "需手动将连接 DHCP 服务器的接口设为 Trusted。",
+      "variants": [
+        {
+          "text": "DHCP Snooping 中哪些端口应设为可信？",
+          "options": [
+            "A. 连接客户端的端口",
+            "B. 连接合法 DHCP 服务器的端口",
+            "C. 所有端口默认可信",
+            "D. 所有 Trunk 端口"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_259",
+      "conceptId": "hcia-exp-network-security-14",
+      "concept": "IPSec",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "ipsec"
+      ],
+      "explanation": "IPSec 使用 AH（认证头）和 ESP（封装安全载荷）协议。",
+      "variants": [
+        {
+          "text": "IPSec 使用的安全协议是？",
+          "options": [
+            "A. AH 和 ESP",
+            "B. SSL 和 TLS",
+            "C. SSH 和 HTTPS",
+            "D. L2TP 和 PPTP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_260",
+      "conceptId": "hcia-exp-network-security-15",
+      "concept": "DoS 攻击",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "dos"
+      ],
+      "explanation": "SYN Flood 利用 TCP 三次握手漏洞耗尽服务器资源。",
+      "variants": [
+        {
+          "text": "以下哪种属于 DoS 攻击？",
+          "options": [
+            "A. 中间人攻击",
+            "B. SYN Flood",
+            "C. ARP 欺骗",
+            "D. MAC 表溢出"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_261",
+      "conceptId": "hcia-exp-network-security-1",
+      "concept": "ACL 基础",
+      "domain": "Network Security",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "acl"
+      ],
+      "explanation": "ACL 通过匹配数据包特征实现流量过滤或控制。",
+      "variants": [
+        {
+          "text": "ACL 的主要作用是什么？",
+          "options": [
+            "A. 加密数据",
+            "B. 过滤数据包",
+            "C. 建立 VPN",
+            "D. 实现 NAT"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_262",
+      "conceptId": "hcia-exp-network-security-2",
+      "concept": "ACL 基础",
+      "domain": "Network Security",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "acl"
+      ],
+      "explanation": "华为基本 ACL 编号 2000~2999，高级 ACL 3000~3999。",
+      "variants": [
+        {
+          "text": "基本 ACL 的编号范围是？",
+          "options": [
+            "A. 2000~2999",
+            "B. 3000~3999",
+            "C. 4000~4999",
+            "D. 1000~1999"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_263",
+      "conceptId": "hcia-exp-network-security-3",
+      "concept": "ACL 基础",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "acl"
+      ],
+      "explanation": "高级 ACL 可匹配源/目的 IP、协议、端口、TCP 标志等。",
+      "variants": [
+        {
+          "text": "高级 ACL 与基本 ACL 的主要区别？",
+          "options": [
+            "A. 高级 ACL 支持更多匹配条件",
+            "B. 高级 ACL 只能入方向",
+            "C. 高级 ACL 仅匹配源地址",
+            "D. 高级 ACL 不需应用"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_264",
+      "conceptId": "hcia-exp-network-security-4",
+      "concept": "ACL 规则",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "acl"
+      ],
+      "explanation": "ACL 默认按配置顺序（config 模式）匹配。",
+      "variants": [
+        {
+          "text": "ACL 规则默认匹配顺序是什么？",
+          "options": [
+            "A. 按优先级排序",
+            "B. 按配置顺序匹配",
+            "C. 随机匹配",
+            "D. 按规则 ID 排序"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_265",
+      "conceptId": "hcia-exp-network-security-5",
+      "concept": "NAT 基础",
+      "domain": "Network Security",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "nat"
+      ],
+      "explanation": "NAT 将私有 IP 转为公网 IP，隐藏内部网络结构。",
+      "variants": [
+        {
+          "text": "NAT 的主要功能是什么？",
+          "options": [
+            "A. 隐藏内部网络结构",
+            "B. 加速转发",
+            "C. 过滤流量",
+            "D. 实现 QoS"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_266",
+      "conceptId": "hcia-exp-network-security-6",
+      "concept": "NAPT",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "nat"
+      ],
+      "explanation": "NAPT 通过端口复用实现多个私网 IP 映射到同一公网 IP。",
+      "variants": [
+        {
+          "text": "NAPT 相比基本 NAT 的优势是？",
+          "options": [
+            "A. 实现多对一地址转换",
+            "B. 配置更简单",
+            "C. 不需要默认路由",
+            "D. 支持 IPv6"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_267",
+      "conceptId": "hcia-exp-network-security-7",
+      "concept": "防火墙",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "firewall"
+      ],
+      "explanation": "防火墙维护会话表跟踪连接状态，实现状态检测。",
+      "variants": [
+        {
+          "text": "防火墙会话表的作用是？",
+          "options": [
+            "A. 记录配置",
+            "B. 跟踪会话状态",
+            "C. 存储路由",
+            "D. 记录 NAT 转换"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_268",
+      "conceptId": "hcia-exp-network-security-8",
+      "concept": "安全区域",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "firewall"
+      ],
+      "explanation": "Trust 为 85，DMZ 为 50，Untrust 为 5。",
+      "variants": [
+        {
+          "text": "华为防火墙 Trust 区域的安全级别是多少？",
+          "options": [
+            "A. 0",
+            "B. 50",
+            "C. 85",
+            "D. 100"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_269",
+      "conceptId": "hcia-exp-network-security-9",
+      "concept": "域间策略",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "firewall"
+      ],
+      "explanation": "华为防火墙基于会话转发，有会话则允许通过。",
+      "variants": [
+        {
+          "text": "防火墙 Trust→Untrust 方向默认策略？",
+          "options": [
+            "A. 允许",
+            "B. 拒绝",
+            "C. 根据会话表判断",
+            "D. 需手动配置缺省策略"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_270",
+      "conceptId": "hcia-exp-network-security-10",
+      "concept": "AAA 认证",
+      "domain": "Network Security",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "aaa"
+      ],
+      "explanation": "AAA 认证功能验证用户身份合法性。",
+      "variants": [
+        {
+          "text": "AAA 中认证（Authentication）的作用？",
+          "options": [
+            "A. 记录操作日志",
+            "B. 验证用户身份",
+            "C. 授权使用服务",
+            "D. 加密数据"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_271",
+      "conceptId": "hcia-exp-wlan-1",
+      "concept": "802.11 标准",
+      "domain": "WLAN",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "802.11"
+      ],
+      "explanation": "802.11ac 仅支持 5 GHz。",
+      "variants": [
+        {
+          "text": "802.11ac 工作在哪个频段？",
+          "options": [
+            "A. 2.4 GHz",
+            "B. 5 GHz",
+            "C. 2.4/5 GHz",
+            "D. 6 GHz"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_272",
+      "conceptId": "hcia-exp-wlan-2",
+      "concept": "WLAN 加密",
+      "domain": "WLAN",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan-security"
+      ],
+      "explanation": "WPA2 是常见的 Wi-Fi 加密标准。",
+      "variants": [
+        {
+          "text": "以下哪个是 WLAN 加密标准？",
+          "options": [
+            "A. WPA2",
+            "B. SSL",
+            "C. SSH",
+            "D. HTTPS"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_273",
+      "conceptId": "hcia-exp-wlan-3",
+      "concept": "AP 模式",
+      "domain": "WLAN",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "ap-mode"
+      ],
+      "explanation": "主要模式有 Fat AP、Fit AP 和 Mesh AP。",
+      "variants": [
+        {
+          "text": "AP 工作模式不包括？",
+          "options": [
+            "A. Fat AP",
+            "B. Fit AP",
+            "C. Cloud AP",
+            "D. Mesh AP"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_274",
+      "conceptId": "hcia-exp-wlan-4",
+      "concept": "CAPWAP",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "capwap"
+      ],
+      "explanation": "华为 WLAN 使用 CAPWAP 协议建立 AC-AP 隧道。",
+      "variants": [
+        {
+          "text": "华为 AC 和 AP 间隧道协议是？",
+          "options": [
+            "A. CAPWAP",
+            "B. LWAPP",
+            "C. GRE",
+            "D. IPSec"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_275",
+      "conceptId": "hcia-exp-wlan-5",
+      "concept": "CAPWAP 端口",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "capwap"
+      ],
+      "explanation": "控制隧道 UDP 5246，数据隧道 UDP 5247。",
+      "variants": [
+        {
+          "text": "CAPWAP 控制/数据隧道端口分别是？",
+          "options": [
+            "A. UDP 5246/5247",
+            "B. TCP 5246/5247",
+            "C. UDP 500/4500",
+            "D. TCP 443/80"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_276",
+      "conceptId": "hcia-exp-wlan-6",
+      "concept": "WLAN 漫游",
+      "domain": "WLAN",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "roaming"
+      ],
+      "explanation": "AC 内漫游 IP 不变，认证保持，有毫秒级中断但无感知。",
+      "variants": [
+        {
+          "text": "AC 内漫游时业务是否会中断？",
+          "options": [
+            "A. 完全无中断",
+            "B. 有毫秒级中断用户无感知",
+            "C. 需重新认证",
+            "D. 必须重新关联 AC"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_277",
+      "conceptId": "hcia-exp-wlan-7",
+      "concept": "无线信道",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "channel"
+      ],
+      "explanation": "2.4 GHz 中信道 1、6、11 互不重叠。",
+      "variants": [
+        {
+          "text": "2.4 GHz 不重叠的信道有几个？",
+          "options": [
+            "A. 3 个",
+            "B. 5 个",
+            "C. 11 个",
+            "D. 13 个"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_278",
+      "conceptId": "hcia-exp-wlan-8",
+      "concept": "信号覆盖",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "channel"
+      ],
+      "explanation": "扩散质量受障碍物、干扰和衰减影响，设备品牌无关。",
+      "variants": [
+        {
+          "text": "影响 WLAN 信号覆盖质量的因素不包括？",
+          "options": [
+            "A. 障碍物遮挡",
+            "B. 同频干扰",
+            "C. 设备品牌",
+            "D. 信号衰减"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_279",
+      "conceptId": "hcia-exp-wlan-9",
+      "concept": "WLAN 组网",
+      "domain": "WLAN",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan-arch"
+      ],
+      "explanation": "旁挂式 AC 通过交换机连接 AP，管理流和业务流分离。",
+      "variants": [
+        {
+          "text": "直连式与旁挂式组网的区别是？",
+          "options": [
+            "A. AP 与 AC 连接方式不同",
+            "B. AC 在网络中位置不同",
+            "C. AP 数量限制不同",
+            "D. 加密方式不同"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_280",
+      "conceptId": "hcia-exp-wlan-10",
+      "concept": "WPA3",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan-security"
+      ],
+      "explanation": "WPA3 使用 SAE 握手替代 PSK，防暴力破解。",
+      "variants": [
+        {
+          "text": "WPA3 相比 WPA2 的主要改进？",
+          "options": [
+            "A. 更长密钥",
+            "B. 支持 SAE 握手",
+            "C. 支持更多用户",
+            "D. 更低延迟"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_281",
+      "conceptId": "hcia-exp-network-management-1",
+      "concept": "SNMP Get",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "snmp"
+      ],
+      "explanation": "SNMP Get 用于 NMS 获取设备管理信息。",
+      "variants": [
+        {
+          "text": "NMS 主动查询设备信息的 SNMP 操作是？",
+          "options": [
+            "A. Get",
+            "B. Set",
+            "C. Trap",
+            "D. Inform"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_282",
+      "conceptId": "hcia-exp-network-management-2",
+      "concept": "SNMP 共同体",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "snmp"
+      ],
+      "explanation": "SNMPv1/v2c 使用共同体字符串做简单身份验证。",
+      "variants": [
+        {
+          "text": "SNMPv1/v2c 使用什么安全机制？",
+          "options": [
+            "A. 用户名密码",
+            "B. 共同体字符串",
+            "C. 证书认证",
+            "D. IPSec"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_283",
+      "conceptId": "hcia-exp-network-management-3",
+      "concept": "SNMPv3",
+      "domain": "Network Management",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "snmp",
+        "v3"
+      ],
+      "explanation": "SNMPv3 提供基于 USM 的认证加密和 VACM 视图控制。",
+      "variants": [
+        {
+          "text": "SNMPv3 新增的安全特性？",
+          "options": [
+            "A. 数据加密和认证",
+            "B. 更快速传输",
+            "C. IPv6 支持",
+            "D. 图形界面"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_284",
+      "conceptId": "hcia-exp-network-management-4",
+      "concept": "Telnet vs SSH",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "telnet",
+        "ssh"
+      ],
+      "explanation": "SSH 加密传输，Telnet 明文不安全。",
+      "variants": [
+        {
+          "text": "Telnet 和 SSH 的根本区别？",
+          "options": [
+            "A. SSH 加密传输，Telnet 明文",
+            "B. Telnet 支持更多用户",
+            "C. SSH 配置更简单",
+            "D. 无区别"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_285",
+      "conceptId": "hcia-exp-network-management-5",
+      "concept": "SSH 端口",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "ssh"
+      ],
+      "explanation": "SSH 端口 22，Telnet 端口 23。",
+      "variants": [
+        {
+          "text": "SSH 默认 TCP 端口号？",
+          "options": [
+            "A. 22",
+            "B. 23",
+            "C. 443",
+            "D. 3389"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_286",
+      "conceptId": "hcia-exp-network-management-6",
+      "concept": "Syslog 级别",
+      "domain": "Network Management",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "syslog"
+      ],
+      "explanation": "0=Emergency,1=Alert,2=Critical,3=Error,4=Warning,5=Notice,6=Info,7=Debug。",
+      "variants": [
+        {
+          "text": "Syslog 级别 3（Error）代表？",
+          "options": [
+            "A. 紧急",
+            "B. 告警",
+            "C. 错误",
+            "D. 警告"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_287",
+      "conceptId": "hcia-exp-network-management-7",
+      "concept": "远程管理",
+      "domain": "Network Management",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "mgmt"
+      ],
+      "explanation": "需 VTY、认证和路由可达，DNS 非必需。",
+      "variants": [
+        {
+          "text": "远程网络管理非必需配置是？",
+          "options": [
+            "A. VTY 用户界面",
+            "B. 用户认证",
+            "C. 路由可达",
+            "D. DNS 服务器"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_288",
+      "conceptId": "hcia-exp-network-management-8",
+      "concept": "端口镜像",
+      "domain": "Network Management",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "mirror"
+      ],
+      "explanation": "端口镜像复制指定端口流量到观察端口用于分析。",
+      "variants": [
+        {
+          "text": "端口镜像的主要作用？",
+          "options": [
+            "A. 备份配置",
+            "B. 复制流量到监控端口",
+            "C. 实现端口冗余",
+            "D. 增加带宽"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_289",
+      "conceptId": "hcia-exp-network-management-9",
+      "concept": "LLDP",
+      "domain": "Network Management",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "lldp"
+      ],
+      "explanation": "LLDP 使设备向邻居通告自身信息并发现邻居。",
+      "variants": [
+        {
+          "text": "LLDP 协议的作用？",
+          "options": [
+            "A. 发现直接邻居信息",
+            "B. 动态路由",
+            "C. 分配 IP",
+            "D. 建立 VPN"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_290",
+      "conceptId": "hcia-exp-network-management-10",
+      "concept": "NTP",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "ntp"
+      ],
+      "explanation": "NTP 用于在网络设备间同步系统时钟。",
+      "variants": [
+        {
+          "text": "NTP 协议的作用？",
+          "options": [
+            "A. 同步网络设备时间",
+            "B. 传输日志",
+            "C. 备份配置",
+            "D. 监控设备状态"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_291",
+      "conceptId": "hcia-exp-data-center-1",
+      "concept": "Spine-Leaf",
+      "domain": "Data Center",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "dc-arch"
+      ],
+      "explanation": "Spine-Leaf 任意两台 Leaf 间跳数均为 2，延迟可预测。",
+      "variants": [
+        {
+          "text": "Spine-Leaf 相比传统三层架构的优势？",
+          "options": [
+            "A. 跳数一致且可预测",
+            "B. 成本更低",
+            "C. 配置更简单",
+            "D. 支持更少设备"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_292",
+      "conceptId": "hcia-exp-data-center-2",
+      "concept": "VXLAN VTEP",
+      "domain": "Data Center",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "vxlan"
+      ],
+      "explanation": "VTEP 是 VXLAN 隧道的起点和终点，负责封装/解封装。",
+      "variants": [
+        {
+          "text": "VTEP 是什么？",
+          "options": [
+            "A. VXLAN 隧道端点",
+            "B. 虚拟交换机",
+            "C. 数据中心防火墙",
+            "D. 网络控制器"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_293",
+      "conceptId": "hcia-exp-data-center-3",
+      "concept": "VXLAN 端口",
+      "domain": "Data Center",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "vxlan"
+      ],
+      "explanation": "VXLAN 标准使用 UDP 4789 端口封装。",
+      "variants": [
+        {
+          "text": "VXLAN 使用的 UDP 端口号？",
+          "options": [
+            "A. 4789",
+            "B. 500",
+            "C. 1701",
+            "D. 4500"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_294",
+      "conceptId": "hcia-exp-data-center-4",
+      "concept": "M-LAG",
+      "domain": "Data Center",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "mlag"
+      ],
+      "explanation": "M-LAG 将多台设备组成逻辑设备，实现跨设备链路聚合。",
+      "variants": [
+        {
+          "text": "M-LAG 技术的主要作用？",
+          "options": [
+            "A. 跨设备链路聚合",
+            "B. 提高 CPU 处理能力",
+            "C. 增强无线覆盖",
+            "D. 简化路由"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_295",
+      "conceptId": "hcia-exp-data-center-5",
+      "concept": "数据中心流量",
+      "domain": "Data Center",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "dc-flow"
+      ],
+      "explanation": "East-West 指数据中心内部服务器间通信流量。",
+      "variants": [
+        {
+          "text": "East-West 流量指的是？",
+          "options": [
+            "A. 服务器之间流量",
+            "B. 用户到服务器",
+            "C. 数据中心到外网",
+            "D. 管理网络流量"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_296",
+      "conceptId": "hcia-exp-campus-network-1",
+      "concept": "三层架构",
+      "domain": "Campus Network",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "campus-arch"
+      ],
+      "explanation": "园区网络经典三层架构：核心层、汇聚层、接入层。",
+      "variants": [
+        {
+          "text": "园区网分层设计模型包括哪三层？",
+          "options": [
+            "A. 核心层、汇聚层、接入层",
+            "B. 骨干层、分布层、边缘层",
+            "C. 核心层、分布层、边界层",
+            "D. 主干层、支线层、终端层"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_297",
+      "conceptId": "hcia-exp-campus-network-2",
+      "concept": "接入层",
+      "domain": "Campus Network",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "campus-arch"
+      ],
+      "explanation": "接入层提供终端用户接入，部署端口安全和 VLAN。",
+      "variants": [
+        {
+          "text": "接入层交换机的主要作用？",
+          "options": [
+            "A. 高速转发路由",
+            "B. 连接终端用户设备",
+            "C. 连接不同园区",
+            "D. 全网路由计算"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_298",
+      "conceptId": "hcia-exp-campus-network-3",
+      "concept": "核心层",
+      "domain": "Campus Network",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "campus-arch"
+      ],
+      "explanation": "核心层设计重点是高可靠性、高带宽和冗余性。",
+      "variants": [
+        {
+          "text": "核心层主要设计原则？",
+          "options": [
+            "A. 高可用和高速转发",
+            "B. 低成本",
+            "C. 丰富安全策略",
+            "D. 无线覆盖"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_299",
+      "conceptId": "hcia-exp-campus-network-4",
+      "concept": "PoE",
+      "domain": "Campus Network",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "poe"
+      ],
+      "explanation": "PoE 常用于 AP、IP 电话和监控摄像头供电。",
+      "variants": [
+        {
+          "text": "PoE 可为以下哪种设备供电？",
+          "options": [
+            "A. 无线 AP",
+            "B. 路由器",
+            "C. 防火墙",
+            "D. 服务器"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_300",
+      "conceptId": "hcia-exp-campus-network-5",
+      "concept": "故障排除",
+      "domain": "Campus Network",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "troubleshoot"
+      ],
+      "explanation": "遵循自底向上原则，首先检查物理层连接。",
+      "variants": [
+        {
+          "text": "园区网络故障排除首先检查什么？",
+          "options": [
+            "A. 物理层连接",
+            "B. 路由配置",
+            "C. 安全策略",
+            "D. DNS 解析"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_301",
+      "conceptId": "hcia-exp-network-fundamentals-v2-1",
+      "concept": "CSMA/CD",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "csma"
+      ],
+      "explanation": "CSMA/CD（载波侦听多路访问/冲突检测）是以太网的基本介质访问控制方式。",
+      "variants": [
+        {
+          "text": "以太网使用什么机制来解决介质访问冲突？",
+          "options": [
+            "A. CSMA/CD",
+            "B. CSMA/CA",
+            "C. Token Passing",
+            "D. TDMA"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_302",
+      "conceptId": "hcia-exp-network-fundamentals-v2-2",
+      "concept": "CSMA/CD",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "csma"
+      ],
+      "explanation": "冲突后设备发送拥塞信号强化冲突，再通过退避算法随机等待后重传。",
+      "variants": [
+        {
+          "text": "CSMA/CD 中，检测到冲突后设备会如何处理？",
+          "options": [
+            "A. 立即重传",
+            "B. 发送拥塞信号并触发退避算法后重传",
+            "C. 丢弃数据包",
+            "D. 通知交换机处理"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_303",
+      "conceptId": "hcia-exp-network-fundamentals-v2-3",
+      "concept": "双工模式",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "duplex"
+      ],
+      "explanation": "全双工允许双向同时通信，半双工同一时刻只能单向通信。",
+      "variants": [
+        {
+          "text": "全双工和半双工的主要区别是？",
+          "options": [
+            "A. 全双工可以同时发送和接收",
+            "B. 全双工传输距离更远",
+            "C. 全双工使用同轴电缆",
+            "D. 全双工支持更多设备"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_304",
+      "conceptId": "hcia-exp-network-fundamentals-v2-4",
+      "concept": "双工模式",
+      "domain": "Network Fundamentals",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "duplex"
+      ],
+      "explanation": "自动协商失败时，设备降级为半双工工作模式。",
+      "variants": [
+        {
+          "text": "以下哪种情况交换机接口会自动协商为半双工？",
+          "options": [
+            "A. 两端速率不一致时",
+            "B. 接口下配置了 speed 100 但未配置 duplex",
+            "C. 一端设置为全双工，另一端自动协商失败",
+            "D. 使用光纤接口时"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_305",
+      "conceptId": "hcia-exp-network-fundamentals-v2-5",
+      "concept": "传输介质",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "cabling"
+      ],
+      "explanation": "Cat5e 支持 1 Gbps（1000 Mbps），Cat6 支持 10 Gbps。",
+      "variants": [
+        {
+          "text": "超五类（Cat5e）网线支持的最高速率为？",
+          "options": [
+            "A. 10 Mbps",
+            "B. 100 Mbps",
+            "C. 1 Gbps",
+            "D. 10 Gbps"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_306",
+      "conceptId": "hcia-exp-network-fundamentals-v2-6",
+      "concept": "传输介质",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "fiber"
+      ],
+      "explanation": "单模纤芯约 9μm，使用激光光源，传输距离可达 40km 以上。多模纤芯 50/62.5μm。",
+      "variants": [
+        {
+          "text": "光纤中单模与多模的主要区别是？",
+          "options": [
+            "A. 单模纤芯更细，传输距离更远",
+            "B. 多模使用激光光源",
+            "C. 单模价格更低",
+            "D. 多模传输距离更远"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_307",
+      "conceptId": "hcia-exp-network-fundamentals-v2-7",
+      "concept": "TCP/UDP",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "tcp",
+        "udp"
+      ],
+      "explanation": "TCP 面向连接，提供可靠传输和流量控制。UDP 无连接，尽力而为。",
+      "variants": [
+        {
+          "text": "以下哪个是 TCP 协议的特点？",
+          "options": [
+            "A. 面向连接",
+            "B. 无连接",
+            "C. 不可靠传输",
+            "D. 无流量控制"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_308",
+      "conceptId": "hcia-exp-network-fundamentals-v2-8",
+      "concept": "TCP/UDP",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "tcp",
+        "udp"
+      ],
+      "explanation": "DNS 使用 UDP 53 端口，HTTP 用 TCP 80，FTP 用 TCP 20/21，SMTP 用 TCP 25。",
+      "variants": [
+        {
+          "text": "以下哪个应用层协议使用 UDP 作为传输层协议？",
+          "options": [
+            "A. HTTP",
+            "B. FTP",
+            "C. DNS",
+            "D. SMTP"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_309",
+      "conceptId": "hcia-exp-network-fundamentals-v2-9",
+      "concept": "IPv4 报文",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ipv4"
+      ],
+      "explanation": "Fragment Offset 字段指示分片在原始报文中的相对位置。",
+      "variants": [
+        {
+          "text": "IPv4 报文头部中，用于标识分片偏移的字段是？",
+          "options": [
+            "A. Identification",
+            "B. Fragment Offset",
+            "C. Flags",
+            "D. Total Length"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_310",
+      "conceptId": "hcia-exp-network-fundamentals-v2-10",
+      "concept": "IPv4 报文",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ipv4"
+      ],
+      "explanation": "TTL（Time to Live）每经过一台路由器减 1，减到 0 时丢弃，防止路由环路。",
+      "variants": [
+        {
+          "text": "IPv4 报文头部的 TTL 字段的作用是？",
+          "options": [
+            "A. 标识数据包的生存时间，防止环路",
+            "B. 标识数据优先级",
+            "C. 标识数据包长度",
+            "D. 标识协议类型"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_311",
+      "conceptId": "hcia-exp-ethernet-switching-v2-11",
+      "concept": "环路检测",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "loop-detection"
+      ],
+      "explanation": "环路检测功能周期性发送检测帧，发现环路后阻塞对应接口。",
+      "variants": [
+        {
+          "text": "华为交换机环路检测（Loop Detection）的作用？",
+          "options": [
+            "A. 检测并处理接口形成的环路",
+            "B. 检测路由环路",
+            "C. 检测应用层环路",
+            "D. 检测电源环路"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_312",
+      "conceptId": "hcia-exp-ethernet-switching-v2-12",
+      "concept": "端口组",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "port-group"
+      ],
+      "explanation": "端口组允许对多个端口进行批量配置管理。",
+      "variants": [
+        {
+          "text": "端口组（Port Group）的作用是？",
+          "options": [
+            "A. 将多个端口统一配置，简化管理",
+            "B. 增加带宽",
+            "C. 提供冗余",
+            "D. 隔离冲突域"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_313",
+      "conceptId": "hcia-exp-ethernet-switching-v2-13",
+      "concept": "错误禁用",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "error-down"
+      ],
+      "explanation": "环路检测、端口安全违规、STP 等触发 Error-Down 状态。",
+      "variants": [
+        {
+          "text": "交换机接口状态为 Error-Down 的可能原因是？",
+          "options": [
+            "A. 检测到环路或端口安全违规",
+            "B. 接口被手动关闭",
+            "C. VLAN 不存在",
+            "D. IP 地址冲突"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_314",
+      "conceptId": "hcia-exp-ethernet-switching-v2-14",
+      "concept": "QinQ",
+      "domain": "Ethernet Switching",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "qinq"
+      ],
+      "explanation": "QinQ 在原有 802.1Q 标签外层再添加一层 VLAN 标签，扩展 VLAN 空间。",
+      "variants": [
+        {
+          "text": "QinQ（802.1Q-in-802.1Q）的主要作用是什么？",
+          "options": [
+            "A. 扩展 VLAN 数量，支持双重标签",
+            "B. 提高转发速率",
+            "C. 增强加密能力",
+            "D. 替代 STP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_315",
+      "conceptId": "hcia-exp-ethernet-switching-v2-15",
+      "concept": "Smart Link",
+      "domain": "Ethernet Switching",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "smart-link"
+      ],
+      "explanation": "Smart Link 提供双上行冗余，当主链路故障时备份链路可在亚秒级切换。",
+      "variants": [
+        {
+          "text": "华为 Smart Link 技术的作用？",
+          "options": [
+            "A. 实现双上行链路的快速切换（亚秒级）",
+            "B. 实现链路聚合",
+            "C. 实现端口镜像",
+            "D. 实现 VLAN 映射"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_316",
+      "conceptId": "hcia-exp-ethernet-switching-v2-16",
+      "concept": "MAC 表管理",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "mac-blackhole"
+      ],
+      "explanation": "黑洞 MAC 地址用于丢弃匹配特定源或目的 MAC 地址的帧，起安全过滤作用。",
+      "variants": [
+        {
+          "text": "MAC 地址表中添加黑洞 MAC 地址后，匹配该地址的帧会？",
+          "options": [
+            "A. 被丢弃",
+            "B. 被转发到指定端口",
+            "C. 被泛洪",
+            "D. 被转发到管理接口"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_317",
+      "conceptId": "hcia-exp-ethernet-switching-v2-17",
+      "concept": "二层安全",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "mac-flapping"
+      ],
+      "explanation": "MAC 地址漂移指同一 MAC 在不同端口间跳变，可能是环路或攻击导致。",
+      "variants": [
+        {
+          "text": "MAC 地址漂移检测功能的作用？",
+          "options": [
+            "A. 检测同一 MAC 地址在不同端口间跳变",
+            "B. 检测 MAC 地址重复",
+            "C. 检测端口速率变化",
+            "D. 检测 VLAN 变化"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_318",
+      "conceptId": "hcia-exp-ethernet-switching-v2-18",
+      "concept": "二层安全",
+      "domain": "Ethernet Switching",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "mac-flapping"
+      ],
+      "explanation": "IP 地址变更不会导致 MAC 地址漂移，MAC 地址是设备硬件标识。",
+      "variants": [
+        {
+          "text": "MAC 地址漂移的可能原因不包括？",
+          "options": [
+            "A. 二层环路",
+            "B. 网络攻击",
+            "C. 合法用户切换端口",
+            "D. IP 地址变更"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_319",
+      "conceptId": "hcia-exp-ethernet-switching-v2-19",
+      "concept": "Ethernet OAM",
+      "domain": "Ethernet Switching",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "oam"
+      ],
+      "explanation": "以太网 OAM 提供链路级故障检测、远端环回和性能监控。",
+      "variants": [
+        {
+          "text": "以太网 OAM（802.3ah）的主要功能？",
+          "options": [
+            "A. 链路故障检测和通知",
+            "B. 路由选路",
+            "C. IP 地址分配",
+            "D. VLAN 划分"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_320",
+      "conceptId": "hcia-exp-ethernet-switching-v2-20",
+      "concept": "二层协议",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "lldp",
+        "cdp"
+      ],
+      "explanation": "LLDP（IEEE 802.1AB）是标准协议，CDP 为 Cisco 私有协议。",
+      "variants": [
+        {
+          "text": "LLDP 和 CDP 的区别是？",
+          "options": [
+            "A. LLDP 是 IEEE 标准，CDP 是 Cisco 私有协议",
+            "B. CDP 是 IEEE 标准",
+            "C. LLDP 仅支持华为设备",
+            "D. 两者无区别"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_321",
+      "conceptId": "hcia-exp-ethernet-switching-v2-1",
+      "concept": "交换机转发方式",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "switch-forwarding"
+      ],
+      "explanation": "直通转发收到目的 MAC 地址即开始转发，延迟低但不做错误检测。",
+      "variants": [
+        {
+          "text": "交换机转发方式中，直通转发（Cut-through）相比存储转发（Store-and-Forward）的优势是？",
+          "options": [
+            "A. 延迟更低",
+            "B. 错误检测更全面",
+            "C. 支持速率适配",
+            "D. 缓存更多数据"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_322",
+      "conceptId": "hcia-exp-ethernet-switching-v2-2",
+      "concept": "交换机转发方式",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "switch-forwarding"
+      ],
+      "explanation": "存储转发收到完整帧并做 CRC 校验，有错则丢弃，延迟较高但可靠。",
+      "variants": [
+        {
+          "text": "存储转发交换方式的特点？",
+          "options": [
+            "A. 接收完整帧并校验后再转发",
+            "B. 延迟最小",
+            "C. 不检测错误",
+            "D. 仅检查目的 MAC"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_323",
+      "conceptId": "hcia-exp-ethernet-switching-v2-3",
+      "concept": "VLAN 划分",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "vlan"
+      ],
+      "explanation": "基于端口划分 VLAN 最常用，但用户移动后需手动调整 VLAN 配置。",
+      "variants": [
+        {
+          "text": "VLAN 划分方式中，基于端口划分 VLAN 的缺点是？",
+          "options": [
+            "A. 用户更换端口需重新配置 VLAN",
+            "B. 配置复杂",
+            "C. 安全性差",
+            "D. 不支持跨交换机"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_324",
+      "conceptId": "hcia-exp-ethernet-switching-v2-4",
+      "concept": "MAC 地址表溢出",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "mac-attack"
+      ],
+      "explanation": "攻击者发送大量虚假源 MAC 地址帧，填满 MAC 表后交换机被迫泛洪所有流量。",
+      "variants": [
+        {
+          "text": "MAC 地址表溢出攻击的原理是？",
+          "options": [
+            "A. 发送大量不同源 MAC 地址的帧填满 MAC 地址表",
+            "B. 发送大量 IP 地址耗尽设备资源",
+            "C. 伪造 ARP 报文实施欺骗",
+            "D. 发送超大帧导致交换机崩溃"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_325",
+      "conceptId": "hcia-exp-ethernet-switching-v2-5",
+      "concept": "广播风暴",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "loop"
+      ],
+      "explanation": "二层环路导致广播帧在网络中无限转发，形成广播风暴耗尽带宽。",
+      "variants": [
+        {
+          "text": "二层环路可能导致什么后果？",
+          "options": [
+            "A. 广播风暴",
+            "B. 路由收敛变慢",
+            "C. IP 地址冲突",
+            "D. ARP 缓存溢出"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_326",
+      "conceptId": "hcia-exp-ethernet-switching-v2-6",
+      "concept": "STP 选举",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "stp"
+      ],
+      "explanation": "STP 通过比较 BPDU 中的 BID 值，值最小的交换机当选根桥。",
+      "variants": [
+        {
+          "text": "STP 中根桥是如何选出的？",
+          "options": [
+            "A. 比较 BID（优先级+MAC 地址），值最小者为根桥",
+            "B. 最先启动的交换机",
+            "C. 端口数量最多的交换机",
+            "D. CPU 性能最强的交换机"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_327",
+      "conceptId": "hcia-exp-ethernet-switching-v2-7",
+      "concept": "RSTP 快速收敛",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "rstp"
+      ],
+      "explanation": "RSTP 引入边缘端口机制，以及 P/A（Proposal/Agreement）机制实现快速收敛。",
+      "variants": [
+        {
+          "text": "RSTP 相比 STP 收敛更快的主要原因是？",
+          "options": [
+            "A. 引入边缘端口等机制实现快速迁移",
+            "B. 缩短了定时器时间",
+            "C. 取消了 BPDU 老化时间",
+            "D. 使用更高的优先级"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_328",
+      "conceptId": "hcia-exp-ethernet-switching-v2-8",
+      "concept": "MSTP",
+      "domain": "Ethernet Switching",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "mstp"
+      ],
+      "explanation": "MSTP 将多个 VLAN 映射到一个实例，不同实例可以阻塞不同链路实现负载分担。",
+      "variants": [
+        {
+          "text": "MSTP（多实例生成树）的优势是？",
+          "options": [
+            "A. 实现不同 VLAN 在不同链路上负载分担",
+            "B. 配置更简单",
+            "C. 收敛速度更快",
+            "D. 支持更多交换机"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_329",
+      "conceptId": "hcia-exp-ethernet-switching-v2-9",
+      "concept": "VLAN 映射",
+      "domain": "Ethernet Switching",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "vlan-mapping"
+      ],
+      "explanation": "不同运营商使用不同 VLAN ID，VLAN Mapping 实现 ID 转换。",
+      "variants": [
+        {
+          "text": "VLAN Mapping 的主要应用场景？",
+          "options": [
+            "A. 跨运营商网络时 VLAN ID 转换",
+            "B. 增加 VLAN 数量",
+            "C. 提高转发速率",
+            "D. 实现 VLAN 间路由"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_330",
+      "conceptId": "hcia-exp-ethernet-switching-v2-10",
+      "concept": "风暴控制",
+      "domain": "Ethernet Switching",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "storm-control"
+      ],
+      "explanation": "华为使用 broadcast-suppression 命令配置广播风暴抑制。",
+      "variants": [
+        {
+          "text": "华为交换机上配置广播风暴抑制的命令是？",
+          "options": [
+            "A. broadcast-suppression",
+            "B. storm-control broadcast",
+            "C. broadcast-limit",
+            "D. suppress-broadcast"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_331",
+      "conceptId": "hcia-exp-ip-routing-v2-6",
+      "concept": "OSPF LSA Type 3",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf",
+        "lsa"
+      ],
+      "explanation": "Type 3 LSA 由 ABR（区域边界路由器）产生，通告其他区域的路由信息。",
+      "variants": [
+        {
+          "text": "Type 3（Network Summary LSA）由谁产生？",
+          "options": [
+            "A. ABR",
+            "B. ASBR",
+            "C. DR",
+            "D. 每台路由器"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_332",
+      "conceptId": "hcia-exp-ip-routing-v2-7",
+      "concept": "OSPF LSA Type 5",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf",
+        "lsa"
+      ],
+      "explanation": "Type 5 LSA 由 ASBR（自治系统边界路由器）产生，通告外部路由。",
+      "variants": [
+        {
+          "text": "Type 5（External LSA）由谁产生？",
+          "options": [
+            "A. ASBR",
+            "B. ABR",
+            "C. DR",
+            "D. BDR"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_333",
+      "conceptId": "hcia-exp-ip-routing-v2-8",
+      "concept": "OSPF 网络类型",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf-network"
+      ],
+      "explanation": "点到点网络只有两个邻居，不需要选举 DR/BDR。",
+      "variants": [
+        {
+          "text": "OSPF 网络类型中，默认不需要选举 DR/BDR 的是？",
+          "options": [
+            "A. P2P（点到点）",
+            "B. Broadcast（广播）",
+            "C. NBMA",
+            "D. P2MP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_334",
+      "conceptId": "hcia-exp-ip-routing-v2-9",
+      "concept": "OSPF 邻居",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf-trouble"
+      ],
+      "explanation": "MTU 不匹配导致 DD 报文过大被丢弃，状态卡在 ExStart/Exchange。",
+      "variants": [
+        {
+          "text": "OSPF 两台路由器邻居状态卡在 ExStart/Exchange 的可能原因？",
+          "options": [
+            "A. MTU 不匹配",
+            "B. Hello 间隔不一致",
+            "C. 区域 ID 不一致",
+            "D. 认证密码错误"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_335",
+      "conceptId": "hcia-exp-ip-routing-v2-10",
+      "concept": "OSPF 认证",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf-auth"
+      ],
+      "explanation": "OSPF 认证方式包括：Null（无认证）、Simple（明文）和 MD5 认证。",
+      "variants": [
+        {
+          "text": "OSPF 支持哪几种认证方式？",
+          "options": [
+            "A. Null、Simple、MD5",
+            "B. Null 和 SSH",
+            "C. SSL 和 TLS",
+            "D. WPA 和 WPA2"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_336",
+      "conceptId": "hcia-exp-ip-routing-v2-11",
+      "concept": "BGP 基础",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "bgp"
+      ],
+      "explanation": "BGP 使用 TCP 179 端口建立连接，确保可靠传输。",
+      "variants": [
+        {
+          "text": "BGP 使用的传输层协议和端口号是？",
+          "options": [
+            "A. TCP 179",
+            "B. UDP 179",
+            "C. TCP 1790",
+            "D. UDP 1790"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_337",
+      "conceptId": "hcia-exp-ip-routing-v2-12",
+      "concept": "BGP 基础",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "bgp"
+      ],
+      "explanation": "IBGP 在同一 AS 内部运行，EBGP 在不同 AS 之间运行。",
+      "variants": [
+        {
+          "text": "BGP 中 IBGP 和 EBGP 的主要区别是？",
+          "options": [
+            "A. IBGP 在同一 AS 内，EBGP 在不同 AS 间",
+            "B. IBGP 使用 UDP",
+            "C. EBGP 仅用于 IPv6",
+            "D. 无区别"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_338",
+      "conceptId": "hcia-exp-ip-routing-v2-13",
+      "concept": "BGP 基础",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "bgp"
+      ],
+      "explanation": "IBGP 水平分割防环，要求 BGP 路由在 AS 内部全互联。",
+      "variants": [
+        {
+          "text": "IBGP 的水平分割规则是什么？",
+          "options": [
+            "A. 不从 IBGP 邻居学习到的路由通告给其他 IBGP 邻居",
+            "B. 不向 EBGP 邻居通告路由",
+            "C. 不通告默认路由",
+            "D. 不通告本地路由"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_339",
+      "conceptId": "hcia-exp-ip-routing-v2-14",
+      "concept": "静态路由进阶",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "static"
+      ],
+      "explanation": "点到点链路指定出接口后不需要递归查找。MA 网络需指定下一跳。",
+      "variants": [
+        {
+          "text": "配置静态路由时指定出接口和下一跳的区别？",
+          "options": [
+            "A. 点到点链路指定出接口即可，MA 网络需指定下一跳",
+            "B. 指定出接口性能更好",
+            "C. 指定下一跳更安全",
+            "D. 无区别"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_340",
+      "conceptId": "hcia-exp-ip-routing-v2-15",
+      "concept": "路由递归",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "routing"
+      ],
+      "explanation": "当路由的下一跳不可达时，该路由状态变为 Invalid，不会参与转发。",
+      "variants": [
+        {
+          "text": "路由递归查找失败会导致什么？",
+          "options": [
+            "A. 路由无效（Invalid）",
+            "B. 路由被删除",
+            "C. 路由优先级降低",
+            "D. 触发路由协议重算"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_341",
+      "conceptId": "hcia-exp-ip-routing-v2-16",
+      "concept": "策略路由",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "pbr"
+      ],
+      "explanation": "策略路由根据源地址、协议等条件指定转发路径，优先级高于路由表。",
+      "variants": [
+        {
+          "text": "策略路由（Policy-Based Routing）的特点？",
+          "options": [
+            "A. 基于用户定义的策略进行转发，优先于路由表",
+            "B. 修改路由表条目",
+            "C. 替代路由协议",
+            "D. 只用于 NAT 场景"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_342",
+      "conceptId": "hcia-exp-ip-routing-v2-17",
+      "concept": "VRRP",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "vrrp"
+      ],
+      "explanation": "VRRP 将多台路由器虚拟成一个网关，主网关故障时备网关接管。",
+      "variants": [
+        {
+          "text": "VRRP（虚拟路由冗余协议）的作用是？",
+          "options": [
+            "A. 实现默认网关的冗余备份",
+            "B. 提高路由计算速度",
+            "C. 实现链路聚合",
+            "D. 实现路由负载分担"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_343",
+      "conceptId": "hcia-exp-ip-routing-v2-18",
+      "concept": "VRRP",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "vrrp"
+      ],
+      "explanation": "VRRP 使用组播地址 224.0.0.18，OSPF 使用 224.0.0.5。",
+      "variants": [
+        {
+          "text": "VRRP 报文的组播目的地址是？",
+          "options": [
+            "A. 224.0.0.18",
+            "B. 224.0.0.5",
+            "C. 224.0.0.9",
+            "D. 224.0.0.1"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_344",
+      "conceptId": "hcia-exp-ip-routing-v2-19",
+      "concept": "路由过滤",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "prefix-list"
+      ],
+      "explanation": "IP-Prefix 能精确指定网络号和掩码长度范围，更适用于路由过滤。",
+      "variants": [
+        {
+          "text": "使用 IP-Prefix（前缀列表）相比 ACL 的优势？",
+          "options": [
+            "A. 可以精确匹配网络号及掩码长度范围",
+            "B. 配置更简单",
+            "C. 支持更多的匹配项",
+            "D. 性能更好"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_345",
+      "conceptId": "hcia-exp-ip-routing-v2-20",
+      "concept": "路由协议对比",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "protocol-compare"
+      ],
+      "explanation": "OSPF 使用 SPF 算法，收到 LSA 变化后立即计算，收敛速度比 RIP 快。",
+      "variants": [
+        {
+          "text": "以下路由协议中收敛速度最快的是？",
+          "options": [
+            "A. OSPF",
+            "B. RIP",
+            "C. 静态路由",
+            "D. BGP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_346",
+      "conceptId": "hcia-exp-ip-routing-v2-21",
+      "concept": "IS-IS 基础",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "isis"
+      ],
+      "explanation": "IS-IS 常用于运营商和大型企业骨干网络，具有很好的扩展性。",
+      "variants": [
+        {
+          "text": "IS-IS 协议的应用场景主要是？",
+          "options": [
+            "A. 运营商和大型企业骨干网",
+            "B. 小型办公网络",
+            "C. 家庭网络",
+            "D. 无线网络"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_347",
+      "conceptId": "hcia-exp-ip-routing-v2-22",
+      "concept": "BFD",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "bfd"
+      ],
+      "explanation": "BFD 提供亚秒级链路故障检测，与路由协议联动快速切换。",
+      "variants": [
+        {
+          "text": "BFD（双向转发检测）的作用是？",
+          "options": [
+            "A. 毫秒级检测链路故障",
+            "B. 替代路由协议",
+            "C. 实现加密传输",
+            "D. 进行流量统计"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_348",
+      "conceptId": "hcia-exp-ip-routing-v2-23",
+      "concept": "FRR",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "frr"
+      ],
+      "explanation": "FRR 预先计算备份下一跳，故障时在 50ms 内切换。",
+      "variants": [
+        {
+          "text": "IP FRR（快速重路由）的作用是？",
+          "options": [
+            "A. 预先计算备份路径，主路径故障时快速切换",
+            "B. 加速路由协议收敛",
+            "C. 减少路由条目",
+            "D. 提高转发速率"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_349",
+      "conceptId": "hcia-exp-ip-routing-v2-24",
+      "concept": "IPv6 基础",
+      "domain": "IP Routing",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "ipv6"
+      ],
+      "explanation": "IPv6 地址为 128 位，是 IPv4 的 4 倍。",
+      "variants": [
+        {
+          "text": "IPv6 地址长度是多少位？",
+          "options": [
+            "A. 32 位",
+            "B. 64 位",
+            "C. 128 位",
+            "D. 256 位"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_350",
+      "conceptId": "hcia-exp-ip-routing-v2-25",
+      "concept": "IPv6 配置",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ipv6"
+      ],
+      "explanation": "路由器定期发送 RA 报文或响应 RS 报文，通告网络前缀信息。",
+      "variants": [
+        {
+          "text": "IPv6 无状态地址自动配置（SLAAC）使用哪种报文获取网络前缀？",
+          "options": [
+            "A. 路由器通告（RA）",
+            "B. 路由器请求（RS）",
+            "C. DHCPv6 Offer",
+            "D. NS/NA 报文"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_351",
+      "conceptId": "hcia-exp-ip-routing-v2-1",
+      "concept": "路由优先级",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "preference"
+      ],
+      "explanation": "华为默认优先级：直连 0、OSPF 10、静态 60、RIP 100、BGP 255。",
+      "variants": [
+        {
+          "text": "华为设备不同路由协议的默认优先级从高到低顺序正确的是？",
+          "options": [
+            "A. 直连(0) > OSPF(10) > 静态(60) > RIP(100)",
+            "B. 直连(0) > 静态(60) > OSPF(10) > RIP(100)",
+            "C. OSPF(10) > 直连(0) > 静态(60) > RIP(100)",
+            "D. 静态(60) > 直连(0) > RIP(100) > OSPF(10)"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_352",
+      "conceptId": "hcia-exp-ip-routing-v2-2",
+      "concept": "路由度量",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "metric"
+      ],
+      "explanation": "OSPF Cost = 参考带宽（默认 100 Mbps）/ 接口带宽。",
+      "variants": [
+        {
+          "text": "OSPF 的 Cost 值基于什么计算？",
+          "options": [
+            "A. 参考带宽/接口带宽",
+            "B. 跳数",
+            "C. 延迟",
+            "D. 负载"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_353",
+      "conceptId": "hcia-exp-ip-routing-v2-3",
+      "concept": "OSPF 区域",
+      "domain": "IP Routing",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf-area"
+      ],
+      "explanation": "OSPF 骨干区域是 Area 0，所有非骨干区域必须与 Area 0 相连。",
+      "variants": [
+        {
+          "text": "OSPF 骨干区域的区域编号是？",
+          "options": [
+            "A. Area 0",
+            "B. Area 1",
+            "C. Area 0.0.0.1",
+            "D. Area 255"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_354",
+      "conceptId": "hcia-exp-ip-routing-v2-4",
+      "concept": "OSPF 区域",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf-area"
+      ],
+      "explanation": "Totally Stub Area 不允许 Type 3/4/5 LSA，仅通过默认路由访问外部网络。",
+      "variants": [
+        {
+          "text": "OSPF 特殊区域中，Totally Stub Area 不允许哪类 LSA？",
+          "options": [
+            "A. Type 3、Type 4 和 Type 5",
+            "B. 仅 Type 5",
+            "C. Type 3 和 Type 5",
+            "D. Type 4 和 Type 5"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_355",
+      "conceptId": "hcia-exp-ip-routing-v2-5",
+      "concept": "OSPF 虚链路",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf"
+      ],
+      "explanation": "虚链路用于在非骨干区域与骨干区域之间建立逻辑连接。",
+      "variants": [
+        {
+          "text": "OSPF 虚链路（Virtual Link）的作用是？",
+          "options": [
+            "A. 连接非骨干区域到骨干区域",
+            "B. 提高转发速率",
+            "C. 替代物理链路",
+            "D. 实现负载分担"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_356",
+      "conceptId": "hcia-exp-network-security-v2-11",
+      "concept": "SSL VPN",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "sslvpn"
+      ],
+      "explanation": "SSL VPN 通过浏览器访问，无需安装客户端，适用于移动办公。",
+      "variants": [
+        {
+          "text": "SSL VPN 相比 IPSec VPN 的优势是？",
+          "options": [
+            "A. 客户端无需安装专用软件，基于浏览器即可",
+            "B. 加密强度更高",
+            "C. 传输速率更快",
+            "D. 配置更复杂"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_357",
+      "conceptId": "hcia-exp-network-security-v2-12",
+      "concept": "入侵防御",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ids",
+        "ips"
+      ],
+      "explanation": "IDS 旁路监听发现威胁发告警，IPS 串联在线可实时阻断攻击流量。",
+      "variants": [
+        {
+          "text": "IDS 和 IPS 的主要区别是？",
+          "options": [
+            "A. IDS 旁路检测不阻断流量，IPS 串联部署可实时阻断",
+            "B. IDS 是硬件，IPS 是软件",
+            "C. IDS 只能检测已知威胁",
+            "D. 无区别"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_358",
+      "conceptId": "hcia-exp-network-security-v2-13",
+      "concept": "802.1X",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "802.1x"
+      ],
+      "explanation": "802.1X 使用客户端（Supplicant）、接入设备（Authenticator）和 RADIUS 服务器三层架构。",
+      "variants": [
+        {
+          "text": "802.1X 认证架构包含哪三个角色？",
+          "options": [
+            "A. 客户端（Supplicant）、接入设备（Authenticator）、认证服务器（Auth Server）",
+            "B. 用户、交换机、路由器",
+            "C. 主机、NAS、DHCP 服务器",
+            "D. 申请者、认证者、DNS 服务器"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_359",
+      "conceptId": "hcia-exp-network-security-v2-14",
+      "concept": "802.1X 认证",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "802.1x"
+      ],
+      "explanation": "EAP-MD5 通过用户名和 MD5 加密密码完成身份认证。",
+      "variants": [
+        {
+          "text": "802.1X 认证中 EAP-MD5 的认证方式？",
+          "options": [
+            "A. 客户端发送用户名和 MD5 加密密码进行认证",
+            "B. 使用数字证书",
+            "C. 使用 USB Key",
+            "D. 使用短信验证码"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_360",
+      "conceptId": "hcia-exp-network-security-v2-15",
+      "concept": "防火墙双机热备",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "hrp"
+      ],
+      "explanation": "HRP（华为冗余协议）在主备防火墙间同步会话表、配置和状态信息。",
+      "variants": [
+        {
+          "text": "华为防火墙双机热备中 HRP 协议的作用？",
+          "options": [
+            "A. 同步会话表和配置信息",
+            "B. 实现路由协议",
+            "C. 同步系统日志",
+            "D. 建立 VPN 隧道"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_361",
+      "conceptId": "hcia-exp-network-security-v2-1",
+      "concept": "ACL 应用",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "acl"
+      ],
+      "explanation": "华为设备使用 traffic-filter inbound acl xxx 命令将 ACL 应用到接口。",
+      "variants": [
+        {
+          "text": "将 ACL 应用到接口入方向的命令是？",
+          "options": [
+            "A. traffic-filter inbound acl xxx",
+            "B. acl inbound xxx",
+            "C. filter acl xxx inbound",
+            "D. ip acl xxx inbound"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_362",
+      "conceptId": "hcia-exp-network-security-v2-2",
+      "concept": "ACL 规则",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "acl"
+      ],
+      "explanation": "该规则匹配源为 10.0.0.0/16、目的端口为 80（www）的 TCP 流量并拒绝。",
+      "variants": [
+        {
+          "text": "ACL 规则中 rule deny tcp source 10.0.0.0 0.0.255.255 destination-port eq www 的含义是？",
+          "options": [
+            "A. 拒绝 10.0.0.0/16 访问外部 Web 服务",
+            "B. 拒绝所有 TCP 流量",
+            "C. 允许 10.0.0.0/16 访问 Web",
+            "D. 拒绝所有 HTTP 响应"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_363",
+      "conceptId": "hcia-exp-network-security-v2-3",
+      "concept": "NAT 类型",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "nat"
+      ],
+      "explanation": "Easy-IP 直接使用接口 IP 进行 NAT 转换，无需配置地址池。",
+      "variants": [
+        {
+          "text": "华为设备 Easy-IP NAT 的特点是？",
+          "options": [
+            "A. 直接使用出接口的公网 IP 做转换",
+            "B. 需要单独的地址池",
+            "C. 仅支持静态映射",
+            "D. 不支持 PAT"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_364",
+      "conceptId": "hcia-exp-network-security-v2-4",
+      "concept": "NAT Server",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "nat-server"
+      ],
+      "explanation": "NAT Server 使外网用户可以通过公网 IP 加端口访问内网服务器。",
+      "variants": [
+        {
+          "text": "NAT Server（端口映射）的作用是？",
+          "options": [
+            "A. 将公网 IP 的特定端口映射到内网服务器的私网 IP 和端口",
+            "B. 加速服务器响应",
+            "C. 均衡服务器负载",
+            "D. 备份服务器配置"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_365",
+      "conceptId": "hcia-exp-network-security-v2-5",
+      "concept": "防火墙安全策略",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "firewall-policy"
+      ],
+      "explanation": "安全策略支持基于区域、地址、用户、服务、应用等多维匹配。",
+      "variants": [
+        {
+          "text": "华为防火墙安全策略由哪几部分组成？",
+          "options": [
+            "A. 源安全区域、目的安全区域、源地址/地区、目的地址/地区、用户、服务、应用、动作",
+            "B. 仅源和目的 IP",
+            "C. 仅协议和端口",
+            "D. 仅源和目的区域"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_366",
+      "conceptId": "hcia-exp-network-security-v2-6",
+      "concept": "防火墙会话",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "aspf"
+      ],
+      "explanation": "ASPF 检测 FTP、SIP 等多通道协议，根据协商通道动态开放端口。",
+      "variants": [
+        {
+          "text": "华为防火墙中，ASPF 的作用是？",
+          "options": [
+            "A. 检测多通道协议并动态开放端口",
+            "B. 加速会话建立",
+            "C. 加密会话数据",
+            "D. 记录会话日志"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_367",
+      "conceptId": "hcia-exp-network-security-v2-7",
+      "concept": "防火墙虚拟化",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "vsys"
+      ],
+      "explanation": "VSYS 将一台物理防火墙隔离成多个逻辑防火墙，用于多租户场景。",
+      "variants": [
+        {
+          "text": "防火墙虚拟系统（VSYS）的作用是？",
+          "options": [
+            "A. 将一台防火墙虚拟成多台独立防火墙",
+            "B. 提高防火墙吞吐量",
+            "C. 简化配置",
+            "D. 增强加密能力"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_368",
+      "conceptId": "hcia-exp-network-security-v2-8",
+      "concept": "攻击防范",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "antidos"
+      ],
+      "explanation": "Anti-DoS 通过检测流量特征防范各类泛洪攻击。",
+      "variants": [
+        {
+          "text": "华为防火墙的 Anti-DoS 功能可防范？",
+          "options": [
+            "A. SYN Flood、ICMP Flood、UDP Flood 等攻击",
+            "B. 病毒传播",
+            "C. 垃圾邮件",
+            "D. Web 攻击"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_369",
+      "conceptId": "hcia-exp-network-security-v2-9",
+      "concept": "IPSec 模式",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "ipsec"
+      ],
+      "explanation": "传输模式（端到端）只加密 IP 载荷；隧道模式（站点间）加密整个 IP 包并添加新头部。",
+      "variants": [
+        {
+          "text": "IPSec 的传输模式和隧道模式的区别？",
+          "options": [
+            "A. 传输模式只加密载荷，隧道模式加密整个 IP 报文",
+            "B. 传输模式使用 AH，隧道模式使用 ESP",
+            "C. 传输模式用于站点间 VPN",
+            "D. 无区别"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_370",
+      "conceptId": "hcia-exp-network-security-v2-10",
+      "concept": "IPSec IKE",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "ipsec",
+        "ike"
+      ],
+      "explanation": "IKEv1 主模式在主端之间交换 6 条消息建立安全通道。",
+      "variants": [
+        {
+          "text": "IPSec IKEv1 第一阶段（主模式）交换多少条消息？",
+          "options": [
+            "A. 6 条",
+            "B. 3 条",
+            "C. 4 条",
+            "D. 2 条"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_371",
+      "conceptId": "hcia-exp-wlan-v2-1",
+      "concept": "WLAN 帧",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan-frame"
+      ],
+      "explanation": "RTS/CTS 是控制帧，管理帧包括 Beacon、Probe、Association 等。",
+      "variants": [
+        {
+          "text": "WLAN 管理帧类型不包括以下哪种？",
+          "options": [
+            "A. Beacon 帧",
+            "B. Probe Request/Response",
+            "C. Association Request/Response",
+            "D. RTS/CTS 帧"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_372",
+      "conceptId": "hcia-exp-wlan-v2-2",
+      "concept": "WLAN 帧",
+      "domain": "WLAN",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan-frame"
+      ],
+      "explanation": "AP 定期发送 Beacon 帧宣告自己的 SSID、速率、加密方式等信息。",
+      "variants": [
+        {
+          "text": "Beacon 帧的主要作用？",
+          "options": [
+            "A. 宣告 AP 的存在和 BSS 信息",
+            "B. 传输数据",
+            "C. 确认收到数据",
+            "D. 请求加入网络"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_373",
+      "conceptId": "hcia-exp-wlan-v2-3",
+      "concept": "WLAN 组网",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan-arch"
+      ],
+      "explanation": "直连式组网中 AC 集中转发，AP 通过 CAPWAP 隧道将业务流量发往 AC。",
+      "variants": [
+        {
+          "text": "AC 直连式组网中，AP 对业务流量的处理方式是？",
+          "options": [
+            "A. AP 直接转发业务流量（本地转发）",
+            "B. AP 将所有流量封装到 CAPWAP 隧道发往 AC",
+            "C. AP 丢弃业务流量",
+            "D. AP 加密后直接发送"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_374",
+      "conceptId": "hcia-exp-wlan-v2-4",
+      "concept": "WLAN 组网",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan-forwarding"
+      ],
+      "explanation": "本地转发业务流量不经过 AC，降低 AC 负载，适合大流量场景。",
+      "variants": [
+        {
+          "text": "本地转发（直接转发）相比集中转发的优势是？",
+          "options": [
+            "A. 业务流量不经 AC，减少 AC 负担",
+            "B. 安全性更高",
+            "C. 配置更简单",
+            "D. 漫游体验更好"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_375",
+      "conceptId": "hcia-exp-wlan-v2-5",
+      "concept": "WLAN 漫游",
+      "domain": "WLAN",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "roaming"
+      ],
+      "explanation": "AC 间漫游需要新的 AC 重新认证用户或同步认证信息。IP 地址可能需更新。",
+      "variants": [
+        {
+          "text": "AC 间漫游时需要更新什么？",
+          "options": [
+            "A. IP 地址",
+            "B. 用户认证信息",
+            "C. VLAN 配置",
+            "D. 路由条目"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_376",
+      "conceptId": "hcia-exp-wlan-v2-6",
+      "concept": "WLAN 射频",
+      "domain": "WLAN",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "dfs"
+      ],
+      "explanation": "DFS 使 AP 在 5 GHz 频段检测雷达信号并自动切换到其他信道。",
+      "variants": [
+        {
+          "text": "WLAN 中 DFS（动态频率选择）的作用？",
+          "options": [
+            "A. 避免与军用雷达等系统产生干扰",
+            "B. 动态分配 IP",
+            "C. 自动选择信道",
+            "D. 调整发射功率"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_377",
+      "conceptId": "hcia-exp-wlan-v2-7",
+      "concept": "WLAN 射频",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan-power"
+      ],
+      "explanation": "功率过高导致相邻 AP 同频干扰增加，降低整体网络性能。",
+      "variants": [
+        {
+          "text": "WLAN 功率调整过高可能导致什么问题？",
+          "options": [
+            "A. 同频干扰加剧",
+            "B. 信号质量更好",
+            "C. 传输速率更高",
+            "D. 覆盖范围更大"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_378",
+      "conceptId": "hcia-exp-wlan-v2-8",
+      "concept": "WLAN 漫游",
+      "domain": "WLAN",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "roaming"
+      ],
+      "explanation": "802.11r 优化漫游过程中的密钥协商过程，实现快速重认证。",
+      "variants": [
+        {
+          "text": "快速漫游协议 802.11r 的主要优化？",
+          "options": [
+            "A. 减少漫游时的认证延迟",
+            "B. 提高传输速率",
+            "C. 增强信号覆盖",
+            "D. 增加带宽"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_379",
+      "conceptId": "hcia-exp-wlan-v2-9",
+      "concept": "WLAN 负载均衡",
+      "domain": "WLAN",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan-lb"
+      ],
+      "explanation": "AC 根据各 AP 的在线用户数、信道利用率等指标引导新用户接入最合适的 AP。",
+      "variants": [
+        {
+          "text": "AP 负载均衡的实现方式？",
+          "options": [
+            "A. AC 根据 AP 负载和用户数引导新用户关联较轻负载的 AP",
+            "B. 直接拒绝用户接入",
+            "C. 降低被负载 AP 的功率",
+            "D. 关闭负载高 AP 的射频"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_380",
+      "conceptId": "hcia-exp-wlan-v2-10",
+      "concept": "WLAN 安全",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan-security"
+      ],
+      "explanation": "MAC 地址可通过软件伪造，是最基础的安全措施，需配合其他认证方式。",
+      "variants": [
+        {
+          "text": "WLAN 的 MAC 地址认证的缺点是？",
+          "options": [
+            "A. MAC 地址可以被伪造",
+            "B. 配置复杂",
+            "C. 不支持加密",
+            "D. 不能限制设备数量"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_381",
+      "conceptId": "hcia-exp-network-management-v2-1",
+      "concept": "SNMP 版本",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "snmp"
+      ],
+      "explanation": "SNMPv3 提供消息完整性、认证和加密功能。",
+      "variants": [
+        {
+          "text": "以下哪个 SNMP 版本提供加密和认证安全特性？",
+          "options": [
+            "A. SNMPv3",
+            "B. SNMPv2c",
+            "C. SNMPv1",
+            "D. 以上都不对"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_382",
+      "conceptId": "hcia-exp-network-management-v2-2",
+      "concept": "SNMP NMS",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "snmp-trap"
+      ],
+      "explanation": "Trap 是设备在发生事件时主动向 NMS 发送的告警消息。",
+      "variants": [
+        {
+          "text": "SNMP 架构中 Trap 消息的发送方向是？",
+          "options": [
+            "A. 被管理设备主动向 NMS 发送告警",
+            "B. NMS 向设备发送查询",
+            "C. NMS 向设备发送配置",
+            "D. 设备间互发同步信息"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_383",
+      "conceptId": "hcia-exp-network-management-v2-3",
+      "concept": "SNMP OID",
+      "domain": "Network Management",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "snmp-oid"
+      ],
+      "explanation": "OID（对象标识符）以层次化数字形式唯一标识 MIB 中的管理对象。",
+      "variants": [
+        {
+          "text": "SNMP OID 是？",
+          "options": [
+            "A. 被管理对象的唯一标识",
+            "B. 共同体口令",
+            "C. 设备型号",
+            "D. 网络协议版本"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_384",
+      "conceptId": "hcia-exp-network-management-v2-4",
+      "concept": "日志管理",
+      "domain": "Network Management",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "logging"
+      ],
+      "explanation": "华为信息中心默认将日志输出到 Console 和 VTY 终端。",
+      "variants": [
+        {
+          "text": "华为设备信息中心（Info-center）中，日志通道 default 的默认输出方向是？",
+          "options": [
+            "A. 控制台和 VTY",
+            "B. 日志文件",
+            "C. Syslog 服务器",
+            "D. 以上都是"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_385",
+      "conceptId": "hcia-exp-network-management-v2-5",
+      "concept": "日志管理",
+      "domain": "Network Management",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "logging"
+      ],
+      "explanation": "信息中心日志有 8 个级别，0 最严重（Emergency），7 最不严重（Debug）。",
+      "variants": [
+        {
+          "text": "华为设备日志级别从高到低的排序是？",
+          "options": [
+            "A. Emergency > Alert > Critical > Error > Warning > Notice > Informational > Debug",
+            "B. Critical > Error > Warning > Notice > Info",
+            "C. Error > Warning > Info > Debug",
+            "D. 以上都不对"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_386",
+      "conceptId": "hcia-exp-network-management-v2-6",
+      "concept": "配置文件管理",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "config-mgmt"
+      ],
+      "explanation": "华为使用 display current-configuration 查看当前生效配置。",
+      "variants": [
+        {
+          "text": "华为交换机查看当前配置的命令是？",
+          "options": [
+            "A. display current-configuration",
+            "B. show running-config",
+            "C. display saved-configuration",
+            "D. show config"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_387",
+      "conceptId": "hcia-exp-network-management-v2-7",
+      "concept": "配置文件管理",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "config-mgmt"
+      ],
+      "explanation": "华为设备使用 save 命令保存配置。",
+      "variants": [
+        {
+          "text": "华为交换机将当前配置保存到下次启动配置文件的命令是？",
+          "options": [
+            "A. save",
+            "B. write memory",
+            "C. copy running-config startup-config",
+            "D. save config"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_388",
+      "conceptId": "hcia-exp-network-management-v2-8",
+      "concept": "网络诊断",
+      "domain": "Network Management",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "diagnostics"
+      ],
+      "explanation": "Tracert 逐跳发送 TTL 递增的报文，通过 ICMP 超时差错报文获取路径信息。",
+      "variants": [
+        {
+          "text": "Tracert 命令利用什么机制实现路径追踪？",
+          "options": [
+            "A. 利用 TTL 超时和 ICMP 超时报文",
+            "B. 利用 ARP 报文",
+            "C. 利用 DNS 查询",
+            "D. 利用 HTTP 请求"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_389",
+      "conceptId": "hcia-exp-network-management-v2-9",
+      "concept": "网络诊断",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "diagnostics"
+      ],
+      "explanation": "Ping 通过发送 ICMP Echo 请求报文测试目的地址是否可达。",
+      "variants": [
+        {
+          "text": "以下命令中用于测试网络连通性的是？",
+          "options": [
+            "A. ping",
+            "B. display interface",
+            "C. display ip routing-table",
+            "D. debug"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_390",
+      "conceptId": "hcia-exp-network-management-v2-10",
+      "concept": "镜像进阶",
+      "domain": "Network Management",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "mirror",
+        "rspan"
+      ],
+      "explanation": "RSPAN 通过专用 VLAN 将镜像流量跨网络传输到远端监控设备。",
+      "variants": [
+        {
+          "text": "远程端口镜像（RSPAN）与本地端口镜像的区别？",
+          "options": [
+            "A. RSPAN 可跨网络设备镜像到远端监控设备",
+            "B. RSPAN 配置更简单",
+            "C. RSPAN 不需要 VLAN 支持",
+            "D. 无区别"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_391",
+      "conceptId": "hcia-exp-data-center-v2-1",
+      "concept": "DC 架构",
+      "domain": "Data Center",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "dc-arch"
+      ],
+      "explanation": "Spine 负责连接所有 Leaf，提供全带宽无阻塞的转发。",
+      "variants": [
+        {
+          "text": "数据中心 Spine-Leaf 架构中 Spine 设备的作用？",
+          "options": [
+            "A. 连接所有 Leaf 设备，提供高速无阻塞交换",
+            "B. 连接终端服务器",
+            "C. 提供路由计算",
+            "D. 实现安全防护"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_392",
+      "conceptId": "hcia-exp-data-center-v2-2",
+      "concept": "NVGRE",
+      "domain": "Data Center",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "nvgre"
+      ],
+      "explanation": "NVGRE 使用 GRE 封装隧道，VXLAN 使用 UDP 4789 封装。",
+      "variants": [
+        {
+          "text": "NVGRE 与 VXLAN 的区别是？",
+          "options": [
+            "A. NVGRE 使用 GRE 封装，VXLAN 使用 UDP 封装",
+            "B. NVGRE 支持更多 VLAN",
+            "C. VXLAN 不支持多租户",
+            "D. NVGRE 是标准协议"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_393",
+      "conceptId": "hcia-exp-data-center-v2-3",
+      "concept": "EVPN",
+      "domain": "Data Center",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "evpn"
+      ],
+      "explanation": "EVPN 采用 BGP 作为控制平面，实现 MP-BGP 分发 MAC/VXLAN 信息。",
+      "variants": [
+        {
+          "text": "EVPN（以太网 VPN）相比传统 VPLS 的优势？",
+          "options": [
+            "A. EVPN 使用 BGP 控制平面，控制面和数据面分离",
+            "B. 配置更简单",
+            "C. 支持更多用户",
+            "D. 成本更低"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_394",
+      "conceptId": "hcia-exp-data-center-v2-4",
+      "concept": "DC 存储",
+      "domain": "Data Center",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "dc-storage"
+      ],
+      "explanation": "FC 和 iSCSI 是数据中心存储网络最常见的传输协议。",
+      "variants": [
+        {
+          "text": "数据中心存储网络常用的协议是？",
+          "options": [
+            "A. FC（光纤通道）和 iSCSI",
+            "B. HTTP 和 FTP",
+            "C. SMTP 和 POP3",
+            "D. DHCP 和 DNS"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_395",
+      "conceptId": "hcia-exp-data-center-v2-5",
+      "concept": "DC 网络",
+      "domain": "Data Center",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "overlay"
+      ],
+      "explanation": "Overlay 网络在物理 Underlay 网络上通过 VXLAN 等技术构建隔离的虚拟化网络。",
+      "variants": [
+        {
+          "text": "数据中心网络中什么是 Overlay 网络？",
+          "options": [
+            "A. 在物理网络之上构建的逻辑虚拟化网络",
+            "B. 数据中心的核心骨干网",
+            "C. 连接外部的网络",
+            "D. 管理网络"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_396",
+      "conceptId": "hcia-exp-campus-network-v2-1",
+      "concept": "园区网高可用",
+      "domain": "Campus Network",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "campus-ha"
+      ],
+      "explanation": "核心层使用双设备堆叠和 Eth-Trunk 聚合实现设备级和链路级冗余。",
+      "variants": [
+        {
+          "text": "园区网络核心层冗余设计通常采用什么技术？",
+          "options": [
+            "A. 双设备堆叠 + Eth-Trunk 链路聚合",
+            "B. 提高设备 CPU 频率",
+            "C. 增加接口数量",
+            "D. 使用更长的线缆"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_397",
+      "conceptId": "hcia-exp-campus-network-v2-2",
+      "concept": "堆叠技术",
+      "domain": "Campus Network",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "stacking"
+      ],
+      "explanation": "华为盒式交换机最多支持 9 台堆叠。不同型号规格可能有差异。",
+      "variants": [
+        {
+          "text": "华为交换机堆叠（Stack）的最大支持台数是多少？",
+          "options": [
+            "A. 9 台",
+            "B. 4 台",
+            "C. 16 台",
+            "D. 32 台"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_398",
+      "conceptId": "hcia-exp-campus-network-v2-3",
+      "concept": "云管理",
+      "domain": "Campus Network",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "cloudcampus"
+      ],
+      "explanation": "CloudCampus 通过云平台实现全网设备统一配置、监控和运维。",
+      "variants": [
+        {
+          "text": "华为 CloudCampus 云管理园区网络的优点是？",
+          "options": [
+            "A. 集中云化管理，简化运维",
+            "B. 无需网络设备",
+            "C. 不需要公网连接",
+            "D. 完全自动化无人工干预"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_399",
+      "conceptId": "hcia-exp-campus-network-v2-4",
+      "concept": "iMaster NCE",
+      "domain": "Campus Network",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "imaster"
+      ],
+      "explanation": "iMaster NCE 提供网络的规划、部署、监控和优化全生命周期管理。",
+      "variants": [
+        {
+          "text": "华为 iMaster NCE 的主要功能是？",
+          "options": [
+            "A. 园区网络自动化管理和智能运维",
+            "B. 安全加密",
+            "C. 数据备份",
+            "D. 无线信号测试"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcia_exp_400",
+      "conceptId": "hcia-exp-campus-network-v2-5",
+      "concept": "PoE++",
+      "domain": "Campus Network",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "poe"
+      ],
+      "explanation": "802.3bt Type 4 最高提供 90W，PoE（802.3af）15.4W，PoE+（802.3at）30W。",
+      "variants": [
+        {
+          "text": "PoE++（IEEE 802.3bt）最大供电功率是多少？",
+          "options": [
+            "A. 90W",
+            "B. 15.4W",
+            "C. 30W",
+            "D. 60W"
           ],
           "answer": "A"
         }
