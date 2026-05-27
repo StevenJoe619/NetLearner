@@ -1,0 +1,2522 @@
+{
+  "_meta": {
+    "target": "CCNP ENCOR",
+    "vendor": "cisco",
+    "type": "pool",
+    "syllabusVersion": "CCNP-350401-v1.1",
+    "totalQuestions": 113,
+    "lastUpdated": "2026-05-26"
+  },
+  "questions": [
+    {
+      "id": "ccnp_001",
+      "conceptId": "ccnp-c001",
+      "concept": "DNA Center Assurance provides:",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "architecture"
+      ],
+      "variants": [
+        {
+          "text": "DNA Center Assurance provides:",
+          "options": [
+            "A. Device config automation",
+            "B. Network monitoring with proactive insights",
+            "C. Wireless design",
+            "D. Policy enforcement"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_002",
+      "conceptId": "ccnp-c002",
+      "concept": "Layer 3 boundary in campus design is placed at:",
+      "domain": "Architecture",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "architecture"
+      ],
+      "variants": [
+        {
+          "text": "Layer 3 boundary in campus design is placed at:",
+          "options": [
+            "A. Access-distribution",
+            "B. Distribution-core",
+            "C. Access-edge",
+            "D. Core-only"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_003",
+      "conceptId": "ccnp-c003",
+      "concept": "In SD-WAN, vManage provides:",
+      "domain": "Architecture",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "architecture"
+      ],
+      "variants": [
+        {
+          "text": "In SD-WAN, vManage provides:",
+          "options": [
+            "A. Authentication",
+            "B. Management and monitoring",
+            "C. Route distribution",
+            "D. Data forwarding"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_004",
+      "conceptId": "ccnp-c004",
+      "concept": "Which design uses two tiers, collapsing core and distributio",
+      "domain": "Architecture",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "architecture"
+      ],
+      "variants": [
+        {
+          "text": "Which design uses two tiers, collapsing core and distribution?",
+          "options": [
+            "A. Spine-Leaf",
+            "B. Collapsed Core",
+            "C. Three-tier",
+            "D. Fabric"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_005",
+      "conceptId": "ccnp-c005",
+      "concept": "LISP separates what from what?",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "architecture"
+      ],
+      "variants": [
+        {
+          "text": "LISP separates what from what?",
+          "options": [
+            "A. Routing from switching",
+            "B. EID from RLOC",
+            "C. IPv4 from IPv6",
+            "D. Data from control"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_006",
+      "conceptId": "ccnp-c006",
+      "concept": "In SD-WAN, vBond handles:",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "architecture"
+      ],
+      "variants": [
+        {
+          "text": "In SD-WAN, vBond handles:",
+          "options": [
+            "A. Management",
+            "B. Authentication and NAT traversal",
+            "C. Policy distribution",
+            "D. Data plane"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_007",
+      "conceptId": "ccnp-c007",
+      "concept": "Cisco DNA Center Policy translates:",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "architecture"
+      ],
+      "variants": [
+        {
+          "text": "Cisco DNA Center Policy translates:",
+          "options": [
+            "A. Business intent to config",
+            "B. IP to MAC",
+            "C. SNMP to CLI",
+            "D. JSON to YAML"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_008",
+      "conceptId": "ccnp-c008",
+      "concept": "SD-Access Border Node connects:",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "architecture"
+      ],
+      "variants": [
+        {
+          "text": "SD-Access Border Node connects:",
+          "options": [
+            "A. Endpoints to fabric",
+            "B. Fabric to external networks",
+            "C. APs to WLC",
+            "D. Spine to leaf"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_009",
+      "conceptId": "ccnp-c009",
+      "concept": "Enterprise campus architecture with predictable east-west la",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "architecture"
+      ],
+      "variants": [
+        {
+          "text": "Enterprise campus architecture with predictable east-west latency:",
+          "options": [
+            "A. Three-tier",
+            "B. Spine-Leaf",
+            "C. Collapsed Core",
+            "D. Hub-Spoke"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_010",
+      "conceptId": "ccnp-c010",
+      "concept": "VXLAN VNI is how many bits?",
+      "domain": "Virtualization",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "virtualization"
+      ],
+      "variants": [
+        {
+          "text": "VXLAN VNI is how many bits?",
+          "options": [
+            "A. 12",
+            "B. 24",
+            "C. 16",
+            "D. 32"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_011",
+      "conceptId": "ccnp-c011",
+      "concept": "What is the difference between VRF-lite and MPLS L3VPN?",
+      "domain": "Virtualization",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "virtualization"
+      ],
+      "variants": [
+        {
+          "text": "What is the difference between VRF-lite and MPLS L3VPN?",
+          "options": [
+            "A. VRF-lite uses BGP",
+            "B. VRF-lite has no MPLS labels",
+            "C. VRF-lite supports IPv6 only",
+            "D. No difference"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_012",
+      "conceptId": "ccnp-c012",
+      "concept": "Type 1 hypervisor:",
+      "domain": "Virtualization",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "virtualization"
+      ],
+      "variants": [
+        {
+          "text": "Type 1 hypervisor:",
+          "options": [
+            "A. Runs on host OS",
+            "B. Runs directly on hardware",
+            "C. Runs as application",
+            "D. Runs in browser"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_013",
+      "conceptId": "ccnp-c013",
+      "concept": "VRF enables:",
+      "domain": "Virtualization",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "virtualization"
+      ],
+      "variants": [
+        {
+          "text": "VRF enables:",
+          "options": [
+            "A. Multiple routing tables on one router",
+            "B. Faster lookups",
+            "C. Automatic summarization",
+            "D. Encrypted routing"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_014",
+      "conceptId": "ccnp-c014",
+      "concept": "VTEP performs:",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "virtualization"
+      ],
+      "variants": [
+        {
+          "text": "VTEP performs:",
+          "options": [
+            "A. Encryption",
+            "B. VXLAN encapsulation",
+            "C. Routing",
+            "D. Authentication"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_015",
+      "conceptId": "ccnp-c015",
+      "concept": "Containers use which Linux feature for isolation?",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "virtualization"
+      ],
+      "variants": [
+        {
+          "text": "Containers use which Linux feature for isolation?",
+          "options": [
+            "A. KVM",
+            "B. Namespaces",
+            "C. Xen",
+            "D. Hyper-V"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_016",
+      "conceptId": "ccnp-c016",
+      "concept": "Which BGP community prevents advertisement to any peer?",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "Which BGP community prevents advertisement to any peer?",
+          "options": [
+            "A. NO_EXPORT",
+            "B. NO_ADVERTISE",
+            "C. LOCAL_AS",
+            "D. INTERNET"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_017",
+      "conceptId": "ccnp-c017",
+      "concept": "OSPF area X range Y command does:",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "OSPF area X range Y command does:",
+          "options": [
+            "A. Route summarization at ABR",
+            "B. Filters neighbors",
+            "C. NSSA translation",
+            "D. Interface config"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_018",
+      "conceptId": "ccnp-c018",
+      "concept": "\"mls qos trust dscp\" on a switch port:",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "\"mls qos trust dscp\" on a switch port:",
+          "options": [
+            "A. Marks traffic as trusted",
+            "B. Enables port security",
+            "C. Configures STP",
+            "D. Enables EtherChannel"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_019",
+      "conceptId": "ccnp-c019",
+      "concept": "show ip eigrp topology shows passive state:",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "show ip eigrp topology shows passive state:",
+          "options": [
+            "A. Route is stable",
+            "B. Route is being recomputed",
+            "C. EIGRP is disabled",
+            "D. SIA detected"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_020",
+      "conceptId": "ccnp-c020",
+      "concept": "BGP route reflectors reduce:",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "BGP route reflectors reduce:",
+          "options": [
+            "A. Routing table size",
+            "B. iBGP peerings",
+            "C. Convergence time",
+            "D. Path attributes"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_021",
+      "conceptId": "ccnp-c021",
+      "concept": "Default BGP hold time:",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "Default BGP hold time:",
+          "options": [
+            "A. 90s",
+            "B. 120s",
+            "C. 180s",
+            "D. 240s"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_022",
+      "conceptId": "ccnp-c022",
+      "concept": "BGP AS_PATH is used for:",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "BGP AS_PATH is used for:",
+          "options": [
+            "A. Load balancing",
+            "B. Loop prevention",
+            "C. Authentication",
+            "D. Encryption"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_023",
+      "conceptId": "ccnp-c023",
+      "concept": "OSPF Type 3 LSAs are generated by:",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "OSPF Type 3 LSAs are generated by:",
+          "options": [
+            "A. ASBR",
+            "B. ABR",
+            "C. DR",
+            "D. Every router"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_024",
+      "conceptId": "ccnp-c024",
+      "concept": "EIGRP internal AD:",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "EIGRP internal AD:",
+          "options": [
+            "A. 90",
+            "B. 100",
+            "C. 110",
+            "D. 170"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_025",
+      "conceptId": "ccnp-c025",
+      "concept": "Which STP enhancement provides fast root port failover?",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "Which STP enhancement provides fast root port failover?",
+          "options": [
+            "A. PortFast",
+            "B. UplinkFast",
+            "C. BackboneFast",
+            "D. Loop Guard"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_026",
+      "conceptId": "ccnp-c026",
+      "concept": "PIM Sparse Mode default behavior:",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "PIM Sparse Mode default behavior:",
+          "options": [
+            "A. Floods then prunes",
+            "B. Uses RP and switches to SPT",
+            "C. Uses only shared trees",
+            "D. No RP needed"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_027",
+      "conceptId": "ccnp-c027",
+      "concept": "OSPF Stub area:",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "OSPF Stub area:",
+          "options": [
+            "A. Blocks Type 3 and 5",
+            "B. Blocks Type 5 only",
+            "C. Blocks Type 3 only",
+            "D. Blocks Type 1 and 2"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_028",
+      "conceptId": "ccnp-c028",
+      "concept": "EtherChannel src-dst-ip balances:",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "EtherChannel src-dst-ip balances:",
+          "options": [
+            "A. By MAC",
+            "B. By IP pair",
+            "C. By port",
+            "D. By protocol"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_029",
+      "conceptId": "ccnp-c029",
+      "concept": "Link-local multicast range:",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "Link-local multicast range:",
+          "options": [
+            "A. 224.0.0.0/24",
+            "B. 224.0.0.0/16",
+            "C. 239.0.0.0/8",
+            "D. 232.0.0.0/8"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_030",
+      "conceptId": "ccnp-c030",
+      "concept": "R1 and R2 cannot form OSPF adjacency over Ethernet. Both in ",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "R1 and R2 cannot form OSPF adjacency over Ethernet. Both in area 0. What to check first?",
+          "options": [
+            "A. Process ID",
+            "B. Subnet mask",
+            "C. Router ID",
+            "D. Network type"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_031",
+      "conceptId": "ccnp-c031",
+      "concept": "Which technology prevents loops at Layer 2?",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "Which technology prevents loops at Layer 2?",
+          "options": [
+            "A. OSPF",
+            "B. STP/RSTP",
+            "C. EIGRP",
+            "D. BGP"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_032",
+      "conceptId": "ccnp-c032",
+      "concept": "VLAN Trunking Protocol (VTP) distributes:",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "VLAN Trunking Protocol (VTP) distributes:",
+          "options": [
+            "A. VLAN configurations",
+            "B. MAC addresses",
+            "C. Routing tables",
+            "D. STP topology"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_033",
+      "conceptId": "ccnp-c033",
+      "concept": "OSPF ABR connects:",
+      "domain": "Infrastructure",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "infrastructure"
+      ],
+      "variants": [
+        {
+          "text": "OSPF ABR connects:",
+          "options": [
+            "A. OSPF to EIGRP",
+            "B. Two OSPF areas",
+            "C. OSPF to BGP",
+            "D. Two routing processes"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_034",
+      "conceptId": "ccnp-c034",
+      "concept": "IP SLA ICMP Echo measures:",
+      "domain": "Network Assurance",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "network-assurance"
+      ],
+      "variants": [
+        {
+          "text": "IP SLA ICMP Echo measures:",
+          "options": [
+            "A. RTT",
+            "B. Jitter",
+            "C. Packet loss",
+            "D. Throughput"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_035",
+      "conceptId": "ccnp-c035",
+      "concept": "SPAN (Switched Port Analyzer):",
+      "domain": "Network Assurance",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "network-assurance"
+      ],
+      "variants": [
+        {
+          "text": "SPAN (Switched Port Analyzer):",
+          "options": [
+            "A. Increases bandwidth",
+            "B. Mirrors traffic for monitoring",
+            "C. Aggregates links",
+            "D. Analyzes routing"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_036",
+      "conceptId": "ccnp-c036",
+      "concept": "Health score in DNA Center Assurance:",
+      "domain": "Network Assurance",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "network-assurance"
+      ],
+      "variants": [
+        {
+          "text": "Health score in DNA Center Assurance:",
+          "options": [
+            "A. Device/client well-being score",
+            "B. Port utilization",
+            "C. Bandwidth available",
+            "D. Latency"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_037",
+      "conceptId": "ccnp-c037",
+      "concept": "NetFlow exports:",
+      "domain": "Network Assurance",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "network-assurance"
+      ],
+      "variants": [
+        {
+          "text": "NetFlow exports:",
+          "options": [
+            "A. Traffic flow metadata",
+            "B. SNMP traps",
+            "C. Syslog",
+            "D. Configuration"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_038",
+      "conceptId": "ccnp-c038",
+      "concept": "\"errdisable recovery cause psecure-violation\" does:",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "network-assurance"
+      ],
+      "variants": [
+        {
+          "text": "\"errdisable recovery cause psecure-violation\" does:",
+          "options": [
+            "A. Auto-recovers ports after port security violation",
+            "B. Prevents error-disable",
+            "C. Ignores violations",
+            "D. Increases MAC limit"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_039",
+      "conceptId": "ccnp-c039",
+      "concept": "Model-driven telemetry uses:",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "network-assurance"
+      ],
+      "variants": [
+        {
+          "text": "Model-driven telemetry uses:",
+          "options": [
+            "A. Push model with gRPC",
+            "B. Pull model with SNMP",
+            "C. Push model with Syslog",
+            "D. Batch processing"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_040",
+      "conceptId": "ccnp-c040",
+      "concept": "Cisco TrustSec SGT enables:",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "security"
+      ],
+      "variants": [
+        {
+          "text": "Cisco TrustSec SGT enables:",
+          "options": [
+            "A. IP-based ACLs",
+            "B. Identity-based policies",
+            "C. QoS marking",
+            "D. Encryption"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_041",
+      "conceptId": "ccnp-c041",
+      "concept": "CoPP protects against:",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "security"
+      ],
+      "variants": [
+        {
+          "text": "CoPP protects against:",
+          "options": [
+            "A. MAC flooding",
+            "B. Control plane overload",
+            "C. ARP spoofing",
+            "D. VLAN hopping"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_042",
+      "conceptId": "ccnp-c042",
+      "concept": "In 802.1X, the authenticator is:",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "security"
+      ],
+      "variants": [
+        {
+          "text": "In 802.1X, the authenticator is:",
+          "options": [
+            "A. The client",
+            "B. The switch relaying EAP",
+            "C. The RADIUS server",
+            "D. The DHCP server"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_043",
+      "conceptId": "ccnp-c043",
+      "concept": "CoA Session Reauthenticate:",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "security"
+      ],
+      "variants": [
+        {
+          "text": "CoA Session Reauthenticate:",
+          "options": [
+            "A. Disconnects user",
+            "B. Triggers reauthentication",
+            "C. Changes VLAN",
+            "D. Restarts port"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_044",
+      "conceptId": "ccnp-c044",
+      "concept": "DHCP Snooping binding database contains:",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "security"
+      ],
+      "variants": [
+        {
+          "text": "DHCP Snooping binding database contains:",
+          "options": [
+            "A. IP-MAC-VLAN-port mappings",
+            "B. User credentials",
+            "C. Routing table entries",
+            "D. ARP cache"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_045",
+      "conceptId": "ccnp-c045",
+      "concept": "DAI validates:",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "security"
+      ],
+      "variants": [
+        {
+          "text": "DAI validates:",
+          "options": [
+            "A. DHCP messages",
+            "B. ARP packets",
+            "C. Routing updates",
+            "D. DNS queries"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_046",
+      "conceptId": "ccnp-c046",
+      "concept": "Reflexive ACL:",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "security"
+      ],
+      "variants": [
+        {
+          "text": "Reflexive ACL:",
+          "options": [
+            "A. Creates dynamic permit for return traffic",
+            "B. Filters source IP only",
+            "C. Encrypts traffic",
+            "D. Logs all traffic"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_047",
+      "conceptId": "ccnp-c047",
+      "concept": "IPsec VTI vs crypto maps:",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "security"
+      ],
+      "variants": [
+        {
+          "text": "IPsec VTI vs crypto maps:",
+          "options": [
+            "A. VTI supports multicast",
+            "B. VTI is harder",
+            "C. VTI uses IKEv1 only",
+            "D. VTI is deprecated"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_048",
+      "conceptId": "ccnp-c048",
+      "concept": "What is the difference between authentication and authorizat",
+      "domain": "Security",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "security"
+      ],
+      "variants": [
+        {
+          "text": "What is the difference between authentication and authorization?",
+          "options": [
+            "A. Auth=who you are, Authz=what you can do",
+            "B. Auth=what you do, Authz=who you are",
+            "C. Same thing",
+            "D. Auth=logging, Authz=identity"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_049",
+      "conceptId": "ccnp-c049",
+      "concept": "TACACS+ vs RADIUS: TACACS+",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "security"
+      ],
+      "variants": [
+        {
+          "text": "TACACS+ vs RADIUS: TACACS+",
+          "options": [
+            "A. Encrypts entire packet",
+            "B. Only encrypts password",
+            "C. Uses UDP",
+            "D. Is open standard"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_050",
+      "conceptId": "ccnp-c050",
+      "concept": "Port Security with sticky MAC:",
+      "domain": "Security",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "security"
+      ],
+      "variants": [
+        {
+          "text": "Port Security with sticky MAC:",
+          "options": [
+            "A. Learns and converts MACs to secure entries",
+            "B. Blocks all traffic",
+            "C. Enables trunking",
+            "D. Disables STP"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_051",
+      "conceptId": "ccnp-c051",
+      "concept": "Which feature prevents rogue DHCP servers?",
+      "domain": "Security",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "security"
+      ],
+      "variants": [
+        {
+          "text": "Which feature prevents rogue DHCP servers?",
+          "options": [
+            "A. DAI",
+            "B. DHCP Snooping",
+            "C. IPSG",
+            "D. Port Security"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_052",
+      "conceptId": "ccnp-c052",
+      "concept": "Ansible playbooks are written in:",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "automation"
+      ],
+      "variants": [
+        {
+          "text": "Ansible playbooks are written in:",
+          "options": [
+            "A. JSON",
+            "B. XML",
+            "C. YAML",
+            "D. Python"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_053",
+      "conceptId": "ccnp-c053",
+      "concept": "RESTCONF uses which HTTP method to retrieve data?",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "automation"
+      ],
+      "variants": [
+        {
+          "text": "RESTCONF uses which HTTP method to retrieve data?",
+          "options": [
+            "A. POST",
+            "B. GET",
+            "C. PUT",
+            "D. DELETE"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_054",
+      "conceptId": "ccnp-c054",
+      "concept": "Idempotent means:",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "automation"
+      ],
+      "variants": [
+        {
+          "text": "Idempotent means:",
+          "options": [
+            "A. Runs once",
+            "B. Same result each time",
+            "C. Can be reversed",
+            "D. Manual approval"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_055",
+      "conceptId": "ccnp-c055",
+      "concept": "Git in network automation provides:",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "automation"
+      ],
+      "variants": [
+        {
+          "text": "Git in network automation provides:",
+          "options": [
+            "A. Version control",
+            "B. Configuration deployment",
+            "C. Performance monitoring",
+            "D. Topology mapping"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_056",
+      "conceptId": "ccnp-c056",
+      "concept": "Python dict is created with:",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "automation"
+      ],
+      "variants": [
+        {
+          "text": "Python dict is created with:",
+          "options": [
+            "A. ()",
+            "B. []",
+            "C. {}",
+            "D. <>"
+          ],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_057",
+      "conceptId": "ccnp-c057",
+      "concept": "NETCONF transport protocol:",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "automation"
+      ],
+      "variants": [
+        {
+          "text": "NETCONF transport protocol:",
+          "options": [
+            "A. HTTP",
+            "B. SSH",
+            "C. HTTPS",
+            "D. Telnet"
+          ],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_058",
+      "conceptId": "ccnp-c058",
+      "concept": "Ansible inventory file typically:",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "source": "ccnp-pool",
+      "tags": [
+        "automation"
+      ],
+      "variants": [
+        {
+          "text": "Ansible inventory file typically:",
+          "options": [
+            "A. hosts.ini",
+            "B. playbook.yml",
+            "C. ansible.cfg",
+            "D. requirements.txt"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_059",
+      "conceptId": "ccnp-c059",
+      "concept": "In Cisco DNA Center, which component monitors performance?",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "automation"
+      ],
+      "variants": [
+        {
+          "text": "In Cisco DNA Center, which component monitors performance?",
+          "options": [
+            "A. Design",
+            "B. Policy",
+            "C. Provision",
+            "D. Assurance"
+          ],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_060",
+      "conceptId": "ccnp-c060",
+      "concept": "YANG is used with:",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "automation"
+      ],
+      "variants": [
+        {
+          "text": "YANG is used with:",
+          "options": [
+            "A. NETCONF/RESTCONF",
+            "B. SNMP",
+            "C. CLI",
+            "D. Telnet"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_061",
+      "conceptId": "ccnp-c061",
+      "concept": "BGP 路径属性",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "bgp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "Which BGP attributes are well-known mandatory? (Choose 2)",
+          "options": [
+            "A. AS_PATH",
+            "B. MED",
+            "C. NEXT_HOP",
+            "D. Local_Preference"
+          ],
+          "answer": "A,C"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_062",
+      "conceptId": "ccnp-c062",
+      "concept": "OSPF LSA 类型",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ospf",
+        "lsa"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "Which LSA types must be present in every OSPF area? (Choose 2)",
+          "options": [
+            "A. Type-1 Router LSA",
+            "B. Type-3 Summary LSA",
+            "C. Type-2 Network LSA",
+            "D. Type-5 External LSA"
+          ],
+          "answer": "A,C"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_063",
+      "conceptId": "ccnp-c063",
+      "concept": "交换机堆叠",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "stacking"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将堆叠成员角色按优先级从高到低排序：",
+          "options": [
+            "Standby",
+            "Master",
+            "Slave"
+          ],
+          "answer": "1,0,2"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_064",
+      "conceptId": "ccnp-c064",
+      "concept": "IPsec 协议",
+      "domain": "Security",
+      "difficulty": "hard",
+      "source": "ccnp-pool",
+      "tags": [
+        "ipsec"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "IPsec ESP 的 IP 协议号是______。",
+          "options": [],
+          "answer": "50"
+        }
+      ]
+    },
+    {
+      "id": "ccnp_065",
+      "conceptId": "ccnp-c065",
+      "concept": "OSPF 邻居状态顺序",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "source": "ccnp-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 OSPF 邻居状态按正确顺序排列（从初始到完成）：",
+          "options": [
+            "Full",
+            "ExStart",
+            "2-Way",
+            "Loading",
+            "Init",
+            "Exchange"
+          ],
+          "answer": "4,2,1,3,5,0"
+        }
+      ]
+    },
+    {
+      "id": "cisco_shared-bgp-attributes_0",
+      "conceptId": "shared-bgp-attributes",
+      "concept": "BGP well-known attributes / BGP 公认属性",
+      "domain": "IP Connectivity",
+      "difficulty": "hard",
+      "source": "cisco-pool",
+      "tags": [
+        "bgp"
+      ],
+      "variants": [
+        {
+          "text": "Which attributes are well-known mandatory in BGP?",
+          "options": [
+            "A. AS_PATH, NEXT_HOP, ORIGIN",
+            "B. LOCAL_PREF, MED, COMMUNITY",
+            "C. ORIGIN, LOCAL_PREF, NEXT_HOP",
+            "D. AS_PATH, MED, ORIGIN"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "cisco_shared-vrrp-purpose_0",
+      "conceptId": "shared-vrrp-purpose",
+      "concept": "VRRP purpose / VRRP 作用",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "cisco-pool",
+      "tags": [
+        "vrrp",
+        "reliability"
+      ],
+      "variants": [
+        {
+          "text": "What is the primary function of VRRP/HSRP?",
+          "options": [
+            "A. Provide gateway redundancy",
+            "B. Load balance network traffic",
+            "C. Increase routing table size",
+            "D. Provide NAT services"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "conceptId": "ccnp-arch-01",
+      "concept": "SD-Access Fabric",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "In Cisco SD-Access, which node implements Layer 2 and Layer 3 forwarding within the fabric?",
+          "options": [
+            "A. Fabric Edge Node",
+            "B. Fabric Border Node",
+            "C. Fabric Control Node",
+            "D. Fabric WAN Edge"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_068",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-arch-02",
+      "concept": "LISP Protocol",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "Which protocol is used as the control plane in Cisco SD-Access?",
+          "options": [
+            "A. LISP",
+            "B. VXLAN",
+            "C. OSPF",
+            "D. IS-IS"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_069",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-arch-03",
+      "concept": "Cisco DNA Center",
+      "domain": "Architecture",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "Which Cisco DNA Center capability uses AI/ML for proactive network health monitoring?",
+          "options": [
+            "A. Assurance",
+            "B. Design",
+            "C. Provision",
+            "D. Policy"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_070",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-arch-04",
+      "concept": "Fabric Border Node",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "What is the function of a Fabric Border Node in SD-Access?",
+          "options": [
+            "A. Connects the fabric to external networks",
+            "B. Provides wireless access",
+            "C. Acts as the DHCP server",
+            "D. Manages authentication"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_071",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-virt-01",
+      "concept": "VRF",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "What does VRF provide on a router?",
+          "options": [
+            "A. Multiple independent routing tables on a single router",
+            "B. Virtual switching between VLANs",
+            "C. Dynamic routing protocol isolation",
+            "D. Layer 2 path isolation"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_072",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-virt-02",
+      "concept": "VSS",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "Which technology enables a single physical switch to operate as multiple logical switches?",
+          "options": [
+            "A. VSS (Virtual Switching System)",
+            "B. VRF",
+            "C. VLAN",
+            "D. StackWise"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_073",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-virt-03",
+      "concept": "Type-1 Hypervisor",
+      "domain": "Virtualization",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "Which is a Type-1 (bare-metal) hypervisor?",
+          "options": [
+            "A. VMware ESXi",
+            "B. Oracle VirtualBox",
+            "C. VMware Workstation",
+            "D. Microsoft Virtual PC"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_074",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-inf-01",
+      "concept": "OSPF Stub Area",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "Which LSA types are blocked in a standard OSPF stub area?",
+          "options": [
+            "A. Type 4 and Type 5",
+            "B. Type 3 and Type 4",
+            "C. Type 5 and Type 7",
+            "D. Type 1 and Type 2"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_075",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-inf-02",
+      "concept": "EIGRP Successor",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "In EIGRP, what determines the successor route?",
+          "options": [
+            "A. Lowest feasible distance",
+            "B. Highest bandwidth",
+            "C. Lowest hop count",
+            "D. Highest reliability"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_076",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-inf-03",
+      "concept": "BGP Community NO_ADVERTISE",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "Which BGP community prevents a route from being advertised to ANY peer?",
+          "options": [
+            "A. NO_ADVERTISE",
+            "B. NO_EXPORT",
+            "C. LOCAL_AS",
+            "D. INTERNET"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_077",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-inf-04",
+      "concept": "BGP RR Purpose",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "What is the purpose of a BGP route reflector?",
+          "options": [
+            "A. Reduce IBGP peering requirements",
+            "B. Filter BGP routes",
+            "C. Modify BGP attributes",
+            "D. Establish EBGP connections"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_078",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-inf-05",
+      "concept": "MSTP Region",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "Which attributes must match for switches to be in the same MST region?",
+          "options": [
+            "A. Region name, revision number, VLAN-to-instance map",
+            "B. Region name and bridge priority",
+            "C. Revision number and root bridge",
+            "D. VLAN-to-instance map and port cost"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_079",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-inf-06",
+      "concept": "OSPF P2P Benefit",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "What is the advantage of OSPF network type point-to-point on Ethernet?",
+          "options": [
+            "A. Eliminates DR/BDR election",
+            "B. Increases hello interval",
+            "C. Supports multiple neighbors",
+            "D. Enables authentication"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_080",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-inf-07",
+      "concept": "EIGRP FC",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "In EIGRP, what is the feasibility condition?",
+          "options": [
+            "A. Reported distance is less than feasible distance",
+            "B. Feasible distance is less than reported distance",
+            "C. Metric is less than feasible distance",
+            "D. Hop count is less than feasible distance"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_081",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-inf-08",
+      "concept": "HSRP Default Priority",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "What is the default HSRP priority value?",
+          "options": [
+            "A. 100",
+            "B. 1",
+            "C. 255",
+            "D. 0"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_082",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-inf-09",
+      "concept": "VXLAN VTEP",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "In VXLAN, which device encapsulates and de-encapsulates frames?",
+          "options": [
+            "A. VTEP (VXLAN Tunnel Endpoint)",
+            "B. VXLAN Gateway",
+            "C. VNI",
+            "D. VXLAN Controller"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_083",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-inf-10",
+      "concept": "FlexConnect Local",
+      "domain": "Infrastructure",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "When a FlexConnect AP in local mode cannot reach the WLC, what happens?",
+          "options": [
+            "A. Client traffic continues to be switched locally",
+            "B. Traffic is dropped",
+            "C. Traffic is tunneled to WLC",
+            "D. Clients are disconnected"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_084",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-assr-01",
+      "concept": "NetFlow Use",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "What is the primary use of NetFlow?",
+          "options": [
+            "A. Traffic analysis and monitoring",
+            "B. Routing convergence",
+            "C. QoS packet marking",
+            "D. ACL filtering"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_085",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-assr-02",
+      "concept": "SPAN vs RSPAN",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "What is the difference between SPAN and RSPAN?",
+          "options": [
+            "A. RSPAN spans across switches via VLAN, SPAN is local",
+            "B. SPAN spans across switches",
+            "C. RSPAN uses GRE",
+            "D. SPAN only monitors egress"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_086",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-assr-03",
+      "concept": "IP SLA",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "What does Cisco IP SLA measure?",
+          "options": [
+            "A. Network performance (delay, jitter, packet loss)",
+            "B. Bandwidth utilization",
+            "C. CPU utilization",
+            "D. Routing convergence time"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_087",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-assr-04",
+      "concept": "SNMP Inform",
+      "domain": "Network Assurance",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "What is the key difference between SNMP informs and traps?",
+          "options": [
+            "A. Informs require acknowledgment from the receiver",
+            "B. Traps are more reliable",
+            "C. Informs use TCP",
+            "D. Traps only exist in SNMPv3"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_088",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-assr-05",
+      "concept": "Syslog Critical",
+      "domain": "Network Assurance",
+      "difficulty": "easy",
+      "variants": [
+        {
+          "text": "Which syslog level indicates a critical condition?",
+          "options": [
+            "A. Level 2 (Critical)",
+            "B. Level 1 (Alert)",
+            "C. Level 3 (Error)",
+            "D. Level 0 (Emergency)"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_089",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-sec-01",
+      "concept": "CoPP",
+      "domain": "Security",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "What does Control Plane Policing (CoPP) protect against?",
+          "options": [
+            "A. Excessive traffic targeting the router control plane",
+            "B. Data plane DDoS attacks",
+            "C. Unauthorized management access",
+            "D. VLAN hopping"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_090",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-sec-02",
+      "concept": "802.1X Roles",
+      "domain": "Security",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "In 802.1X, what role does the switch perform?",
+          "options": [
+            "A. Authenticator",
+            "B. Supplicant",
+            "C. Authentication Server",
+            "D. RADIUS Proxy"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_091",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-sec-03",
+      "concept": "MACsec 802.1AE",
+      "domain": "Security",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "What does MACsec (802.1AE) provide?",
+          "options": [
+            "A. Layer 2 encryption and authentication",
+            "B. Layer 3 VPN encryption",
+            "C. Wireless security",
+            "D. Application encryption"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_092",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-sec-04",
+      "concept": "TACACS+ vs RADIUS",
+      "domain": "Security",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "Which protocol encrypts the entire packet (not just the password)?",
+          "options": [
+            "A. TACACS+",
+            "B. RADIUS",
+            "C. LDAP",
+            "D. Kerberos"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_093",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-sec-05",
+      "concept": "AAA Components",
+      "domain": "Security",
+      "difficulty": "easy",
+      "variants": [
+        {
+          "text": "Which AAA component defines what a user can do after login?",
+          "options": [
+            "A. Authorization",
+            "B. Authentication",
+            "C. Accounting",
+            "D. Access control"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_094",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-sec-06",
+      "concept": "DHCP Snooping Trusted",
+      "domain": "Security",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "Which ports should be trusted in DHCP Snooping?",
+          "options": [
+            "A. Ports connected to DHCP servers",
+            "B. All access ports",
+            "C. Ports connected to clients",
+            "D. All trunk ports"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_095",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-sec-07",
+      "concept": "DAI Purpose",
+      "domain": "Security",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "What does Dynamic ARP Inspection (DAI) prevent?",
+          "options": [
+            "A. ARP spoofing and man-in-the-middle attacks",
+            "B. MAC flooding",
+            "C. DHCP starvation",
+            "D. VLAN hopping"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_096",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-auto-01",
+      "concept": "REST POST",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "variants": [
+        {
+          "text": "Which HTTP method creates a new resource in REST API?",
+          "options": [
+            "A. POST",
+            "B. GET",
+            "C. PUT",
+            "D. DELETE"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_097",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-auto-02",
+      "concept": "JSON Format",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "variants": [
+        {
+          "text": "Which data format uses curly braces and key-value pairs?",
+          "options": [
+            "A. JSON",
+            "B. XML",
+            "C. YAML",
+            "D. CSV"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_098",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-auto-03",
+      "concept": "Ansible Execution",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "Where are Ansible playbooks executed?",
+          "options": [
+            "A. Control node, pushed via SSH to managed nodes",
+            "B. Directly on each managed node",
+            "C. On a dedicated automation server",
+            "D. In the cloud"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_099",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-auto-04",
+      "concept": "Netmiko Library",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "What is Python Netmiko used for?",
+          "options": [
+            "A. SSH connections to network devices",
+            "B. REST API calls to web servers",
+            "C. Data visualization",
+            "D. Database queries"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_100",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-auto-05",
+      "concept": "YANG Model",
+      "domain": "Automation",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "What is YANG used for?",
+          "options": [
+            "A. Data modeling for NETCONF/RESTCONF",
+            "B. Configuration templating",
+            "C. Orchestration workflows",
+            "D. Monitoring dashboards"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_101",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-auto-06",
+      "concept": "RESTCONF Transport",
+      "domain": "Automation",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "What transport protocol does RESTCONF use?",
+          "options": [
+            "A. HTTP/HTTPS",
+            "B. SSH",
+            "C. Telnet",
+            "D. SNMP"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_102",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-auto-07",
+      "concept": "Puppet Agent",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "Which automation tool requires an agent installed on managed nodes?",
+          "options": [
+            "A. Puppet",
+            "B. Ansible",
+            "C. Both Ansible and Puppet",
+            "D. Python"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_103",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-auto-08",
+      "concept": "API Status Codes",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "variants": [
+        {
+          "text": "Which HTTP status code indicates a successful API call?",
+          "options": [
+            "A. 200 OK",
+            "B. 401 Unauthorized",
+            "C. 403 Forbidden",
+            "D. 500 Server Error"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_104",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-arch-06",
+      "concept": "SDA Wireless CP",
+      "domain": "Architecture",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "In SD-Access Wireless, the control plane terminates on which device?",
+          "options": [
+            "A. Wireless Controller (WLC)",
+            "B. Fabric Edge Node",
+            "C. Fabric Border Node",
+            "D. Fabric Control Node"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_105",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-inf-11",
+      "concept": "EtherChannel Balance",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "Which EtherChannel load-balancing method uses both source and destination IP?",
+          "options": [
+            "A. src-dst-ip",
+            "B. src-ip",
+            "C. dst-ip",
+            "D. src-dst-mac"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_106",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-inf-12",
+      "concept": "OSPFv3 vs OSPFv2",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "OSPFv3 runs on which protocol?",
+          "options": [
+            "A. IPv6",
+            "B. IPv4",
+            "C. Both IPv4 and IPv6",
+            "D. CLNP"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_107",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-inf-13",
+      "concept": "EIGRP Named Mode",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "What is the advantage of EIGRP named mode over classic mode?",
+          "options": [
+            "A. Supports IPv4 and IPv6 under a single configuration",
+            "B. Faster convergence",
+            "C. Lower CPU usage",
+            "D. Supports more routes"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_108",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-inf-14",
+      "concept": "STP PortFast BPDU Guard",
+      "domain": "Infrastructure",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "What does BPDU Guard do when configured on a PortFast port?",
+          "options": [
+            "A. Disables the port if a BPDU is received",
+            "B. Forwards received BPDUs",
+            "C. Ignores incoming BPDUs",
+            "D. Converts the port to trunk"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_109",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-sec-08",
+      "concept": "IP Source Guard",
+      "domain": "Security",
+      "difficulty": "medium",
+      "variants": [
+        {
+          "text": "What does IP Source Guard prevent?",
+          "options": [
+            "A. IP address spoofing attacks",
+            "B. VLAN hopping",
+            "C. MAC flooding",
+            "D. DHCP starvation"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_110",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-sec-09",
+      "concept": "Local Authentication",
+      "domain": "Security",
+      "difficulty": "easy",
+      "variants": [
+        {
+          "text": "Where are usernames and passwords stored in local AAA authentication?",
+          "options": [
+            "A. On the router local database",
+            "B. On a RADIUS server",
+            "C. On a TACACS+ server",
+            "D. On an LDAP server"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_111",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-assr-06",
+      "concept": "Embedded Event Manager",
+      "domain": "Network Assurance",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "What is Cisco EEM (Embedded Event Manager) used for?",
+          "options": [
+            "A. Automating responses to network events on the device",
+            "B. Managing ACL configurations",
+            "C. Monitoring SNMP traps",
+            "D. Routing protocol convergence"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_112",
+      "source": "ccnp-pool",
+      "tags": []
+    },
+    {
+      "conceptId": "ccnp-virt-04",
+      "concept": "VXLAN VNI",
+      "domain": "Virtualization",
+      "difficulty": "hard",
+      "variants": [
+        {
+          "text": "How many VNIs (VXLAN Network Identifiers) are available?",
+          "options": [
+            "A. 16 million (24-bit)",
+            "B. 4096 (12-bit)",
+            "C. 1 million (20-bit)",
+            "D. 4 billion (32-bit)"
+          ],
+          "answer": "A"
+        }
+      ],
+      "id": "ccnp_gen_113",
+      "source": "ccnp-pool",
+      "tags": []
+    }
+  ]
+}

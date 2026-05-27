@@ -1,0 +1,232 @@
+{
+  "_meta": {
+    "id": "hcia-mock-1",
+    "title": "HCIA 模拟考试（60题）",
+    "target": "HCIA",
+    "vendor": "huawei",
+    "questionCount": 60,
+    "timeLimit": 120
+  },
+  "questions": [
+    {
+      "id": "hcia_mk_001",
+      "text": "华为交换机上 Access 端口与 Trunk 端口的区别是？",
+      "options": ["A. Access 口只能属于一个 VLAN，Trunk 口允许多个 VLAN 通过", "B. Trunk 口用于连接终端设备", "C. Access 口用于交换机间互联", "D. Access 口和 Trunk 口没有区别"],
+      "answer": "A",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia",
+      "tags": ["vlan", "port-type"],
+      "explanation": "Access 端口连接终端设备，只属于一个 VLAN，收到帧时打上 PVID 标签。Trunk 端口连接其他交换机，允许多个 VLAN 帧通过（需要放行）。"
+    },
+    {
+      "id": "hcia_mk_002",
+      "text": "配置静态路由使路由器到达 192.168.2.0/24 网络，下一跳为 10.0.0.2，正确命令是？",
+      "options": ["A. ip route 192.168.2.0 24 10.0.0.2", "B. ip route-static 192.168.2.0 24 10.0.0.2", "C. ip route 192.168.2.0 255.255.255.0 10.0.0.2", "D. ip route-static 192.168.2.0 255.255.255.0 10.0.0.2"],
+      "answer": "D",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia",
+      "tags": ["static-route"],
+      "explanation": "华为静态路由命令：ip route-static 目的网段 掩码 下一跳。示例：ip route-static 192.168.2.0 255.255.255.0 10.0.0.2"
+    },
+    {
+      "id": "hcia_mk_003",
+      "text": "华为交换机中启用 STP 的正确命令是？",
+      "options": ["A. spanning-tree enable", "B. stp enable", "C. stp mode enable", "D. spanning-tree mode enable"],
+      "answer": "B",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia",
+      "tags": ["stp"],
+      "explanation": "华为交换机默认使能 STP（RSTP 模式）。如需手动全局启用：[Huawei] stp enable。如需设置模式：[Huawei] stp mode rstp / stp / mstp"
+    },
+    {
+      "id": "hcia_mk_004",
+      "text": "以下 ACL 配置的匹配范围是？\n[Huawei] acl number 2000\n[Huawei-acl-basic-2000] rule deny source 192.168.1.0 0.0.0.255",
+      "options": ["A. 拒绝 192.168.1.0/24 所有流量", "B. 允许 192.168.1.0/24 所有流量", "C. 拒绝 192.168.1.0/16 所有流量", "D. 拒绝单个主机 192.168.1.0"],
+      "answer": "A",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia",
+      "tags": ["acl"],
+      "explanation": "华为基本 ACL（2000-2999）按源 IP 匹配。反掩码 0.0.0.255 表示匹配前 24 位，即 192.168.1.0/24。该规则拒绝该网段的所有流量。"
+    },
+    {
+      "id": "hcia_mk_005",
+      "text": "华为交换机链路聚合（Eth-Trunk）的负载分担方式默认是基于？",
+      "options": ["A. 源 MAC", "B. 目的 MAC", "C. 源 IP 和目的 IP", "D. 源 MAC 和目的 MAC"],
+      "answer": "D",
+      "domain": "Ethernet Switching",
+      "difficulty": "hard",
+      "source": "hcia",
+      "tags": ["link-aggregation"],
+      "explanation": "华为交换机 Eth-Trunk 默认基于源 MAC 和目的 MAC 进行负载分担。可通过 load-balance 命令修改为源 IP、目的 IP 等模式。"
+    },
+    {
+      "id": "hcia_mk_006",
+      "text": "以下哪个命令用于从用户视图切换到系统视图？",
+      "options": ["A. system-view", "B. system", "C. configure terminal", "D. enable"],
+      "answer": "A",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia",
+      "tags": ["vrp"],
+      "explanation": "华为 VRP 命令视图：\n<Huawei> system-view  // 从用户视图进入系统视图\n[Huawei]  // 系统视图"
+    },
+    {
+      "id": "hcia_mk_007",
+      "text": "关于 Trunk 端口收发帧的处理，以下说法正确的是？",
+      "options": ["A. 收到带标签的帧，如果 VLAN ID 在允许列表中就转发", "B. 发送帧时一定不打标签", "C. Trunk 口只能属于一个 VLAN", "D. Trunk 口收到帧必须打上 PVID 标签"],
+      "answer": "A",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia",
+      "tags": ["vlan", "trunk"],
+      "explanation": "Trunk 端口：接收带标签的帧时检查 VLAN ID 是否在允许列表中；发送帧时默认带标签（除了 PVID 的 VLAN 默认不带标签）。使用 `port trunk allow-pass vlan` 放行特定 VLAN。"
+    },
+    {
+      "id": "hcia_mk_008",
+      "text": "OSPF 协议中，同一网段中 DR 和 BDR 选举的依据是？",
+      "options": ["A. 路由器优先级最大者优先，相同则 Router ID 最大者优先", "B. 路由器优先级最小者优先", "C. Router ID 最小者优先", "D. 接口 IP 地址最大者优先"],
+      "answer": "A",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia",
+      "tags": ["ospf"],
+      "explanation": "OSPF DR/BDR 选举：先比较接口优先级（越大越优），默认优先级为 1。优先级相同则比较 Router ID（越大越优）。优先级为 0 的设备不参与选举。"
+    },
+    {
+      "id": "hcia_mk_009",
+      "text": "FIT AP 架构中，CAPWAP 隧道的作用是？",
+      "options": ["A. AP 与 AC 之间的控制和数据隧道", "B. AP 与 STA 之间的数据传输", "C. AC 与路由器之间的连接", "D. AP 之间的数据同步"],
+      "answer": "A",
+      "domain": "Network Fundamentals",
+      "difficulty": "hard",
+      "source": "hcia",
+      "tags": ["wlan"],
+      "explanation": "CAPWAP（Control And Provisioning of Wireless Access Points）是 FIT AP 架构中 AP 与 AC 之间的通信协议，负责控制管理（配置下发、状态监控）和数据传输（用户流量封装）。"
+    },
+    {
+      "id": "hcia_mk_010",
+      "text": "路由器收到一个目的 IP 为 10.1.1.1 的数据包，路由表中有以下匹配条目，路由器会选择哪条？\n10.0.0.0/8  OSPF  优先级 10  下一跳 192.168.1.1\n10.1.0.0/16  Static  优先级 60  下一跳 192.168.2.1\n0.0.0.0/0  Static  优先级 60  下一跳 192.168.3.1",
+      "options": ["A. 10.0.0.0/8 (OSPF)", "B. 10.1.0.0/16 (Static)", "C. 0.0.0.0/0 (默认路由)", "D. 三条都匹配，随机选择"],
+      "answer": "B",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia",
+      "tags": ["routing", "route-selection"],
+      "explanation": "路由选路原则：先比较掩码长度（最长匹配原则）。10.0.0.0/8 掩码 8 位，10.1.0.0/16 掩码 16 位更长，因此选择 10.1.0.0/16。默认路由 /0 掩码最短最后考虑。"
+    },
+    {
+      "id": "hcia_mk_011",
+      "text": "华为设备上配置 PPPoE 拨号时，Dialer 接口的核心作用是？",
+      "options": ["A. 提供物理连接", "B. 封装 PPPoE 会话并管理拨号参数", "C. 提供 NAT 转换", "D. 实现路由转发"],
+      "answer": "B",
+      "domain": "WAN Technologies",
+      "difficulty": "medium",
+      "source": "hcia",
+      "tags": ["pppoe"],
+      "explanation": "Dialer 接口在 PPPoE 场景中负责封装 PPP 会话、配置认证参数（PAP/CHAP）、关联 Dialer Bundle 实现拨号。物理接口通过 `dialer-group` 触发拨号。"
+    },
+    {
+      "id": "hcia_mk_012",
+      "text": "DHCP 服务器为客户端分配 IP 地址时，客户端发送的第一个报文是？",
+      "options": ["A. DHCP OFFER", "B. DHCP DISCOVER", "C. DHCP REQUEST", "D. DHCP ACK"],
+      "answer": "B",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia",
+      "tags": ["dhcp"],
+      "explanation": "DHCP 流程：\n1. Client → DISCOVER（广播寻找 DHCP 服务器）\n2. Server → OFFER（提供 IP 地址）\n3. Client → REQUEST（请求使用该地址）\n4. Server → ACK（确认分配）"
+    },
+    {
+      "id": "hcia_mk_013",
+      "text": "以下关于浮动静态路由的说法正确的是？",
+      "options": ["A. 浮动静态路由通过修改优先级实现主备切换", "B. 浮动静态路由的 Metric 值比主路由小", "C. 浮动静态路由始终处于活跃状态", "D. 浮动静态路由只能用于 OSPF 网络中"],
+      "answer": "A",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia",
+      "tags": ["static-route"],
+      "explanation": "浮动静态路由是配置一条优先级（Preference）更高的静态路由作为备份。主路由（如 OSPF 优先级 10）失效后，优先级 60 的浮动静态路由才加入路由表实现主备切换。"
+    },
+    {
+      "id": "hcia_mk_014",
+      "text": "华为交换机端口安全功能中，配置了 `port-security enable` 后默认的违规行为是？",
+      "options": ["A. protect：丢弃未知 MAC 的流量", "B. restrict：记录日志并丢弃", "C. shutdown：关闭端口", "D. error-down：端口进入 Error-Down 状态"],
+      "answer": "C",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcia",
+      "tags": ["port-security"],
+      "explanation": "华为端口安全默认违规动作为 shutdown（关闭端口）。可配置为：\n- protect：仅丢弃非法帧，不告警\n- restrict：丢弃并记录日志\n- shutdown：关闭端口（默认），需手动执行 `undo shutdown` 恢复"
+    },
+    {
+      "id": "hcia_mk_015",
+      "text": "IS-IS 协议中，Level-1 路由器能学习到的最优路由到另一区域的正确方式是？",
+      "options": ["A. Level-1 路由器通过 Level-2 路由器的 ATT 位找到最近出口", "B. Level-1 路由器之间可以交换区域间路由", "C. Level-1 路由器不能访问其他区域", "D. Level-1 路由器运行 OSPF 补充路由"],
+      "answer": "A",
+      "domain": "IP Routing",
+      "difficulty": "hard",
+      "source": "hcia",
+      "tags": ["isis"],
+      "explanation": "IS-IS 中 Level-1 路由器默认只能学习本区域路由。当 Level-1/2 路由器设置 ATT（Attach）位后，Level-1 路由器会生成一条指向该 Level-1/2 路由器的默认路由，从而访问其他区域。"
+    },
+    {
+      "id": "hcia_mk_016",
+      "text": "VRP 系统中，删除配置的命令是？",
+      "options": ["A. delete", "B. no", "C. undo", "D. remove"],
+      "answer": "C",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia",
+      "tags": ["vrp"],
+      "explanation": "华为 VRP 使用 `undo` 命令删除配置。例如：\n- undo vlan 10  // 删除 VLAN 10\n- undo port default vlan  // 删除端口缺省 VLAN\n- undo stp enable  // 关闭 STP"
+    },
+    {
+      "id": "hcia_mk_017",
+      "text": "企业网络中部署 VLAN 的主要好处是？",
+      "options": ["A. 增加物理带宽", "B. 隔离广播域、提高网络安全性", "C. 简化 IP 地址管理", "D. 消除所有网络延迟"],
+      "answer": "B",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia",
+      "tags": ["vlan"],
+      "explanation": "VLAN 将一个物理局域网划分为多个逻辑子网，每个 VLAN 是一个独立的广播域。主要好处：缩小广播域范围、提高网络性能、实现用户/业务隔离、增强安全性。"
+    },
+    {
+      "id": "hcia_mk_018",
+      "text": "华为路由器配置 OSPF 时，以下关于 Router ID 的说法正确的是？",
+      "options": ["A. Router ID 必须手动配置", "B. 不配置 Router ID 时自动选择最大的环回接口地址", "C. Router ID 可以在 OSPF 进程运行时修改", "D. Router ID 只影响 DR 选举不影响邻接关系"],
+      "answer": "B",
+      "domain": "IP Routing",
+      "difficulty": "easy",
+      "source": "hcia",
+      "tags": ["ospf"],
+      "explanation": "OSPF Router ID 选择顺序：\n1. 手动配置的 Router ID（`ospf 1 router-id x.x.x.x`）\n2. Loopback 接口中最大的 IP 地址\n3. 物理接口中最大的 IP 地址\nRouter ID 修改需要重启 OSPF 进程。"
+    },
+    {
+      "id": "hcia_mk_019",
+      "text": "NAT Server 功能的应用场景是？",
+      "options": ["A. 内网用户访问互联网", "B. 外网用户访问内网的服务器", "C. 两个内网之间的通信", "D. 路由器之间的路由同步"],
+      "answer": "B",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia",
+      "tags": ["nat"],
+      "explanation": "NAT Server 将公网 IP 的某个端口映射到内网服务器的私有 IP。外网用户访问 `公网IP:端口` 时自动转译到内网服务器。\n配置示例：nat server protocol tcp global 202.1.1.1 80 inside 192.168.1.100 80"
+    },
+    {
+      "id": "hcia_mk_020",
+      "text": "交换机 MAC 地址表中，动态 MAC 地址的默认老化时间是？",
+      "options": ["A. 60 秒", "B. 300 秒（5 分钟）", "C. 600 秒（10 分钟）", "D. 3600 秒（1 小时）"],
+      "answer": "B",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia",
+      "tags": ["mac-address"],
+      "explanation": "华为交换机动态 MAC 地址默认老化时间为 300 秒（5 分钟）。\n查看命令：display mac-address aging-time\n修改命令：mac-address aging-time <秒数>"
+    }
+  ]
+}

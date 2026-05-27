@@ -1,0 +1,122 @@
+{
+  "_meta": {
+    "id": "hcip-level-demo",
+    "title": "HCIP 水平测试",
+    "target": "HCIP",
+    "vendor": "huawei",
+    "questionCount": 10,
+    "timeLimit": 0
+  },
+  "questions": [
+    {
+      "id": "hcip_lt_001",
+      "text": "在华为设备上配置 IBGP 邻居时，关于 next-hop-local 的描述正确的是？",
+      "options": ["A. IBGP 邻居之间默认会修改下一跳", "B. EBGP 引入的路由传递给 IBGP 邻居时默认不修改下一跳", "C. next-hop-local 用于取消下一跳修改", "D. IBGP 邻居收到路由后下一跳一定是可达的"],
+      "answer": "B",
+      "domain": "Advanced IP Routing",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["bgp"],
+      "explanation": "华为设备上，IBGP 从 EBGP 学习到的路由传递给 IBGP 邻居时默认不修改下一跳。如果 EBGP 对端和 IBGP 对端不在同一网段，下一跳可能不可达，需配置 `peer X.X.X.X next-hop-local` 强制修改。"
+    },
+    {
+      "id": "hcip_lt_002",
+      "text": "M-LAG（跨设备链路聚合）相比于传统堆叠的优势是？",
+      "options": ["A. 不需要跨设备链路聚合协议", "B. 两台设备独立控制面，故障隔离更好", "C. 配置更简单无需额外命令", "D. 支持不同型号设备混合组建"],
+      "answer": "B",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["m-lag"],
+      "explanation": "M-LAG 的核心优势是控制面独立：两台设备各自运行控制协议，一台设备故障不影响另一台，比堆叠的故障域更小。转发面通过 peer-link 链路同步 MAC/ARP 表项。"
+    },
+    {
+      "id": "hcip_lt_003",
+      "text": "关于 OSPF 路由汇总，以下说法正确的是？",
+      "options": ["A. 只能在 ABR 上进行汇总", "B. ASBR 可以汇总引入的外部路由", "C. 路由汇总会增大 LSDB 规模", "D. 华为设备不支持自动汇总"],
+      "answer": "B",
+      "domain": "Advanced IP Routing",
+      "difficulty": "hard",
+      "source": "hcip",
+      "tags": ["ospf", "summarization"],
+      "explanation": "OSPF 路由汇总分两类：ABR 汇总（abr-summary 命令，汇总区域间 Type-3 LSA）和 ASBR 汇总（asbr-summary 命令，汇总外部 Type-5 LSA）。汇总可减少路由表条目，缩小 LSDB。"
+    },
+    {
+      "id": "hcip_lt_004",
+      "text": "BGP 选路原则中，当多条路由的 Preferred-Value 相同时，接下来比较的是？",
+      "options": ["A. MED", "B. Local_Preference", "C. AS_PATH 长度", "D. Next_Hop 的 IGP Metric"],
+      "answer": "B",
+      "domain": "Advanced IP Routing",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["bgp", "path-selection"],
+      "explanation": "华为 BGP 选路顺序（前 5 条）：\n1. Preferred-Value（华为私有）\n2. Local_Preference（越高越优）\n3. 优选本设备生成的路由\n4. AS_PATH（越短越优）\n5. Origin（IGP < EGP < Incomplete）"
+    },
+    {
+      "id": "hcip_lt_005",
+      "text": "在华为设备上配置 MPLS LDP 时，LDP 邻居发现使用的协议是？",
+      "options": ["A. 基于 TCP 的 179 端口", "B. 基于 UDP 的 646 端口", "C. 基于 ICMP 的 Echo 请求", "D. 基于 OSPF 的 Hello 报文"],
+      "answer": "B",
+      "domain": "MPLS/VPN",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["mpls", "ldp"],
+      "explanation": "LDP 邻居发现通过 UDP 646 端口发送 Hello 报文（组播 224.0.0.2）。\nLDP 会话建立后通过 TCP 646 端口传输标签映射等消息。\n查看 LDP 邻居命令：display mpls ldp peer"
+    },
+    {
+      "id": "hcip_lt_006",
+      "text": "VRRP 中，Master 设备故障后 Backup 切换为 Master 需要等待的时间是？",
+      "options": ["A. 立即切换（0 秒）", "B. 1 秒（3 个 Advertisement 周期）", "C. 3 秒（3 个 Advertisement 周期）", "D. 10 秒（默认 Master_Down 定时器）"],
+      "answer": "C",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["vrrp"],
+      "explanation": "VRRP 默认 Advertisement 间隔 1 秒。Master_Down 定时器 = 3 × Advertisement 间隔 + 偏移（1 秒），默认约 3 秒。Backup 在 Master_Down 定时器超时后切换为 Master。"
+    },
+    {
+      "id": "hcip_lt_007",
+      "text": "IS-IS 中，DIS（Designated IS）选举的特点是？",
+      "options": ["A. 优先级越大越优，相同则 MAC 地址越大越优", "B. 优先级越小越优", "C. 先到者当选，不支持抢占", "D. 优先级越大越优，相同则 MAC 地址越小越优"],
+      "answer": "C",
+      "domain": "Advanced IP Routing",
+      "difficulty": "hard",
+      "source": "hcip",
+      "tags": ["isis"],
+      "explanation": "IS-IS DIS 选举与 OSPF DR 不同：\n1. 先到先得，不支持抢占（新增更优设备不会替换现有 DIS）\n2. 优先级越高越优先\n3. 相同优先级时 MAC 地址越大越优先\n4. DIS 在广播网络中每 10 秒发送一次 CSNP"
+    },
+    {
+      "id": "hcip_lt_008",
+      "text": "华为设备上，Route-Policy 中用于匹配路由信息的 if-match 子句与 apply 子句的关系是？",
+      "options": ["A. 先执行 apply 再匹配 if-match", "B. if-match 条件全部满足后才执行 apply", "C. if-match 为 OR 逻辑，任一匹配即执行 apply", "D. if-match 为 AND 逻辑，if-match 之间用 && 连接"],
+      "answer": "C",
+      "domain": "Advanced IP Routing",
+      "difficulty": "hard",
+      "source": "hcip",
+      "tags": ["route-policy"],
+      "explanation": "Route-Policy 的处理规则：\n- 同一节点（node）下的多个 if-match 子句是 OR 关系（任一匹配即进入该节点）\n- 不同节点按 node 编号顺序匹配\n- 匹配后执行该节点的 apply 子句\n- 所有节点都不匹配则路由被拒绝（默认 deny）"
+    },
+    {
+      "id": "hcip_lt_009",
+      "text": "MPLS VPN 中，PE 之间传递 VPN 路由使用的协议是？",
+      "options": ["A. OSPF 多实例", "B. MP-BGP（Multiprotocol BGP）", "C. IS-IS 多实例", "D. LDP 扩展"],
+      "answer": "B",
+      "domain": "MPLS/VPN",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["mpls-vpn"],
+      "explanation": "MPLS VPN 中 PE 之间通过 MP-BGP 传递 VPN-IPv4 路由。\n- VPN-IPv4 地址族 = RD + IPv4 前缀\n- MP-BGP 在 PE 之间传递 VPN 路由并携带 RT（Route Target）属性\n- 命令：bgp <ASN> → ipv4-family vpnv4 → peer X.X.X.X enable"
+    },
+    {
+      "id": "hcip_lt_010",
+      "text": "关于 BFD 与 OSPF 联动的配置效果，以下描述正确的是？",
+      "options": ["A. BFD 替代 OSPF 的 Hello 机制，减少网络开销", "B. BFD 提供毫秒级链路检测，OSPF 收到 BFD 状态变化后快速收敛", "C. BFD 必须配置在专用链路上", "D. BFD 只能检测直连链路故障"],
+      "answer": "B",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["bfd", "ospf"],
+      "explanation": "BFD（Bidirectional Forwarding Detection）提供毫秒级（通常 3.3ms × 3 = ~10ms）故障检测。OSPF 联动 BFD 后：BFD 检测到链路故障 → 通知 OSPF → OSPF 立即中断邻居关系并收敛路由，无需等待 OSPF Dead Interval（40 秒）。"
+    }
+  ]
+}

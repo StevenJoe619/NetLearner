@@ -3,7 +3,7 @@
  *
  * 版本号用于缓存爆破
  */
-const APP_VER = 'v4.0-20260526';
+const APP_VER = 'v4.1-20260526';
 
 /* ============================================================
    Data Loading (with cache busting)
@@ -25,10 +25,14 @@ async function loadExamMeta() {
     // Fallback (should not happen with local server)
     examMetaCache = {
       exams: [
-        { id:'ccna-level-demo', title:'CCNA 水平测试', type:'level-test', target:'CCNA', questionCount:10, timeLimit:0 },
-        { id:'ccna-mock-1', title:'CCNA 模拟考试（60题）', type:'mock-exam', target:'CCNA', questionCount:60, timeLimit:120 },
-        { id:'ccnp-encor-level-demo', title:'CCNP ENCOR 水平测试', type:'level-test', target:'CCNP ENCOR', questionCount:10, timeLimit:0 },
-        { id:'ccnp-encor-mock-1', title:'CCNP ENCOR 模拟考试（60题）', type:'mock-exam', target:'CCNP ENCOR', questionCount:60, timeLimit:120 },
+        { id:'ccna-level-demo', title:'CCNA (200-301) 水平测试 · 15题', type:'level-test', target:'CCNA', vendor:'cisco', questionCount:15, timeLimit:0 },
+        { id:'ccna-mock-1', title:'CCNA (200-301) 模拟考试 · 60题', type:'mock-exam', target:'CCNA', vendor:'cisco', questionCount:60, timeLimit:120 },
+        { id:'ccnp-encor-level-demo', title:'CCNP ENCOR (350-401) 水平测试 · 20题', type:'level-test', target:'CCNP ENCOR', vendor:'cisco', questionCount:20, timeLimit:0 },
+        { id:'ccnp-encor-mock-1', title:'CCNP ENCOR (350-401) 模拟考试 · 60题', type:'mock-exam', target:'CCNP ENCOR', vendor:'cisco', questionCount:60, timeLimit:120 },
+        { id:'hcia-level-demo', title:'HCIA-Datacom (H12-811) 水平测试 · 15题', type:'level-test', target:'HCIA', vendor:'huawei', questionCount:15, timeLimit:0 },
+        { id:'hcia-mock-1', title:'HCIA-Datacom (H12-811) 模拟考试 · 60题', type:'mock-exam', target:'HCIA', vendor:'huawei', questionCount:60, timeLimit:120 },
+        { id:'hcip-level-demo', title:'HCIP-Datacom (H12-821) 水平测试 · 20题', type:'level-test', target:'HCIP', vendor:'huawei', questionCount:20, timeLimit:0 },
+        { id:'hcip-mock-1', title:'HCIP-Datacom (H12-821) 模拟考试 · 60题', type:'mock-exam', target:'HCIP', vendor:'huawei', questionCount:60, timeLimit:120 },
       ]
     };
     return examMetaCache;
@@ -55,6 +59,7 @@ let engine = null;
 let curQs = null;
 let curMeta = null;
 let curResult = null;
+let vendorFilter = 'all';
 
 /* ============================================================
    Init
@@ -92,31 +97,78 @@ function renderHomeStats() {
   const recs = storage.get('recs') || [];
   const el = document.getElementById('home-stats');
   if (!el) return;
+  const vendorSet = new Set((examMetaCache?.exams || []).map(e => e.vendor || 'cisco'));
+  const vendorBadges = [...vendorSet].map(v =>
+    `<span class="vendor-stat v-${v}">${v === 'cisco' ? 'Cisco' : 'Huawei'}</span>`
+  ).join('');
   el.innerHTML = `<div class="stats">
     <div class="card stat-card"><div class="num">${s.total}</div><div class="lbl">错题</div></div>
     <div class="card stat-card"><div class="num" style="color:var(--green)">${s.byStatus.mastered || 0}</div><div class="lbl">已掌握</div></div>
     <div class="card stat-card"><div class="num">${recs.length}</div><div class="lbl">考试次数</div></div>
     <div class="card stat-card"><div class="num" style="color:var(--blue)">${recs.length ? Math.round(recs.reduce((a,r)=>a+r.score,0)/recs.length) : '--'}</div><div class="lbl">平均分</div></div>
-  </div>`;
+  </div>
+  ${vendorBadges ? `<div class="vendor-stats">${vendorBadges}</div>` : ''}`;
 }
 
 /* ============================================================
    LEVEL TEST
    ============================================================ */
 
-const LT_MAP = { 'CCNA': 'ccna-level-demo', 'CCNP ENCOR': 'ccnp-encor-level-demo' };
-
 function resetLT() {
   document.getElementById('lt-setup').style.display = 'block';
   document.getElementById('lt-exam').style.display = 'none';
   engine = null;
+
+  const container = document.getElementById('lt-buttons');
+  if (!container || !examMetaCache) return;
+
+  const lts = examMetaCache.exams.filter(e => e.type === 'level-test');
+  const vendors = {};
+  lts.forEach(e => {
+    const v = e.vendor || 'cisco';
+    if (!vendors[v]) vendors[v] = [];
+    vendors[v].push(e);
+  });
+
+  const vendorOrder = ['cisco', 'huawei'];
+  container.innerHTML = vendorOrder.filter(v => vendors[v]).map(v =>
+    `<div class="vendor-group vendor-${v}">
+      <div class="vendor-label">${v === 'cisco' ? 'Cisco' : 'Huawei'}</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        ${vendors[v].map(e =>
+          `<button class="btn btn-vendor" onclick="startLT('${e.target}')">${e.title}</button>`
+        ).join('')}
+      </div>
+    </div>`
+  ).join('');
 }
 
 async function startLT(target) {
-  const eid = LT_MAP[target];
-  if (!eid) { toast(target + ' 暂未开放'); return; }
+  if (!examMetaCache) return;
+  const lts = examMetaCache.exams.filter(e => e.type === 'level-test');
+  const match = lts.find(e => e.target === target);
+  if (!match) { toast(target + ' 暂未开放'); return; }
 
-  const data = await loadQs(eid);
+  // 大池抽取模式
+  if (match.poolFile) {
+    const poolData = await loadQs(match.poolFile);
+    if (!poolData) return;
+    const pool = poolData.questions || [];
+    const qs = ExamEngine.pickFromPool(pool, match.questionCount || 10, match.weightings);
+    if (!qs.length) { toast('题库为空'); return; }
+    curQs = qs;
+    curMeta = { title: target + ' 水平测试' };
+    document.getElementById('lt-setup').style.display = 'none';
+    document.getElementById('lt-exam').style.display = 'block';
+    document.getElementById('lt-title').textContent = target + ' 水平测试';
+    engine = new ExamEngine({ questions: curQs, mode: 'level-test', timeLimit: 0, allowBack: false });
+    engine.start();
+    renderLT();
+    return;
+  }
+
+  // 兼容模式：加载固定文件
+  const data = await loadQs(match.id);
   if (!data) return;
 
   curQs = data.questions;
@@ -184,30 +236,49 @@ function doSubLT() {
    MOCK EXAM
    ============================================================ */
 
+function setVendorFilter(v) {
+  vendorFilter = v;
+  renderMockList();
+}
+
 function renderMockList() {
   const el = document.getElementById('mock-list');
   if (!el || !examMetaCache) return;
-  const mocks = examMetaCache.exams.filter(e => e.type === 'mock-exam');
-  if (!mocks.length) { el.innerHTML = '<p class="text-muted">暂无模拟卷</p>'; return; }
 
+  let exams = examMetaCache.exams.filter(e => e.type === 'mock-exam');
+  if (vendorFilter !== 'all') {
+    exams = exams.filter(e => (e.vendor || 'cisco') === vendorFilter);
+  }
+  if (!exams.length) { el.innerHTML = '<p class="text-muted">暂无模拟卷</p>'; return; }
+
+  const vendorOrder = ['cisco', 'huawei'];
   const groups = {};
-  mocks.forEach(e => {
-    const t = e.target || 'Other';
-    if (!groups[t]) groups[t] = [];
-    groups[t].push(e);
+  exams.forEach(e => {
+    const v = e.vendor || 'cisco';
+    if (!groups[v]) groups[v] = [];
+    groups[v].push(e);
   });
 
-  let html = '';
-  ['CCNA','CCNP ENCOR'].forEach(t => {
-    if (!groups[t]) return;
-    html += `<h3 style="margin:12px 0 6px;font-size:15px">${t}</h3><div class="card-grid">`;
-    html += groups[t].map(e =>
-      `<div class="card card-feature" onclick="loadExam('${e.id}')">
-        <div class="icon">📝</div><h3>${e.title}</h3>
-        <p>${e.questionCount} 题 ${e.timeLimit ? '· '+e.timeLimit+'min' : ''}</p>
-      </div>`
-    ).join('');
-    html += '</div>';
+  let html = `<div class="vendor-filter">
+    <button class="vf-btn ${vendorFilter === 'all' ? 'active' : ''}" onclick="setVendorFilter('all')">全部</button>
+    <button class="vf-btn ${vendorFilter === 'cisco' ? 'active' : ''}" data-vf="cisco" onclick="setVendorFilter('cisco')">Cisco</button>
+    <button class="vf-btn ${vendorFilter === 'huawei' ? 'active' : ''}" data-vf="huawei" onclick="setVendorFilter('huawei')">Huawei</button>
+  </div>`;
+
+  vendorOrder.forEach(v => {
+    if (!groups[v]) return;
+    const label = v === 'cisco' ? 'Cisco' : 'Huawei';
+    html += `<div class="vendor-section vendor-${v}">
+      <h3 class="vendor-heading">${label}</h3>
+      <div class="card-grid">
+        ${groups[v].map(e =>
+          `<div class="card card-feature" onclick="loadExam('${e.id}')">
+            <div class="icon">📝</div><h3>${e.title}</h3>
+            <p>${e.questionCount} 题 ${e.timeLimit ? '· '+e.timeLimit+'min' : ''}</p>
+          </div>`
+        ).join('')}
+      </div>
+    </div>`;
   });
   el.innerHTML = html;
   document.getElementById('mock-exam').style.display = 'none';
@@ -221,6 +292,26 @@ function backMock() {
 }
 
 async function loadExam(id) {
+  // Check if this exam uses a pool
+  const meta = examMetaCache?.exams.find(e => e.id === id);
+  if (meta?.poolFile) {
+    const poolData = await loadQs(meta.poolFile);
+    if (!poolData) return;
+    const pool = poolData.questions || [];
+    const qs = ExamEngine.pickFromPool(pool, meta.questionCount || 60, meta.weightings);
+    if (!qs.length) { toast('题库为空'); return; }
+    curQs = qs;
+    document.getElementById('mock-list').style.display = 'none';
+    document.getElementById('mock-exam').style.display = 'block';
+    document.getElementById('exam-name').textContent = meta.title || id;
+    engine = new ExamEngine({ questions: curQs, mode: 'mock-exam', timeLimit: meta.timeLimit || 120, allowBack: true });
+    engine.start();
+    renderQ();
+    startTimer();
+    return;
+  }
+
+  // Legacy: load fixed exam file
   const data = await loadQs(id);
   if (!data) return;
 
@@ -242,23 +333,80 @@ function renderQ() {
   if (!s.q) return;
   const q = s.q;
   const body = document.getElementById('exam-body');
+  const t = q.type || 'single';
 
   document.getElementById('exam-pos').textContent = `${s.idx+1}/${s.total}`;
   document.getElementById('pf').style.width = `${((s.idx+1)/s.total)*100}%`;
 
   const dc = domainClass(q.domain);
+  const ans = engine.getAns(q.id);
+  const typeLabel = { single:'单选题', multiple:'多选题', fill:'填空题', drag:'拖拽题' };
+
+  let optsHtml = '';
+  if (t === 'single') {
+    optsHtml = q.options.map(o => {
+      const k = o.charAt(0);
+      return `<div class="option ${ans===k?'sel':''}" onclick="ansEx('${q.id}','${k}')">${o}</div>`;
+    }).join('');
+  } else if (t === 'multiple') {
+    const selParts = ans ? ans.split(',') : [];
+    optsHtml = q.options.map(o => {
+      const k = o.charAt(0);
+      const active = selParts.includes(k);
+      return `<div class="option ${active?'sel':''}" onclick="multiEx('${q.id}','${k}')">${o}${active?' ✓':''}</div>`;
+    }).join('');
+    optsHtml += `<div style="margin-top:8px;font-size:12px;color:var(--text-muted)">多选：点击选择多个选项</div>`;
+  } else if (t === 'fill') {
+    optsHtml = `<input id="fill-input" type="text" class="fill-input" value="${ans||''}" placeholder="在此输入答案..." autocomplete="off" style="width:100%;padding:12px 16px;background:var(--bg-input);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text-primary);font-size:16px;font-family:inherit">
+      <div style="margin-top:8px;display:flex;gap:6px">
+        <button class="btn btn-sm btn-primary" onclick="fillEx('${q.id}')">确认答案</button>
+      </div>`;
+  } else if (t === 'drag') {
+    const order = ans ? ans.split(',').map(Number) : q.options.map((_,i) => i);
+    optsHtml = `<div class="drag-list">`;
+    order.forEach((itemIdx, pos) => {
+      optsHtml += `<div class="drag-item">
+        <span class="drag-pos">${pos+1}</span>
+        <span class="drag-text">${q.options[itemIdx]}</span>
+        <div class="drag-arrows">
+          <button class="btn btn-sm" onclick="dragEx('${q.id}',${pos},-1)" ${pos===0?'disabled':''}>▲</button>
+          <button class="btn btn-sm" onclick="dragEx('${q.id}',${pos},1)" ${pos===order.length-1?'disabled':''}>▼</button>
+        </div>
+      </div>`;
+    });
+    optsHtml += `</div>`;
+  }
+
   body.innerHTML = `<div class="q-card">
     <div class="q-meta">
       <span class="domain-badge ${dc}">${q.domain}</span>
+      <span style="font-size:11px;color:var(--text-muted);margin-left:6px">${typeLabel[t]||'单选题'}</span>
       ${engine.isMarked(q.id) ? '<span style="color:var(--orange);font-size:12px">🏴 已标记</span>' : ''}
     </div>
     <div class="q-text">${q.text}</div>
-    ${q.options.map((o,i) => {
-      const k = ['A','B','C','D'][i];
-      return `<div class="option ${engine.getAns(q.id)===k?'sel':''}" onclick="ansEx('${q.id}','${k}')">${o}</div>`;
-    }).join('')}
+    ${optsHtml}
   </div>`;
+  if (t === 'fill') {
+    const inp = document.getElementById('fill-input');
+    if (inp) { inp.focus(); inp.addEventListener('keydown', e => { if (e.key==='Enter') fillEx(q.id); }); }
+  }
   updateSheet();
+}
+
+function multiEx(id, k) { engine.toggleChoice(id, k); renderQ(); }
+function fillEx(id) {
+  const v = document.getElementById('fill-input')?.value?.trim();
+  if (v !== undefined) engine.answer(id, v);
+  renderQ();
+}
+function dragEx(id, pos, dir) {
+  let order = (engine.getAns(id) || '').split(',').filter(Boolean).map(Number);
+  if (!order.length) { const q = engine.current().q; order = q.options.map((_,i) => i); }
+  const newPos = pos + dir;
+  if (newPos < 0 || newPos >= order.length) return;
+  [order[pos], order[newPos]] = [order[newPos], order[pos]];
+  engine.answer(id, order.join(','));
+  renderQ();
 }
 
 function ansEx(id, k) { engine.answer(id, k); renderQ(); }
@@ -337,7 +485,12 @@ function renderResult() {
     'Network Fundamentals':'#2e7d32','Network Access':'#1565c0','IP Connectivity':'#c62828',
     'IP Services':'#6a1b9a','Security Fundamentals':'#e65100','Automation':'#00695c',
     'Architecture':'#1565c0','Virtualization':'#6a1b9a','Infrastructure':'#c62828',
-    'Network Assurance':'#00695c','Security':'#e65100'
+    'Network Assurance':'#00695c','Security':'#e65100',
+    'Ethernet Switching':'#1565c0','IP Routing':'#c62828',
+    'WAN Technologies':'#6a1b9a','Network Management':'#00695c',
+    'Advanced IP Routing':'#c62828','Switching':'#1565c0',
+    'MPLS/VPN':'#e65100','Network Reliability':'#00695c',
+    'SDN & Automation':'#6a1b9a'
   };
 
   box.innerHTML = `<div class="result">
@@ -511,7 +664,12 @@ function domainClass(d) {
     'Network Fundamentals':'dn-nf','Network Access':'dn-na','IP Connectivity':'dn-ic',
     'IP Services':'dn-is','Security Fundamentals':'dn-sf','Automation':'dn-ap',
     'Architecture':'dn-na','Virtualization':'dn-is','Infrastructure':'dn-ic',
-    'Network Assurance':'dn-ap','Security':'dn-sf'
+    'Network Assurance':'dn-ap','Security':'dn-sf',
+    'Ethernet Switching':'dn-na','IP Routing':'dn-ic',
+    'WAN Technologies':'dn-is','Network Management':'dn-ap',
+    'Advanced IP Routing':'dn-ic','Switching':'dn-na',
+    'MPLS/VPN':'dn-sf','Network Reliability':'dn-ap',
+    'SDN & Automation':'dn-ap'
   };
   return m[d] || 'dn-nf';
 }

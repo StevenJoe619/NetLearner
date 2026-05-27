@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NetLearner — CCNA/CCNP 备考</title>
-<meta name="description" content="考纲驱动 · AI 动态出题。基于 Cisco 官方 Exam Topics 实时生成试题，永远对标最新考纲。">
+<title>NetLearner — CCNA (200-301) / CCNP (350-401) / HCIA-Datacom (H12-811) / HCIP-Datacom (H12-821) 备考</title>
+<meta name="description" content="考纲驱动 · AI 动态出题。覆盖 Cisco（CCNA 200-301 / CCNP ENCOR 350-401）和 Huawei（HCIA-Datacom H12-811 / HCIP-Datacom H12-821）认证备考。">
 <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<link rel="stylesheet" href="assets/css/main.css?v=v4.0">
+<link rel="stylesheet" href="assets/css/main.css?v=v4.1">
 </head>
 <body>
 
@@ -30,7 +30,7 @@
     <div class="hero">
       <h1><span>NetLearner</span></h1>
       <div class="tagline">考纲驱动 · AI 动态出题</div>
-      <p class="desc">不再依赖任何静态题库。基于 Cisco 官方 Exam Topics 实时生成试题，永远对标最新考纲。</p>
+      <p class="desc">不再依赖任何静态题库。基于官方 Exam Topics 实时生成试题，永远对标最新考纲。覆盖 <strong>Cisco</strong>（CCNA 200-301 / CCNP ENCOR 350-401）和 <strong>Huawei</strong>（HCIA-Datacom H12-811 / HCIP-Datacom H12-821）两大认证体系。</p>
       <div class="badges">
         <span class="badge">📖 官方考纲驱动</span>
         <span class="badge">🤖 AI 动态出题</span>
@@ -67,12 +67,9 @@
     <div id="lt-setup">
       <div class="card" style="margin-bottom:12px">
         <h3 style="margin-bottom:10px">选择目标认证</h3>
-        <div style="display:flex;gap:8px;flex-wrap:wrap">
-          <button class="btn btn-primary" onclick="startLT('CCNA')">CCNA 200-301</button>
-          <button class="btn" onclick="startLT('CCNP ENCOR')">CCNP ENCOR 350-401</button>
-        </div>
+        <div id="lt-buttons" style="display:flex;flex-direction:column;gap:10px"></div>
       </div>
-      <div class="card"><p class="text-muted" style="font-size:13px">水平测试共 10 题，不可回退，提交后获得等级评定和学习计划。</p></div>
+      <div class="card"><p class="text-muted" style="font-size:13px">水平测试按官方考纲加权出题，提交后获得等级评定和学习计划。不可回退，请认真作答。</p></div>
     </div>
     <div id="lt-exam" style="display:none">
       <div class="flex-between" style="margin-bottom:12px">
@@ -200,7 +197,7 @@
       <p style="font-size:14px;color:var(--text-secondary);line-height:1.7">
         <strong>NetLearner</strong> — 考纲驱动 · AI 动态出题<br><br>
         🔒 数据存在本地，不经过服务器<br>
-        📖 出题仅限 Cisco 官方 Exam Topics，零版权风险<br>
+        📖 基于官方 Exam Topics 出题 · CCNA (200-301) · CCNP ENCOR (350-401) · HCIA-Datacom (H12-811) · HCIP-Datacom (H12-821)<br>
         ⚡ 纯前端，GitHub Pages 部署
       </p>
       <p style="font-size:12px;color:var(--text-muted);margin-top:8px">v4.0 · MIT License</p>
@@ -222,11 +219,11 @@
 
 <div class="toast" id="toast"></div>
 
-<script src="assets/js/storage.js?v=v4.0"></script>
-<script src="assets/js/router.js?v=v4.0"></script>
-<script src="assets/js/exam-engine.js?v=v4.0"></script>
-<script src="assets/js/wrong-answer-service.js?v=v4.0"></script>
-<script src="assets/js/planner-generator.js?v=v4.0"></script>
-<script src="assets/js/app.js?v=v4.0"></script>
+<script src="assets/js/storage.js?v=v4.1"></script>
+<script src="assets/js/router.js?v=v4.1"></script>
+<script src="assets/js/exam-engine.js?v=v4.1"></script>
+<script src="assets/js/wrong-answer-service.js?v=v4.1"></script>
+<script src="assets/js/planner-generator.js?v=v4.1"></script>
+<script src="assets/js/app.js?v=v4.1"></script>
 </body>
 </html>

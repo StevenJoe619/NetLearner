@@ -1,0 +1,240 @@
+{
+  "_meta": {
+    "description": "跨厂商共享概念池 — 一个知识点同时生成 Cisco（英文）和 Huawei（中文）双版本",
+    "conceptCount": 20,
+    "lastUpdated": "2026-05-26"
+  },
+  "concepts": [
+    {
+      "conceptId": "shared-osi-tcp",
+      "concept": "OSI vs TCP/IP model comparison / OSI 与 TCP/IP 模型对比",
+      "domain": {"cisco":"Network Fundamentals","huawei":"Network Fundamentals"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "easy",
+      "tags": ["osi","tcpip"],
+      "explanation": "TCP/IP application layer maps to OSI layer 5-7. TCP/IP network access layer maps to OSI layer 1-2.",
+      "cisco": [{"text":"Which OSI layer does the TCP/IP Application layer correspond to?","options":["A. Layer 5-7 (Application+Presentation+Session)","B. Layer 4 (Transport)","C. Layer 3 (Network)","D. Layer 1-2 (Physical+Data Link)"],"answer":"A"}],
+      "huawei": [{"text":"TCP/IP 模型的应用层对应 OSI 的哪几层？","options":["A. 5-7 层（应用层+表示层+会话层）","B. 第 4 层（传输层）","C. 第 3 层（网络层）","D. 第 1-2 层（物理层+数据链路层）"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-subnet-calc",
+      "concept": "Subnet calculation / 子网计算",
+      "domain": {"cisco":"Network Fundamentals","huawei":"Network Fundamentals"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "medium",
+      "tags": ["subnet","ipv4"],
+      "explanation": "/28 = 255.255.255.240, 16 addresses total, 14 usable (subtract network and broadcast).",
+      "cisco": [{"text":"How many usable host addresses are in 192.168.1.0/28?","options":["A. 14","B. 16","C. 30","D. 62"],"answer":"A"}],
+      "huawei": [{"text":"192.168.1.0/28 有多少个可用主机地址？","options":["A. 14","B. 16","C. 30","D. 62"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-arp",
+      "concept": "ARP protocol / ARP 协议",
+      "domain": {"cisco":"Network Fundamentals","huawei":"Network Fundamentals"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "easy",
+      "tags": ["arp"],
+      "explanation": "ARP resolves IP to MAC via broadcast request and unicast reply.",
+      "cisco": [{"text":"What is the purpose of ARP?","options":["A. Resolve IP address to MAC address","B. Resolve MAC to IP","C. Assign IP addresses","D. Resolve domain names"],"answer":"A"}],
+      "huawei": [{"text":"ARP 协议的主要功能是？","options":["A. 将 IP 地址解析为 MAC 地址","B. 将 MAC 地址解析为 IP 地址","C. 分配 IP 地址","D. 域名解析"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-vlan-purpose",
+      "concept": "VLAN purpose / VLAN 作用",
+      "domain": {"cisco":"Network Access","huawei":"Ethernet Switching"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "easy",
+      "tags": ["vlan"],
+      "explanation": "VLANs segment broadcast domains at Layer 2, improving security and performance.",
+      "cisco": [{"text":"What is the primary purpose of VLANs?","options":["A. Segment broadcast domains at Layer 2","B. Provide routing between subnets","C. Increase physical bandwidth","D. Replace IP subnetting"],"answer":"A"}],
+      "huawei": [{"text":"VLAN 的主要作用是什么？","options":["A. 在二层隔离广播域","B. 提供三层路由功能","C. 增加物理带宽","D. 替代 IP 子网划分"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-access-trunk",
+      "concept": "Access vs Trunk port / Access 与 Trunk 端口区别",
+      "domain": {"cisco":"Network Access","huawei":"Ethernet Switching"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "easy",
+      "tags": ["vlan","port-type"],
+      "explanation": "Access port carries single VLAN for end devices. Trunk carries multiple VLANs between switches.",
+      "cisco": [{"text":"Which port type carries traffic for multiple VLANs between switches?","options":["A. Trunk","B. Access","C. Hybrid","D. Routed"],"answer":"A"}],
+      "huawei": [{"text":"哪种端口类型可以在交换机之间传输多个 VLAN？","options":["A. Trunk 端口","B. Access 端口","C. Hybrid 端口","D. 路由口"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-stp-root",
+      "concept": "STP root bridge election / STP 根桥选举",
+      "domain": {"cisco":"Network Access","huawei":"Ethernet Switching"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "medium",
+      "tags": ["stp"],
+      "explanation": "Root bridge is the switch with the lowest Bridge ID (priority + MAC address).",
+      "cisco": [{"text":"Which switch becomes the root bridge in STP?","options":["A. Lowest Bridge ID","B. Highest priority number","C. Most physical ports","D. Highest MAC address"],"answer":"A"}],
+      "huawei": [{"text":"STP 中根桥（Root Bridge）选举的依据是？","options":["A. 最小的 Bridge ID","B. 最大的优先级值","C. 最多物理端口","D. 最大的 MAC 地址"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-ospf-neighbor",
+      "concept": "OSPF neighbor states / OSPF 邻居状态",
+      "domain": {"cisco":"IP Connectivity","huawei":"IP Routing"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "medium",
+      "tags": ["ospf"],
+      "explanation": "OSPF states: Down→Init→2-Way→ExStart→Exchange→Loading→Full. DR-other routers stay at 2-Way.",
+      "cisco": [{"text":"What is the stable OSPF neighbor state between two DR-other routers on a broadcast network?","options":["A. 2-Way","B. Full","C. ExStart","D. Loading"],"answer":"A"}],
+      "huawei": [{"text":"广播网络中两台 DR-other 路由器之间的 OSPF 邻居稳定状态是？","options":["A. 2-Way","B. Full","C. ExStart","D. Loading"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-ospf-dr",
+      "concept": "OSPF DR/BDR election / OSPF DR/BDR 选举",
+      "domain": {"cisco":"IP Connectivity","huawei":"IP Routing"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "medium",
+      "tags": ["ospf","dr"],
+      "explanation": "DR/BDR elected by highest priority (1-255). Priority 0 means never elected. Tie-breaker: highest Router ID.",
+      "cisco": [{"text":"An OSPF interface with priority 0 will?","options":["A. Not participate in DR/BDR election","B. Always become the DR","C. Only become BDR","D. Have priority overridden by Router ID"],"answer":"A"}],
+      "huawei": [{"text":"OSPF 接口优先级设为 0 的设备会？","options":["A. 不参与 DR/BDR 选举","B. 永远成为 DR","C. 只能成为 BDR","D. 优先级被 Router ID 覆盖"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-static-route",
+      "concept": "Static route configuration / 静态路由配置",
+      "domain": {"cisco":"IP Connectivity","huawei":"IP Routing"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "medium",
+      "tags": ["static-route"],
+      "explanation": "CLI differs: Cisco uses 'ip route', Huawei uses 'ip route-static'. Both need destination, mask, next-hop.",
+      "cisco": [{"text":"Which command configures a static route on a Cisco router?","options":["A. ip route 192.168.2.0 255.255.255.0 10.0.0.1","B. ip route-static 192.168.2.0 255.255.255.0 10.0.0.1","C. route add 192.168.2.0/24 10.0.0.1","D. ip route 192.168.2.0/24 via 10.0.0.1"],"answer":"A"}],
+      "huawei": [{"text":"华为路由器上配置到达 192.168.2.0/24 下一跳 10.0.0.1 的静态路由命令是？","options":["A. ip route 192.168.2.0 255.255.255.0 10.0.0.1","B. ip route-static 192.168.2.0 255.255.255.0 10.0.0.1","C. route add 192.168.2.0/24 10.0.0.1","D. ip route 192.168.2.0/24 via 10.0.0.1"],"answer":"B"}]
+    },
+    {
+      "conceptId": "shared-default-route",
+      "concept": "Default route / 缺省路由",
+      "domain": {"cisco":"IP Connectivity","huawei":"IP Routing"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "easy",
+      "tags": ["routing"],
+      "explanation": "Default route (0.0.0.0/0) matches all traffic not matched by other routes. Used for internet-bound traffic.",
+      "cisco": [{"text":"A default route has which destination network and mask?","options":["A. 0.0.0.0 0.0.0.0","B. 0.0.0.0 255.255.255.255","C. 127.0.0.0 255.0.0.0","D. 255.255.255.255 0.0.0.0"],"answer":"A"}],
+      "huawei": [{"text":"缺省路由的目的网络和掩码是？","options":["A. 0.0.0.0 0.0.0.0","B. 0.0.0.0 255.255.255.255","C. 127.0.0.0 255.0.0.0","D. 255.255.255.255 0.0.0.0"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-acl-basic",
+      "concept": "Standard ACL / 基本 ACL",
+      "domain": {"cisco":"Security Fundamentals","huawei":"Network Security"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "medium",
+      "tags": ["acl"],
+      "explanation": "Standard ACL filters by source IP only. Cisco: 1-99, 1300-1999. Huawei: 2000-2999 (basic ACL).",
+      "cisco": [{"text":"What does a standard IP ACL filter on?","options":["A. Source IP address only","B. Source and destination IP","C. Protocol and port","D. MAC address"],"answer":"A"}],
+      "huawei": [{"text":"华为基本 ACL 的匹配依据是？","options":["A. 仅源 IP 地址","B. 源和目的 IP 地址","C. 协议和端口","D. MAC 地址"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-nat-outbound",
+      "concept": "NAT outbound / NAT 地址转换",
+      "domain": {"cisco":"IP Services","huawei":"Network Security"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "medium",
+      "tags": ["nat"],
+      "explanation": "NAT overload (PAT) maps multiple private IPs to one public IP using different source ports.",
+      "cisco": [{"text":"Which NAT type allows multiple internal hosts to share a single public IP?","options":["A. PAT (Port Address Translation)","B. Static NAT","C. Dynamic NAT","D. NAT Server"],"answer":"A"}],
+      "huawei": [{"text":"哪种 NAT 允许多个内部主机共享一个公网 IP？","options":["A. Easy-IP / PAT","B. 静态 NAT","C. 动态 NAT","D. NAT Server"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-dhcp-flow",
+      "concept": "DHCP DORA process / DHCP 工作流程",
+      "domain": {"cisco":"IP Services","huawei":"Network Fundamentals"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "easy",
+      "tags": ["dhcp"],
+      "explanation": "DORA: Discover (broadcast), Offer (unicast), Request (broadcast), ACK (unicast).",
+      "cisco": [{"text":"What is the first packet sent by a DHCP client?","options":["A. DHCP Discover","B. DHCP Offer","C. DHCP Request","D. DHCP ACK"],"answer":"A"}],
+      "huawei": [{"text":"DHCP 客户端发送的第一个报文是？","options":["A. DHCP Discover","B. DHCP Offer","C. DHCP Request","D. DHCP ACK"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-ipv6-link-local",
+      "concept": "IPv6 link-local address / IPv6 链路本地地址",
+      "domain": {"cisco":"Network Fundamentals","huawei":"Network Fundamentals"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "easy",
+      "tags": ["ipv6"],
+      "explanation": "Link-local addresses (FE80::/10) are automatically assigned, used for neighbor discovery and OSPFv3.",
+      "cisco": [{"text":"What is the prefix for IPv6 link-local addresses?","options":["A. FE80::/10","B. 2001::/16","C. FC00::/7","D. FF00::/8"],"answer":"A"}],
+      "huawei": [{"text":"IPv6 链路本地地址的前缀是？","options":["A. FE80::/10","B. 2001::/16","C. FC00::/7","D. FF00::/8"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-lacp-mode",
+      "concept": "LACP mode / LACP 模式",
+      "domain": {"cisco":"Network Access","huawei":"Ethernet Switching"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "medium",
+      "tags": ["lacp","link-aggregation"],
+      "explanation": "LACP active initiates negotiation, passive waits. Both sides need at least one active to form a bundle.",
+      "cisco": [{"text":"Which LACP mode will actively initiate negotiations?","options":["A. Active","B. Passive","C. On","D. Auto"],"answer":"A"}],
+      "huawei": [{"text":"LACP 哪种模式会主动发起协商？","options":["A. Active（主动模式）","B. Passive（被动模式）","C. On 模式","D. Auto 模式"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-ssh-telnet",
+      "concept": "SSH vs Telnet / SSH 与 Telnet 区别",
+      "domain": {"cisco":"Security Fundamentals","huawei":"Network Management"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "easy",
+      "tags": ["ssh","telnet","security"],
+      "explanation": "SSH encrypts all traffic including passwords. Telnet is plaintext and insecure.",
+      "cisco": [{"text":"Why is SSH preferred over Telnet for device management?","options":["A. SSH encrypts all data including passwords","B. SSH is faster","C. SSH supports more users","D. SSH uses UDP which is more efficient"],"answer":"A"}],
+      "huawei": [{"text":"为什么 SSH 比 Telnet 更适合远程管理设备？","options":["A. SSH 加密所有数据包括密码","B. SSH 速度更快","C. SSH 支持更多用户","D. SSH 使用 UDP 效率更高"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-ospf-cost",
+      "concept": "OSPF cost metric / OSPF Cost 计算",
+      "domain": {"cisco":"IP Connectivity","huawei":"IP Routing"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "medium",
+      "tags": ["ospf","cost"],
+      "explanation": "OSPF cost = reference bandwidth (100 Mbps) / interface bandwidth. Cost 1 for 100 Mbps Ethernet.",
+      "cisco": [{"text":"What is the default OSPF cost for a 100 Mbps Ethernet link?","options":["A. 1","B. 10","C. 100","D. 1000"],"answer":"A"}],
+      "huawei": [{"text":"OSPF 默认参考带宽下，100Mbps 以太网接口的 Cost 是多少？","options":["A. 1","B. 10","C. 100","D. 1000"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-port-security",
+      "concept": "Port security / 端口安全",
+      "domain": {"cisco":"Security Fundamentals","huawei":"Network Security"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "medium",
+      "tags": ["port-security","security"],
+      "explanation": "Port security limits MAC addresses per port. Default violation mode on Cisco: shutdown. On Huawei: shutdown (error-down).",
+      "cisco": [{"text":"What is the default port security violation mode on Cisco switches?","options":["A. Shutdown","B. Protect","C. Restrict","D. Error-disable"],"answer":"A"}],
+      "huawei": [{"text":"华为端口安全的默认违规动作是？","options":["A. shutdown（关闭端口）","B. protect（丢弃非法帧）","C. restrict（记录日志）","D. error-down"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-rstp-edge",
+      "concept": "RSTP edge port / RSTP 边缘端口",
+      "domain": {"cisco":"Network Access","huawei":"Ethernet Switching"},
+      "targets": {"cisco":["CCNA"],"huawei":["HCIA"]},
+      "difficulty": "medium",
+      "tags": ["rstp"],
+      "explanation": "Edge ports connect to end devices, immediately transition to forwarding. Cisco PortFast, Huawei edge-port.",
+      "cisco": [{"text":"What is the effect of configuring PortFast on a Cisco switch port?","options":["A. Immediately transitions to forwarding state","B. Disables STP on that port","C. Prevents BPDU transmission","D. Converts the port to a trunk"],"answer":"A"}],
+      "huawei": [{"text":"华为交换机配置边缘端口后，该端口会？","options":["A. 立即进入转发状态","B. 在该端口上禁用 STP","C. 阻止发送 BPDU","D. 转换为 Trunk 端口"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-bgp-attributes",
+      "concept": "BGP well-known attributes / BGP 公认属性",
+      "domain": {"cisco":"IP Connectivity","huawei":"Advanced IP Routing"},
+      "targets": {"cisco":["CCNP ENCOR"],"huawei":["HCIP"]},
+      "difficulty": "hard",
+      "tags": ["bgp"],
+      "explanation": "Well-known mandatory: AS_PATH, NEXT_HOP, ORIGIN. Must be present in all BGP updates.",
+      "cisco": [{"text":"Which attributes are well-known mandatory in BGP?","options":["A. AS_PATH, NEXT_HOP, ORIGIN","B. LOCAL_PREF, MED, COMMUNITY","C. ORIGIN, LOCAL_PREF, NEXT_HOP","D. AS_PATH, MED, ORIGIN"],"answer":"A"}],
+      "huawei": [{"text":"BGP 公认必遵（Well-known Mandatory）属性包括？","options":["A. AS_PATH、NEXT_HOP、ORIGIN","B. Local_Preference、MED、Community","C. ORIGIN、Local_Preference、NEXT_HOP","D. AS_PATH、MED、ORIGIN"],"answer":"A"}]
+    },
+    {
+      "conceptId": "shared-vrrp-purpose",
+      "concept": "VRRP purpose / VRRP 作用",
+      "domain": {"cisco":"IP Connectivity","huawei":"Network Reliability"},
+      "targets": {"cisco":["CCNP ENCOR"],"huawei":["HCIP"]},
+      "difficulty": "medium",
+      "tags": ["vrrp","reliability"],
+      "explanation": "VRRP provides gateway redundancy by virtualizing multiple routers into one virtual gateway. Cisco equivalent: HSRP.",
+      "cisco": [{"text":"What is the primary function of VRRP/HSRP?","options":["A. Provide gateway redundancy","B. Load balance network traffic","C. Increase routing table size","D. Provide NAT services"],"answer":"A"}],
+      "huawei": [{"text":"VRRP 的主要功能是？","options":["A. 提供网关冗余备份","B. 负载均衡网络流量","C. 增加路由表容量","D. 提供 NAT 服务"],"answer":"A"}]
+    }
+  ]
+}

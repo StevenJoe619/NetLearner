@@ -4,39 +4,165 @@
   "exams": [
     {
       "id": "ccna-level-demo",
-      "title": "CCNA 水平测试",
+      "title": "CCNA (200-301) 水平测试 · 15题",
       "type": "level-test",
       "target": "CCNA",
-      "questionCount": 10,
+      "vendor": "cisco",
+      "poolFile": "ccna-pool",
+      "questionCount": 15,
       "timeLimit": 0,
-      "difficultyDistribution": { "easy": 3, "medium": 5, "hard": 2 }
+      "weightings": {
+        "Network Fundamentals": 0.20,
+        "Network Access": 0.20,
+        "IP Connectivity": 0.25,
+        "IP Services": 0.10,
+        "Security Fundamentals": 0.15,
+        "Automation": 0.10
+      }
     },
     {
       "id": "ccna-mock-1",
-      "title": "CCNA 模拟考试（60题 · 六大域配比）",
+      "title": "CCNA (200-301) 模拟考试 · 60题",
       "type": "mock-exam",
       "target": "CCNA",
+      "vendor": "cisco",
+      "poolFile": "ccna-pool",
       "questionCount": 60,
       "timeLimit": 120,
-      "difficultyDistribution": { "easy": 18, "medium": 30, "hard": 12 }
+      "weightings": {
+        "Network Fundamentals": 0.20,
+        "Network Access": 0.20,
+        "IP Connectivity": 0.25,
+        "IP Services": 0.10,
+        "Security Fundamentals": 0.15,
+        "Automation": 0.10
+      }
     },
     {
       "id": "ccnp-encor-level-demo",
-      "title": "CCNP ENCOR 水平测试",
+      "title": "CCNP ENCOR (350-401) 水平测试 · 20题",
       "type": "level-test",
       "target": "CCNP ENCOR",
-      "questionCount": 10,
+      "vendor": "cisco",
+      "poolFile": "ccnp-pool",
+      "questionCount": 20,
       "timeLimit": 0,
-      "difficultyDistribution": { "easy": 3, "medium": 5, "hard": 2 }
+      "weightings": {
+        "Architecture": 0.15,
+        "Virtualization": 0.10,
+        "Infrastructure": 0.30,
+        "Network Assurance": 0.10,
+        "Security": 0.20,
+        "Automation": 0.15
+      }
     },
     {
       "id": "ccnp-encor-mock-1",
-      "title": "CCNP ENCOR 模拟考试（60题）",
+      "title": "CCNP ENCOR (350-401) 模拟考试 · 60题",
       "type": "mock-exam",
       "target": "CCNP ENCOR",
+      "vendor": "cisco",
+      "poolFile": "ccnp-pool",
       "questionCount": 60,
       "timeLimit": 120,
-      "difficultyDistribution": { "easy": 18, "medium": 30, "hard": 12 }
+      "weightings": {
+        "Architecture": 0.15,
+        "Virtualization": 0.10,
+        "Infrastructure": 0.30,
+        "Network Assurance": 0.10,
+        "Security": 0.20,
+        "Automation": 0.15
+      }
+    },
+    {
+      "id": "hcia-level-demo",
+      "title": "HCIA-Datacom (H12-811) 水平测试 · 15题",
+      "type": "level-test",
+      "target": "HCIA",
+      "vendor": "huawei",
+      "poolFile": "hcia-pool",
+      "questionCount": 15,
+      "timeLimit": 0,
+      "weightings": {
+        "Network Fundamentals": 0.10,
+        "Ethernet Switching": 0.20,
+        "IP Routing": 0.25,
+        "Network Security": 0.15,
+        "WLAN": 0.10,
+        "Network Management": 0.10,
+        "Data Center": 0.05,
+        "Campus Network": 0.05
+      }
+    },
+    {
+      "id": "hcia-mock-1",
+      "title": "HCIA-Datacom (H12-811) 模拟考试 · 60题",
+      "type": "mock-exam",
+      "target": "HCIA",
+      "vendor": "huawei",
+      "poolFile": "hcia-pool",
+      "questionCount": 60,
+      "timeLimit": 120,
+      "weightings": {
+        "Network Fundamentals": 0.10,
+        "Ethernet Switching": 0.20,
+        "IP Routing": 0.25,
+        "Network Security": 0.15,
+        "WLAN": 0.10,
+        "Network Management": 0.10,
+        "Data Center": 0.05,
+        "Campus Network": 0.05
+      }
+    },
+    {
+      "id": "hcip-level-demo",
+      "title": "HCIP-Datacom (H12-821) 水平测试 · 20题",
+      "type": "level-test",
+      "target": "HCIP",
+      "vendor": "huawei",
+      "poolFile": "hcip-pool",
+      "questionCount": 20,
+      "timeLimit": 0,
+      "weightings": {
+        "BGP": 0.17,
+        "OSPF": 0.16,
+        "Route Control": 0.10,
+        "Multicast": 0.09,
+        "Network Security": 0.09,
+        "IS-IS": 0.08,
+        "Network Reliability": 0.08,
+        "Switching": 0.07,
+        "WLAN": 0.06,
+        "IPv6": 0.03,
+        "Routing Basics": 0.03,
+        "Network Services": 0.02,
+        "Network Solutions": 0.02
+      }
+    },
+    {
+      "id": "hcip-mock-1",
+      "title": "HCIP-Datacom (H12-821) 模拟考试 · 60题",
+      "type": "mock-exam",
+      "target": "HCIP",
+      "vendor": "huawei",
+      "poolFile": "hcip-pool",
+      "questionCount": 60,
+      "timeLimit": 120,
+      "weightings": {
+        "BGP": 0.17,
+        "OSPF": 0.16,
+        "Route Control": 0.10,
+        "Multicast": 0.09,
+        "Network Security": 0.09,
+        "IS-IS": 0.08,
+        "Network Reliability": 0.08,
+        "Switching": 0.07,
+        "WLAN": 0.06,
+        "IPv6": 0.03,
+        "Routing Basics": 0.03,
+        "Network Services": 0.02,
+        "Network Solutions": 0.02
+      }
     }
   ]
 }

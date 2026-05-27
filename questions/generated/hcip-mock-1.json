@@ -1,0 +1,232 @@
+{
+  "_meta": {
+    "id": "hcip-mock-1",
+    "title": "HCIP 模拟考试（60题）",
+    "target": "HCIP",
+    "vendor": "huawei",
+    "questionCount": 60,
+    "timeLimit": 120
+  },
+  "questions": [
+    {
+      "id": "hcip_mk_001",
+      "text": "在 OSPF 多区域环境中，3 类 LSA 由谁生成？",
+      "options": ["A. ASBR 生成 3 类 LSA 描述外部路由", "B. ABR 生成 3 类 LSA 描述区域间路由", "C. 每台路由器都生成 3 类 LSA", "D. DR 负责生成 3 类 LSA"],
+      "answer": "B",
+      "domain": "Advanced IP Routing",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["ospf", "lsa"],
+      "explanation": "OSPF LSA 类型：1 类（Router）每台路由器生成；2 类（Network）DR 生成；3 类（Summary）ABR 生成，描述区域间路由；4 类（ASBR Summary）ABR 生成；5 类（External）ASBR 生成。"
+    },
+    {
+      "id": "hcip_mk_002",
+      "text": "BGP 选路原则中，以下哪项的优先级最高？",
+      "options": ["A. Local_Preference", "B. AS_PATH 长度", "C. MED", "D. Preferred-Value（华为私有）"],
+      "answer": "D",
+      "domain": "Advanced IP Routing",
+      "difficulty": "hard",
+      "source": "hcip",
+      "tags": ["bgp", "path-selection"],
+      "explanation": "华为 BGP 选路顺序：1. Preferred-Value（华为私有）；2. Local_Preference；3. 本设备生成路由；4. AS_PATH；5. Origin；6. MED……共 13 条规则。"
+    },
+    {
+      "id": "hcip_mk_003",
+      "text": "关于 MPLS 标签的操作，以下描述正确的是？",
+      "options": ["A. Ingress LSR 执行 Swap 操作", "B. Transit LSR 执行 Push 操作", "C. Egress LSR 执行 Pop 操作", "D. 所有 LSR 都执行 Swap 操作"],
+      "answer": "C",
+      "domain": "MPLS/VPN",
+      "difficulty": "hard",
+      "source": "hcip",
+      "tags": ["mpls"],
+      "explanation": "MPLS 标签操作：Ingress LSR → Push（压入）；Transit LSR → Swap（交换）；Egress LSR → Pop（弹出）。PHP（倒数第二跳弹出）机制让 Egress 路由器减少一次标签查找。"
+    },
+    {
+      "id": "hcip_mk_004",
+      "text": "VRRP 中，Master 设备多久发送一次 Advertisement 报文？",
+      "options": ["A. 1 秒", "B. 3 秒", "C. 5 秒", "D. 10 秒"],
+      "answer": "A",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["vrrp"],
+      "explanation": "VRRP 默认 Advertisement 间隔 1 秒。Master 每隔 1 秒发送 VRRP 通告报文宣告存活，Backup 在 3 个周期（约 3 秒）未收到通告则切换为 Master。"
+    },
+    {
+      "id": "hcip_mk_005",
+      "text": "BFD 与路由协议联动的主要目的是？",
+      "options": ["A. 减少路由协议 CPU 占用", "B. 更快检测链路故障，加速路由收敛", "C. 替代路由协议建立邻居关系", "D. 增加网络带宽利用率"],
+      "answer": "B",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["bfd"],
+      "explanation": "BFD 提供毫秒级链路故障检测（默认 3.3ms×3 检测周期）。OSPF/BGP 联动 BFD 后，BFD 检测到故障立即通知路由协议，收敛时间从秒级降为毫秒级。"
+    },
+    {
+      "id": "hcip_mk_006",
+      "text": "OSPF 特殊区域中，哪类区域不接收 4 类和 5 类 LSA，但接收 3 类 LSA？",
+      "options": ["A. Stub 区域", "B. Totally Stub 区域", "C. NSSA 区域", "D. Totally NSSA 区域"],
+      "answer": "A",
+      "domain": "Advanced IP Routing",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["ospf", "special-area"],
+      "explanation": "Stub 区域：不接收 Type-4（ASBR Summary）和 Type-5（External）LSA，但接收 Type-3（Summary）LSA，由 ABR 生成默认路由（0.0.0.0/0）到达外部网络。"
+    },
+    {
+      "id": "hcip_mk_007",
+      "text": "华为设备上配置 BGP 对等体组（Peer Group）的主要好处是？",
+      "options": ["A. 简化大量 IBGP 邻居的配置", "B. 提高 BGP 路由处理速度", "C. 自动建立 BGP 邻居关系", "D. 减少 AS_PATH 长度"],
+      "answer": "A",
+      "domain": "Advanced IP Routing",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["bgp"],
+      "explanation": "BGP Peer Group 将具有相同策略的对等体加入同一组，组内成员继承组的策略配置。尤其在 IBGP 全互联场景（n 台设备需 n(n-1)/2 条 peer 命令）中大幅简化配置。"
+    },
+    {
+      "id": "hcip_mk_008",
+      "text": "关于 MSTP（Multiple Spanning Tree Protocol），以下说法错误的是？",
+      "options": ["A. MSTP 将多个 VLAN 映射到同一个生成树实例", "B. 不同实例可以独立进行 STP 计算", "C. MSTP 只支持一个生成树实例", "D. MSTP 兼容 RSTP"],
+      "answer": "C",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["mstp"],
+      "explanation": "MSTP 支持多个生成树实例（MSTI），每个实例对应一组 VLAN，各实例独立进行 STP 计算实现 VLAN 级负载均衡。实例 0（IST）是默认的强制实例。MSTP 兼容 RSTP/STP。"
+    },
+    {
+      "id": "hcip_mk_009",
+      "text": "华为防火墙中，将信任区域（Trust）访问非信任区域（Untrust）的安全策略默认动作是？",
+      "options": ["A. 允许全部流量", "B. 拒绝全部流量", "C. 仅允许 HTTP 流量", "D. 基于时间段允许"],
+      "answer": "B",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["firewall"],
+      "explanation": "华为防火墙默认安全策略为 deny（拒绝）。Trust 到 Untrust 默认也是拒绝，必须显式配置安全策略 rule 才允许流量通过。这与网络设备 ACL 默认 permit 不同。"
+    },
+    {
+      "id": "hcip_mk_010",
+      "text": "MPLS VPN 中，RD（Route Distinguisher）的作用是？",
+      "options": ["A. 标识 VPN 实例的出口策略", "B. 使不同 VPN 的 IPv4 前缀可区分", "C. 控制 VPN 路由的发布范围", "D. 标识 MPLS 标签的转发等价类"],
+      "answer": "B",
+      "domain": "MPLS/VPN",
+      "difficulty": "hard",
+      "source": "hcip",
+      "tags": ["mpls-vpn"],
+      "explanation": "RD（Route Distinguisher）在 IPv4 前缀前添加 8 字节标识，形成唯一的 VPN-IPv4 地址。作用：不同 VPN 客户使用重叠 IP 地址段时，通过 RD 实现地址区分。格式：X.X.X.X:YY 或 ASN:YY。"
+    },
+    {
+      "id": "hcip_mk_011",
+      "text": "OSPFv3 相比于 OSPFv2 的主要变化是？",
+      "options": ["A. 完全兼容 OSPFv2 的报文格式", "B. 基于链路而非基于网络前缀运行", "C. 不再需要 Router ID", "D. 移除了所有认证机制"],
+      "answer": "B",
+      "domain": "Advanced IP Routing",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["ospfv3"],
+      "explanation": "OSPFv3 的核心变化：\n1. 基于链路（Link）而非子网运行\n2. 移除了 Router LSA 中的地址信息，改为 LSA-8（Link LSA）携带\n3. 认证移出 OSPF，使用 IPsec 认证\n4. 添加 Flooding Scope 机制"
+    },
+    {
+      "id": "hcip_mk_012",
+      "text": "华为设备上使用 Route-Policy 过滤路由时，Node 编号的步进值建议为？",
+      "options": ["A. 1", "B. 5", "C. 10", "D. 100"],
+      "answer": "C",
+      "domain": "Advanced IP Routing",
+      "difficulty": "easy",
+      "source": "hcip",
+      "tags": ["route-policy"],
+      "explanation": "建议 Node 编号步进值为 10（如 node 10, node 20, node 30）。\n这样预留了中间空间，方便后续插入新节点而无需重新编号所有节点。\n配置示例：route-policy RP permit node 10 → if-match ... → apply ..."
+    },
+    {
+      "id": "hcip_mk_013",
+      "text": "关于 LDP 标签分发方式，华为设备默认使用哪种模式？",
+      "options": ["A. DU（Downstream Unsolicited）结合 Liberal 标签保持方式", "B. DoD（Downstream on Demand）结合 Conservative 方式", "C. DU 结合 Conservative 方式", "D. DoD 结合 Liberal 方式"],
+      "answer": "A",
+      "domain": "MPLS/VPN",
+      "difficulty": "hard",
+      "source": "hcip",
+      "tags": ["mpls", "ldp"],
+      "explanation": "LDP 标签分发模式：\n- 华为默认 DU（下游主动分发）：LSR 主动向上游分发标签映射\n- 标签保持方式默认 Liberal：保留所有收到的标签映射（无论是否被下一跳使用），收敛更快但占用更多内存\n- 命令：mpls ldp → label-distribution (du/dod)"
+    },
+    {
+      "id": "hcip_mk_014",
+      "text": "交换机堆叠技术中，堆叠系统的核心交换机（Master）选举依据是？",
+      "options": ["A. MAC 地址最小", "B. 堆叠优先级最大，相同则 MAC 地址最小", "C. 启动顺序，先启动者优先", "D. 端口数量最多"],
+      "answer": "B",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["stacking"],
+      "explanation": "华为堆叠 Master 选举规则：\n1. 比较堆叠优先级（越大越优，默认 100）\n2. 优先级相同则比较 MAC 地址（越小越优）\n3. 选举完成后 Master 负责管理整个堆叠系统\n查看命令：display stack"
+    },
+    {
+      "id": "hcip_mk_015",
+      "text": "BGP Community 属性中，NO_EXPORT（0xFFFFFF01）的作用是？",
+      "options": ["A. 不将路由通告给任何 BGP 对等体", "B. 不将路由通告给 EBGP 对等体", "C. 不将路由通告给 AS 外的对等体", "D. 不将路由通告给 IBGP 对等体"],
+      "answer": "C",
+      "domain": "Advanced IP Routing",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["bgp", "community"],
+      "explanation": "BGP 公认 Community：\n- NO_EXPORT（0xFFFFFF01）：不向 AS 外部通告（可用于联盟成员之间）\n- NO_ADVERTISE（0xFFFFFF02）：不向任何对等体通告\n- LOCAL_AS（0xFFFFFF03）：不向联盟外通告"
+    },
+    {
+      "id": "hcip_mk_016",
+      "text": "华为设备上配置 VRRP 时，虚拟 IP 地址与接口 IP 地址的关系是？",
+      "options": ["A. 虚拟 IP 必须与接口 IP 在同一网段", "B. 虚拟 IP 必须与接口 IP 完全相同", "C. 虚拟 IP 可以任意指定不受限制", "D. 虚拟 IP 不能与任何设备的接口 IP 相同"],
+      "answer": "A",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["vrrp"],
+      "explanation": "VRRP 虚拟 IP 地址必须与所属网段在同一子网中。通常虚拟 IP 作为网关地址被主机使用。配置示例：\ninterface GigabitEthernet0/0/0\n  ip address 192.168.1.1 255.255.255.0\n  vrrp vrid 1 virtual-ip 192.168.1.254"
+    },
+    {
+      "id": "hcip_mk_017",
+      "text": "华为设备上应用 QoS 时，默认的信任模式是？",
+      "options": ["A. 信任 CoS（802.1p）", "B. 信任 DSCP", "C. 不信任任何标记（重写为默认值）", "D. 信任 IP 优先级"],
+      "answer": "C",
+      "domain": "Advanced IP Routing",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["qos"],
+      "explanation": "华为设备接口默认 QoS 信任模式为不信任（untrust），所有进入的报文被重写为默认优先级。需要信任入站标记时，配置 `trust dscp` 或 `trust 8021p`。默认的 DiffServ 域也定义了内部优先级映射。"
+    },
+    {
+      "id": "hcip_mk_018",
+      "text": "关于 PIM-SM 中 RP（Rendezvous Point）的作用，以下描述正确的是？",
+      "options": ["A. RP 负责向全网注册组播源", "B. 接收者向 RP 发送加入消息，组播源向 RP 发送数据", "C. RP 自动发现所有组播组", "D. RP 必须部署在组播源所在的网段"],
+      "answer": "B",
+      "domain": "Advanced IP Routing",
+      "difficulty": "hard",
+      "source": "hcip",
+      "tags": ["pim-sm", "multicast"],
+      "explanation": "PIM-SM 中 RP 是共享树的根节点：\n1. 组播源向 RP 注册并发送数据（注册过程通过 Register 报文）\n2. 接收者通过 IGMP 加入组后，最后一跳路由器向 RP 发送（S,G）Join\n3. 形成以 RP 为根的共享树（RPT），后续可切换为最短路径树（SPT）"
+    },
+    {
+      "id": "hcip_mk_019",
+      "text": "华为设备上配置 IPSec VPN 时，IKE 的第一阶段（Phase 1）主要作用是？",
+      "options": ["A. 建立 IPSec SA（安全关联）", "B. 协商 IKE SA 并认证对端身份", "C. 传输加密的用户数据", "D. 检查数据完整性"],
+      "answer": "B",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip",
+      "tags": ["ipsec"],
+      "explanation": "IKE Phase 1（主模式/野蛮模式）：\n1. 协商 IKE 策略（加密、认证、DH 组）\n2. 交换密钥材料（Diffie-Hellman）\n3. 认证对端身份（预共享密钥/证书）\n4. 建立 IKE SA（安全隧道）\nPhase 2（快速模式）：在 IKE SA 保护下协商 IPSec SA。"
+    },
+    {
+      "id": "hcip_mk_020",
+      "text": "华为 CloudCampus / iMaster NCE 园区网络解决方案中，VXLAN 的作用是？",
+      "options": ["A. 替代传统 VLAN 实现大二层网络扩展", "B. 提供 WAN 加速功能", "C. 替代路由协议", "D. 提高无线信号覆盖范围"],
+      "answer": "A",
+      "domain": "SDN & Automation",
+      "difficulty": "hard",
+      "source": "hcip",
+      "tags": ["vxlan", "sdn"],
+      "explanation": "VXLAN（Virtual Extensible LAN）在华为 SDN 解决方案中：\n1. 将二层网络跨越三层网络扩展（通过 MAC-in-UDP 封装）\n2. 支持 1600 万个 VNI（VXLAN Network Identifier），远超 4096 个 VLAN\n3. 与 EVPN 结合实现控制面自动化的 Overlay 网络\n4. 是实现网络虚拟化和多租户的关键技术"
+    }
+  ]
+}

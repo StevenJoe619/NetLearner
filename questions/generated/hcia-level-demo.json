@@ -1,0 +1,122 @@
+{
+  "_meta": {
+    "id": "hcia-level-demo",
+    "title": "HCIA 水平测试",
+    "target": "HCIA",
+    "vendor": "huawei",
+    "questionCount": 10,
+    "timeLimit": 0
+  },
+  "questions": [
+    {
+      "id": "hcia_lt_001",
+      "text": "在华为交换机上，创建 VLAN 10 和 VLAN 20 的正确命令是？",
+      "options": ["A. vlan 10; vlan 20", "B. vlan batch 10 20", "C. vlan create 10 20", "D. vlan range 10-20"],
+      "answer": "B",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia",
+      "tags": ["vlan"],
+      "explanation": "华为设备使用 `vlan batch` 批量创建连续或不连续的 VLAN。示例：<system-view> → [Huawei] vlan batch 10 20"
+    },
+    {
+      "id": "hcia_lt_002",
+      "text": "华为路由器上启动 OSPF 进程并进入区域 0 的正确配置是？",
+      "options": ["A. router ospf 1 → network 10.0.0.0 0.0.0.255 area 0", "B. ospf 1 → area 0 → network 10.0.0.0 0.0.0.255", "C. ospf enable → area 0 → network 10.0.0.0", "D. router ospf → area-id 0 → network 10.0.0.0/24"],
+      "answer": "B",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia",
+      "tags": ["ospf"],
+      "explanation": "华为 OSPF 配置流程：\n[Huawei] ospf 1 router-id 1.1.1.1\n[Huawei-ospf-1] area 0\n[Huawei-ospf-1-area-0.0.0.0] network 10.0.0.0 0.0.0.255"
+    },
+    {
+      "id": "hcia_lt_003",
+      "text": "关于华为 NAT 配置，以下哪项可以实现内网 192.168.1.0/24 访问外网？",
+      "options": ["A. nat static", "B. nat outbound 2000", "C. nat server", "D. nat easy-ip"],
+      "answer": "B",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia",
+      "tags": ["nat"],
+      "explanation": "基本 NAT 配置：\n[Huawei] acl number 2000\n[Huawei-acl-basic-2000] rule permit source 192.168.1.0 0.0.0.255\n[Huawei-GigabitEthernet0/0/1] nat outbound 2000"
+    },
+    {
+      "id": "hcia_lt_004",
+      "text": "一台 PC 的 IP 地址为 192.168.1.35，子网掩码为 255.255.255.224，该 PC 所在的网络地址是？",
+      "options": ["A. 192.168.1.0", "B. 192.168.1.32", "C. 192.168.1.35", "D. 192.168.1.224"],
+      "answer": "B",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia",
+      "tags": ["subnetting"],
+      "explanation": "子网掩码 255.255.255.224 = /27，块大小 32。\n192.168.1.35 落在 192.168.1.32 ~ 192.168.1.63 范围内，因此网络地址为 192.168.1.32。"
+    },
+    {
+      "id": "hcia_lt_005",
+      "text": "华为 AR 路由器通过 Console 口登录时，默认的波特率（Baud rate）是？",
+      "options": ["A. 4800", "B. 9600", "C. 115200", "D. 19200"],
+      "answer": "B",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia",
+      "tags": ["vrp", "console"],
+      "explanation": "华为设备 Console 口默认参数：波特率 9600、数据位 8、停止位 1、无校验。\n使用超级终端或 PuTTY 连接时需匹配这些参数。"
+    },
+    {
+      "id": "hcia_lt_006",
+      "text": "在华为交换机上配置 Access 端口并将其加入 VLAN 10，正确的配置是？",
+      "options": ["A. port link-type access → port default vlan 10", "B. vlan 10 → port access", "C. interface mode access → vlan 10", "D. switchport mode access → switchport vlan 10"],
+      "answer": "A",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia",
+      "tags": ["vlan", "access-port"],
+      "explanation": "华为交换机端口配置流程：\n[Huawei-GigabitEthernet0/0/1] port link-type access\n[Huawei-GigabitEthernet0/0/1] port default vlan 10"
+    },
+    {
+      "id": "hcia_lt_007",
+      "text": "PPP 协议中用于验证对端身份的协议是？",
+      "options": ["A. PAP/CHAP", "B. IPCP", "C. LCP", "D. HDLC"],
+      "answer": "A",
+      "domain": "WAN Technologies",
+      "difficulty": "medium",
+      "source": "hcia",
+      "tags": ["ppp"],
+      "explanation": "PPP 提供两种认证协议：\n- PAP（Password Authentication Protocol）：明文传输密码，两次握手\n- CHAP（Challenge Handshake Authentication Protocol）：加密挑战值，三次握手，更安全"
+    },
+    {
+      "id": "hcia_lt_008",
+      "text": "IPv6 链路本地地址（Link-Local Address）的前缀是？",
+      "options": ["A. 2001::/16", "B. FC00::/7", "C. FE80::/10", "D. FF00::/8"],
+      "answer": "C",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia",
+      "tags": ["ipv6"],
+      "explanation": "IPv6 地址分类：\n- 全局单播地址：2000::/3\n- 链路本地地址：FE80::/10（自动生成，仅用于同一链路通信）\n- 唯一本地地址：FC00::/7\n- 组播地址：FF00::/8"
+    },
+    {
+      "id": "hcia_lt_009",
+      "text": "华为设备上使用哪条命令查看接口的 IP 地址和状态？",
+      "options": ["A. show ip interface brief", "B. display ip interface brief", "C. display interface brief", "D. show interface ip"],
+      "answer": "B",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia",
+      "tags": ["vrp", "display"],
+      "explanation": "华为 VRP 使用 `display` 而非 `show`（Cisco 习惯）。\n`display ip interface brief` 显示所有接口的 IP 地址、状态和协议状态。"
+    },
+    {
+      "id": "hcia_lt_010",
+      "text": "在 STP 网络中，选举根桥（Root Bridge）的依据是？",
+      "options": ["A. 最小的 MAC 地址", "B. 最小的网桥 ID（Bridge ID）", "C. 最大的网桥优先级", "D. 最小的端口号"],
+      "answer": "B",
+      "domain": "Ethernet Switching",
+      "difficulty": "hard",
+      "source": "hcia",
+      "tags": ["stp"],
+      "explanation": "STP 根桥选举：比较 Bridge ID（优先级 + MAC 地址）。\n先比较优先级（越小越优），优先级相同则比较 MAC 地址（越小越优）。\n华为交换机默认使用 RSTP 模式。"
+    }
+  ]
+}

@@ -2,10 +2,12 @@
  * planner-generator.js — 学习计划生成器
  *
  * 纯函数。beginner=12周, intermediate=8周, advanced=4周。
+ * 根据 target 自动选择 Cisco 或 Huawei 知识域。
  */
 
 function generatePlan(level, target, weakDomains) {
   const weeks = { beginner: 12, intermediate: 8, advanced: 4 }[level] || 8;
+  const domains = getDomains(target);
   return {
     generatedAt: new Date().toISOString(),
     basedOn: { level, target },
@@ -14,28 +16,51 @@ function generatePlan(level, target, weakDomains) {
       : level === 'intermediate' ? '跳过基础，聚焦核心主题'
       : '高强度冲刺，聚焦薄弱环节',
     totalWeeks: weeks,
-    weeklyPlans: buildPlan(level, weeks, weakDomains || []),
+    weeklyPlans: buildPlan(level, weeks, weakDomains || [], domains),
     weakDomains: weakDomains || []
   };
 }
 
-const DOMAINS = [
-  { id: 'Network Fundamentals', topics: ['OSI/TCP模型','IPv4/IPv6','子网划分','线缆与介质'] },
-  { id: 'Network Access', topics: ['VLAN/Trunk','STP/RSTP','EtherChannel','WLAN'] },
-  { id: 'IP Connectivity', topics: ['路由表','OSPF','静态路由','FHRP'] },
-  { id: 'IP Services', topics: ['NAT','DHCP','NTP','SNMP','QoS'] },
-  { id: 'Security Fundamentals', topics: ['ACL','Port Security','AAA','DHCP Snooping'] },
-  { id: 'Automation', topics: ['SDN','REST API','JSON/YAML','Ansible','DNA Center'] }
-];
+function getDomains(target) {
+  if (target === 'HCIA') {
+    return [
+      { id: 'Ethernet Switching', topics: ['VLAN 技术','STP/RSTP','链路聚合','端口安全'] },
+      { id: 'IP Routing', topics: ['静态路由','RIP','OSPF 单区域','路由优先级'] },
+      { id: 'Network Fundamentals', topics: ['TCP/IP 模型','IPv4 编址','子网划分','ARP/ICMP'] },
+      { id: 'Network Security', topics: ['ACL 基础','NAT 转换','防火墙基础','AAA'] },
+      { id: 'WAN Technologies', topics: ['PPP/PPPoE','HDLC','帧中继','VPN 基础'] },
+      { id: 'Network Management', topics: ['SNMP','NMS 网管','Telnet/SSH','日志管理'] }
+    ];
+  }
+  if (target === 'HCIP') {
+    return [
+      { id: 'Advanced IP Routing', topics: ['OSPF 多区域','BGP 基础','路由过滤','路由策略'] },
+      { id: 'Switching', topics: ['VLAN 高级','MSTP','M-LAG','Eth-Trunk 高级'] },
+      { id: 'MPLS/VPN', topics: ['MPLS 基础','LDP','MPLS VPN','Hub-Spoke'] },
+      { id: 'Network Security', topics: ['防火墙策略','IPSec VPN','SSL VPN','AAA/RADIUS'] },
+      { id: 'Network Reliability', topics: ['BFD','VRRP','堆叠技术','链路检测'] },
+      { id: 'SDN & Automation', topics: ['SDN 架构','NETCONF/YANG','OpenFlow','iMaster NCE'] }
+    ];
+  }
+  // Default: Cisco domains
+  return [
+    { id: 'Network Fundamentals', topics: ['OSI/TCP模型','IPv4/IPv6','子网划分','线缆与介质'] },
+    { id: 'Network Access', topics: ['VLAN/Trunk','STP/RSTP','EtherChannel','WLAN'] },
+    { id: 'IP Connectivity', topics: ['路由表','OSPF','静态路由','FHRP'] },
+    { id: 'IP Services', topics: ['NAT','DHCP','NTP','SNMP','QoS'] },
+    { id: 'Security Fundamentals', topics: ['ACL','Port Security','AAA','DHCP Snooping'] },
+    { id: 'Automation', topics: ['SDN','REST API','JSON/YAML','Ansible','DNA Center'] }
+  ];
+}
 
-function buildPlan(level, totalWeeks, weak) {
+function buildPlan(level, totalWeeks, weak, domains) {
   const plans = [];
   const weakSet = new Set(weak);
   let week = 1;
 
-  const domains = level === 'beginner' ? DOMAINS : DOMAINS.filter(d => d.id !== 'Network Fundamentals');
+  const selected = level === 'beginner' ? domains : domains.filter(d => d.id !== 'Network Fundamentals');
 
-  domains.forEach(d => {
+  selected.forEach(d => {
     if (week >= totalWeeks) return;
     const extra = weakSet.has(d.id) ? 1 : 0;
     for (let w = 0; w <= extra && week <= totalWeeks; w++) {

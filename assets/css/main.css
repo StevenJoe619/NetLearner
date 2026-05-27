@@ -21,6 +21,9 @@
   --border: #2a2e3d;
   --radius: 10px;
   --radius-sm: 6px;
+
+  --huawei-red: #e53935;
+  --vendor-color: var(--blue);
 }
 
 [data-theme="light"] {
@@ -273,6 +276,100 @@ a { color: var(--blue); text-decoration: none; }
 .theme-tog { display: flex; border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden; }
 .theme-opt { padding: 5px 12px; font-size: 12px; cursor: pointer; border: none; background: transparent; color: var(--text-secondary); }
 .theme-opt.active { background: var(--blue); color: #000; font-weight: 600; }
+
+/* ============================================================
+   Vendor-specific theming (Cisco blue / Huawei red)
+   ============================================================ */
+
+/* Vendor sections */
+.vendor-cisco { --vendor-color: var(--blue); }
+.vendor-huawei { --vendor-color: var(--huawei-red); }
+
+.vendor-heading {
+  font-size: 15px;
+  margin: 16px 0 10px;
+  padding-left: 10px;
+  border-left: 3px solid var(--vendor-color);
+  color: var(--vendor-color);
+}
+
+.vendor-label {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--vendor-color);
+}
+
+/* Vendor buttons — inherit accent from parent .vendor-xxx class */
+.btn-vendor {
+  background: var(--vendor-color);
+  color: #fff;
+  border-color: var(--vendor-color);
+}
+.btn-vendor:hover { opacity: 0.85; }
+
+/* Vendor filter tabs */
+.vendor-filter {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.vf-btn {
+  padding: 5px 16px;
+  border-radius: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-secondary);
+  transition: 0.12s;
+}
+.vf-btn:hover { border-color: var(--text-muted); color: var(--text-primary); }
+.vf-btn.active { color: #000; border-color: var(--blue); background: var(--blue); }
+.vf-btn[data-vf="huawei"].active { color: #fff; border-color: var(--huawei-red); background: var(--huawei-red); }
+
+/* Vendor badge on exam cards */
+.vendor-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 8px;
+  margin-left: 6px;
+}
+.vendor-badge.v-cisco { background: rgba(79,195,247,0.12); color: var(--blue); }
+.vendor-badge.v-huawei { background: rgba(229,57,53,0.12); color: var(--huawei-red); }
+
+/* Home vendor stats */
+.vendor-stats {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+.vendor-stat {
+  font-size: 12px;
+  padding: 3px 12px;
+  border-radius: 14px;
+  font-weight: 600;
+}
+.vendor-stat.v-cisco { background: rgba(79,195,247,0.08); color: var(--blue); border: 1px solid rgba(79,195,247,0.15); }
+.vendor-stat.v-huawei { background: rgba(229,57,53,0.08); color: var(--huawei-red); border: 1px solid rgba(229,57,53,0.15); }
+
+/* ============================================================
+   Multi-type questions (drag, fill, multiple)
+   ============================================================ */
+.drag-list { display:flex; flex-direction:column; gap:6px; margin-top:8px; }
+.drag-item { display:flex; align-items:center; gap:10px; padding:10px 14px; background:var(--bg-input); border:1px solid var(--border); border-radius:var(--radius-sm); }
+.drag-pos { width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:var(--bg-hover); border-radius:12px; font-size:12px; font-weight:700; flex-shrink:0; }
+.drag-text { flex:1; font-size:14px; }
+.drag-arrows { display:flex; gap:4px; }
+.drag-arrows .btn { padding:2px 8px; font-size:11px; min-width:28px; }
+
+.fill-input:focus { outline:none; border-color:var(--accent, var(--blue)) !important; }
 
 /* Responsive */
 @media (max-width: 768px) {
