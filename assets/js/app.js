@@ -409,7 +409,15 @@ function dragEx(id, pos, dir) {
   renderQ();
 }
 
-function ansEx(id, k) { engine.answer(id, k); renderQ(); }
+function ansEx(id, k) {
+  engine.answer(id, k);
+  const cur = engine.current();
+  // 单选题/判断题答完自动跳到下一题
+  if (cur.q && (cur.q.type === 'single' || cur.q.type === 'boolean') && cur.idx < cur.total - 1) {
+    engine.go('next');
+  }
+  renderQ();
+}
 function examGo(dir) { engine.go(dir); renderQ(); }
 function examMark() { const q = engine.current().q; if(q) { engine.toggleMark(q.id); renderQ(); } }
 
