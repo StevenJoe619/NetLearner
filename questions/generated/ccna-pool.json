@@ -4,8 +4,8 @@
     "vendor": "cisco",
     "type": "pool",
     "syllabusVersion": "CCNA-200301-v1.1",
-    "totalQuestions": 543,
-    "lastUpdated": "2026-05-26"
+    "totalQuestions": 612,
+    "lastUpdated": "2026-05-28"
   },
   "questions": [
     {
@@ -28,7 +28,8 @@
           "answer": "B",
           "explanation": "交换机基于 MAC 地址转发帧并构建 MAC 地址表。路由器基于 IP，防火墙基于安全策略，AP 是无线接入。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_002",
@@ -50,7 +51,8 @@
           "answer": "B",
           "explanation": "单模光纤芯径 8–10μm，使用激光源，传输距离可达 40km+。多模光纤芯径 50–62.5μm，距离较短。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_003",
@@ -78,7 +80,8 @@
           ],
           "explanation": "TCP 是面向连接的，使用序列号/确认号保证可靠传输，支持流控（窗口机制）。UDP 是无连接的、尽力而为的。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_004",
@@ -100,7 +103,8 @@
           "answer": "B",
           "explanation": "Spine-Leaf 架构中每个 Leaf 连接所有 Spine，提供等成本路径和低延迟。三层架构包含 Core/Aggregation/Access。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_005",
@@ -122,7 +126,8 @@
           "answer": "B",
           "explanation": "/27 = 255.255.255.224，共 32 个地址，减去网络地址和广播地址 = 30 个可用主机地址。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_006",
@@ -144,7 +149,8 @@
           "answer": "A",
           "explanation": "10.0.0.0/8 提供 16,777,214 个主机地址。172.16.0.0/12 约 100 万，192.168.0.0/16 约 65,534。169.254.0.0/16 是 APIPA。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_007",
@@ -166,7 +172,8 @@
           "answer": "B",
           "explanation": "Anycast 是一对最近的通信。Global Unicast 是唯一单播，Multicast 是一对多，Link-Local 仅限本地链路。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_008",
@@ -188,7 +195,8 @@
           "answer": "C",
           "explanation": "802.11ax (Wi-Fi 6) 支持 2.4/5GHz 双频和 MU-MIMO + OFDMA。802.11ac 仅 5GHz。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_009",
@@ -210,7 +218,8 @@
           "answer": "C",
           "explanation": "IPv6 中，/64 是标准子网前缀（类似 IPv4 的 /24）。/128 是单主机地址，/48 是站点前缀。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_010",
@@ -232,7 +241,8 @@
           "answer": "C",
           "explanation": "未知单播帧被 Flood 到除接收端口外的所有端口。这就是\"泛洪然后学习\"机制。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_011",
@@ -254,7 +264,8 @@
           "answer": "B",
           "explanation": "CRC 错误通常由物理层问题引起（电缆损坏、EMI/RFI 干扰）。双工/速率不匹配通常导致冲突或 runts。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_012",
@@ -276,7 +287,8 @@
           "answer": "B",
           "explanation": "VRF 创建虚拟路由表，实现同一硬件上的路由隔离。VLAN 是二层隔离，STP 是防环，EtherChannel 是链路聚合。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_013",
@@ -298,7 +310,8 @@
           "answer": "B",
           "explanation": "正确语法：switchport mode access 然后 switchport access vlan 10。选项A是 trunk 配置，C 创建 SVI。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_014",
@@ -320,7 +333,8 @@
           "answer": "B",
           "explanation": "Native VLAN 承载 802.1Q trunk 上的未标记帧。两端 native VLAN 必须一致，否则可能导致 VLAN 跳跃。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_015",
@@ -346,7 +360,8 @@
           ],
           "explanation": "CDP (Cisco 专有) 和 LLDP (标准 IEEE 802.1AB) 都是 L2 邻居发现协议。OSPF 是路由协议，ARP 是地址解析。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_016",
@@ -371,7 +386,8 @@
           ],
           "explanation": "LACP 使用 active/passive 模式（选项B）。也可用 mode on（选项A）做静态 EtherChannel（无协商协议）。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_017",
@@ -393,7 +409,8 @@
           "answer": "C",
           "explanation": "RSTP 中 Alternate 端口是根端口的备用，Discarding 状态下可立即切换到 Forwarding。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_018",
@@ -415,7 +432,8 @@
           "answer": "C",
           "explanation": "PortFast 跳过 Listening/Learning 状态直接 Forwarding，用于连接终端设备（PC/打印机）的 access 端口。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_019",
@@ -437,7 +455,8 @@
           "answer": "C",
           "explanation": "BPDU Guard 在收到 BPDU 时自动 error-disable 端口，防止非授权交换机接入。通常与 PortFast 配合使用。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_020",
@@ -459,7 +478,8 @@
           "answer": "B",
           "explanation": "Lightweight AP 通过 CAPWAP 隧道由 WLC 集中管理。Autonomous AP 独立配置管理。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_021",
@@ -481,7 +501,8 @@
           "answer": "B",
           "explanation": "多 WLAN → 多 VLAN 需要 802.1Q Trunk 端口来承载标记流量。Access 端口只能承载一个 VLAN。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_022",
@@ -503,7 +524,8 @@
           "answer": "B",
           "explanation": "SSH 提供加密远程管理。Telnet 明文传输，HTTP 不加密，均为不安全协议。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_023",
@@ -525,7 +547,8 @@
           "answer": "B",
           "explanation": "默认 VLAN 是 VLAN 1，所有端口默认在 VLAN 1 中。建议将所有 access 端口移到非默认 VLAN。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_024",
@@ -547,7 +570,8 @@
           "answer": "B",
           "explanation": "WPA2-Personal 使用 PSK。WPA2-Enterprise 使用 802.1X + RADIUS。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_025",
@@ -569,7 +593,8 @@
           "answer": "B",
           "explanation": "O 开头 = OSPF 路由。[110/65] 中 110 是管理距离(AD)，65 是度量值(Metric/cost)。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_026",
@@ -591,7 +616,8 @@
           "answer": "B",
           "explanation": "路由器选择最低 AD 的路由：静态=1, OSPF=110, RIP=120。AD 优先于度量值。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_027",
@@ -613,7 +639,8 @@
           "answer": "B",
           "explanation": "默认路由语法：ip route 0.0.0.0 0.0.0.0 。0.0.0.0/0 匹配所有目的地址。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_028",
@@ -635,7 +662,8 @@
           "answer": "C",
           "explanation": "浮动静态路由通过设置比动态协议更高的 AD 实现：ip route 10.0.0.0 255.0.0.0 203.0.113.1 200。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_029",
@@ -657,7 +685,8 @@
           "answer": "B",
           "explanation": "广播网络上 OSPF Hello 定时器默认 10 秒，Dead 定时器 40 秒。NBMA 上 Hello 为 30 秒。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_030",
@@ -683,7 +712,8 @@
           ],
           "explanation": "DR/BDR 在多路访问网络上减少邻接关系数量。所有 router 只与 DR/BDR 形成 Full 邻接。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_031",
@@ -705,7 +735,8 @@
           "answer": "B",
           "explanation": "Router ID 在 OSPF 路由器配置模式下用 router-id x.x.x.x 命令设置，或使用最高 loopback/物理接口 IP。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_032",
@@ -727,7 +758,8 @@
           "answer": "A",
           "explanation": "IPv6 默认路由语法：ipv6 route ::/0 （::/0 等同于 IPv4 的 0.0.0.0/0）。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_033",
@@ -749,7 +781,8 @@
           "answer": "C",
           "explanation": "GLBP (Cisco 专有) 支持多个 AVG 和 AVF，实现负载均衡。HSRP 和 VRRP 仅支持主备模式。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_034",
@@ -771,7 +804,8 @@
           "answer": "B",
           "explanation": "10.1.1.48/28 范围是 10.1.1.48–63，包含 10.1.1.55，且是最长前缀匹配（/28 > /24 > /16）。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_035",
@@ -799,7 +833,8 @@
           ],
           "explanation": "OSPF 邻居需要匹配：Hello/Dead 定时器、Area ID、子网掩码（广播网络）。Router ID 必须唯一，Process ID 和优先级无需匹配。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_036",
@@ -824,7 +859,8 @@
           ],
           "explanation": "转发决策：1) 最长前缀匹配（最精确）；2) 同前缀长度比 AD，AD 小优先；3) 同 AD 比 Metric。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_037",
@@ -846,7 +882,8 @@
           "answer": "D",
           "explanation": "Full 状态表示 LSDB 完全同步。状态顺序：Down → Init → 2-Way → Exstart → Exchange → Loading → Full。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_038",
@@ -868,7 +905,8 @@
           "answer": "B",
           "explanation": "ip ospf network point-to-point 禁用 DR/BDR 选举。选项A设置优先级为0但不会完全禁选。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_039",
@@ -890,7 +928,8 @@
           "answer": "B",
           "explanation": "HSRP Active 路由器转发数据包，Standby 是备份。状态：Initial → Learn → Listen → Speak → Standby → Active。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_040",
@@ -912,7 +951,8 @@
           "answer": "C",
           "explanation": "PAT (NAT Overload) 使用不同源端口将多个私有 IP 映射到一个公有 IP。Static NAT 是一对一，Dynamic NAT 是多对多。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_041",
@@ -934,7 +974,8 @@
           "answer": "B",
           "explanation": "ip helper-address 将 DHCP 广播转为单播转发到 DHCP 服务器，同时转发其他几个 UDP 服务。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_042",
@@ -956,7 +997,8 @@
           "answer": "A",
           "explanation": "Syslog 严重级别：0=Emergency, 1=Alert, 2=Critical, 3=Error, 4=Warning, 5=Notice, 6=Informational, 7=Debug。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_043",
@@ -978,7 +1020,8 @@
           "answer": "B",
           "explanation": "Shaping 缓冲超额流量延迟发送。Policing 直接丢弃超额流量。Classification 分类，Marking 标记。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_044",
@@ -1000,7 +1043,8 @@
           "answer": "C",
           "explanation": "NTP 同步时钟。DHCP 分配IP，SNMP 网络监控，DNS 域名解析。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_045",
@@ -1022,7 +1066,8 @@
           "answer": "B",
           "explanation": "SNMP 用于网络设备监控和统计收集。Syslog 是日志，NetFlow 是流量分析，RADIUS 是认证。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_046",
@@ -1044,7 +1089,8 @@
           "answer": "C",
           "explanation": "algorithm-type sha-256 secret 使用 SHA-256 哈希（最高安全性）。普通\"secret\" 用 MD5，\"password\" 明文。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_047",
@@ -1066,7 +1112,8 @@
           "answer": "A",
           "explanation": "标准 ACL 编号 1–99。0.0.0.0 是通配符掩码表示精确匹配。选项B 的 100 是扩展 ACL 编号。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_048",
@@ -1088,7 +1135,8 @@
           "answer": "C",
           "explanation": "Port Security 限制端口 MAC 数量，违规操作可设 shutdown/restrict/protect。其他功能各司其职。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_049",
@@ -1110,7 +1158,8 @@
           "answer": "B",
           "explanation": "DHCP Snooping 通过区分 trusted/untrusted 端口阻止 rogue DHCP 服务器。常配合 DAI 和 IP Source Guard。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_050",
@@ -1132,7 +1181,8 @@
           "answer": "B",
           "explanation": "AAA = Authentication (认证你是谁) + Authorization (授权你能做什么) + Accounting (记录你做了什么)。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_051",
@@ -1154,7 +1204,8 @@
           "answer": "C",
           "explanation": "WPA3 引入 SAE 取代 PSK，防护离线字典攻击。WPA2 使用 4-way handshake + PSK。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_052",
@@ -1176,7 +1227,8 @@
           "answer": "C",
           "explanation": "IPsec ESP (IP Protocol 50) 提供加密+认证+完整性。AH (51) 仅认证无加密。GRE 是隧道协议不加密。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_053",
@@ -1198,7 +1250,8 @@
           "answer": "B",
           "explanation": "SYN Flood 发送大量 SYN 包不完成握手，耗尽连接表（半开连接攻击），属于 DoS 攻击。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_054",
@@ -1220,7 +1273,8 @@
           "answer": "B",
           "explanation": "标准 ACL 只能基于源 IP 过滤，应靠近目的地应用以免误拦。扩展 ACL 可基于源+目的，应靠近源应用。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_055",
@@ -1242,7 +1296,8 @@
           "answer": "B",
           "explanation": "SDN Controller 包含控制平面，负责转发决策。数据平面在交换机上仅执行转发。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_056",
@@ -1264,7 +1319,8 @@
           "answer": "B",
           "explanation": "HTTP GET → Read (R in CRUD)。POST=Create, PUT/PATCH=Update, DELETE=Delete。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_057",
@@ -1286,7 +1342,8 @@
           "answer": "C",
           "explanation": "DNA Center REST API 使用 JSON。YAML 是 Ansible 常用格式，XML 在 NETCONF 中使用。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_058",
@@ -1308,7 +1365,8 @@
           "answer": "C",
           "explanation": "Ansible 无 Agent，用 SSH + YAML Playbook。Puppet/Chef 需要 Agent，SaltStack 也需 minion。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_059",
@@ -1330,7 +1388,8 @@
           "answer": "D",
           "explanation": "Assurance 提供 AI/ML 驱动监控和根因分析。Design 网络规划，Provision 设备部署，Policy 策略管理。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_060",
@@ -1352,7 +1411,8 @@
           "answer": "B",
           "explanation": "控制器网络核心优势：集中策略管理和自动化。传统网络每设备独立决策。"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_061",
@@ -1374,7 +1434,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_062",
@@ -1396,7 +1457,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_063",
@@ -1424,7 +1486,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_064",
@@ -1446,7 +1509,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_065",
@@ -1468,7 +1532,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_066",
@@ -1490,7 +1555,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_067",
@@ -1512,7 +1578,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_068",
@@ -1534,7 +1601,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_069",
@@ -1556,7 +1624,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_070",
@@ -1578,7 +1647,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_071",
@@ -1600,7 +1670,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_072",
@@ -1622,7 +1693,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_073",
@@ -1644,7 +1716,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_074",
@@ -1666,7 +1739,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_075",
@@ -1692,7 +1766,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_076",
@@ -1714,7 +1789,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_077",
@@ -1736,7 +1812,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_078",
@@ -1758,7 +1835,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_079",
@@ -1780,7 +1858,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_080",
@@ -1802,7 +1881,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_081",
@@ -1824,7 +1904,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_082",
@@ -1850,7 +1931,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_083",
@@ -1872,7 +1954,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_084",
@@ -1894,7 +1977,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_085",
@@ -1916,7 +2000,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_086",
@@ -1938,7 +2023,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_087",
@@ -1960,7 +2046,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_088",
@@ -1982,7 +2069,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_089",
@@ -2004,7 +2092,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_090",
@@ -2030,7 +2119,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_091",
@@ -2052,7 +2142,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_092",
@@ -2074,7 +2165,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_093",
@@ -2096,7 +2188,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_094",
@@ -2118,7 +2211,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_095",
@@ -2146,7 +2240,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_096",
@@ -2168,7 +2263,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_097",
@@ -2190,7 +2286,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_098",
@@ -2212,7 +2309,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_099",
@@ -2234,7 +2332,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_100",
@@ -2256,7 +2355,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_101",
@@ -2278,7 +2378,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_102",
@@ -2300,7 +2401,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_103",
@@ -2322,7 +2424,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_104",
@@ -2344,7 +2447,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_105",
@@ -2366,7 +2470,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_106",
@@ -2388,7 +2493,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_107",
@@ -2410,7 +2516,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_108",
@@ -2432,7 +2539,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_109",
@@ -2454,7 +2562,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_110",
@@ -2476,7 +2585,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_111",
@@ -2498,7 +2608,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_112",
@@ -2520,7 +2631,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_113",
@@ -2542,7 +2654,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_114",
@@ -2564,7 +2677,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_115",
@@ -2586,7 +2700,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_116",
@@ -2608,7 +2723,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_117",
@@ -2630,7 +2746,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_118",
@@ -2652,7 +2769,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_119",
@@ -2674,7 +2792,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_120",
@@ -2696,7 +2815,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_121",
@@ -2718,7 +2838,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_122",
@@ -2740,7 +2861,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_123",
@@ -2766,7 +2888,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_124",
@@ -2788,7 +2911,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_125",
@@ -2810,7 +2934,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_126",
@@ -2832,7 +2957,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_127",
@@ -2854,7 +2980,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_128",
@@ -2876,7 +3003,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_129",
@@ -2898,7 +3026,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_130",
@@ -2920,7 +3049,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_131",
@@ -2942,7 +3072,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_132",
@@ -2964,7 +3095,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_133",
@@ -2986,7 +3118,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_134",
@@ -3008,7 +3141,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_135",
@@ -3030,7 +3164,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_136",
@@ -3056,7 +3191,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_137",
@@ -3078,7 +3214,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_138",
@@ -3100,7 +3237,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_139",
@@ -3122,7 +3260,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_140",
@@ -3144,7 +3283,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_141",
@@ -3166,7 +3306,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_142",
@@ -3188,7 +3329,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_143",
@@ -3210,7 +3352,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_144",
@@ -3232,7 +3375,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_145",
@@ -3254,7 +3398,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_146",
@@ -3276,7 +3421,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_147",
@@ -3298,7 +3444,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_148",
@@ -3320,7 +3467,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_149",
@@ -3342,7 +3490,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_150",
@@ -3364,7 +3513,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_151",
@@ -3386,7 +3536,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_152",
@@ -3408,7 +3559,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_153",
@@ -3430,7 +3582,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_154",
@@ -3452,7 +3605,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_155",
@@ -3474,7 +3628,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_156",
@@ -3500,7 +3655,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_157",
@@ -3522,7 +3678,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_158",
@@ -3544,7 +3701,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_159",
@@ -3566,7 +3724,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_160",
@@ -3588,7 +3747,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_161",
@@ -3610,7 +3770,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_162",
@@ -3632,7 +3793,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_163",
@@ -3654,7 +3816,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_164",
@@ -3676,7 +3839,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_165",
@@ -3698,7 +3862,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_166",
@@ -3720,7 +3885,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_167",
@@ -3742,7 +3908,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_168",
@@ -3764,7 +3931,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_169",
@@ -3786,7 +3954,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_170",
@@ -3808,7 +3977,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_171",
@@ -3830,7 +4000,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_172",
@@ -3852,7 +4023,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_173",
@@ -3874,7 +4046,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_174",
@@ -3896,7 +4069,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_175",
@@ -3918,7 +4092,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_176",
@@ -3940,7 +4115,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_177",
@@ -3962,7 +4138,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_178",
@@ -3984,7 +4161,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_179",
@@ -4010,7 +4188,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_180",
@@ -4032,7 +4211,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_181",
@@ -4054,7 +4234,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_182",
@@ -4076,7 +4257,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_183",
@@ -4098,7 +4280,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_184",
@@ -4120,7 +4303,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_185",
@@ -4142,7 +4326,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_186",
@@ -4164,7 +4349,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_187",
@@ -4186,7 +4372,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_188",
@@ -4208,7 +4395,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_189",
@@ -4230,7 +4418,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_190",
@@ -4252,7 +4441,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_191",
@@ -4274,7 +4464,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_192",
@@ -4300,7 +4491,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_193",
@@ -4322,7 +4514,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_194",
@@ -4344,7 +4537,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_195",
@@ -4366,7 +4560,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_196",
@@ -4392,7 +4587,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_197",
@@ -4414,7 +4610,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_198",
@@ -4436,7 +4633,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_199",
@@ -4458,7 +4656,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_200",
@@ -4480,7 +4679,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_201",
@@ -4506,7 +4706,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_202",
@@ -4528,7 +4729,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_203",
@@ -4550,7 +4752,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_204",
@@ -4572,7 +4775,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_205",
@@ -4594,7 +4798,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_206",
@@ -4616,7 +4821,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_207",
@@ -4638,7 +4844,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_208",
@@ -4660,7 +4867,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_209",
@@ -4682,7 +4890,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_210",
@@ -4704,7 +4913,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_211",
@@ -4726,7 +4936,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_212",
@@ -4748,7 +4959,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_213",
@@ -4770,7 +4982,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_214",
@@ -4792,7 +5005,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_215",
@@ -4814,7 +5028,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_216",
@@ -4836,7 +5051,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_217",
@@ -4858,7 +5074,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_218",
@@ -4880,7 +5097,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_219",
@@ -4906,7 +5124,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_220",
@@ -4928,7 +5147,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_221",
@@ -4950,7 +5170,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_222",
@@ -4972,7 +5193,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_223",
@@ -4994,7 +5216,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_224",
@@ -5016,7 +5239,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_225",
@@ -5038,7 +5262,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_226",
@@ -5060,7 +5285,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_227",
@@ -5082,7 +5308,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_228",
@@ -5108,7 +5335,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_229",
@@ -5130,7 +5358,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_230",
@@ -5152,7 +5381,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_231",
@@ -5174,7 +5404,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_232",
@@ -5196,7 +5427,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_233",
@@ -5218,7 +5450,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_234",
@@ -5240,7 +5473,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_235",
@@ -5262,7 +5496,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_236",
@@ -5284,7 +5519,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_237",
@@ -5306,7 +5542,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_238",
@@ -5328,7 +5565,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_239",
@@ -5350,7 +5588,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_240",
@@ -5372,7 +5611,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_241",
@@ -5394,7 +5634,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_242",
@@ -5416,7 +5657,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_243",
@@ -5438,7 +5680,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_244",
@@ -5460,7 +5703,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_245",
@@ -5482,7 +5726,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_246",
@@ -5504,7 +5749,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_247",
@@ -5526,7 +5772,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_248",
@@ -5554,7 +5801,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_249",
@@ -5576,7 +5824,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_250",
@@ -5598,7 +5847,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_251",
@@ -5620,7 +5870,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_252",
@@ -5642,7 +5893,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_253",
@@ -5664,7 +5916,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_254",
@@ -5690,7 +5943,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_255",
@@ -5712,7 +5966,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_256",
@@ -5734,7 +5989,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_257",
@@ -5756,7 +6012,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_258",
@@ -5778,7 +6035,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_259",
@@ -5800,7 +6058,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_260",
@@ -5822,7 +6081,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_261",
@@ -5844,7 +6104,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_262",
@@ -5866,7 +6127,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_263",
@@ -5888,7 +6150,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_264",
@@ -5914,7 +6177,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_265",
@@ -5936,7 +6200,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_266",
@@ -5958,7 +6223,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_267",
@@ -5980,7 +6246,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_268",
@@ -6006,7 +6273,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_269",
@@ -6028,7 +6296,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_270",
@@ -6050,7 +6319,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_271",
@@ -6072,7 +6342,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_272",
@@ -6094,7 +6365,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_273",
@@ -6116,7 +6388,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_274",
@@ -6138,7 +6411,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_275",
@@ -6166,7 +6440,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_276",
@@ -6188,7 +6463,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_277",
@@ -6210,7 +6486,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_278",
@@ -6232,7 +6509,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_279",
@@ -6254,7 +6532,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_280",
@@ -6280,7 +6559,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_281",
@@ -6302,7 +6582,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_282",
@@ -6324,7 +6605,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_283",
@@ -6346,7 +6628,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_284",
@@ -6368,7 +6651,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_285",
@@ -6390,7 +6674,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_286",
@@ -6412,7 +6697,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_287",
@@ -6434,7 +6720,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_288",
@@ -6460,7 +6747,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_289",
@@ -6482,7 +6770,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_290",
@@ -6504,7 +6793,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_291",
@@ -6526,7 +6816,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_292",
@@ -6548,7 +6839,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_293",
@@ -6570,7 +6862,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_294",
@@ -6592,7 +6885,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_295",
@@ -6614,7 +6908,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_296",
@@ -6636,7 +6931,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_297",
@@ -6658,7 +6954,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_298",
@@ -6684,7 +6981,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_299",
@@ -6706,7 +7004,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_300",
@@ -6728,7 +7027,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_301",
@@ -6750,7 +7050,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_302",
@@ -6773,7 +7074,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_303",
@@ -6801,7 +7103,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_304",
@@ -6823,7 +7126,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_305",
@@ -6845,7 +7149,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_306",
@@ -6867,7 +7172,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_307",
@@ -6889,7 +7195,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_308",
@@ -6911,7 +7218,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_309",
@@ -6933,7 +7241,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_310",
@@ -6955,7 +7264,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_311",
@@ -6977,7 +7287,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_312",
@@ -6999,7 +7310,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_313",
@@ -7021,7 +7333,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_314",
@@ -7043,7 +7356,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_315",
@@ -7069,7 +7383,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_316",
@@ -7091,7 +7406,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_317",
@@ -7113,7 +7429,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_318",
@@ -7135,7 +7452,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_319",
@@ -7157,7 +7475,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_320",
@@ -7179,7 +7498,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_321",
@@ -7201,7 +7521,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_322",
@@ -7223,7 +7544,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_323",
@@ -7245,7 +7567,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_324",
@@ -7267,7 +7590,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_325",
@@ -7289,7 +7613,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_326",
@@ -7311,7 +7636,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_327",
@@ -7333,7 +7659,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_328",
@@ -7355,7 +7682,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_329",
@@ -7381,7 +7709,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_330",
@@ -7403,7 +7732,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_331",
@@ -7431,7 +7761,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_332",
@@ -7453,7 +7784,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_333",
@@ -7475,7 +7807,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_334",
@@ -7497,7 +7830,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_335",
@@ -7519,7 +7853,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_336",
@@ -7541,7 +7876,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_337",
@@ -7567,7 +7903,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_338",
@@ -7589,7 +7926,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_339",
@@ -7611,7 +7949,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_340",
@@ -7633,7 +7972,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_341",
@@ -7655,7 +7995,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_342",
@@ -7677,7 +8018,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_343",
@@ -7699,7 +8041,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_344",
@@ -7721,7 +8064,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_345",
@@ -7743,7 +8087,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_346",
@@ -7765,7 +8110,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_347",
@@ -7791,7 +8137,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_348",
@@ -7813,7 +8160,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_349",
@@ -7835,7 +8183,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_350",
@@ -7857,7 +8206,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_351",
@@ -7879,7 +8229,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_352",
@@ -7901,7 +8252,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_353",
@@ -7923,7 +8275,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_354",
@@ -7945,7 +8298,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_355",
@@ -7967,7 +8321,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_356",
@@ -7989,7 +8344,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_357",
@@ -8011,7 +8367,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_358",
@@ -8033,7 +8390,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_359",
@@ -8055,7 +8413,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_360",
@@ -8077,7 +8436,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_361",
@@ -8099,7 +8459,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_362",
@@ -8121,7 +8482,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_363",
@@ -8149,7 +8511,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_364",
@@ -8171,7 +8534,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_365",
@@ -8193,7 +8557,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_366",
@@ -8215,7 +8580,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_367",
@@ -8237,7 +8603,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_368",
@@ -8259,7 +8626,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_369",
@@ -8281,7 +8649,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_370",
@@ -8303,7 +8672,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_371",
@@ -8325,7 +8695,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_372",
@@ -8351,7 +8722,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_373",
@@ -8373,7 +8745,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_374",
@@ -8395,7 +8768,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_375",
@@ -8417,7 +8791,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_376",
@@ -8439,7 +8814,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_377",
@@ -8461,7 +8837,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_378",
@@ -8483,7 +8860,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_379",
@@ -8505,7 +8883,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_380",
@@ -8527,7 +8906,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_381",
@@ -8549,7 +8929,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_382",
@@ -8571,7 +8952,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_383",
@@ -8593,7 +8975,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_384",
@@ -8615,7 +8998,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_385",
@@ -8641,7 +9025,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_386",
@@ -8663,7 +9048,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_387",
@@ -8685,7 +9071,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_388",
@@ -8707,7 +9094,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_389",
@@ -8729,7 +9117,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_390",
@@ -8751,7 +9140,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_391",
@@ -8773,7 +9163,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_392",
@@ -8795,7 +9186,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_393",
@@ -8817,7 +9209,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_394",
@@ -8839,7 +9232,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_395",
@@ -8861,7 +9255,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_396",
@@ -8887,7 +9282,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_397",
@@ -8909,7 +9305,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_398",
@@ -8931,7 +9328,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_399",
@@ -8953,7 +9351,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_400",
@@ -8975,7 +9374,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_401",
@@ -8997,7 +9397,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_402",
@@ -9019,7 +9420,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_403",
@@ -9041,7 +9443,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_404",
@@ -9063,7 +9466,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_405",
@@ -9085,7 +9489,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_406",
@@ -9107,7 +9512,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_407",
@@ -9129,7 +9535,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_408",
@@ -9151,7 +9558,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_409",
@@ -9173,7 +9581,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_410",
@@ -9195,7 +9604,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_411",
@@ -9217,7 +9627,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_412",
@@ -9239,7 +9650,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_413",
@@ -9261,7 +9673,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_414",
@@ -9283,7 +9696,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_415",
@@ -9305,7 +9719,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_416",
@@ -9327,7 +9742,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_417",
@@ -9349,7 +9765,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_418",
@@ -9371,7 +9788,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_419",
@@ -9393,7 +9811,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_420",
@@ -9417,7 +9836,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_421",
@@ -9439,7 +9859,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_422",
@@ -9461,7 +9882,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_423",
@@ -9483,7 +9905,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_424",
@@ -9505,7 +9928,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_425",
@@ -9527,7 +9951,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_426",
@@ -9553,7 +9978,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_427",
@@ -9575,7 +10001,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_428",
@@ -9597,7 +10024,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_429",
@@ -9623,7 +10051,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_430",
@@ -9645,7 +10074,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_431",
@@ -9667,7 +10097,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_432",
@@ -9689,7 +10120,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_433",
@@ -9717,7 +10149,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_434",
@@ -9739,7 +10172,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_435",
@@ -9761,7 +10195,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_436",
@@ -9783,7 +10218,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_437",
@@ -9805,7 +10241,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_438",
@@ -9827,7 +10264,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_439",
@@ -9849,7 +10287,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_440",
@@ -9871,7 +10310,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_441",
@@ -9893,7 +10333,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_442",
@@ -9921,7 +10362,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_443",
@@ -9943,7 +10385,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_444",
@@ -9965,7 +10408,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_445",
@@ -9987,7 +10431,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_446",
@@ -10009,7 +10454,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_447",
@@ -10031,7 +10477,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_448",
@@ -10053,7 +10500,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_449",
@@ -10075,7 +10523,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_450",
@@ -10097,7 +10546,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_451",
@@ -10119,7 +10569,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_452",
@@ -10141,7 +10592,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_453",
@@ -10167,7 +10619,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_454",
@@ -10189,7 +10642,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_455",
@@ -10211,7 +10665,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_456",
@@ -10233,7 +10688,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_457",
@@ -10261,7 +10717,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_458",
@@ -10283,7 +10740,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_459",
@@ -10305,7 +10763,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_460",
@@ -10327,7 +10786,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_461",
@@ -10349,7 +10809,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_462",
@@ -10371,7 +10832,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_463",
@@ -10393,7 +10855,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_464",
@@ -10415,7 +10878,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_465",
@@ -10437,7 +10901,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_466",
@@ -10459,7 +10924,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_467",
@@ -10481,7 +10947,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_468",
@@ -10503,7 +10970,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_469",
@@ -10525,7 +10993,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_470",
@@ -10547,7 +11016,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_471",
@@ -10569,7 +11039,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_472",
@@ -10591,7 +11062,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_473",
@@ -10613,7 +11085,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_474",
@@ -10635,7 +11108,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_475",
@@ -10657,7 +11131,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_476",
@@ -10679,7 +11154,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_477",
@@ -10701,7 +11177,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_478",
@@ -10724,7 +11201,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_479",
@@ -10746,7 +11224,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_480",
@@ -10768,7 +11247,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_481",
@@ -10790,7 +11270,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_482",
@@ -10812,7 +11293,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_483",
@@ -10834,7 +11316,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_484",
@@ -10856,7 +11339,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_485",
@@ -10878,7 +11362,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_486",
@@ -10900,7 +11385,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_487",
@@ -10922,7 +11408,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_488",
@@ -10950,7 +11437,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_489",
@@ -10972,7 +11460,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_490",
@@ -10994,7 +11483,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_491",
@@ -11016,7 +11506,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_492",
@@ -11038,7 +11529,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_493",
@@ -11060,7 +11552,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_494",
@@ -11082,7 +11575,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_495",
@@ -11110,7 +11604,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_496",
@@ -11132,7 +11627,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_497",
@@ -11154,7 +11650,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_498",
@@ -11176,7 +11673,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_499",
@@ -11198,7 +11696,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_500",
@@ -11220,7 +11719,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_501",
@@ -11242,7 +11742,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_502",
@@ -11264,7 +11765,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_503",
@@ -11286,7 +11788,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_504",
@@ -11308,7 +11811,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_505",
@@ -11330,7 +11834,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_506",
@@ -11352,7 +11857,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_507",
@@ -11374,7 +11880,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_508",
@@ -11396,7 +11903,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_509",
@@ -11418,7 +11926,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_510",
@@ -11440,7 +11949,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_511",
@@ -11462,7 +11972,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_512",
@@ -11484,7 +11995,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_513",
@@ -11506,7 +12018,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_514",
@@ -11528,7 +12041,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_515",
@@ -11550,7 +12064,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_516",
@@ -11578,7 +12093,8 @@
           ],
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_517",
@@ -11600,7 +12116,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_518",
@@ -11622,7 +12139,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_519",
@@ -11644,7 +12162,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_520",
@@ -11666,7 +12185,8 @@
           "answer": "D",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_521",
@@ -11688,7 +12208,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_522",
@@ -11710,7 +12231,8 @@
           "answer": "C",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_523",
@@ -11732,7 +12254,8 @@
           "answer": "B",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "ccna_524",
@@ -11754,7 +12277,8 @@
           "answer": "A",
           "explanation": ""
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-osi-tcp_0",
@@ -11778,7 +12302,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-subnet-calc_0",
@@ -11802,7 +12327,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-arp_0",
@@ -11825,7 +12351,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-vlan-purpose_0",
@@ -11848,7 +12375,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-access-trunk_0",
@@ -11872,7 +12400,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-stp-root_0",
@@ -11895,7 +12424,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-ospf-neighbor_0",
@@ -11918,7 +12448,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-ospf-dr_0",
@@ -11942,7 +12473,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-static-route_0",
@@ -11965,7 +12497,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-default-route_0",
@@ -11988,7 +12521,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-acl-basic_0",
@@ -12011,7 +12545,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-nat-outbound_0",
@@ -12034,7 +12569,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-dhcp-flow_0",
@@ -12057,7 +12593,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-ipv6-link-local_0",
@@ -12080,7 +12617,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-lacp-mode_0",
@@ -12104,7 +12642,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-ssh-telnet_0",
@@ -12129,7 +12668,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-ospf-cost_0",
@@ -12153,7 +12693,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-port-security_0",
@@ -12177,7 +12718,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "cisco_shared-rstp-edge_0",
@@ -12200,7 +12742,4252 @@
           ],
           "answer": "A"
         }
+      ],
+      "type": "single"
+    },
+    {
+      "id": "ccna_525",
+      "conceptId": "ccna-c525",
+      "concept": "OSI 模型层级",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "osi",
+        "tcpip"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSI 参考模型中，以下哪些层属于 Upper Layers？（选3个）",
+          "options": [
+            "A. 应用层",
+            "B. 表示层",
+            "C. 会话层",
+            "D. 网络层"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_526",
+      "conceptId": "ccna-c526",
+      "concept": "TCP/UDP 特性",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "tcpip",
+        "transport"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 TCP 和 UDP 的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. TCP 是面向连接的",
+            "B. UDP 提供可靠传输",
+            "C. UDP 头部开销更小",
+            "D. TCP 使用广播"
+          ],
+          "answer": "A,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_527",
+      "conceptId": "ccna-c527",
+      "concept": "子网掩码",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "subnet"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "255.255.255.192 对应的前缀长度是 /______。",
+          "options": [
+            "25",
+            "24",
+            "28",
+            "26",
+            "27"
+          ],
+          "answer": "26"
+        }
+      ]
+    },
+    {
+      "id": "ccna_528",
+      "conceptId": "ccna-c528",
+      "concept": "OSI 封装顺序",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "osi",
+        "encapsulation"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将数据封装过程按 OSI 模型从上层到下层排列：",
+          "options": [
+            "数据段 (Segment)",
+            "数据包 (Packet)",
+            "数据帧 (Frame)",
+            "比特流 (Bits)"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_529",
+      "conceptId": "ccna-c529",
+      "concept": "VLSM",
+      "domain": "Network Fundamentals",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "subnet",
+        "vlsm"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 VLSM（可变长子网掩码）的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. 允许不同子网使用不同掩码",
+            "B. 节省 IP 地址空间",
+            "C. 仅支持 Class A 地址",
+            "D. 替代 CIDR"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_530",
+      "conceptId": "ccna-c530",
+      "concept": "IP 二进制",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "binary"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "IP 地址 192.168.1.0 的二进制形式最后 8 位是______。",
+          "options": [
+            "00000001",
+            "00000000",
+            "11111111",
+            "01010101",
+            "10000000"
+          ],
+          "answer": "00000000"
+        }
+      ]
+    },
+    {
+      "id": "ccna_531",
+      "conceptId": "ccna-c531",
+      "concept": "网线类型",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "cabling",
+        "types"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将以下网线类型与其用途匹配：",
+          "options": [
+            "直通线 (Straight-through)",
+            "交叉线 (Crossover)",
+            "全反线 (Rollover)"
+          ],
+          "answer": "0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "ccna_532",
+      "conceptId": "ccna-c532",
+      "concept": "光纤类型",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "cabling",
+        "fiber"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是常见的光纤类型？（选2个）",
+          "options": [
+            "A. 单模 (Single-mode)",
+            "B. 多模 (Multi-mode)",
+            "C. 同轴 (Coaxial)",
+            "D. 双绞 (Twisted-pair)"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_533",
+      "conceptId": "ccna-c533",
+      "concept": "VLAN 类型",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "vlan",
+        "trunk"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 VLAN 的类型？（选3个）",
+          "options": [
+            "A. 默认 VLAN (VLAN 1)",
+            "B. 数据 VLAN",
+            "C. 语音 VLAN",
+            "D. 管理 VLAN"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_534",
+      "conceptId": "ccna-c534",
+      "concept": "STP 端口状态",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "stp",
+        "loop"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "STP 协议中端口包含以下哪些状态？（选3个）",
+          "options": [
+            "A. Blocking",
+            "B. Listening",
+            "C. Learning",
+            "D. Forwarding"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_535",
+      "conceptId": "ccna-c535",
+      "concept": "STP 根桥选择",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "stp",
+        "election"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 STP 根桥选举的比较依据按优先级从高到低排列：",
+          "options": [
+            "端口路径开销",
+            "桥优先级 (Bridge Priority)",
+            "桥 MAC 地址 (Bridge MAC)"
+          ],
+          "answer": "1,2,0"
+        }
+      ]
+    },
+    {
+      "id": "ccna_536",
+      "conceptId": "ccna-c536",
+      "concept": "Native VLAN",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "vlan",
+        "native"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "802.1Q Trunk 上默认的 Native VLAN 是 VLAN______。",
+          "options": [
+            "4094",
+            "1001",
+            "100",
+            "1",
+            "0"
+          ],
+          "answer": "1"
+        }
+      ]
+    },
+    {
+      "id": "ccna_537",
+      "conceptId": "ccna-c537",
+      "concept": "EtherChannel 模式",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "etherchannel",
+        "port-channel"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 EtherChannel 的协商模式？（选2个）",
+          "options": [
+            "A. LACP (IEEE 标准)",
+            "B. PAgP (Cisco 私有)",
+            "C. STP",
+            "D. VTP"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_538",
+      "conceptId": "ccna-c538",
+      "concept": "RSTP 端口角色",
+      "domain": "Network Access",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "stp",
+        "rstp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 RSTP 端口角色按转发能力从高到低排列：",
+          "options": [
+            "Designated Port",
+            "Root Port",
+            "Alternate Port"
+          ],
+          "answer": "1,0,2"
+        }
+      ]
+    },
+    {
+      "id": "ccna_539",
+      "conceptId": "ccna-c539",
+      "concept": "VLAN 数据库",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "vlan",
+        "database"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "Cisco 交换机上 VLAN 信息默认存储在______文件中。",
+          "options": [
+            "vlan.txt",
+            "vlan.dat",
+            "startup-config",
+            "running-config",
+            "config.text"
+          ],
+          "answer": "vlan.dat"
+        }
+      ]
+    },
+    {
+      "id": "ccna_540",
+      "conceptId": "ccna-c540",
+      "concept": "WLAN 标准",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "wlan",
+        "wireless"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 IEEE 802.11 无线标准？（选3个）",
+          "options": [
+            "A. 802.11ac (Wi-Fi 5)",
+            "B. 802.11ax (Wi-Fi 6)",
+            "C. 802.11n (Wi-Fi 4)",
+            "D. 802.3af"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_541",
+      "conceptId": "ccna-c541",
+      "concept": "无线安全",
+      "domain": "Network Access",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "wlan",
+        "security"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是无线网络安全方法？（选3个）",
+          "options": [
+            "A. WPA2",
+            "B. WPA3",
+            "C. 802.1X",
+            "D. MAC 地址过滤"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_542",
+      "conceptId": "ccna-c542",
+      "concept": "CDP/LLDP 特性匹配",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "cdp",
+        "lldp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将以下协议与它们的标准归属匹配：",
+          "options": [
+            "CDP (Cisco Discovery Protocol)",
+            "LLDP (IEEE 802.1AB)",
+            "LLDP-MED (增强版)"
+          ],
+          "answer": "0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "ccna_543",
+      "conceptId": "ccna-c543",
+      "concept": "OSPF 邻居条件",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ospf",
+        "neighbor"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "两台路由器建立 OSPF 邻居需要满足以下哪些条件？（选3个）",
+          "options": [
+            "A. 相同 Area ID",
+            "B. 相同 Hello/Dead 间隔",
+            "C. 相同区域类型",
+            "D. 相同 Router ID"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_544",
+      "conceptId": "ccna-c544",
+      "concept": "路由协议度量",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "routing",
+        "metric"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将路由协议与它们的度量标准匹配：",
+          "options": [
+            "OSPF (开销)",
+            "EIGRP (复合度量)",
+            "RIP (跳数)"
+          ],
+          "answer": "0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "ccna_545",
+      "conceptId": "ccna-c545",
+      "concept": "静态路由",
+      "domain": "IP Connectivity",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "static",
+        "route"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "配置默认静态路由时，目标网络的命令参数是 0.0.0.0 0.0.0.0 后跟______地址。",
+          "options": [
+            "管理距离",
+            "度量值",
+            "出接口",
+            "下一跳",
+            "路由标记"
+          ],
+          "answer": "下一跳"
+        }
+      ]
+    },
+    {
+      "id": "ccna_546",
+      "conceptId": "ccna-c546",
+      "concept": "路由类型",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "routing",
+        "types"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 Cisco 路由器上的路由来源类型？（选3个）",
+          "options": [
+            "A. 直连路由 (Connected)",
+            "B. 静态路由 (Static)",
+            "C. 动态路由 (Dynamic)",
+            "D. 默认路由 (Default)"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_547",
+      "conceptId": "ccna-c547",
+      "concept": "OSPF 区域",
+      "domain": "IP Connectivity",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "ospf",
+        "area"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 OSPF 区域的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. Area 0 是骨干区域",
+            "B. 非骨干区域必须连接到 Area 0",
+            "C. 虚链路 (Virtual-link) 可以连接不连续的 Area 0",
+            "D. 每个路由器可以属于不同区域"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_548",
+      "conceptId": "ccna-c548",
+      "concept": "OSPF Router ID",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ospf",
+        "rid"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "OSPF Router ID 的选举优先级从高到低是：手工配置 > 最大______IP > 最大 Loopback IP。",
+          "options": [
+            "逻辑",
+            "虚拟",
+            "物理",
+            "以太网",
+            "回环"
+          ],
+          "answer": "物理"
+        }
+      ]
+    },
+    {
+      "id": "ccna_549",
+      "conceptId": "ccna-c549",
+      "concept": "管理距离排序",
+      "domain": "IP Connectivity",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "routing",
+        "ad"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将以下路由类型按管理距离从低到高（更优先）排列：",
+          "options": [
+            "直连路由 (0)",
+            "静态路由 (1)",
+            "OSPF (110)",
+            "RIP (120)"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_550",
+      "conceptId": "ccna-c550",
+      "concept": "IPv6 地址缩写",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ipv6",
+        "address"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是有效的 IPv6 地址缩写规则？（选3个）",
+          "options": [
+            "A. 前导零可以省略",
+            "B. 连续零块可用 :: 代替一次",
+            "C. :: 可以在地址中使用多次",
+            "D. 可以使用双冒号代替多个零块"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "ccna_551",
+      "conceptId": "ccna-c551",
+      "concept": "DHCP 报文",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "dhcp",
+        "services"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "DHCP 协议包含以下哪些报文类型？（选3个）",
+          "options": [
+            "A. DHCPDISCOVER",
+            "B. DHCPOFFER",
+            "C. DHCPREQUEST",
+            "D. DHCPRESOLVE"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_552",
+      "conceptId": "ccna-c552",
+      "concept": "DHCP 端口",
+      "domain": "IP Services",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "dhcp",
+        "port"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "DHCP 服务器使用的 UDP 端口号是______。",
+          "options": [
+            "443",
+            "68",
+            "67",
+            "53",
+            "161"
+          ],
+          "answer": "67"
+        }
+      ]
+    },
+    {
+      "id": "ccna_553",
+      "conceptId": "ccna-c553",
+      "concept": "NAT 类型",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "nat",
+        "translation"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 NAT 的类型？（选3个）",
+          "options": [
+            "A. 静态 NAT",
+            "B. 动态 NAT",
+            "C. PAT (端口地址转换)",
+            "D. 私有 NAT"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_554",
+      "conceptId": "ccna-c554",
+      "concept": "NAT 转换过程",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "nat",
+        "process"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 PAT 地址转换过程按顺序排列：",
+          "options": [
+            "内部主机发包到外部",
+            "路由器转换源 IP 和端口",
+            "路由器记录转换条目到 NAT 表"
+          ],
+          "answer": "0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "ccna_555",
+      "conceptId": "ccna-c555",
+      "concept": "DNS 记录",
+      "domain": "IP Services",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "dns",
+        "services"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是常见的 DNS 记录类型？（选3个）",
+          "options": [
+            "A. A 记录 (IPv4 地址)",
+            "B. AAAA 记录 (IPv6 地址)",
+            "C. CNAME (别名)",
+            "D. DHCP 记录"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_556",
+      "conceptId": "ccna-c556",
+      "concept": "NTP Stratum",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ntp",
+        "time"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "NTP 层级中，Stratum 0 是______时钟源。",
+          "options": [
+            "石英",
+            "网络",
+            "GPS",
+            "原子",
+            "北斗"
+          ],
+          "answer": "原子"
+        }
+      ]
+    },
+    {
+      "id": "ccna_557",
+      "conceptId": "ccna-c557",
+      "concept": "QoS 模型",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "qos",
+        "services"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 QoS 的服务模型？（选3个）",
+          "options": [
+            "A. Best-Effort",
+            "B. IntServ (集成服务)",
+            "C. DiffServ (区分服务)",
+            "D. Guaranteed QoS"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_558",
+      "conceptId": "ccna-c558",
+      "concept": "FHRP 协议",
+      "domain": "IP Services",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "fhrp",
+        "services"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是第一跳冗余协议（FHRP）？（选3个）",
+          "options": [
+            "A. HSRP (Cisco)",
+            "B. VRRP (IEEE)",
+            "C. GLBP (Cisco)",
+            "D. DHCP"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_559",
+      "conceptId": "ccna-c559",
+      "concept": "ACL 应用",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "acl",
+        "security"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于标准 ACL 的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. 编号范围 1-99",
+            "B. 基于源 IP 地址过滤",
+            "C. 基于目标 IP 过滤",
+            "D. 编号范围 100-199"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_560",
+      "conceptId": "ccna-c560",
+      "concept": "扩展 ACL",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "acl",
+        "extended"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于扩展 ACL 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 编号范围 100-199",
+            "B. 基于源和目标 IP",
+            "C. 可以基于端口号",
+            "D. 只能基于源 IP"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_561",
+      "conceptId": "ccna-c561",
+      "concept": "端口安全最大 MAC",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "port-security",
+        "security"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "Cisco 端口安全默认允许的最大 MAC 地址数量是______。",
+          "options": [
+            "1",
+            "4094",
+            "0",
+            "1001",
+            "100"
+          ],
+          "answer": "1"
+        }
+      ]
+    },
+    {
+      "id": "ccna_562",
+      "conceptId": "ccna-c562",
+      "concept": "DHCP Snooping",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "dhcp-snooping",
+        "security"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "DHCP Snooping 可以防止以下哪些攻击？（选2个）",
+          "options": [
+            "A. DHCP 饥饿攻击",
+            "B. DHCP 欺骗攻击",
+            "C. MAC 洪泛攻击",
+            "D. ARP 欺骗"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_563",
+      "conceptId": "ccna-c563",
+      "concept": "SSH vs Telnet",
+      "domain": "Security Fundamentals",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "ssh",
+        "telnet"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 SSH 和 Telnet 的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. SSH 加密通信",
+            "B. Telnet 是明文传输",
+            "C. SSH 使用 UDP 22",
+            "D. Telnet 默认端口是 23"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_564",
+      "conceptId": "ccna-c564",
+      "concept": "SSH 端口",
+      "domain": "Security Fundamentals",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "ssh",
+        "port"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "SSH 服务默认监听的 TCP 端口号是______。",
+          "options": [
+            "23",
+            "3389",
+            "22",
+            "443",
+            "80"
+          ],
+          "answer": "22"
+        }
+      ]
+    },
+    {
+      "id": "ccna_565",
+      "conceptId": "ccna-c565",
+      "concept": "安全特性匹配",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "security",
+        "features"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将以下安全特性与其功能匹配：",
+          "options": [
+            "DAI (Dynamic ARP Inspection)",
+            "DHCP Snooping",
+            "Port Security"
+          ],
+          "answer": "1,2,0"
+        }
+      ]
+    },
+    {
+      "id": "ccna_566",
+      "conceptId": "ccna-c566",
+      "concept": "AAA 组件",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "aaa",
+        "security"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "AAA 安全架构包含以下哪些组件？（选3个）",
+          "options": [
+            "A. Authentication (认证)",
+            "B. Authorization (授权)",
+            "C. Accounting (审计)",
+            "D. Addressing (寻址)"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_567",
+      "conceptId": "ccna-c567",
+      "concept": "SDN 架构",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "sdn",
+        "automation"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "SDN 架构包含以下哪些平面？（选3个）",
+          "options": [
+            "A. 应用平面",
+            "B. 控制平面",
+            "C. 数据平面",
+            "D. 管理平面"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_568",
+      "conceptId": "ccna-c568",
+      "concept": "JSON 格式",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "json",
+        "data"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 JSON 支持的数据类型？（选3个）",
+          "options": [
+            "A. 字符串 (String)",
+            "B. 数字 (Number)",
+            "C. 布尔值 (Boolean)",
+            "D. 函数 (Function)"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_569",
+      "conceptId": "ccna-c569",
+      "concept": "REST API 方法",
+      "domain": "Automation",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "rest",
+        "api"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "RESTful API 中，用于读取资源的 HTTP 方法是______。",
+          "options": [
+            "POST",
+            "PATCH",
+            "GET",
+            "PUT",
+            "DELETE"
+          ],
+          "answer": "GET"
+        }
+      ]
+    },
+    {
+      "id": "ccna_570",
+      "conceptId": "ccna-c570",
+      "concept": "Python 网络自动化",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "python",
+        "automation"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是网络自动化常用的 Python 库？（选2个）",
+          "options": [
+            "A. Netmiko",
+            "B. NAPALM",
+            "C. Django",
+            "D. Flask"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_571",
+      "conceptId": "ccna-c571",
+      "concept": "自动化工具匹配",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "automation",
+        "tools"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将以下自动化工具与其主要特点匹配：",
+          "options": [
+            "Ansible (Push 模型)",
+            "Puppet (Pull 模型)",
+            "Chef (Recipe 驱动)"
+          ],
+          "answer": "0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "ccna_572",
+      "conceptId": "ccna-c572",
+      "concept": "RESTCONF/NETCONF",
+      "domain": "Automation",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "restconf",
+        "netconf"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 NETCONF 和 RESTCONF 的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. NETCONF 使用 XML 编码",
+            "B. RESTCONF 使用 HTTP/HTTPS",
+            "C. NETCONF 使用 RESTful API",
+            "D. RESTCONF 仅支持 XML"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_573",
+      "conceptId": "ccna-c573",
+      "concept": "SDN 控制器",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "controller",
+        "sdn"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "Cisco 的 SDN 控制器平台是 Cisco______。",
+          "options": [
+            "Meraki",
+            "APIC-EM",
+            "NSO",
+            "DNA Center",
+            "ACI"
+          ],
+          "answer": "DNA Center"
+        }
+      ]
+    },
+    {
+      "id": "ccna_574",
+      "conceptId": "ccna-c574",
+      "concept": "Git 基础",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "git",
+        "version"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 Git 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 分布式版本控制",
+            "B. 支持分支管理",
+            "C. 支持代码回退",
+            "D. 需要中央服务器才能工作"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n1",
+      "conceptId": "ccna_n1-c",
+      "concept": "IP 地址分类",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ip",
+        "address"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是私有 IP 地址范围？（选3个）",
+          "options": [
+            "A. 10.0.0.0/8",
+            "B. 172.16.0.0/12",
+            "C. 192.168.0.0/16",
+            "D. 169.254.0.0/16"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n2",
+      "conceptId": "ccna_n2-c",
+      "concept": "地址类",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "class",
+        "address"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "C 类 IP 地址的默认子网掩码是______。",
+          "options": [
+            "255.255.255.128",
+            "255.255.255.240",
+            "255.255.0.0",
+            "255.255.255.0",
+            "255.0.0.0"
+          ],
+          "answer": "255.255.255.0"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n3",
+      "conceptId": "ccna_n3-c",
+      "concept": "PDU 名称",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "encapsulation",
+        "pdu"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将以下 PDU（协议数据单元）与对应 OSI 层匹配：",
+          "options": [
+            "数据帧 (Frame) - 数据链路层",
+            "数据包 (Packet) - 网络层",
+            "数据段 (Segment) - 传输层"
+          ],
+          "answer": "0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n4",
+      "conceptId": "ccna_n4-c",
+      "concept": "VLAN 成员",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "vlan",
+        "access"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 VLAN 端口类型？（选3个）",
+          "options": [
+            "A. Access 端口",
+            "B. Trunk 端口",
+            "C. Hybrid 端口",
+            "D. Voice 端口"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n5",
+      "conceptId": "ccna_n5-c",
+      "concept": "STP 端口状态转换",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "stp",
+        "states"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 STP 端口状态按转发能力从低到高排序：",
+          "options": [
+            "Blocking",
+            "Listening",
+            "Learning",
+            "Forwarding"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n6",
+      "conceptId": "ccna_n6-c",
+      "concept": "PortFast",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "stp",
+        "portfast"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "使 STP 接入端口快速进入转发状态的特性是______。",
+          "options": [
+            "BackboneFast",
+            "PortFast",
+            "RootGuard",
+            "BPDUguard",
+            "UplinkFast"
+          ],
+          "answer": "PortFast"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n7",
+      "conceptId": "ccna_n7-c",
+      "concept": "默认路由",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "static",
+        "default"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是配置默认路由的方式？（选2个）",
+          "options": [
+            "A. ip route 0.0.0.0 0.0.0.0 <next-hop>",
+            "B. ip default-gateway",
+            "C. ip route 10.0.0.0 255.0.0.0",
+            "D. ip route static"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n8",
+      "conceptId": "ccna_n8-c",
+      "concept": "Loopback",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "routing",
+        "loopback"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 Loopback 接口的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. 逻辑接口不会物理 down",
+            "B. 常用于 Router ID",
+            "C. 只能配置 IPv4",
+            "D. 带宽为 100Mbps"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n9",
+      "conceptId": "ccna_n9-c",
+      "concept": "IPv6 地址类型匹配",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ipv6",
+        "types"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 IPv6 地址类型与它们的前缀匹配：",
+          "options": [
+            "Global Unicast (2000::/3)",
+            "Link-Local (FE80::/10)",
+            "Unique Local (FC00::/7)"
+          ],
+          "answer": "0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n10",
+      "conceptId": "ccna_n10-c",
+      "concept": "PAT 特性",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "nat",
+        "pat"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 PAT 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 端口级地址转换",
+            "B. 多个内部主机共用一个公网 IP",
+            "C. 转换端口号",
+            "D. 仅支持 TCP"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n11",
+      "conceptId": "ccna_n11-c",
+      "concept": "DHCP 租约",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "dhcp",
+        "lease"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "DHCP 客户端发送______报文来续约租期。",
+          "options": [
+            "NAK",
+            "OFFER",
+            "ACK",
+            "REQUEST",
+            "DISCOVER"
+          ],
+          "answer": "REQUEST"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n12",
+      "conceptId": "ccna_n12-c",
+      "concept": "SSH 配置",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ssh",
+        "config"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "配置 SSH 需要以下哪些步骤？（选3个）",
+          "options": [
+            "A. hostname 和 domain-name",
+            "B. 生成 RSA 密钥",
+            "C. 配置 vty 传输协议",
+            "D. 启用 HTTP 服务"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n13",
+      "conceptId": "ccna_n13-c",
+      "concept": "ACL 放置",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "acl",
+        "placement"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 ACL 部署位置的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. 标准 ACL 尽量靠近目标",
+            "B. 扩展 ACL 尽量靠近源",
+            "C. 标准 ACL 尽量靠近源",
+            "D. 扩展 ACL 尽量靠近目标"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n14",
+      "conceptId": "ccna_n14-c",
+      "concept": "登录横幅",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "login",
+        "banner"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "在 Cisco 设备上设置登录警告消息的命令是 banner______。",
+          "options": [
+            "system",
+            "exec",
+            "login",
+            "incoming",
+            "motd"
+          ],
+          "answer": "motd"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n15",
+      "conceptId": "ccna_n15-c",
+      "concept": "Ansible Playbook",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ansible",
+        "playbook"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 Ansible Playbook 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 使用 YAML 格式",
+            "B. 包含 Tasks 列表",
+            "C. 支持变量和模板",
+            "D. 使用 XML 格式"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n16",
+      "conceptId": "ccna_n16-c",
+      "concept": "JSON 语法",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "json",
+        "syntax"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "JSON 数组使用______符号包裹。",
+          "options": [
+            "方括号",
+            "尖括号",
+            "花括号",
+            "单引号",
+            "圆括号"
+          ],
+          "answer": "方括号"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n17",
+      "conceptId": "ccna_n17-c",
+      "concept": "二进制转十进制",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "binary",
+        "decimal"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将以下二进制数与对应的十进制数匹配：",
+          "options": [
+            "11000000 (192)",
+            "10101000 (168)",
+            "00000001 (1)",
+            "11111111 (255)"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n18",
+      "conceptId": "ccna_n18-c",
+      "concept": "语音 VLAN",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "voice",
+        "vlan"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于语音 VLAN 的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. 为 IP 电话提供专用 VLAN",
+            "B. 保证语音质量",
+            "C. 替代数据 VLAN",
+            "D. 只能在 Trunk 端口上"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_n19",
+      "conceptId": "ccna_n19-c",
+      "concept": "DSCP 分类",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "qos",
+        "dscp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 DSCP 的默认服务类别？（选3个）",
+          "options": [
+            "A. EF (Expedited Forwarding)",
+            "B. AF (Assured Forwarding)",
+            "C. BE (Best Effort)",
+            "D. QoS (Quality of Service)"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_001",
+      "conceptId": "ccna-cmulti-001",
+      "concept": "OSI 层功能",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "osi"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSI 模型中，以下哪些层属于传输层以下（含传输层）？（选3项）",
+          "options": [
+            "A. 传输层",
+            "B. 网络层",
+            "C. 数据链路层",
+            "D. 会话层"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_002",
+      "conceptId": "ccna-cmulti-002",
+      "concept": "TCP/IP 协议栈",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "tcpip"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "TCP/IP 协议栈中，以下哪些协议属于应用层？（选3项）",
+          "options": [
+            "A. HTTP",
+            "B. DNS",
+            "C. TCP",
+            "D. SMTP"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_003",
+      "conceptId": "ccna-cmulti-003",
+      "concept": "数据封装过程",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "osi",
+        "encapsulation"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "数据封装过程中，以下哪些说法正确？（选2项）",
+          "options": [
+            "A. 传输层添加 TCP/UDP 头部",
+            "B. 网络层添加 IP 头部",
+            "C. 数据链路层添加应用层头部",
+            "D. 物理层添加 LLC 头部"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_004",
+      "conceptId": "ccna-cmulti-004",
+      "concept": "VLSM 子网划分",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "subnet",
+        "vlsm"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "VLSM 的作用包括以下哪些？（选2项）",
+          "options": [
+            "A. 提高 IP 地址利用率",
+            "B. 允许不同子网使用不同子网掩码",
+            "C. 自动分配 IP 地址",
+            "D. 消除广播域"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_005",
+      "conceptId": "ccna-cmulti-005",
+      "concept": "以太网标准",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "cabling",
+        "ethernet"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是以太网标准？（选3项）",
+          "options": [
+            "A. 10BASE-T",
+            "B. 100BASE-TX",
+            "C. 1000BASE-T",
+            "D. RS-232"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_006",
+      "conceptId": "ccna-cmulti-006",
+      "concept": "IPv4 头部字段",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ipv4",
+        "header"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 IPv4 头部中的字段？（选3项）",
+          "options": [
+            "A. TTL（生存时间）",
+            "B. 源 IP 地址",
+            "C. 源 MAC 地址",
+            "D. 协议号"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_007",
+      "conceptId": "ccna-cmulti-007",
+      "concept": "双工模式",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "duplex"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 Ethernet 双工模式，以下哪些描述正确？（选2项）",
+          "options": [
+            "A. 半双工模式下设备不能同时收发",
+            "B. 全双工模式下需要 CSMA/CD",
+            "C. 全双工模式下双方可同时收发",
+            "D. 半双工是交换机端口的默认模式"
+          ],
+          "answer": "A,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_008",
+      "conceptId": "ccna-cmulti-008",
+      "concept": "CIDR 表示法",
+      "domain": "Network Fundamentals",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "cidr"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下关于 CIDR 的描述哪些正确？（选2项）",
+          "options": [
+            "A. 使用 /N 表示网络前缀长度",
+            "B. 可以聚合多个连续网段",
+            "C. CIDR 只支持 /24 子网",
+            "D. CIDR 不能用于 VLSM"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_009",
+      "conceptId": "ccna-cmulti-009",
+      "concept": "MAC 地址",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "mac"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下关于 MAC 地址的描述哪些正确？（选2项）",
+          "options": [
+            "A. MAC 地址长度为 48 位",
+            "B. 前 24 位是 OUI（厂商代码）",
+            "C. MAC 地址是三层地址",
+            "D. 广播 MAC 地址是全 1"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_010",
+      "conceptId": "ccna-cmulti-010",
+      "concept": "TCP UDP 对比",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "tcp",
+        "udp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "TCP 协议相比 UDP 协议的特点包括以下哪些？（选3项）",
+          "options": [
+            "A. 面向连接",
+            "B. 可靠传输",
+            "C. 流量控制",
+            "D. 无状态传输"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_011",
+      "conceptId": "ccna-cmulti-011",
+      "concept": "ARP 协议功能",
+      "domain": "Network Fundamentals",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "arp",
+        "protocol"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下关于 ARP 协议的描述哪些正确？（选2项）",
+          "options": [
+            "A. ARP 用于解析 IP 地址到 MAC 地址",
+            "B. ARP 请求是广播报文",
+            "C. ARP 工作在网络层",
+            "D. ARP 表项不会老化"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_012",
+      "conceptId": "ccna-cmulti-012",
+      "concept": "子网划分用途",
+      "domain": "Network Fundamentals",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "ipv4",
+        "subnet"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "子网划分的目的包括以下哪些？（选2项）",
+          "options": [
+            "A. 减少广播域大小",
+            "B. 提高 IP 地址利用率",
+            "C. 增加网络带宽",
+            "D. 消除路由需求"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_013",
+      "conceptId": "ccna-cmulti-013",
+      "concept": "TCP 三次握手",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "tcp",
+        "handshake"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "TCP 三次握手过程中发送的报文包括以下哪些？（选3项）",
+          "options": [
+            "A. SYN",
+            "B. SYN-ACK",
+            "C. ACK",
+            "D. FIN"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_014",
+      "conceptId": "ccna-cmulti-014",
+      "concept": "IP 路由基础",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ip",
+        "routing"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 IP 路由选择时需要的关键信息？（选3项）",
+          "options": [
+            "A. 目的 IP 地址",
+            "B. 路由表",
+            "C. 下一跳地址",
+            "D. 应用层协议"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_015",
+      "conceptId": "ccna-cmulti-015",
+      "concept": "光纤类型",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "cable",
+        "fiber"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是光纤接口类型？（选2项）",
+          "options": [
+            "A. LC",
+            "B. SC",
+            "C. RJ-45",
+            "D. USB"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_001",
+      "conceptId": "ccna-cdrag-001",
+      "concept": "OSI 模型层级排序",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "osi"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 OSI 模型从下层到上层排列：",
+          "options": [
+            "物理层",
+            "数据链路层",
+            "网络层",
+            "传输层"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_002",
+      "conceptId": "ccna-cdrag-002",
+      "concept": "数据封装与解封装",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "encapsulation"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将发送端数据封装过程按从高层到低层的顺序排列：",
+          "options": [
+            "数据转换为数据段（Segment）",
+            "数据段封装为数据包（Packet）",
+            "数据包封装为数据帧（Frame）",
+            "数据帧转换为比特流（Bits）"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_003",
+      "conceptId": "ccna-cdrag-003",
+      "concept": "TCP/IP 协议栈层级",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "tcpip"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 TCP/IP 协议栈从上层到下层排列：",
+          "options": [
+            "应用层",
+            "传输层",
+            "网络层",
+            "网络接入层"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_004",
+      "conceptId": "ccna-cdrag-004",
+      "concept": "子网计算步骤",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "subnet"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请按子网规划的正确顺序排列以下步骤：",
+          "options": [
+            "确定所需子网数量",
+            "计算需要的子网位",
+            "确定新的子网掩码",
+            "列出每个子网的网络地址"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_005",
+      "conceptId": "ccna-cdrag-005",
+      "concept": "TCP 连接终止过程",
+      "domain": "Network Fundamentals",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "tcp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 TCP 四次挥手过程按正确顺序排列：",
+          "options": [
+            "客户端发送 FIN",
+            "服务器回复 ACK",
+            "服务器发送 FIN",
+            "客户端回复 ACK"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_006",
+      "conceptId": "ccna-cdrag-006",
+      "concept": "ARP 请求流程",
+      "domain": "Network Fundamentals",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "arp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 ARP 请求过程按正确顺序排列：",
+          "options": [
+            "主机发送 ARP 请求广播",
+            "目标主机回复 ARP 应答",
+            "发送方更新 ARP 缓存",
+            "发送方封装数据帧并转发"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_016",
+      "conceptId": "ccna-cmulti-016",
+      "concept": "VLAN 优点",
+      "domain": "Network Access",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "vlan"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "VLAN（虚拟局域网）的优点包括以下哪些？（选3项）",
+          "options": [
+            "A. 提高网络安全性",
+            "B. 减少广播域范围",
+            "C. 简化网络管理",
+            "D. 增加物理带宽"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_017",
+      "conceptId": "ccna-cmulti-017",
+      "concept": "Trunk 端口",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "vlan",
+        "trunk"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "Trunk 端口可以传输多个 VLAN 的流量，以下哪些描述正确？（选2项）",
+          "options": [
+            "A. 802.1Q 是标准 Trunk 封装协议",
+            "B. Trunk 端口只能传输一个 VLAN",
+            "C. Native VLAN 的帧不带标签",
+            "D. Trunk 口不能使用 DTP 自动协商"
+          ],
+          "answer": "A,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_018",
+      "conceptId": "ccna-cmulti-018",
+      "concept": "STP 作用",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "stp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "STP（生成树协议）的作用包括以下哪些？（选2项）",
+          "options": [
+            "A. 防止二层环路",
+            "B. 提供冗余链路",
+            "C. 加速交换机转发",
+            "D. 增加端口带宽"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_019",
+      "conceptId": "ccna-cmulti-019",
+      "concept": "STP 端口状态",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "stp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "STP 协议中端口可能处于以下哪些状态？（选3项）",
+          "options": [
+            "A. 阻塞（Blocking）",
+            "B. 监听（Listening）",
+            "C. 学习（Learning）",
+            "D. 丢弃（Discarding）"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_020",
+      "conceptId": "ccna-cmulti-020",
+      "concept": "Access 端口",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "switch",
+        "vlan"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "Access 端口的特点包括以下哪些？（选2项）",
+          "options": [
+            "A. 只属于一个 VLAN",
+            "B. 发送帧时不带 VLAN 标签",
+            "C. 可以同时传输多个 VLAN",
+            "D. 接收帧时丢弃带有标签的数据"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_021",
+      "conceptId": "ccna-cmulti-021",
+      "concept": "EtherChannel 优点",
+      "domain": "Network Access",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "etherchannel"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "EtherChannel 的优点包括以下哪些？（选3项）",
+          "options": [
+            "A. 增加链路带宽",
+            "B. 提供链路冗余",
+            "C. 负载均衡",
+            "D. 替代路由协议"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_022",
+      "conceptId": "ccna-cmulti-022",
+      "concept": "端口安全",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "port-security"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "交换机端口安全的功能包括以下哪些？（选2项）",
+          "options": [
+            "A. 限制端口学习的 MAC 地址数量",
+            "B. 配置端口与特定 MAC 地址绑定",
+            "C. 自动创建 VLAN",
+            "D. 分配 IP 地址"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_023",
+      "conceptId": "ccna-cmulti-023",
+      "concept": "语音 VLAN",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "vlan",
+        "voice"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于语音 VLAN（Voice VLAN）的描述以下哪些正确？（选2项）",
+          "options": [
+            "A. 用于分离语音和数据流量",
+            "B. 语音流量通常使用 CoS 优先级",
+            "C. 语音 VLAN 必须手动配置 QoS",
+            "D. 语音 VLAN 是 802.1Q 的新特性"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_024",
+      "conceptId": "ccna-cmulti-024",
+      "concept": "RSTP 改进",
+      "domain": "Network Access",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "rstp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "RSTP 相比 STP 的改进包括以下哪些？（选3项）",
+          "options": [
+            "A. 更快的收敛速度",
+            "B. 引入边缘端口概念",
+            "C. 增加了端口状态数量",
+            "D. 端口角色增加 Alternate 和 Backup"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_025",
+      "conceptId": "ccna-cmulti-025",
+      "concept": "MAC 地址表",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "switch",
+        "mac"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "交换机 MAC 地址表中可以包含以下哪些类型的条目？（选2项）",
+          "options": [
+            "A. 动态 MAC 地址",
+            "B. 静态 MAC 地址",
+            "C. 随机 MAC 地址",
+            "D. ARP 表项"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_026",
+      "conceptId": "ccna-cmulti-026",
+      "concept": "堆叠技术",
+      "domain": "Network Access",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "stacking"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于交换机堆叠技术的描述以下哪些正确？（选2项）",
+          "options": [
+            "A. 多台物理交换机虚拟为一台逻辑设备",
+            "B. 堆叠系统有统一的控制平面",
+            "C. 堆叠成员必须使用独立 IP 管理",
+            "D. 堆叠不支持跨设备链路聚合"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_027",
+      "conceptId": "ccna-cmulti-027",
+      "concept": "VLAN 标签处理",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "vlan",
+        "tagging"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 802.1Q VLAN 标签的描述，以下哪些正确？（选2项）",
+          "options": [
+            "A. 标签长度为 4 字节",
+            "B. 包含 12 位的 VLAN ID",
+            "C. 包含 16 位的优先级",
+            "D. 所有数据帧都必须带标签"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_028",
+      "conceptId": "ccna-cmulti-028",
+      "concept": "CDP 协议",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "cdp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "CDP（Cisco Discovery Protocol）的特性包括以下哪些？（选2项）",
+          "options": [
+            "A. 用于发现直连的 Cisco 设备",
+            "B. 工作在数据链路层",
+            "C. 用于路由协议更新",
+            "D. 只能发现同 VLAN 设备"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_029",
+      "conceptId": "ccna-cmulti-029",
+      "concept": "LLDP 协议",
+      "domain": "Network Access",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "lldp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "LLDP 协议的特性包括以下哪些？（选2项）",
+          "options": [
+            "A. 是 IEEE 802.1AB 标准",
+            "B. 是厂商无关的发现协议",
+            "C. 只能发现 Cisco 设备",
+            "D. 工作在应用层"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_030",
+      "conceptId": "ccna-cmulti-030",
+      "concept": "VLAN 划分方式",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "vlan"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "VLAN 的划分方式包括以下哪些？（选3项）",
+          "options": [
+            "A. 基于端口划分",
+            "B. 基于 MAC 地址划分",
+            "C. 基于子网划分",
+            "D. 基于路由表划分"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_007",
+      "conceptId": "ccna-cdrag-007",
+      "concept": "STP 选举过程",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "stp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 STP 的选举过程按正确顺序排列：",
+          "options": [
+            "选举根桥",
+            "选举根端口",
+            "选举指定端口",
+            "阻塞非指定端口"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_008",
+      "conceptId": "ccna-cdrag-008",
+      "concept": "VLAN 配置流程",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "vlan"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 VLAN 配置过程按正确顺序排列：",
+          "options": [
+            "创建 VLAN",
+            "将端口划分到 VLAN",
+            "配置 Trunk 端口",
+            "验证 VLAN 配置"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_009",
+      "conceptId": "ccna-cdrag-009",
+      "concept": "交换机转发决策",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "switch"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将交换机转发决策过程按正确顺序排列：",
+          "options": [
+            "接收数据帧",
+            "检查目的 MAC 地址",
+            "查找 MAC 地址表",
+            "转发到目标端口"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_010",
+      "conceptId": "ccna-cdrag-010",
+      "concept": "EtherChannel 配置流程",
+      "domain": "Network Access",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "etherchannel"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 EtherChannel 配置过程按正确顺序排列：",
+          "options": [
+            "创建 Port-Channel 接口",
+            "配置成员端口",
+            "设置负载分担方式",
+            "验证 EtherChannel 状态"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_011",
+      "conceptId": "ccna-cdrag-011",
+      "concept": "端口安全配置流程",
+      "domain": "Network Access",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "port-security"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将端口安全配置过程按正确顺序排列：",
+          "options": [
+            "启用端口安全",
+            "设置最大 MAC 地址数",
+            "配置违规处理方式",
+            "配置安全 MAC 地址"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_012",
+      "conceptId": "ccna-cdrag-012",
+      "concept": "RSTP 边缘端口配置",
+      "domain": "Network Access",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "rstp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 RSTP 边缘端口配置过程按正确顺序排列：",
+          "options": [
+            "进入接口视图",
+            "启用边缘端口",
+            "启用 BPDU 防护",
+            "验证配置"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_031",
+      "conceptId": "ccna-cmulti-031",
+      "concept": "路由类型",
+      "domain": "IP Connectivity",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是常见的路由类型？（选3项）",
+          "options": [
+            "A. 直连路由",
+            "B. 静态路由",
+            "C. 动态路由",
+            "D. 交换路由"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_032",
+      "conceptId": "ccna-cmulti-032",
+      "concept": "OSPF 基础",
+      "domain": "IP Connectivity",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSPF 协议的特点包括以下哪些？（选3项）",
+          "options": [
+            "A. 链路状态路由协议",
+            "B. 使用 SPF 算法计算路由",
+            "C. 基于距离向量计算",
+            "D. 支持 VLSM 和 CIDR"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_033",
+      "conceptId": "ccna-cmulti-033",
+      "concept": "路由度量值",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是常用的路由度量值（Metric）？（选3项）",
+          "options": [
+            "A. 跳数",
+            "B. 带宽",
+            "C. 延迟",
+            "D. 网络地址"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_034",
+      "conceptId": "ccna-cmulti-034",
+      "concept": "默认路由场景",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ipv4"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些场景适合使用默认路由？（选2项）",
+          "options": [
+            "A. 企业出口到互联网",
+            "B. 末梢网络（Stub Network）",
+            "C. 核心骨干网络",
+            "D. OSPF 骨干区域"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_035",
+      "conceptId": "ccna-cmulti-035",
+      "concept": "路由优先级",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于路由优先级（Preference）的描述以下哪些正确？（选2项）",
+          "options": [
+            "A. 优先级值越小越优先",
+            "B. 不同协议可以配置不同的优先级",
+            "C. OSPF 优先级高于直连路由",
+            "D. 静态路由优先级永远不能改变"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_036",
+      "conceptId": "ccna-cmulti-036",
+      "concept": "OSPF 区域",
+      "domain": "IP Connectivity",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSPF 区域划分的作用包括以下哪些？（选2项）",
+          "options": [
+            "A. 减少 LSDB 大小",
+            "B. 隔离区域内的路由变化",
+            "C. 增加路由跳数",
+            "D. 简化 SPF 计算"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_037",
+      "conceptId": "ccna-cmulti-037",
+      "concept": "OSPF Hello 协议",
+      "domain": "IP Connectivity",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSPF Hello 报文的作用包括以下哪些？（选2项）",
+          "options": [
+            "A. 发现邻居路由器",
+            "B. 维护邻居关系",
+            "C. 交换完整的路由表",
+            "D. 计算最短路径树"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_038",
+      "conceptId": "ccna-cmulti-038",
+      "concept": "管理距离",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "routing",
+        "admin-distance"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下关于管理距离（Administrative Distance）的描述哪些正确？（选2项）",
+          "options": [
+            "A. AD 值越小路由越可信",
+            "B. 直连路由的 AD 是 0",
+            "C. OSPF 的 AD 小于静态路由",
+            "D. AD 值只影响 OSPF"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_039",
+      "conceptId": "ccna-cmulti-039",
+      "concept": "路由环路预防",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "预防路由环路的方法包括以下哪些？（选3项）",
+          "options": [
+            "A. 水平分割",
+            "B. 毒性逆转",
+            "C. 触发更新",
+            "D. 路由聚合"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_040",
+      "conceptId": "ccna-cmulti-040",
+      "concept": "OSPF 网络类型",
+      "domain": "IP Connectivity",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSPF 支持的接口网络类型包括以下哪些？（选2项）",
+          "options": [
+            "A. 广播多路访问",
+            "B. 点到点",
+            "C. 以太网",
+            "D. Wi-Fi"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_041",
+      "conceptId": "ccna-cmulti-041",
+      "concept": "IPv6 地址配置",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ipv6"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IPv6 地址可以通过以下哪些方式配置？（选3项）",
+          "options": [
+            "A. 静态配置",
+            "B. SLAAC（无状态地址自动配置）",
+            "C. DHCPv6",
+            "D. ARP"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_042",
+      "conceptId": "ccna-cmulti-042",
+      "concept": "负载均衡",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于路由负载均衡的描述以下哪些正确？（选2项）",
+          "options": [
+            "A. 多条等价路由可以实现负载均衡",
+            "B. 华为设备默认支持 8 条等价路由",
+            "C. 静态路由不能负载均衡",
+            "D. 负载均衡只能基于逐包进行"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_043",
+      "conceptId": "ccna-cmulti-043",
+      "concept": "直连路由",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于直连路由的描述以下哪些正确？（选2项）",
+          "options": [
+            "A. 配置 IP 地址后自动生成",
+            "B. 接口 down 后自动消失",
+            "C. 需要手动配置路由协议才能生成",
+            "D. 优先级低于静态路由"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_044",
+      "conceptId": "ccna-cmulti-044",
+      "concept": "静态路由配置",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "static"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "静态路由的优势包括以下哪些？（选2项）",
+          "options": [
+            "A. 不占用网络带宽",
+            "B. 配置简单可控",
+            "C. 自动适应网络拓扑变化",
+            "D. 不需要管理员干预"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_045",
+      "conceptId": "ccna-cmulti-045",
+      "concept": "OSPF DR/BDR",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSPF 多路访问网络中 DR 和 BDR 的作用包括以下哪些？（选2项）",
+          "options": [
+            "A. 减少邻接关系数量",
+            "B. 降低 LSA 泛洪量",
+            "C. 计算最短路径树",
+            "D. 分配 IP 地址"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_046",
+      "conceptId": "ccna-cmulti-046",
+      "concept": "IPv6 地址类型",
+      "domain": "IP Connectivity",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "ipv6"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IPv6 的单播地址包括以下哪些类型？（选3项）",
+          "options": [
+            "A. 全球单播地址（Global Unicast）",
+            "B. 唯一本地地址（Unique Local）",
+            "C. 链路本地地址（Link-Local）",
+            "D. 广播地址（Broadcast）"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_047",
+      "conceptId": "ccna-cmulti-047",
+      "concept": "浮动静态路由",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于浮动静态路由的描述以下哪些正确？（选2项）",
+          "options": [
+            "A. 通过修改管理距离实现",
+            "B. 用于主路由故障后的备份",
+            "C. 默认情况下一直生效",
+            "D. 只能在 OSPF 中使用"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_048",
+      "conceptId": "ccna-cmulti-048",
+      "concept": "路由表构成",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "路由表中的关键元素包括以下哪些？（选3项）",
+          "options": [
+            "A. 目的网络/掩码",
+            "B. 下一跳地址",
+            "C. 出接口",
+            "D. DNS 服务器"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_049",
+      "conceptId": "ccna-cmulti-049",
+      "concept": "IPv6 邻居发现",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ipv6"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IPv6 邻居发现协议（NDP）的功能包括以下哪些？（选3项）",
+          "options": [
+            "A. 地址解析（替代 ARP）",
+            "B. 路由器发现",
+            "C. 重复地址检测（DAD）",
+            "D. DHCP 地址分配"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_013",
+      "conceptId": "ccna-cdrag-013",
+      "concept": "路由查找过程",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将路由器转发数据包的过程按正确顺序排列：",
+          "options": [
+            "接收数据包",
+            "检查目的 IP 地址",
+            "查找路由表匹配",
+            "从出接口转发"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_014",
+      "conceptId": "ccna-cdrag-014",
+      "concept": "静态路由配置流程",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "static"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将静态路由配置过程按正确顺序排列：",
+          "options": [
+            "进入系统视图",
+            "进入 IP 路由视图",
+            "配置目的网段和下一跳",
+            "验证路由表"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_015",
+      "conceptId": "ccna-cdrag-015",
+      "concept": "OSPF 邻居建立过程",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 OSPF 邻居建立过程按正确顺序排列：",
+          "options": [
+            "Hello 报文发现邻居",
+            "建立邻接关系（Two-Way）",
+            "DD 报文交换摘要",
+            "LSR/LSU 同步 LSDB"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_016",
+      "conceptId": "ccna-cdrag-016",
+      "concept": "OSPF 配置流程",
+      "domain": "IP Connectivity",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将单区域 OSPF 配置过程按正确顺序排列：",
+          "options": [
+            "启用 OSPF 进程",
+            "指定 Router-ID",
+            "宣告直连网段",
+            "验证 OSPF 邻居"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_017",
+      "conceptId": "ccna-cdrag-017",
+      "concept": "IPv6 地址配置流程",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "ipv6"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 IPv6 地址静态配置过程按正确顺序排列：",
+          "options": [
+            "进入接口视图",
+            "配置 IPv6 地址",
+            "启用 IPv6 功能",
+            "验证 IPv6 连通性"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_018",
+      "conceptId": "ccna-cdrag-018",
+      "concept": "路由协议选择流程",
+      "domain": "IP Connectivity",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请按推荐的应用场景排列以下路由方案：",
+          "options": [
+            "末梢网络使用静态路由",
+            "小型网络使用动态路由协议",
+            "大型网络使用分层路由设计",
+            "多厂商环境使用标准协议"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_019",
+      "conceptId": "ccna-cdrag-019",
+      "concept": "路由故障排查",
+      "domain": "IP Connectivity",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请按正确的故障排查顺序排列以下步骤：",
+          "options": [
+            "检查物理连接",
+            "检查接口 IP 地址",
+            "检查路由表",
+            "跟踪路由路径"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_050",
+      "conceptId": "ccna-cmulti-050",
+      "concept": "DHCP 功能",
+      "domain": "IP Services",
+      "difficulty": "easy",
+      "source": "ccna-pool",
+      "tags": [
+        "dhcp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "DHCP 协议的功能包括以下哪些？（选3项）",
+          "options": [
+            "A. 自动分配 IP 地址",
+            "B. 分配子网掩码",
+            "C. 分配默认网关",
+            "D. 提供数据加密"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_051",
+      "conceptId": "ccna-cmulti-051",
+      "concept": "DNS 解析",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "dns"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "DNS 系统的主要功能包括以下哪些？（选2项）",
+          "options": [
+            "A. 域名到 IP 地址的解析",
+            "B. 反向解析（IP 到域名）",
+            "C. 数据包路由",
+            "D. 端口号分配"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_052",
+      "conceptId": "ccna-cmulti-052",
+      "concept": "NAT 转换",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "nat"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "NAT（网络地址转换）的作用包括以下哪些？（选2项）",
+          "options": [
+            "A. 节省公网 IP 地址",
+            "B. 隐藏内部网络结构",
+            "C. 加快网络速度",
+            "D. 替代防火墙"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_053",
+      "conceptId": "ccna-cmulti-053",
+      "concept": "DHCP 报文类型",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "dhcp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "DHCP 协议中使用以下哪些报文？（选3项）",
+          "options": [
+            "A. DHCP DISCOVER",
+            "B. DHCP OFFER",
+            "C. DHCP REQUEST",
+            "D. HTTP GET"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_054",
+      "conceptId": "ccna-cmulti-054",
+      "concept": "NTP 协议",
+      "domain": "IP Services",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "ntp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "NTP 协议的特点包括以下哪些？（选2项）",
+          "options": [
+            "A. 用于网络时间同步",
+            "B. 采用层级（Stratum）结构",
+            "C. 只能同步到秒级精度",
+            "D. NTP 工作在传输层使用 TCP"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_055",
+      "conceptId": "ccna-cmulti-055",
+      "concept": "PAT 端口转换",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "nat"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "PAT（端口地址转换）的特点包括以下哪些？（选2项）",
+          "options": [
+            "A. 多个内部地址共享一个公网 IP",
+            "B. 通过端口号区分不同会话",
+            "C. 每个内部地址需要独立的公网 IP",
+            "D. 只支持 TCP 协议"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_056",
+      "conceptId": "ccna-cmulti-056",
+      "concept": "SNMP 协议",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "snmp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "SNMP 协议的功能包括以下哪些？（选2项）",
+          "options": [
+            "A. 网络设备监控",
+            "B. 远程设备配置",
+            "C. 文件传输",
+            "D. 邮件发送"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_057",
+      "conceptId": "ccna-cmulti-057",
+      "concept": "DHCP 中继",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "dhcp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "DHCP 中继代理的作用包括以下哪些？（选2项）",
+          "options": [
+            "A. 跨网段转发 DHCP 报文",
+            "B. 减少网络中 DHCP 服务器数量",
+            "C. 自动配置路由表",
+            "D. 替代 DNS 解析"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_020",
+      "conceptId": "ccna-cdrag-020",
+      "concept": "DHCP 工作流程",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "dhcp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 DHCP 获取 IP 地址的过程按正确顺序排列：",
+          "options": [
+            "客户端发送 DHCP DISCOVER",
+            "服务器回复 DHCP OFFER",
+            "客户端发送 DHCP REQUEST",
+            "服务器回复 DHCP ACK"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_021",
+      "conceptId": "ccna-cdrag-021",
+      "concept": "NAT 转换流程",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "nat"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 NAT 转换过程按正确顺序排列：",
+          "options": [
+            "内部主机发送数据包",
+            "NAT 设备转换源地址",
+            "建立地址转换表",
+            "外部回复时反向转换"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_022",
+      "conceptId": "ccna-cdrag-022",
+      "concept": "DNS 查询过程",
+      "domain": "IP Services",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "dns"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 DNS 查询解析过程按正确顺序排列：",
+          "options": [
+            "浏览器请求域名解析",
+            "查询本地 DNS 缓存",
+            "向 DNS 服务器发送查询",
+            "返回 IP 地址"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_058",
+      "conceptId": "ccna-cmulti-058",
+      "concept": "ACL 规则",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "acl"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "ACL（访问控制列表）的作用包括以下哪些？（选2项）",
+          "options": [
+            "A. 控制网络访问",
+            "B. 过滤数据流量",
+            "C. 自动分配 IP 地址",
+            "D. 建立 VPN 连接"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_059",
+      "conceptId": "ccna-cmulti-059",
+      "concept": "ACL 类型",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "acl"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "标准 ACL 和扩展 ACL 的区别包括以下哪些？（选2项）",
+          "options": [
+            "A. 标准 ACL 只检查源 IP 地址",
+            "B. 扩展 ACL 检查源/目的 IP 和端口",
+            "C. 标准 ACL 性能低于扩展 ACL",
+            "D. 扩展 ACL 编号范围是 1-99"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_060",
+      "conceptId": "ccna-cmulti-060",
+      "concept": "DHCP Snooping",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "dhcp-snooping"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "DHCP Snooping 的防护作用包括以下哪些？（选2项）",
+          "options": [
+            "A. 防止 DHCP 欺骗攻击",
+            "B. 防止 ARP 攻击",
+            "C. 过滤不可信的 DHCP 服务器",
+            "D. 自动分配地址"
+          ],
+          "answer": "A,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_061",
+      "conceptId": "ccna-cmulti-061",
+      "concept": "端口安全违规处理",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "port-security"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "交换机端口安全中，违规处理方式包括以下哪些？（选3项）",
+          "options": [
+            "A. Protect（丢弃非法帧）",
+            "B. Restrict（丢弃并记录日志）",
+            "C. Shutdown（关闭端口）",
+            "D. Forward（放行所有帧）"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_062",
+      "conceptId": "ccna-cmulti-062",
+      "concept": "VPN 类型",
+      "domain": "Security Fundamentals",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "vpn"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是常见的 VPN 类型？（选3项）",
+          "options": [
+            "A. Site-to-Site VPN",
+            "B. Remote Access VPN",
+            "C. MPLS VPN",
+            "D. VLAN VPN"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_063",
+      "conceptId": "ccna-cmulti-063",
+      "concept": "BPDU Guard",
+      "domain": "Security Fundamentals",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "stp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 STP BPDU Guard 的描述以下哪些正确？（选2项）",
+          "options": [
+            "A. 在边缘端口启用",
+            "B. 收到 BPDU 时关闭端口",
+            "C. 加速 STP 收敛",
+            "D. 防止根桥被接管"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_064",
+      "conceptId": "ccna-cmulti-064",
+      "concept": "防火墙安全策略",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "firewall"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "防火墙安全策略的匹配要素包括以下哪些？（选3项）",
+          "options": [
+            "A. 源安全区域",
+            "B. 目的安全区域",
+            "C. 源/目的 IP 地址",
+            "D. MAC 地址"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_065",
+      "conceptId": "ccna-cmulti-065",
+      "concept": "常见网络攻击",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "security"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些属于常见的二层网络攻击？（选3项）",
+          "options": [
+            "A. MAC 地址表泛洪攻击",
+            "B. ARP 欺骗攻击",
+            "C. VLAN 跳跃攻击",
+            "D. DDoS 攻击"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_066",
+      "conceptId": "ccna-cmulti-066",
+      "concept": "无线网络安全",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "security"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "WLAN 安全加密方式包括以下哪些？（选3项）",
+          "options": [
+            "A. WEP",
+            "B. WPA2",
+            "C. WPA3",
+            "D. SSL"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_067",
+      "conceptId": "ccna-cmulti-067",
+      "concept": "AAA 认证",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "aaa"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "AAA 框架的组成部分包括以下哪些？（选3项）",
+          "options": [
+            "A. 认证（Authentication）",
+            "B. 授权（Authorization）",
+            "C. 计费（Accounting）",
+            "D. 审计（Auditing）"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_068",
+      "conceptId": "ccna-cmulti-068",
+      "concept": "IPSec 安全协议",
+      "domain": "Security Fundamentals",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "security"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IPSec 安全框架使用以下哪些协议？（选2项）",
+          "options": [
+            "A. AH（认证头）",
+            "B. ESP（封装安全载荷）",
+            "C. SSL",
+            "D. TLS"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_023",
+      "conceptId": "ccna-cdrag-023",
+      "concept": "ACL 配置流程",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "acl"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 ACL 配置应用过程按正确顺序排列：",
+          "options": [
+            "创建 ACL 规则",
+            "配置 permit/deny 条件",
+            "应用到接口",
+            "配置应用方向（in/out）"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_024",
+      "conceptId": "ccna-cdrag-024",
+      "concept": "IPSec 建立过程",
+      "domain": "Security Fundamentals",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "vpn"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 IPSec VPN 建立过程按正确顺序排列：",
+          "options": [
+            "IKE 第一阶段协商",
+            "建立 IKE SA",
+            "IKE 第二阶段协商",
+            "建立 IPSec SA"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_025",
+      "conceptId": "ccna-cdrag-025",
+      "concept": "端口安全违规处理流程",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "port-security"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将交换机发现端口安全违规时的处理过程按正确顺序排列：",
+          "options": [
+            "非法 MAC 地址访问端口",
+            "端口检查安全 MAC 表",
+            "触发违规处理动作",
+            "端口进入 err-disable 状态"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_026",
+      "conceptId": "ccna-cdrag-026",
+      "concept": "DHCP Snooping 配置流程",
+      "domain": "Security Fundamentals",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "dhcp-snooping"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 DHCP Snooping 配置过程按正确顺序排列：",
+          "options": [
+            "全局启用 DHCP Snooping",
+            "配置信任接口",
+            "配置速率限制",
+            "验证 DHCP Snooping"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_069",
+      "conceptId": "ccna-cmulti-069",
+      "concept": "SDN 架构",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "sdn"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "SDN（软件定义网络）的特点包括以下哪些？（选3项）",
+          "options": [
+            "A. 控制平面与数据平面分离",
+            "B. 集中式控制",
+            "C. 可编程网络",
+            "D. 完全替代硬件交换机"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_070",
+      "conceptId": "ccna-cmulti-070",
+      "concept": "REST API",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "rest"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "REST API 中常用的 HTTP 方法包括以下哪些？（选3项）",
+          "options": [
+            "A. GET",
+            "B. POST",
+            "C. PUT",
+            "D. SNMP"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_071",
+      "conceptId": "ccna-cmulti-071",
+      "concept": "数据格式",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "json"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是常用的结构化数据格式？（选3项）",
+          "options": [
+            "A. JSON",
+            "B. XML",
+            "C. YAML",
+            "D. HTML"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_072",
+      "conceptId": "ccna-cmulti-072",
+      "concept": "自动化工具",
+      "domain": "Automation",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "ansible"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是主流网络自动化工具？（选3项）",
+          "options": [
+            "A. Ansible",
+            "B. Puppet",
+            "C. Chef",
+            "D. Wireshark"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_073",
+      "conceptId": "ccna-cmulti-073",
+      "concept": "Cisco SDN 解决方案",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "sdn"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "Cisco SDN 解决方案包括以下哪些？（选2项）",
+          "options": [
+            "A. Cisco DNA Center",
+            "B. APIC-EM",
+            "C. Cisco Packet Tracer",
+            "D. Cisco VIRL"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_074",
+      "conceptId": "ccna-cmulti-074",
+      "concept": "NETCONF 协议",
+      "domain": "Automation",
+      "difficulty": "hard",
+      "source": "ccna-pool",
+      "tags": [
+        "netconf"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "NETCONF 协议的特点包括以下哪些？（选2项）",
+          "options": [
+            "A. 使用 XML 编码配置数据",
+            "B. 基于 SSH 传输",
+            "C. 使用 REST 接口",
+            "D. 只能读取配置"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_075",
+      "conceptId": "ccna-cmulti-075",
+      "concept": "网络控制器",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "controller"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "网络控制器的功能包括以下哪些？（选2项）",
+          "options": [
+            "A. 集中管理网络设备",
+            "B. 自动化网络配置",
+            "C. 处理数据包转发",
+            "D. 替代物理链路"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_multi_076",
+      "conceptId": "ccna-cmulti-076",
+      "concept": "JSON 语法",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "json"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 JSON 数据格式的描述以下哪些正确？（选2项）",
+          "options": [
+            "A. 使用花括号表示对象",
+            "B. 使用方括号表示数组",
+            "C. 键名必须使用单引号",
+            "D. 支持注释"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_027",
+      "conceptId": "ccna-cdrag-027",
+      "concept": "SDN 转发与控制流程",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "sdn"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 SDN 网络中的数据处理流程按正确顺序排列：",
+          "options": [
+            "控制器下发流表",
+            "交换机接收数据包",
+            "匹配流表项",
+            "执行转发动作"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "ccna_drag_028",
+      "conceptId": "ccna-cdrag-028",
+      "concept": "API 调用流程",
+      "domain": "Automation",
+      "difficulty": "medium",
+      "source": "ccna-pool",
+      "tags": [
+        "rest"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 REST API 调用过程按正确顺序排列：",
+          "options": [
+            "构建 HTTP 请求",
+            "发送请求到服务器",
+            "服务器处理请求",
+            "解析 JSON 响应"
+          ],
+          "answer": "0,1,2,3"
+        }
       ]
     }
-  ]
+  ],
+  "_newCount": 50,
+  "_new": 19
 }

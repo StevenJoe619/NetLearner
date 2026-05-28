@@ -154,7 +154,7 @@ async function startLT(target) {
     const poolData = await loadQs(match.poolFile);
     if (!poolData) return;
     const pool = poolData.questions || [];
-    const qs = ExamEngine.pickFromPool(pool, match.questionCount || 10, match.weightings);
+    const qs = ExamEngine.pickFromPool(pool, match.questionCount || 10, match.weightings, ExamEngine.TYPE_WEIGHTINGS[target]);
     if (!qs.length) { toast('题库为空'); return; }
     curQs = qs;
     curMeta = { title: target + ' 水平测试' };
@@ -298,7 +298,7 @@ async function loadExam(id) {
     const poolData = await loadQs(meta.poolFile);
     if (!poolData) return;
     const pool = poolData.questions || [];
-    const qs = ExamEngine.pickFromPool(pool, meta.questionCount || 60, meta.weightings);
+    const qs = ExamEngine.pickFromPool(pool, meta.questionCount || 60, meta.weightings, ExamEngine.TYPE_WEIGHTINGS[meta.target]);
     if (!qs.length) { toast('题库为空'); return; }
     curQs = qs;
     document.getElementById('mock-list').style.display = 'none';
@@ -340,10 +340,10 @@ function renderQ() {
 
   const dc = domainClass(q.domain);
   const ans = engine.getAns(q.id);
-  const typeLabel = { single:'单选题', multiple:'多选题', fill:'填空题', drag:'拖拽题' };
+  const typeLabel = { single:'单选题', multiple:'多选题', fill:'填空题', drag:'拖拽题', boolean:'判断题' };
 
   let optsHtml = '';
-  if (t === 'single') {
+  if (t === 'single' || t === 'boolean') {
     optsHtml = q.options.map(o => {
       const k = o.charAt(0);
       return `<div class="option ${ans===k?'sel':''}" onclick="ansEx('${q.id}','${k}')">${o}</div>`;

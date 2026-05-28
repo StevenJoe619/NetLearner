@@ -61,7 +61,7 @@ class ExamEngine {
   _isCorrect(q, ua) {
     if (!ua) return false;
     const t = q.type || 'single';
-    if (t === 'single' || t === 'drag') return ua === q.answer;
+    if (t === 'single' || t === 'drag' || t === 'boolean') return ua === q.answer;
     if (t === 'multiple') {
       const aParts = (q.answer || '').split(',').filter(Boolean).sort().join(',');
       const uParts = ua.split(',').filter(Boolean).sort().join(',');
@@ -164,60 +164,143 @@ class ExamEngine {
   state() { return this._status; }
 
   /**
-   * 从大池子按域配比（weightings）抽取 N 题
+   * 各认证默认题型比例（与真实考试对标）
+   */
+  static get TYPE_WEIGHTINGS() {
+    return {
+      'CCNA':        { single:0.82, multiple:0.12, drag:0.06 },
+      'CCNP ENCOR':  { single:0.55, multiple:0.20, drag:0.15, fill:0.10 },
+      'HCIA':        { single:0.71, multiple:0.14, boolean:0.15 },
+      'HCIP':        { single:0.52, multiple:0.25, drag:0.10, fill:0.13 },
+    };
+  }
+
+  /**
+   * 从大池子按域配比（weightings）和题型配比抽取 N 题
    * 每题随机选一个 variant，确保每次模拟卷的题目组合不同
    *
-   * @param {Array}  pool       — pool questions (each may have .variants[])
-   * @param {number} count      — 总题数
-   * @param {Object} weightings — { domainName: 0.xx, ... } 各域占比，合计 ≈ 1
+   * @param {Array}  pool            — pool questions (each may have .variants[])
+   * @param {number} count           — 总题数
+   * @param {Object} weightings      — { domainName: 0.xx, ... } 各域占比，合计 ≈ 1
+   * @param {Object} typeWeightings  — 可选，{ single:0.55, multiple:0.20, ... } 各题型占比
    * @returns {Array} flat questions ready for ExamEngine
    */
-  static pickFromPool(pool, count, weightings) {
+  static pickFromPool(pool, count, weightings, typeWeightings) {
     if (!pool || !pool.length) return [];
 
-    // 按 domain 分组
-    const byDomain = {};
-    pool.forEach(q => {
-      const d = q.domain || 'Other';
-      if (!byDomain[d]) byDomain[d] = [];
-      byDomain[d].push(q);
-    });
+    // 用传入的 typeWeightings，或从权重中推断
+    const tw = typeWeightings || null;
 
     const result = [];
-    const used = new Set(); // track conceptId to avoid duplicates in same exam
+    const used = new Set();
 
-    // 遍历每个域的配比
-    const entries = Object.entries(weightings || {});
-    const totalWeight = entries.reduce((s, [, w]) => s + w, 0);
+    const domainEntries = Object.entries(weightings || {});
+    const totalWeight = domainEntries.reduce((s, [, w]) => s + w, 0);
+    if (totalWeight <= 0) return [];
 
-    entries.forEach(([domain, weight]) => {
-      const domainQs = (byDomain[domain] || []).filter(q => !used.has(q.conceptId));
-      const needed = Math.max(1, Math.round(count * (weight / totalWeight)));
+    // ---- 带题型权重抽题 ----
+    if (tw) {
+      const typeEntries = Object.entries(tw).filter(([, w]) => w > 0);
+      const totalTypeWeight = typeEntries.reduce((s, [, w]) => s + w, 0);
 
-      // Shuffle domain questions
-      for (let i = domainQs.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [domainQs[i], domainQs[j]] = [domainQs[j], domainQs[i]];
-      }
+      // 按 domain → type 分组
+      const byDomainType = {};
+      pool.forEach(q => {
+        const d = q.domain || 'Other';
+        const t = q.type || 'single';
+        if (!byDomainType[d]) byDomainType[d] = {};
+        if (!byDomainType[d][t]) byDomainType[d][t] = [];
+        byDomainType[d][t].push(q);
+      });
 
-      let picked = 0;
-      for (const q of domainQs) {
-        if (picked >= needed) break;
-        if (used.has(q.conceptId)) continue;
-        used.add(q.conceptId);
+      // 对每个域，按题型配比抽题
+      domainEntries.forEach(([domain, weight]) => {
+        const domainNeeded = Math.max(0, Math.round(count * (weight / totalWeight)));
+        if (domainNeeded <= 0) return;
+        let domainPicked = 0;
 
-        // 随机选一个 variant
-        if (q.variants && q.variants.length > 0) {
-          const v = q.variants[Math.floor(Math.random() * q.variants.length)];
-          result.push({ ...q, text: v.text, options: v.options, answer: v.answer, variants: undefined });
-        } else {
-          result.push({ ...q, variants: undefined });
+        const domainPools = byDomainType[domain] || {};
+
+        // 本域中各题型需抽取数量
+        typeEntries.forEach(([type, tw]) => {
+          const typeNeeded = Math.max(0, Math.round(domainNeeded * (tw / totalTypeWeight)));
+          if (typeNeeded <= 0) return;
+
+          const typePool = (domainPools[type] || []).filter(q => !used.has(q.conceptId));
+          // Shuffle
+          for (let i = typePool.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [typePool[i], typePool[j]] = [typePool[j], typePool[i]];
+          }
+
+          let picked = 0;
+          for (const q of typePool) {
+            if (picked >= typeNeeded) break;
+            used.add(q.conceptId);
+            if (q.variants && q.variants.length > 0) {
+              const v = q.variants[Math.floor(Math.random() * q.variants.length)];
+              result.push({ ...q, text: v.text, options: v.options, answer: v.answer, variants: undefined });
+            } else {
+              result.push({ ...q, variants: undefined });
+            }
+            picked++;
+            domainPicked++;
+          }
+        });
+
+        // 不足本域配额时从剩余补（不限题型）
+        if (domainPicked < domainNeeded) {
+          const remaining = Object.values(domainPools).flat().filter(q => !used.has(q.conceptId));
+          for (let i = remaining.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [remaining[i], remaining[j]] = [remaining[j], remaining[i]];
+          }
+          for (const q of remaining) {
+            if (domainPicked >= domainNeeded) break;
+            used.add(q.conceptId);
+            if (q.variants && q.variants.length > 0) {
+              const v = q.variants[Math.floor(Math.random() * q.variants.length)];
+              result.push({ ...q, text: v.text, options: v.options, answer: v.answer, variants: undefined });
+            } else {
+              result.push({ ...q, variants: undefined });
+            }
+            domainPicked++;
+          }
         }
-        picked++;
-      }
-    });
+      });
+    } else {
+      // ---- 无题型权重，按 original 方法 ----
+      const byDomain = {};
+      pool.forEach(q => {
+        const d = q.domain || 'Other';
+        if (!byDomain[d]) byDomain[d] = [];
+        byDomain[d].push(q);
+      });
 
-    // 如果还不够 count（池子太小），从剩下的补
+      domainEntries.forEach(([domain, weight]) => {
+        const domainQs = (byDomain[domain] || []).filter(q => !used.has(q.conceptId));
+        const needed = Math.max(1, Math.round(count * (weight / totalWeight)));
+        for (let i = domainQs.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [domainQs[i], domainQs[j]] = [domainQs[j], domainQs[i]];
+        }
+        let picked = 0;
+        for (const q of domainQs) {
+          if (picked >= needed) break;
+          if (used.has(q.conceptId)) continue;
+          used.add(q.conceptId);
+          if (q.variants && q.variants.length > 0) {
+            const v = q.variants[Math.floor(Math.random() * q.variants.length)];
+            result.push({ ...q, text: v.text, options: v.options, answer: v.answer, variants: undefined });
+          } else {
+            result.push({ ...q, variants: undefined });
+          }
+          picked++;
+        }
+      });
+    }
+
+    // 如果还不够 count，从池里剩余补
     if (result.length < count) {
       const remaining = pool.filter(q => !used.has(q.conceptId));
       for (let i = remaining.length - 1; i > 0; i--) {
@@ -235,7 +318,7 @@ class ExamEngine {
       }
     }
 
-    // Final shuffle so domains are interleaved
+    // Final shuffle
     for (let i = result.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [result[i], result[j]] = [result[j], result[i]];

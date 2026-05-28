@@ -5,8 +5,8 @@
     "type": "pool",
     "syllabusVersion": "H12-811-V1.0",
     "syllabusDate": "2025-2026",
-    "totalQuestions": 400,
-    "lastUpdated": "2026-05-27"
+    "totalQuestions": 449,
+    "lastUpdated": "2026-05-28"
   },
   "questions": [
     {
@@ -43,7 +43,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_net_002",
@@ -79,7 +80,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_net_003",
@@ -114,7 +116,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_net_004",
@@ -150,7 +153,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_net_005",
@@ -186,7 +190,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_net_006",
@@ -222,7 +227,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_net_007",
@@ -257,7 +263,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_net_008",
@@ -293,7 +300,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_vlan_001",
@@ -338,7 +346,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_vlan_002",
@@ -374,7 +383,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_vlan_003",
@@ -420,7 +430,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_vlan_004",
@@ -456,7 +467,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_vlan_005",
@@ -492,7 +504,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_vlan_006",
@@ -528,7 +541,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_vlan_007",
@@ -563,7 +577,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_stp_001",
@@ -598,7 +613,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_stp_002",
@@ -633,7 +649,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_stp_003",
@@ -668,7 +685,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_stp_004",
@@ -704,7 +722,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_stp_005",
@@ -739,7 +758,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_lag_001",
@@ -775,7 +795,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_lag_002",
@@ -811,7 +832,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_static_001",
@@ -846,7 +868,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_static_002",
@@ -882,7 +905,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_static_003",
@@ -918,7 +942,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_ospf_001",
@@ -953,7 +978,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_ospf_002",
@@ -989,7 +1015,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_ospf_003",
@@ -1025,7 +1052,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_ospf_004",
@@ -1061,7 +1089,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_ospf_005",
@@ -1097,7 +1126,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_ospf_006",
@@ -1133,7 +1163,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_acl_001",
@@ -1168,7 +1199,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_acl_002",
@@ -1203,7 +1235,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_acl_003",
@@ -1238,7 +1271,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_nat_001",
@@ -1273,7 +1307,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_nat_002",
@@ -1308,7 +1343,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_nat_003",
@@ -1343,7 +1379,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_security_001",
@@ -1379,7 +1416,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_security_002",
@@ -1414,7 +1452,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_security_003",
@@ -1450,7 +1489,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_dhcp_001",
@@ -1485,7 +1525,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_dhcp_002",
@@ -1521,7 +1562,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_ipv6_001",
@@ -1556,7 +1598,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_ipv6_002",
@@ -1592,7 +1635,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_ipv6_003",
@@ -1628,7 +1672,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_wlan_001",
@@ -1664,7 +1709,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_wlan_002",
@@ -1700,7 +1746,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_wlan_003",
@@ -1735,7 +1782,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_wlan_007",
@@ -1771,7 +1819,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_wlan_008",
@@ -1807,7 +1856,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_wlan_009",
@@ -1843,7 +1893,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_ppp_001",
@@ -1879,7 +1930,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_ppp_002",
@@ -1914,7 +1966,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_sdn_001",
@@ -1949,7 +2002,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_sdn_002",
@@ -1985,7 +2039,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_auto_001",
@@ -2020,7 +2075,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_trouble_001",
@@ -2055,7 +2111,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_trouble_002",
@@ -2091,7 +2148,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_snmp_001",
@@ -2126,7 +2184,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_wlan_004",
@@ -2162,7 +2221,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_wlan_005",
@@ -2198,7 +2258,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_wlan_006",
@@ -2234,7 +2295,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_routing_004",
@@ -2270,7 +2332,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_routing_005",
@@ -2306,7 +2369,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_routing_006",
@@ -2342,7 +2406,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_security_004",
@@ -2378,7 +2443,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_security_005",
@@ -2414,7 +2480,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_dc_001",
@@ -2449,7 +2516,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_dc_002",
@@ -2485,7 +2553,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_dc_003",
@@ -2521,7 +2590,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_dc_004",
@@ -2557,7 +2627,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_campus_001",
@@ -2592,7 +2663,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_campus_002",
@@ -2627,7 +2699,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_campus_003",
@@ -2663,7 +2736,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_campus_004",
@@ -2699,7 +2773,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_vlan_008",
@@ -2735,7 +2810,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_stp_006",
@@ -2771,7 +2847,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_ipv6_004",
@@ -2806,7 +2883,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_net_009",
@@ -2842,7 +2920,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_net_010",
@@ -2877,7 +2956,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_routing_007",
@@ -2913,7 +2993,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_routing_008",
@@ -2949,7 +3030,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_routing_009",
@@ -2985,7 +3067,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_routing_010",
@@ -3021,7 +3104,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_routing_011",
@@ -3057,7 +3141,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_sw_001",
@@ -3092,7 +3177,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_sw_002",
@@ -3128,7 +3214,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_sw_003",
@@ -3164,7 +3251,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_sw_004",
@@ -3200,7 +3288,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_sec_006",
@@ -3236,7 +3325,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_sec_007",
@@ -3272,7 +3362,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_sec_008",
@@ -3308,7 +3399,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_mgmt_001",
@@ -3344,7 +3436,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_mgmt_002",
@@ -3380,7 +3473,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_mgmt_003",
@@ -3416,7 +3510,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_mgmt_004",
@@ -3453,7 +3548,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_dc_005",
@@ -3489,7 +3585,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_campus_005",
@@ -3525,7 +3622,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_wlan_010",
@@ -3562,7 +3660,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_stp_007",
@@ -3598,7 +3697,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-osi-tcp_0",
@@ -3622,7 +3722,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-subnet-calc_0",
@@ -3646,7 +3747,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-arp_0",
@@ -3669,7 +3771,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-vlan-purpose_0",
@@ -3692,7 +3795,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-access-trunk_0",
@@ -3716,7 +3820,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-stp-root_0",
@@ -3739,7 +3844,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-ospf-neighbor_0",
@@ -3762,7 +3868,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-ospf-dr_0",
@@ -3786,7 +3893,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-static-route_0",
@@ -3809,7 +3917,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-default-route_0",
@@ -3832,7 +3941,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-acl-basic_0",
@@ -3855,7 +3965,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-nat-outbound_0",
@@ -3878,7 +3989,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-dhcp-flow_0",
@@ -3901,7 +4013,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-ipv6-link-local_0",
@@ -3924,7 +4037,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-lacp-mode_0",
@@ -3948,7 +4062,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-ssh-telnet_0",
@@ -3973,7 +4088,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-ospf-cost_0",
@@ -3997,7 +4113,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-port-security_0",
@@ -4021,7 +4138,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-rstp-edge_0",
@@ -4044,7 +4162,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_120",
@@ -4065,7 +4184,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_121",
@@ -4086,7 +4206,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_122",
@@ -4107,7 +4228,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_123",
@@ -4128,7 +4250,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_124",
@@ -4149,7 +4272,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_125",
@@ -4170,7 +4294,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_126",
@@ -4191,7 +4316,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_127",
@@ -4212,7 +4338,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_128",
@@ -4233,7 +4360,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_129",
@@ -4254,7 +4382,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_130",
@@ -4275,7 +4404,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_131",
@@ -4296,7 +4426,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_132",
@@ -4317,7 +4448,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_133",
@@ -4338,7 +4470,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_134",
@@ -4359,7 +4492,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_135",
@@ -4380,7 +4514,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_136",
@@ -4401,7 +4536,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_137",
@@ -4422,7 +4558,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_138",
@@ -4443,7 +4580,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_139",
@@ -4464,7 +4602,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_140",
@@ -4485,7 +4624,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_141",
@@ -4506,7 +4646,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_142",
@@ -4527,7 +4668,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_143",
@@ -4548,7 +4690,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_144",
@@ -4569,7 +4712,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_145",
@@ -4590,7 +4734,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_146",
@@ -4611,7 +4756,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_147",
@@ -4632,7 +4778,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_148",
@@ -4653,7 +4800,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_149",
@@ -4674,7 +4822,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_150",
@@ -4695,7 +4844,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_151",
@@ -4716,7 +4866,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_152",
@@ -4737,7 +4888,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_153",
@@ -4758,7 +4910,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_154",
@@ -4779,7 +4932,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_155",
@@ -4800,7 +4954,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_156",
@@ -4821,7 +4976,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_157",
@@ -4842,7 +4998,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_158",
@@ -4863,7 +5020,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_159",
@@ -4884,7 +5042,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_160",
@@ -4905,7 +5064,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_161",
@@ -4926,7 +5086,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_162",
@@ -4947,7 +5108,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_163",
@@ -4968,7 +5130,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_164",
@@ -4989,7 +5152,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_165",
@@ -5010,7 +5174,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_166",
@@ -5031,7 +5196,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_167",
@@ -5052,7 +5218,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_168",
@@ -5073,7 +5240,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_169",
@@ -5094,7 +5262,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_170",
@@ -5115,7 +5284,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_171",
@@ -5136,7 +5306,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_172",
@@ -5157,7 +5328,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_173",
@@ -5178,7 +5350,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_174",
@@ -5199,7 +5372,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_175",
@@ -5220,7 +5394,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_176",
@@ -5241,7 +5416,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_177",
@@ -5262,7 +5438,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_178",
@@ -5283,7 +5460,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_179",
@@ -5304,7 +5482,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_180",
@@ -5325,7 +5504,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_181",
@@ -5346,7 +5526,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_182",
@@ -5367,7 +5548,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_183",
@@ -5388,7 +5570,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_184",
@@ -5409,7 +5592,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_185",
@@ -5430,7 +5614,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_186",
@@ -5451,7 +5636,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_187",
@@ -5472,7 +5658,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_188",
@@ -5493,7 +5680,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_189",
@@ -5514,7 +5702,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_190",
@@ -5535,7 +5724,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_191",
@@ -5556,7 +5746,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_192",
@@ -5577,7 +5768,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_193",
@@ -5598,7 +5790,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_194",
@@ -5619,7 +5812,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_195",
@@ -5640,7 +5834,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_196",
@@ -5661,7 +5856,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_197",
@@ -5682,7 +5878,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_198",
@@ -5703,7 +5900,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_199",
@@ -5724,7 +5922,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_200",
@@ -5745,7 +5944,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_201",
@@ -5770,7 +5970,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_202",
@@ -5795,7 +5996,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_203",
@@ -5819,7 +6021,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_204",
@@ -5843,7 +6046,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_205",
@@ -5867,7 +6071,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_206",
@@ -5891,7 +6096,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_207",
@@ -5915,7 +6121,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_208",
@@ -5939,7 +6146,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_209",
@@ -5963,7 +6171,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_210",
@@ -5987,7 +6196,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_211",
@@ -6012,7 +6222,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_212",
@@ -6037,7 +6248,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_213",
@@ -6061,7 +6273,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_214",
@@ -6085,7 +6298,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_215",
@@ -6109,7 +6323,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_216",
@@ -6133,7 +6348,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_217",
@@ -6157,7 +6373,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_218",
@@ -6181,7 +6398,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_219",
@@ -6205,7 +6423,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_220",
@@ -6229,7 +6448,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_221",
@@ -6253,7 +6473,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_222",
@@ -6277,7 +6498,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_223",
@@ -6302,7 +6524,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_224",
@@ -6326,7 +6549,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_225",
@@ -6351,7 +6575,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_226",
@@ -6376,7 +6601,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_227",
@@ -6400,7 +6626,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_228",
@@ -6424,7 +6651,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_229",
@@ -6448,7 +6676,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_230",
@@ -6472,7 +6701,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_231",
@@ -6497,7 +6727,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_232",
@@ -6521,7 +6752,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_233",
@@ -6545,7 +6777,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_234",
@@ -6570,7 +6803,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_235",
@@ -6594,7 +6828,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_236",
@@ -6618,7 +6853,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_237",
@@ -6642,7 +6878,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_238",
@@ -6666,7 +6903,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_239",
@@ -6690,7 +6928,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_240",
@@ -6714,7 +6953,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_241",
@@ -6738,7 +6978,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_242",
@@ -6762,7 +7003,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_243",
@@ -6786,7 +7028,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_244",
@@ -6811,7 +7054,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_245",
@@ -6835,7 +7079,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_246",
@@ -6859,7 +7104,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_247",
@@ -6883,7 +7129,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_248",
@@ -6907,7 +7154,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_249",
@@ -6931,7 +7179,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_250",
@@ -6955,7 +7204,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_251",
@@ -6979,7 +7229,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_252",
@@ -7003,7 +7254,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_253",
@@ -7027,7 +7279,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_254",
@@ -7051,7 +7304,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_255",
@@ -7075,7 +7329,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_256",
@@ -7100,7 +7355,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_257",
@@ -7125,7 +7381,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_258",
@@ -7150,7 +7407,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_259",
@@ -7174,7 +7432,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_260",
@@ -7198,7 +7457,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_261",
@@ -7222,7 +7482,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_262",
@@ -7246,7 +7507,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_263",
@@ -7270,7 +7532,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_264",
@@ -7294,7 +7557,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_265",
@@ -7318,7 +7582,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_266",
@@ -7342,7 +7607,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_267",
@@ -7366,7 +7632,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_268",
@@ -7390,7 +7657,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_269",
@@ -7414,7 +7682,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_270",
@@ -7438,7 +7707,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_271",
@@ -7462,7 +7732,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_272",
@@ -7486,7 +7757,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_273",
@@ -7510,7 +7782,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_274",
@@ -7534,7 +7807,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_275",
@@ -7558,7 +7832,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_276",
@@ -7582,7 +7857,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_277",
@@ -7606,7 +7882,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_278",
@@ -7630,7 +7907,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_279",
@@ -7654,7 +7932,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_280",
@@ -7678,7 +7957,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_281",
@@ -7702,7 +7982,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_282",
@@ -7726,7 +8007,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_283",
@@ -7751,7 +8033,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_284",
@@ -7776,7 +8059,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_285",
@@ -7800,7 +8084,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_286",
@@ -7824,7 +8109,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_287",
@@ -7848,7 +8134,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_288",
@@ -7872,7 +8159,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_289",
@@ -7896,7 +8184,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_290",
@@ -7920,7 +8209,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_291",
@@ -7944,7 +8234,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_292",
@@ -7968,7 +8259,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_293",
@@ -7992,7 +8284,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_294",
@@ -8016,7 +8309,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_295",
@@ -8040,7 +8334,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_296",
@@ -8064,7 +8359,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_297",
@@ -8088,7 +8384,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_298",
@@ -8112,7 +8409,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_299",
@@ -8136,7 +8434,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_300",
@@ -8160,7 +8459,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_301",
@@ -8184,7 +8484,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_302",
@@ -8208,7 +8509,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_303",
@@ -8232,7 +8534,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_304",
@@ -8256,7 +8559,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_305",
@@ -8280,7 +8584,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_306",
@@ -8304,7 +8609,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_307",
@@ -8329,7 +8635,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_308",
@@ -8354,7 +8661,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_309",
@@ -8378,7 +8686,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_310",
@@ -8402,7 +8711,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_311",
@@ -8426,7 +8736,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_312",
@@ -8450,7 +8761,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_313",
@@ -8474,7 +8786,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_314",
@@ -8498,7 +8811,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_315",
@@ -8522,7 +8836,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_316",
@@ -8546,7 +8861,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_317",
@@ -8570,7 +8886,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_318",
@@ -8594,7 +8911,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_319",
@@ -8618,7 +8936,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_320",
@@ -8643,7 +8962,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_321",
@@ -8667,7 +8987,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_322",
@@ -8691,7 +9012,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_323",
@@ -8715,7 +9037,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_324",
@@ -8739,7 +9062,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_325",
@@ -8763,7 +9087,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_326",
@@ -8787,7 +9112,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_327",
@@ -8811,7 +9137,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_328",
@@ -8835,7 +9162,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_329",
@@ -8859,7 +9187,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_330",
@@ -8883,7 +9212,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_331",
@@ -8908,7 +9238,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_332",
@@ -8933,7 +9264,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_333",
@@ -8957,7 +9289,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_334",
@@ -8981,7 +9314,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_335",
@@ -9005,7 +9339,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_336",
@@ -9029,7 +9364,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_337",
@@ -9053,7 +9389,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_338",
@@ -9077,7 +9414,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_339",
@@ -9101,7 +9439,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_340",
@@ -9125,7 +9464,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_341",
@@ -9149,7 +9489,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_342",
@@ -9173,7 +9514,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_343",
@@ -9197,7 +9539,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_344",
@@ -9221,7 +9564,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_345",
@@ -9245,7 +9589,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_346",
@@ -9269,7 +9614,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_347",
@@ -9293,7 +9639,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_348",
@@ -9317,7 +9664,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_349",
@@ -9341,7 +9689,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_350",
@@ -9365,7 +9714,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_351",
@@ -9389,7 +9739,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_352",
@@ -9413,7 +9764,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_353",
@@ -9437,7 +9789,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_354",
@@ -9461,7 +9814,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_355",
@@ -9485,7 +9839,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_356",
@@ -9509,7 +9864,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_357",
@@ -9534,7 +9890,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_358",
@@ -9558,7 +9915,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_359",
@@ -9582,7 +9940,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_360",
@@ -9606,7 +9965,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_361",
@@ -9630,7 +9990,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_362",
@@ -9654,7 +10015,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_363",
@@ -9678,7 +10040,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_364",
@@ -9702,7 +10065,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_365",
@@ -9726,7 +10090,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_366",
@@ -9750,7 +10115,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_367",
@@ -9774,7 +10140,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_368",
@@ -9798,7 +10165,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_369",
@@ -9822,7 +10190,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_370",
@@ -9847,7 +10216,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_371",
@@ -9871,7 +10241,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_372",
@@ -9895,7 +10266,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_373",
@@ -9919,7 +10291,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_374",
@@ -9943,7 +10316,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_375",
@@ -9967,7 +10341,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_376",
@@ -9991,7 +10366,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_377",
@@ -10015,7 +10391,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_378",
@@ -10039,7 +10416,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_379",
@@ -10063,7 +10441,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_380",
@@ -10087,7 +10466,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_381",
@@ -10111,7 +10491,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_382",
@@ -10135,7 +10516,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_383",
@@ -10159,7 +10541,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_384",
@@ -10183,7 +10566,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_385",
@@ -10207,7 +10591,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_386",
@@ -10231,7 +10616,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_387",
@@ -10255,7 +10641,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_388",
@@ -10279,7 +10666,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_389",
@@ -10303,7 +10691,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_390",
@@ -10328,7 +10717,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_391",
@@ -10352,7 +10742,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_392",
@@ -10376,7 +10767,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_393",
@@ -10400,7 +10792,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_394",
@@ -10424,7 +10817,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_395",
@@ -10448,7 +10842,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_396",
@@ -10472,7 +10867,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_397",
@@ -10496,7 +10892,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_398",
@@ -10520,7 +10917,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_399",
@@ -10544,7 +10942,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcia_exp_400",
@@ -10568,7 +10967,1697 @@
           ],
           "answer": "A"
         }
+      ],
+      "type": "single"
+    },
+    {
+      "id": "hcia_001",
+      "conceptId": "hcia-c001",
+      "concept": "OSI 模型功能",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "osi",
+        "huawei"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSI 参考模型中，网络层的功能包括以下哪些？（选2个）",
+          "options": [
+            "A. 路由选择",
+            "B. 逻辑寻址",
+            "C. 端到端可靠传输",
+            "D. 数据编码"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_004",
+      "conceptId": "hcia-c004",
+      "concept": "TCP 头部",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "tcp",
+        "udp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "TCP 报文头部包含以下哪些字段？（选3个）",
+          "options": [
+            "A. 源端口",
+            "B. 序列号",
+            "C. 确认号",
+            "D. MAC 地址"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_005",
+      "conceptId": "hcia-c005",
+      "concept": "ARP 协议",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "arp",
+        "protocol"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 ARP 协议的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 将 IP 地址解析为 MAC 地址",
+            "B. 使用广播请求",
+            "C. 维护 ARP 缓存表",
+            "D. 工作在传输层"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_007",
+      "conceptId": "hcia-c007",
+      "concept": "VLAN 作用",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "vlan",
+        "segmentation"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "VLAN（虚拟局域网）的主要作用包括以下哪些？（选3个）",
+          "options": [
+            "A. 广播隔离",
+            "B. 提高安全性",
+            "C. 简化管理",
+            "D. 替代路由"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_009",
+      "conceptId": "hcia-c009",
+      "concept": "STP 作用",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "stp",
+        "protocol"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "STP（生成树协议）的主要作用包括以下哪些？（选2个）",
+          "options": [
+            "A. 防止二层环路",
+            "B. 提供冗余路径",
+            "C. 负载均衡",
+            "D. 替代 VLAN"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_011",
+      "conceptId": "hcia-c011",
+      "concept": "交换机堆叠",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "stacking",
+        "switching"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于华为交换机堆叠（Stack）的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 多台虚拟成一台逻辑交换机",
+            "B. 跨设备链路聚合",
+            "C. 简化管理",
+            "D. 需要专用堆叠线缆"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_012",
+      "conceptId": "hcia-c012",
+      "concept": "链路聚合",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "link-aggregation",
+        "eth-trunk"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 Eth-Trunk 链路聚合的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. 增加带宽",
+            "B. 提供链路冗余",
+            "C. 需要 STP 配合",
+            "D. 最多聚合 4 条链路"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_014",
+      "conceptId": "hcia-c014",
+      "concept": "OSPF 基本概念",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf",
+        "basic"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 OSPF 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 是链路状态路由协议",
+            "B. 使用 SPF 算法",
+            "C. 维护 LSDB",
+            "D. 使用 Bellman-Ford 算法"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_016",
+      "conceptId": "hcia-c016",
+      "concept": "静态路由配置",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "static",
+        "route"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于静态路由的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. 手动配置",
+            "B. 不消耗网络资源",
+            "C. 自动适应拓扑变化",
+            "D. 适合大型网络"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_018",
+      "conceptId": "hcia-c018",
+      "concept": "IPv6 NDP",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ipv6",
+        "ndp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IPv6 NDP（邻居发现协议）的功能包括以下哪些？（选3个）",
+          "options": [
+            "A. 地址解析",
+            "B. 路由器发现",
+            "C. 无状态地址自动配置",
+            "D. DHCP 替代"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_019",
+      "conceptId": "hcia-c019",
+      "concept": "华为 ACL",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "acl",
+        "huawei"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于华为 ACL 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 基本 ACL 编号 2000-2999",
+            "B. 高级 ACL 编号 3000-3999",
+            "C. ACL 匹配后默认拒绝",
+            "D. ACL 只能用于入方向"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_021",
+      "conceptId": "hcia-c021",
+      "concept": "Easy IP",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "nat",
+        "easy-ip"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于华为 Easy IP（NAPT）的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. 使用出接口 IP 做转换",
+            "B. 适用于小型网络",
+            "C. 需要独立的 IP 地址池",
+            "D. 不支持端口转换"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_023",
+      "conceptId": "hcia-c023",
+      "concept": "华为 AAA",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "aaa",
+        "huawei"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "华为设备上 AAA 支持的认证方式包括以下哪些？（选3个）",
+          "options": [
+            "A. 本地认证",
+            "B. RADIUS 认证",
+            "C. HWTACACS 认证",
+            "D. LDAP 认证"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_025",
+      "conceptId": "hcia-c025",
+      "concept": "华为 WLAN 架构",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan",
+        "huawei"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "华为 AC+AP 无线网络架构包含以下哪些组件？（选3个）",
+          "options": [
+            "A. AC (无线控制器)",
+            "B. AP (接入点)",
+            "C. STA (无线终端)",
+            "D. 核心路由器"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_027",
+      "conceptId": "hcia-c027",
+      "concept": "WLAN 加密",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan",
+        "security"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 WLAN 常用的加密方式？（选3个）",
+          "options": [
+            "A. WEP",
+            "B. WPA2-PSK",
+            "C. WPA3-SAE",
+            "D. IPSec"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_029",
+      "conceptId": "hcia-c029",
+      "concept": "SNMP 配置",
+      "domain": "Network Management",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "snmp",
+        "huawei"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "华为设备上 SNMP 的配置涉及以下哪些参数？（选3个）",
+          "options": [
+            "A. SNMP 版本",
+            "B. 团体名 (Community)",
+            "C. MIB 视图",
+            "D. 路由协议"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_031",
+      "conceptId": "hcia-c031",
+      "concept": "日志管理",
+      "domain": "Network Management",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "logging",
+        "syslog"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "华为设备日志信息包括以下哪些级别？（选3个）",
+          "options": [
+            "A. 紧急 (Emergency)",
+            "B. 告警 (Alert)",
+            "C. 错误 (Error)",
+            "D. 所有 (All)"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_032",
+      "conceptId": "hcia-c032",
+      "concept": "数据中心网络",
+      "domain": "Data Center",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "data-center",
+        "cloud"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "数据中心网络的主要特点包括以下哪些？（选3个）",
+          "options": [
+            "A. 高带宽",
+            "B. 低延迟",
+            "C. 高可靠性",
+            "D. 低安全性"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_033",
+      "conceptId": "hcia-c033",
+      "concept": "园区网络架构",
+      "domain": "Campus Network",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "campus",
+        "architecture"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "典型的园区网络架构包含以下哪些层次？（选3个）",
+          "options": [
+            "A. 接入层",
+            "B. 汇聚层",
+            "C. 核心层",
+            "D. 分布层"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_n1",
+      "conceptId": "hcia_n1-c",
+      "concept": "以太网帧",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ethernet",
+        "frame"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以太网帧包含以下哪些字段？（选3个）",
+          "options": [
+            "A. 目标 MAC 地址",
+            "B. 源 MAC 地址",
+            "C. 类型/长度字段",
+            "D. IP 地址"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_n4",
+      "conceptId": "hcia_n4-c",
+      "concept": "GVRP 协议",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "gvrp",
+        "vlan"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 GVRP（GARP VLAN 注册协议）的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. 动态 VLAN 注册",
+            "B. 在 Trunk 上传播 VLAN 信息",
+            "C. 替代 VTP",
+            "D. 需要手工创建 VLAN"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_n5",
+      "conceptId": "hcia_n5-c",
+      "concept": "RIP 特性",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "eigrp",
+        "diff"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 RIP 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 距离矢量协议",
+            "B. 使用跳数作为度量",
+            "C. 最大跳数 15",
+            "D. 支持 VLSM 和 CIDR"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_n8",
+      "conceptId": "hcia_n8-c",
+      "concept": "安全区域配置",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "security",
+        "zone"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "华为防火墙默认提供以下哪些安全区域？（选3个）",
+          "options": [
+            "A. Trust (优先级 85)",
+            "B. Untrust (优先级 5)",
+            "C. DMZ (优先级 50)",
+            "D. Local (优先级 100)"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_n10",
+      "conceptId": "hcia_n10-c",
+      "concept": "AC 和 AP 连接",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan",
+        "ac-ap"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "华为 AC 和 AP 之间的连接方式包括以下哪些？（选2个）",
+          "options": [
+            "A. 直连 (Direct)",
+            "B. 三层组网 (L3)",
+            "C. 无线连接",
+            "D. 蓝牙连接"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_n11",
+      "conceptId": "hcia_n11-c",
+      "concept": "SNMP 版本选择",
+      "domain": "Network Management",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "snmp",
+        "version"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 SNMP 版本的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. SNMPv1 安全性差",
+            "B. SNMPv2c 改进性能",
+            "C. SNMPv3 支持认证和加密",
+            "D. SNMPv4 最新版本"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_n13",
+      "conceptId": "hcia_n13-c",
+      "concept": "iStack",
+      "domain": "Campus Network",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "stack",
+        "istack"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "华为 iStack 堆叠技术的特点包括以下哪些？（选3个）",
+          "options": [
+            "A. 最多 9 台设备堆叠",
+            "B. 单一 IP 管理",
+            "C. 跨设备链路聚合",
+            "D. 需要额外配置 STP"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_n15",
+      "conceptId": "hcia_n15-c",
+      "concept": "数据中心 Fabric",
+      "domain": "Data Center",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "data-center",
+        "fabric"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "数据中心网络 Fabric 架构的特点包括以下哪些？（选3个）",
+          "options": [
+            "A. Spine-Leaf 架构",
+            "B. 无阻塞转发",
+            "C. 可扩展性强",
+            "D. 三层树形结构"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_001",
+      "conceptId": "hcia-cbool-002",
+      "concept": "TCP/IP 协议",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "tcpip",
+        "protocol"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "TCP/IP 模型中，IP 协议工作在网络层。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_003",
+      "conceptId": "hcia-cbool-004",
+      "concept": "OSI 模型层级",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "osi",
+        "layer"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "OSI 参考模型共有 7 层。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_005",
+      "conceptId": "hcia-cbool-006",
+      "concept": "子网掩码",
+      "domain": "Network Fundamentals",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "subnet"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "子网掩码 255.255.255.0 对应的前缀长度是 /24。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_007",
+      "conceptId": "hcia-cbool-008",
+      "concept": "IPv4 地址",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ipv4"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "IPv4 地址长度为 32 位，使用点分十进制表示。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_009",
+      "conceptId": "hcia-cbool-010",
+      "concept": "TCP 可靠性",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "tcp"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "TCP 是一种面向连接的可靠传输协议。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_011",
+      "conceptId": "hcia-cbool-012",
+      "concept": "ARP 缓存",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "arp"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "ARP 表项一旦建立就永远不会老化。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "错"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_013",
+      "conceptId": "hcia-cbool-014",
+      "concept": "VLAN 隔离",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "vlan"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "VLAN 可以隔离广播域。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_015",
+      "conceptId": "hcia-cbool-016",
+      "concept": "交换机转发",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "switch"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "交换机根据 MAC 地址表进行数据帧转发。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_017",
+      "conceptId": "hcia-cbool-018",
+      "concept": "VLAN 数量",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "vlan"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "标准 802.1Q 最多支持 4096 个 VLAN。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_019",
+      "conceptId": "hcia-cbool-020",
+      "concept": "Trunk 端口",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "trunk"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "Trunk 端口在发送 Native VLAN 数据帧时会打上 802.1Q 标签。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "错"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_021",
+      "conceptId": "hcia-cbool-022",
+      "concept": "STP 协议",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "stp"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "STP 协议可以消除二层网络中的环路。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_023",
+      "conceptId": "hcia-cbool-024",
+      "concept": "MAC 地址表",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "mac"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "交换机首次收到未知目的 MAC 地址的帧时会丢弃。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "错"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_025",
+      "conceptId": "hcia-cbool-026",
+      "concept": "路由表",
+      "domain": "IP Routing",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "路由表中优先级值越小，路由越优先。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_027",
+      "conceptId": "hcia-cbool-028",
+      "concept": "默认路由",
+      "domain": "IP Routing",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "static"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "默认路由的目标网络是 0.0.0.0/0。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_029",
+      "conceptId": "hcia-cbool-030",
+      "concept": "OSPF 协议",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "OSPF 是一种距离矢量路由协议。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "错"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_031",
+      "conceptId": "hcia-cbool-032",
+      "concept": "直连路由",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "当接口配置了 IP 地址并 UP 后，直连路由会自动出现在路由表中。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_033",
+      "conceptId": "hcia-cbool-034",
+      "concept": "IPv6 地址长度",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ipv6"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "IPv6 地址长度为 128 位。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_035",
+      "conceptId": "hcia-cbool-036",
+      "concept": "路由等价",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "当有多条等价路由时，路由器会进行负载分担。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_037",
+      "conceptId": "hcia-cbool-038",
+      "concept": "OSPF 邻居",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "OSPF 中建立了邻接关系的邻居一定处于 Full 状态。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_039",
+      "conceptId": "hcia-cbool-040",
+      "concept": "ACL 过滤",
+      "domain": "Network Security",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "acl"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "ACL 可以用于过滤网络流量。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_041",
+      "conceptId": "hcia-cbool-042",
+      "concept": "NAT 转换",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "nat"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "NAT 技术只能转换源 IP 地址，不能转换端口号。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "错"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_043",
+      "conceptId": "hcia-cbool-044",
+      "concept": "DHCP Snooping",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "dhcp-snooping"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "DHCP Snooping 功能可以防止 DHCP 欺骗攻击。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_045",
+      "conceptId": "hcia-cbool-046",
+      "concept": "端口安全",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "port-security"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "交换机端口安全配置后，默认违规处理方式是丢弃数据包。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "错"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_047",
+      "conceptId": "hcia-cbool-048",
+      "concept": "防火墙区域",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "firewall"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "华为防火墙默认安全区域包括 Trust、Untrust 和 DMZ。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_049",
+      "conceptId": "hcia-cbool-050",
+      "concept": "WLAN 标准",
+      "domain": "WLAN",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "802.11ac 只支持 5GHz 频段。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_051",
+      "conceptId": "hcia-cbool-052",
+      "concept": "无线频段",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "2.4GHz 频段的信道数量比 5GHz 频段更多。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "错"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_053",
+      "conceptId": "hcia-cbool-054",
+      "concept": "CAPWAP 隧道",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "capwap"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "Fit AP 架构中，AP 与 AC 之间通过 CAPWAP 隧道通信。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_055",
+      "conceptId": "hcia-cbool-056",
+      "concept": "SSID 广播",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "无线 AP 默认会广播 SSID。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_057",
+      "conceptId": "hcia-cbool-058",
+      "concept": "SNMP 协议",
+      "domain": "Network Management",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "snmp"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "SNMP 协议用于网络设备的监控和管理。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_059",
+      "conceptId": "hcia-cbool-060",
+      "concept": "SDN 架构",
+      "domain": "Network Management",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "sdn"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "SDN 的核心思想是将控制平面与数据平面分离。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_061",
+      "conceptId": "hcia-cbool-062",
+      "concept": "DHCP 中继",
+      "domain": "Network Management",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "dhcp"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "DHCP 中继可以跨网段分配 IP 地址。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_063",
+      "conceptId": "hcia-cbool-064",
+      "concept": "数据中心网络",
+      "domain": "Data Center",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "dc"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "数据中心网络通常使用三层 Spine-Leaf 架构。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_065",
+      "conceptId": "hcia-cbool-066",
+      "concept": "EVPN",
+      "domain": "Data Center",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "dc"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "EVPN 使用 BGP 作为控制平面协议。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_067",
+      "conceptId": "hcia-cbool-068",
+      "concept": "园区网络",
+      "domain": "Campus Network",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "campus"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "园区网的典型架构包括接入层、汇聚层和核心层。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "对"
+        }
+      ]
+    },
+    {
+      "id": "hcia_bool_069",
+      "conceptId": "hcia-cbool-070",
+      "concept": "堆叠技术",
+      "domain": "Campus Network",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "campus"
+      ],
+      "type": "boolean",
+      "variants": [
+        {
+          "text": "华为 iStack 最多支持 8 台设备组成堆叠。",
+          "options": [
+            "对",
+            "错"
+          ],
+          "answer": "错"
+        }
+      ]
+    },
+    {
+      "id": "hcia_multi_002",
+      "conceptId": "hcia-cmulti-002",
+      "concept": "OSI 各层功能",
+      "domain": "Network Fundamentals",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "osi"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSI 模型中，以下哪些层属于网络层以下（含网络层）？（选3项）",
+          "options": [
+            "A. 网络层",
+            "B. 数据链路层",
+            "C. 物理层",
+            "D. 会话层"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_multi_003",
+      "conceptId": "hcia-cmulti-003",
+      "concept": "VLAN 划分方式",
+      "domain": "Ethernet Switching",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "vlan"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "VLAN 的划分方式包括以下哪些？（选3项）",
+          "options": [
+            "A. 基于端口划分",
+            "B. 基于 MAC 地址划分",
+            "C. 基于子网划分",
+            "D. 基于路由表划分"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_multi_004",
+      "conceptId": "hcia-cmulti-004",
+      "concept": "STP 端口状态",
+      "domain": "Ethernet Switching",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "stp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "STP 协议中端口可能处于以下哪些状态？（选3项）",
+          "options": [
+            "A. 阻塞",
+            "B. 监听",
+            "C. 学习",
+            "D. 丢弃"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_multi_005",
+      "conceptId": "hcia-cmulti-005",
+      "concept": "RSTP 改进",
+      "domain": "Ethernet Switching",
+      "difficulty": "hard",
+      "source": "hcia-pool",
+      "tags": [
+        "rstp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "RSTP 相比 STP 的改进包括以下哪些？（选2项）",
+          "options": [
+            "A. 引入边缘端口",
+            "B. 更快的收敛速度",
+            "C. 增加端口状态数量",
+            "D. 取消根桥选举"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_multi_006",
+      "conceptId": "hcia-cmulti-006",
+      "concept": "路由表构成",
+      "domain": "IP Routing",
+      "difficulty": "easy",
+      "source": "hcia-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "路由表中的关键元素包括以下哪些？（选3项）",
+          "options": [
+            "A. 目的网络地址",
+            "B. 下一跳地址",
+            "C. 出接口",
+            "D. DNS 服务器"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_multi_007",
+      "conceptId": "hcia-cmulti-007",
+      "concept": "OSPF 特点",
+      "domain": "IP Routing",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSPF 协议的特点包括以下哪些？（选3项）",
+          "options": [
+            "A. 链路状态路由协议",
+            "B. 使用 SPF 算法",
+            "C. 基于距离向量",
+            "D. 支持 VLSM"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "hcia_multi_008",
+      "conceptId": "hcia-cmulti-008",
+      "concept": "防火墙安全策略",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "firewall"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "防火墙安全策略的匹配要素包括以下哪些？（选3项）",
+          "options": [
+            "A. 源安全区域",
+            "B. 目的安全区域",
+            "C. 源 IP 地址",
+            "D. MAC 地址"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_multi_009",
+      "conceptId": "hcia-cmulti-009",
+      "concept": "端口安全配置",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "port-security"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "交换机端口安全的违规处理方式包括以下哪些？（选3项）",
+          "options": [
+            "A. Protect",
+            "B. Restrict",
+            "C. Shutdown",
+            "D. Forward"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcia_multi_010",
+      "conceptId": "hcia-cmulti-010",
+      "concept": "无线漫游类型",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "wlan"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "无线网络漫游类型包括以下哪些？（选2项）",
+          "options": [
+            "A. 二层漫游",
+            "B. 三层漫游",
+            "C. VLAN 漫游",
+            "D. IP 漫游"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcia_multi_011",
+      "conceptId": "hcia-cmulti-011",
+      "concept": "网络管理协议",
+      "domain": "Network Management",
+      "difficulty": "medium",
+      "source": "hcia-pool",
+      "tags": [
+        "snmp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是常用的网络管理协议？（选2项）",
+          "options": [
+            "A. SNMP",
+            "B. Telnet",
+            "C. HTTP",
+            "D. FTP"
+          ],
+          "answer": "A,B"
+        }
       ]
     }
-  ]
+  ],
+  "_newCount": 34,
+  "_new": 15
 }

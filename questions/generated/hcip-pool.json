@@ -5,8 +5,8 @@
     "type": "pool",
     "syllabusVersion": "H12-821-V1.0",
     "syllabusDate": "2025-2026",
-    "totalQuestions": 300,
-    "lastUpdated": "2026-05-27"
+    "totalQuestions": 351,
+    "lastUpdated": "2026-05-28"
   },
   "questions": [
     {
@@ -42,7 +42,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_002",
@@ -77,7 +78,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_003",
@@ -112,7 +114,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_004",
@@ -147,7 +150,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_005",
@@ -182,7 +186,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_006",
@@ -217,7 +222,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_007",
@@ -252,7 +258,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_008",
@@ -287,7 +294,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_009",
@@ -322,7 +330,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_010",
@@ -358,7 +367,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_001",
@@ -394,7 +404,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_002",
@@ -429,7 +440,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_003",
@@ -464,7 +476,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_004",
@@ -499,7 +512,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_005",
@@ -534,7 +548,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_001",
@@ -569,7 +584,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_002",
@@ -604,7 +620,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_003",
@@ -639,7 +656,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_004",
@@ -674,7 +692,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_005",
@@ -709,7 +728,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_isis_001",
@@ -744,7 +764,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_isis_002",
@@ -779,7 +800,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_isis_003",
@@ -814,7 +836,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_001",
@@ -850,7 +873,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_002",
@@ -886,7 +910,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_003",
@@ -922,7 +947,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_004",
@@ -958,7 +984,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_005",
@@ -994,7 +1021,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_security_001",
@@ -1029,7 +1057,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_security_002",
@@ -1065,7 +1094,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_security_003",
@@ -1101,7 +1131,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_reliability_001",
@@ -1136,7 +1167,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_reliability_002",
@@ -1171,7 +1203,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_reliability_003",
@@ -1206,7 +1239,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_001",
@@ -1241,7 +1275,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_002",
@@ -1276,7 +1311,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_003",
@@ -1312,7 +1348,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_001",
@@ -1347,7 +1384,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_002",
@@ -1383,7 +1421,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_003",
@@ -1419,7 +1458,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ipv6_001",
@@ -1455,7 +1495,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ipv6_002",
@@ -1491,7 +1532,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_routing_basic_001",
@@ -1526,7 +1568,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_routing_basic_002",
@@ -1562,7 +1605,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_svcs_001",
@@ -1599,7 +1643,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_svcs_002",
@@ -1635,7 +1680,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_solutions_001",
@@ -1671,7 +1717,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_solutions_002",
@@ -1708,7 +1755,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_reliability_004",
@@ -1744,7 +1792,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_006",
@@ -1780,7 +1829,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_007",
@@ -1816,7 +1866,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_008",
@@ -1852,7 +1903,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_009",
@@ -1888,7 +1940,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_security_004",
@@ -1924,7 +1977,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_004",
@@ -1960,7 +2014,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_011",
@@ -1995,7 +2050,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_012",
@@ -2030,7 +2086,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_013",
@@ -2066,7 +2123,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_014",
@@ -2101,7 +2159,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_015",
@@ -2136,7 +2195,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_016",
@@ -2171,7 +2231,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_010",
@@ -2206,7 +2267,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_011",
@@ -2242,7 +2304,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_012",
@@ -2278,7 +2341,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_013",
@@ -2314,7 +2378,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_014",
@@ -2350,7 +2415,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_isis_004",
@@ -2386,7 +2452,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_isis_005",
@@ -2422,7 +2489,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_isis_006",
@@ -2458,7 +2526,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_006",
@@ -2494,7 +2563,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_007",
@@ -2530,7 +2600,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_008",
@@ -2565,7 +2636,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_006",
@@ -2601,7 +2673,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_007",
@@ -2638,7 +2711,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_008",
@@ -2674,7 +2748,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_security_005",
@@ -2710,7 +2785,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_security_006",
@@ -2747,7 +2823,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_security_007",
@@ -2783,7 +2860,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_reliability_005",
@@ -2819,7 +2897,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_reliability_006",
@@ -2855,7 +2934,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_004",
@@ -2891,7 +2971,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_005",
@@ -2928,7 +3009,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_005",
@@ -2964,7 +3046,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_006",
@@ -3000,7 +3083,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ipv6_003",
@@ -3036,7 +3120,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_routing_basic_003",
@@ -3072,7 +3157,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_017",
@@ -3108,7 +3194,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_015",
@@ -3144,7 +3231,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_016",
@@ -3180,7 +3268,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_009",
@@ -3216,7 +3305,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_010",
@@ -3251,7 +3341,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_009",
@@ -3288,7 +3379,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_security_008",
@@ -3324,7 +3416,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_security_009",
@@ -3360,7 +3453,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_isis_007",
@@ -3395,7 +3489,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_isis_008",
@@ -3430,7 +3525,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_reliability_007",
@@ -3466,7 +3562,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_reliability_008",
@@ -3502,7 +3599,8 @@
           ],
           "answer": "C"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_007",
@@ -3538,7 +3636,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_006",
@@ -3574,7 +3673,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multi_001",
@@ -3712,7 +3812,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "huawei_shared-vrrp-purpose_0",
@@ -3736,7 +3837,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_108",
@@ -3760,7 +3862,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_109",
@@ -3784,7 +3887,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_110",
@@ -3808,7 +3912,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_111",
@@ -3832,7 +3937,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_112",
@@ -3856,7 +3962,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_113",
@@ -3880,7 +3987,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_114",
@@ -3904,7 +4012,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_115",
@@ -3928,7 +4037,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_116",
@@ -3952,7 +4062,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_117",
@@ -3976,7 +4087,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_118",
@@ -4000,7 +4112,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_119",
@@ -4024,7 +4137,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_120",
@@ -4048,7 +4162,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_121",
@@ -4072,7 +4187,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_122",
@@ -4096,7 +4212,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_123",
@@ -4120,7 +4237,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_124",
@@ -4144,7 +4262,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_125",
@@ -4168,7 +4287,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_126",
@@ -4192,7 +4312,8 @@
           ],
           "answer": "B"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_127",
@@ -4216,7 +4337,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_128",
@@ -4240,7 +4362,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_129",
@@ -4264,7 +4387,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_130",
@@ -4288,7 +4412,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_131",
@@ -4312,7 +4437,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_132",
@@ -4336,7 +4462,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_133",
@@ -4360,7 +4487,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_134",
@@ -4384,7 +4512,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_135",
@@ -4408,7 +4537,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_136",
@@ -4432,7 +4562,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_137",
@@ -4456,7 +4587,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_138",
@@ -4480,7 +4612,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_139",
@@ -4504,7 +4637,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_bgp_140",
@@ -4528,7 +4662,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_141",
@@ -4552,7 +4687,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_142",
@@ -4576,7 +4712,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_143",
@@ -4600,7 +4737,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_144",
@@ -4624,7 +4762,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_145",
@@ -4648,7 +4787,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_146",
@@ -4672,7 +4812,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_147",
@@ -4696,7 +4837,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_148",
@@ -4720,7 +4862,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_149",
@@ -4744,7 +4887,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_150",
@@ -4768,7 +4912,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_151",
@@ -4792,7 +4937,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_152",
@@ -4816,7 +4962,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_153",
@@ -4840,7 +4987,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_154",
@@ -4864,7 +5012,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_155",
@@ -4888,7 +5037,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_156",
@@ -4912,7 +5062,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_157",
@@ -4936,7 +5087,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_158",
@@ -4960,7 +5112,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_159",
@@ -4984,7 +5137,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_160",
@@ -5008,7 +5162,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_161",
@@ -5032,7 +5187,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_162",
@@ -5056,7 +5212,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_163",
@@ -5080,7 +5237,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_164",
@@ -5104,7 +5262,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_165",
@@ -5128,7 +5287,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_166",
@@ -5152,7 +5312,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_167",
@@ -5176,7 +5337,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_168",
@@ -5200,7 +5362,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_169",
@@ -5224,7 +5387,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_170",
@@ -5248,7 +5412,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ospf_171",
@@ -5272,7 +5437,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_172",
@@ -5296,7 +5462,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_173",
@@ -5320,7 +5487,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_174",
@@ -5344,7 +5512,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_175",
@@ -5368,7 +5537,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_176",
@@ -5392,7 +5562,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_177",
@@ -5416,7 +5587,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_178",
@@ -5440,7 +5612,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_179",
@@ -5464,7 +5637,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_180",
@@ -5488,7 +5662,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_181",
@@ -5512,7 +5687,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_182",
@@ -5536,7 +5712,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_183",
@@ -5560,7 +5737,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_184",
@@ -5584,7 +5762,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_185",
@@ -5608,7 +5787,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_186",
@@ -5632,7 +5812,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_187",
@@ -5656,7 +5837,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_188",
@@ -5680,7 +5862,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_189",
@@ -5704,7 +5887,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_route_control_190",
@@ -5728,7 +5912,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_191",
@@ -5752,7 +5937,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_192",
@@ -5776,7 +5962,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_193",
@@ -5800,7 +5987,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_194",
@@ -5824,7 +6012,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_195",
@@ -5848,7 +6037,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_196",
@@ -5872,7 +6062,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_197",
@@ -5896,7 +6087,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_198",
@@ -5920,7 +6112,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_199",
@@ -5944,7 +6137,8 @@
           ],
           "answer": "D"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_200",
@@ -5968,7 +6162,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_201",
@@ -5992,7 +6187,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_202",
@@ -6016,7 +6212,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_203",
@@ -6040,7 +6237,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_204",
@@ -6064,7 +6262,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_205",
@@ -6088,7 +6287,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_206",
@@ -6112,7 +6312,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_multicast_207",
@@ -6136,7 +6337,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_208",
@@ -6160,7 +6362,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_209",
@@ -6184,7 +6387,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_210",
@@ -6208,7 +6412,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_211",
@@ -6232,7 +6437,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_212",
@@ -6256,7 +6462,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_213",
@@ -6280,7 +6487,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_214",
@@ -6304,7 +6512,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_215",
@@ -6328,7 +6537,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_216",
@@ -6352,7 +6562,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_217",
@@ -6376,7 +6587,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_218",
@@ -6400,7 +6612,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_219",
@@ -6424,7 +6637,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_220",
@@ -6448,7 +6662,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_221",
@@ -6472,7 +6687,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_222",
@@ -6496,7 +6712,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_223",
@@ -6520,7 +6737,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_security_224",
@@ -6544,7 +6762,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_225",
@@ -6568,7 +6787,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_226",
@@ -6592,7 +6812,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_227",
@@ -6616,7 +6837,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_228",
@@ -6640,7 +6862,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_229",
@@ -6664,7 +6887,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_230",
@@ -6688,7 +6912,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_231",
@@ -6712,7 +6937,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_232",
@@ -6736,7 +6962,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_233",
@@ -6760,7 +6987,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_234",
@@ -6784,7 +7012,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_235",
@@ -6808,7 +7037,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_236",
@@ -6832,7 +7062,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_237",
@@ -6856,7 +7087,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_238",
@@ -6880,7 +7112,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_is_is_239",
@@ -6904,7 +7137,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_240",
@@ -6928,7 +7162,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_241",
@@ -6952,7 +7187,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_242",
@@ -6976,7 +7212,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_243",
@@ -7000,7 +7237,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_244",
@@ -7024,7 +7262,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_245",
@@ -7048,7 +7287,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_246",
@@ -7072,7 +7312,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_247",
@@ -7096,7 +7337,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_248",
@@ -7120,7 +7362,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_249",
@@ -7144,7 +7387,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_250",
@@ -7168,7 +7412,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_251",
@@ -7192,7 +7437,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_252",
@@ -7216,7 +7462,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_253",
@@ -7240,7 +7487,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_reliability_254",
@@ -7264,7 +7512,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_255",
@@ -7288,7 +7537,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_256",
@@ -7312,7 +7562,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_257",
@@ -7336,7 +7587,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_258",
@@ -7360,7 +7612,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_259",
@@ -7384,7 +7637,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_260",
@@ -7408,7 +7662,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_261",
@@ -7432,7 +7687,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_262",
@@ -7456,7 +7712,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_263",
@@ -7480,7 +7737,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_264",
@@ -7504,7 +7762,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_265",
@@ -7528,7 +7787,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_266",
@@ -7552,7 +7812,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_267",
@@ -7576,7 +7837,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_switching_268",
@@ -7600,7 +7862,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_269",
@@ -7624,7 +7887,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_270",
@@ -7648,7 +7912,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_271",
@@ -7672,7 +7937,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_272",
@@ -7696,7 +7962,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_273",
@@ -7720,7 +7987,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_274",
@@ -7744,7 +8012,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_275",
@@ -7768,7 +8037,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_276",
@@ -7792,7 +8062,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_277",
@@ -7816,7 +8087,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_278",
@@ -7840,7 +8112,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_279",
@@ -7864,7 +8137,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_wlan_280",
@@ -7888,7 +8162,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ipv6_281",
@@ -7912,7 +8187,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ipv6_282",
@@ -7936,7 +8212,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ipv6_283",
@@ -7960,7 +8237,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ipv6_284",
@@ -7984,7 +8262,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ipv6_285",
@@ -8008,7 +8287,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_ipv6_286",
@@ -8032,7 +8312,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_routing_basics_287",
@@ -8056,7 +8337,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_routing_basics_288",
@@ -8080,7 +8362,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_routing_basics_289",
@@ -8104,7 +8387,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_routing_basics_290",
@@ -8128,7 +8412,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_routing_basics_291",
@@ -8152,7 +8437,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_routing_basics_292",
@@ -8176,7 +8462,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_services_293",
@@ -8200,7 +8487,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_services_294",
@@ -8224,7 +8512,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_services_295",
@@ -8248,7 +8537,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_services_296",
@@ -8272,7 +8562,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_solutions_297",
@@ -8296,7 +8587,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_solutions_298",
@@ -8320,7 +8612,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_solutions_299",
@@ -8344,7 +8637,8 @@
           ],
           "answer": "A"
         }
-      ]
+      ],
+      "type": "single"
     },
     {
       "id": "hcip_network_solutions_300",
@@ -8368,7 +8662,5121 @@
           ],
           "answer": "A"
         }
+      ],
+      "type": "single"
+    },
+    {
+      "id": "hcip_001",
+      "conceptId": "hcip-c001",
+      "concept": "BGP 属性分类",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "attributes"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 BGP 的公认自决（Well-known discretionary）属性？（选2个）",
+          "options": [
+            "A. LOCAL_PREF",
+            "B. ATOMIC_AGGREGATE",
+            "C. MED",
+            "D. Community"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_002",
+      "conceptId": "hcip-c002",
+      "concept": "BGP 状态机",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "states"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 BGP 邻居状态按建立过程顺序排列：",
+          "options": [
+            "Connect",
+            "OpenSent",
+            "Idle",
+            "Active",
+            "Established",
+            "OpenConfirm"
+          ],
+          "answer": "2,0,3,1,5,4"
+        }
+      ]
+    },
+    {
+      "id": "hcip_003",
+      "conceptId": "hcip-c003",
+      "concept": "BGP AS 号",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "as"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "16 位 BGP AS 号的范围是 1 到______。",
+          "options": [],
+          "answer": "65535"
+        }
+      ]
+    },
+    {
+      "id": "hcip_004",
+      "conceptId": "hcip-c004",
+      "concept": "BGP Community",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "community"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 BGP 标准 Community 属性值？（选3个）",
+          "options": [
+            "A. NO_EXPORT (0xFFFFFF01)",
+            "B. NO_ADVERTISE (0xFFFFFF02)",
+            "C. LOCAL_AS (0xFFFFFF03)",
+            "D. INTERNET (0)"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_005",
+      "conceptId": "hcip-c005",
+      "concept": "OSPF LSA 类型",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "lsa"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 OSPF 常见的 LSA 类型？（选3个）",
+          "options": [
+            "A. Type-1 Router LSA",
+            "B. Type-2 Network LSA",
+            "C. Type-3 Summary LSA",
+            "D. Type-7 NSSA LSA"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_006",
+      "conceptId": "hcip-c006",
+      "concept": "OSPF 报文类型",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "packet"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 OSPF 报文类型按使用顺序排列（从邻居发现开始）：",
+          "options": [
+            "Hello 报文",
+            "DBD 报文",
+            "LSR 报文",
+            "LSU 报文"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_007",
+      "conceptId": "hcip-c007",
+      "concept": "OSPF DR 选举",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "dr"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "OSPF 在 Broadcast 网络中，DR 和 BDR 的选举基于______优先级。",
+          "options": [],
+          "answer": "接口"
+        }
+      ]
+    },
+    {
+      "id": "hcip_008",
+      "conceptId": "hcip-c008",
+      "concept": "OSPF 特殊区域",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "special-area"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 OSPF 的特殊区域类型？（选3个）",
+          "options": [
+            "A. Stub 区域",
+            "B. NSSA 区域",
+            "C. Totally Stub 区域",
+            "D. Backbone 区域"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_009",
+      "conceptId": "hcip-c009",
+      "concept": "IS-IS 基本概念",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis",
+        "protocol"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 IS-IS 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 是链路状态协议",
+            "B. 支持 CLNS 网络",
+            "C. 使用 SPF 算法",
+            "D. 仅支持 IPv4"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_010",
+      "conceptId": "hcip-c010",
+      "concept": "IS-IS Level",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis",
+        "level"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "IS-IS 中，Level-1 路由器只维护______区域的 LSDB。",
+          "options": [],
+          "answer": "本"
+        }
+      ]
+    },
+    {
+      "id": "hcip_011",
+      "conceptId": "hcip-c011",
+      "concept": "IS-IS NET",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis",
+        "nets"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IS-IS 网络实体名称（NET）包含以下哪些部分？（选3个）",
+          "options": [
+            "A. Area ID",
+            "B. System ID",
+            "C. SEL (NSEL)",
+            "D. Router ID"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_012",
+      "conceptId": "hcip-c012",
+      "concept": "IS-IS 邻接",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis",
+        "adjacency"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 IS-IS 邻接建立过程按顺序排列：",
+          "options": [
+            "Level-1/Level-2 决定",
+            "IIH 报文交换",
+            "LSDB 同步"
+          ],
+          "answer": "1,0,2"
+        }
+      ]
+    },
+    {
+      "id": "hcip_013",
+      "conceptId": "hcip-c013",
+      "concept": "路由策略工具",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "filter",
+        "route-policy"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "华为设备上以下哪些是路由过滤工具？（选3个）",
+          "options": [
+            "A. 基本 ACL",
+            "B. IP 前缀列表 (IP-Prefix)",
+            "C. Route-Policy",
+            "D. BGP Community"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_014",
+      "conceptId": "hcip-c014",
+      "concept": "Route-Policy 配置",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy",
+        "apply"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 Route-Policy 的配置步骤按顺序排列：",
+          "options": [
+            "定义 if-match 条件",
+            "定义 apply 动作",
+            "将 Route-Policy 应用到协议"
+          ],
+          "answer": "0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "hcip_015",
+      "conceptId": "hcip-c015",
+      "concept": "IP 前缀列表",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "prefix-list",
+        "huawei"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "华为 IP 前缀列表（ip ip-prefix）的匹配规则是基于______掩码范围。",
+          "options": [],
+          "answer": "前缀"
+        }
+      ]
+    },
+    {
+      "id": "hcip_016",
+      "conceptId": "hcip-c016",
+      "concept": "路由重分发",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "redistribution",
+        "route"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于路由重分发的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. 可在不同协议间引入路由",
+            "B. 支持路由过滤",
+            "C. 自动避免环路",
+            "D. 不能控制引入路由的开销"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_017",
+      "conceptId": "hcip-c017",
+      "concept": "IGMP 版本",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "igmp",
+        "multicast"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 IGMP 的版本？（选3个）",
+          "options": [
+            "A. IGMPv1",
+            "B. IGMPv2",
+            "C. IGMPv3",
+            "D. IGMPv4"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_018",
+      "conceptId": "hcip-c018",
+      "concept": "PIM RP",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "pim",
+        "rp"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "PIM-SM 中，组播数据流的汇聚点是______。",
+          "options": [],
+          "answer": "RP"
+        }
+      ]
+    },
+    {
+      "id": "hcip_019",
+      "conceptId": "hcip-c019",
+      "concept": "PIM 模式",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "pim",
+        "mode"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 PIM 的工作模式？（选3个）",
+          "options": [
+            "A. PIM-DM (密集模式)",
+            "B. PIM-SM (稀疏模式)",
+            "C. PIM-SSM (指定源)",
+            "D. PIM-BM (广播模式)"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_020",
+      "conceptId": "hcip-c020",
+      "concept": "华为 IPsec",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ipsec",
+        "huawei"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "华为设备上 IPsec 配置包括以下哪些步骤？（选3个）",
+          "options": [
+            "A. 配置 IKE 提议",
+            "B. 配置 IPsec 策略",
+            "C. 配置安全 ACL",
+            "D. 配置 OSPF"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_021",
+      "conceptId": "hcip-c021",
+      "concept": "IPsec 协商过程",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ipsec",
+        "process"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 IPsec 协商建立过程按顺序排列：",
+          "options": [
+            "IKE 阶段1 建立 ISAKMP SA",
+            "IKE 阶段2 建立 IPsec SA",
+            "IPsec 保护数据传输"
+          ],
+          "answer": "0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "hcip_022",
+      "conceptId": "hcip-c022",
+      "concept": "防火墙会话",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "firewall",
+        "session"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "华为防火墙中，检查数据包并建立会话表的机制称为______检测。",
+          "options": [],
+          "answer": "状态"
+        }
+      ]
+    },
+    {
+      "id": "hcip_023",
+      "conceptId": "hcip-c023",
+      "concept": "BFD 检测",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bfd",
+        "reliability"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 BFD 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 毫秒级故障检测",
+            "B. 与路由协议联动",
+            "C. 支持快速收敛",
+            "D. 替代路由协议"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_024",
+      "conceptId": "hcip-c024",
+      "concept": "VRRP 优先级",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "vrrp",
+        "huawei"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "华为设备上 VRRP 的默认优先级值是______。",
+          "options": [],
+          "answer": "100"
+        }
+      ]
+    },
+    {
+      "id": "hcip_025",
+      "conceptId": "hcip-c025",
+      "concept": "VRRP 特性",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "vrrp",
+        "huawei"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 VRRP 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 虚拟路由冗余协议",
+            "B. 支持多备份组",
+            "C. Master 路由器选举基于优先级",
+            "D. 只能实现主备不能负载均衡"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_026",
+      "conceptId": "hcip-c026",
+      "concept": "MSTP",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "mstp",
+        "huawei"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于华为 MSTP 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 基于实例计算生成树",
+            "B. 不同实例可以不同拓扑",
+            "C. 支持 VLAN 负载均衡",
+            "D. 替代 RSTP"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_027",
+      "conceptId": "hcip-c027",
+      "concept": "华为堆叠建立",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "stack",
+        "huawei"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将华为交换机堆叠（iStack）建立过程按顺序排列：",
+          "options": [
+            "连接堆叠线缆",
+            "选举主交换机",
+            "同步配置"
+          ],
+          "answer": "0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "hcip_028",
+      "conceptId": "hcip-c028",
+      "concept": "MUX VLAN",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "vlan",
+        "mux"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "华为技术中，MUX VLAN 包含 Principal VLAN、Separate VLAN 和______VLAN。",
+          "options": [],
+          "answer": "Group"
+        }
+      ]
+    },
+    {
+      "id": "hcip_029",
+      "conceptId": "hcip-c029",
+      "concept": "IPv6 NDP 功能",
+      "domain": "IPv6",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ipv6",
+        "ndp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IPv6 NDP 协议的功能包括以下哪些？（选3个）",
+          "options": [
+            "A. 地址解析",
+            "B. 邻居不可达检测 (NUD)",
+            "C. 重复地址检测 (DAD)",
+            "D. DHCPv6 分配"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_030",
+      "conceptId": "hcip-c030",
+      "concept": "IPv6 地址长度",
+      "domain": "IPv6",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ipv6",
+        "address"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "IPv6 地址的长度为______位。",
+          "options": [],
+          "answer": "128"
+        }
+      ]
+    },
+    {
+      "id": "hcip_031",
+      "conceptId": "hcip-c031",
+      "concept": "IPv6 过渡",
+      "domain": "IPv6",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ipv6",
+        "transition"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 IPv6 过渡技术？（选3个）",
+          "options": [
+            "A. 双栈 (Dual-Stack)",
+            "B. 6to4 隧道",
+            "C. ISATAP 隧道",
+            "D. NAT-PT"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_032",
+      "conceptId": "hcip-c032",
+      "concept": "华为 DHCP",
+      "domain": "Network Services",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "dhcp",
+        "huawei"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "华为设备配置 DHCP 服务器涉及以下哪些步骤？（选3个）",
+          "options": [
+            "A. 启用 DHCP 服务",
+            "B. 配置地址池 (IP Pool)",
+            "C. 接口应用全局地址池",
+            "D. 配置路由协议"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_033",
+      "conceptId": "hcip-c033",
+      "concept": "MPLS VPN",
+      "domain": "Network Solutions",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "mpls",
+        "vpn"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 MPLS VPN 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 使用 MP-BGP 分发 VPNv4 路由",
+            "B. 支持 VPN 实例隔离",
+            "C. 标签用于区分 VPN 和转发",
+            "D. 需要 GRE 隧道"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n1",
+      "conceptId": "hcip_n1-c",
+      "concept": "BGP 路由过滤",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "filter"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 BGP 路由过滤的方法？（选3个）",
+          "options": [
+            "A. 前缀列表 (IP-Prefix)",
+            "B. Route-Policy",
+            "C. Filter-Policy",
+            "D. ACL 2000"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n2",
+      "conceptId": "hcip_n2-c",
+      "concept": "BGP 属性设置顺序",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "attribute-set"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 BGP Route-Policy 中属性设置的执行顺序排列：",
+          "options": [
+            "if-match 匹配条件",
+            "apply 设置属性",
+            "应用到 peer 方向"
+          ],
+          "answer": "0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n3",
+      "conceptId": "hcip_n3-c",
+      "concept": "BGP MED",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "med"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "BGP MED 属性用于影响______方向的选路。",
+          "options": [],
+          "answer": "入"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n4",
+      "conceptId": "hcip_n4-c",
+      "concept": "OSPF 虚链路",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "vlink"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 OSPF 虚链路（Virtual-link）的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. 连接不连续的骨干区域",
+            "B. 穿越非骨干区域",
+            "C. 替代物理连接",
+            "D. 可用于所有区域类型"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n5",
+      "conceptId": "hcip_n5-c",
+      "concept": "OSPF LSA 传播顺序",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "lsa-order"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 OSPF LSA 在多区域中的传播顺序排列：",
+          "options": [
+            "Type-1 Router LSA (本区域)",
+            "Type-3 Summary LSA (传播到其他区域)",
+            "Type-5 External LSA (ASBR 产生)"
+          ],
+          "answer": "0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n6",
+      "conceptId": "hcip_n6-c",
+      "concept": "NSSA LSA",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "nssa"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "NSSA 区域中引入的外部路由使用 Type-______LSA 通告。",
+          "options": [],
+          "answer": "7"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n7",
+      "conceptId": "hcip_n7-c",
+      "concept": "IS-IS 开销",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis",
+        "cost"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 IS-IS 开销的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. 默认开销值为 10",
+            "B. 支持 wide 度量",
+            "C. 自动根据带宽计算",
+            "D. 接口开销可手动配置"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n8",
+      "conceptId": "hcip_n8-c",
+      "concept": "路由策略应用",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "policy",
+        "routing"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些场景适合使用 Route-Policy？（选3个）",
+          "options": [
+            "A. 路由引入时修改开销",
+            "B. BGP 选路控制",
+            "C. 路由过滤",
+            "D. 替代 OSPF"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n9",
+      "conceptId": "hcip_n9-c",
+      "concept": "Filter-Policy",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "filter",
+        "policy"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "华为设备 Filter-Policy 可以过滤______协议路由的接收和发布。",
+          "options": [],
+          "answer": "IGP"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n10",
+      "conceptId": "hcip_n10-c",
+      "concept": "IGMP Snooping",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "igmp",
+        "snooping"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 IGMP Snooping 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 在二层交换机上侦听 IGMP 报文",
+            "B. 建立组播转发表",
+            "C. 减少组播广播泛洪",
+            "D. 替代 PIM 路由"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n11",
+      "conceptId": "hcip_n11-c",
+      "concept": "RP 选举过程",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "rp",
+        "bsr"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 BSR 机制中 RP 选举过程按顺序排列：",
+          "options": [
+            "候选 RP 向 BSR 发送消息",
+            "BSR 收集并选举 RP",
+            "BSR 将 RP 信息泛洪到全网"
+          ],
+          "answer": "0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n12",
+      "conceptId": "hcip_n12-c",
+      "concept": "BFD 配置",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bfd",
+        "config"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于华为 BFD 配置的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. BFD 会话绑定接口",
+            "B. 支持静态和动态 BFD",
+            "C. 最小发送间隔可配置",
+            "D. BFD 自动检测路由协议状态"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n13",
+      "conceptId": "hcip_n13-c",
+      "concept": "以太网 OAM",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "eth-oam",
+        "cfd"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "华为以太网 OAM 中，CFD（Connectivity Fault Detection）是基于 IEEE 802.1______标准。",
+          "options": [],
+          "answer": "ag"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n14",
+      "conceptId": "hcip_n14-c",
+      "concept": "RRPP",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "rrpp",
+        "huawei"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于华为 RRPP（快速环网保护协议）的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 专用于以太网环网拓扑",
+            "B. 毫秒级收敛",
+            "C. 防止二层环路",
+            "D. 替代 STP 协议"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n15",
+      "conceptId": "hcip_n15-c",
+      "concept": "DHCPv6",
+      "domain": "IPv6",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "dhcpv6",
+        "prefix"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 DHCPv6 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 分为有状态和无状态",
+            "B. 无状态配合 RA 使用",
+            "C. 使用 IA_PD 分配前缀",
+            "D. 替代 NDP 协议"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n16",
+      "conceptId": "hcip_n16-c",
+      "concept": "IPsec NAT 穿越",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ipsec",
+        "nat-traversal"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IPsec NAT 穿越（NAT-T）的描述，以下哪些是正确的？（选2个）",
+          "options": [
+            "A. 使用 UDP 4500 封装",
+            "B. 解决 NAT 设备后的问题",
+            "C. 封装方式为 ESP-in-UDP",
+            "D. 仅支持 IKEv1"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n17",
+      "conceptId": "hcip_n17-c",
+      "concept": "DHCP 中继",
+      "domain": "Network Services",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "dhcp",
+        "relay"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 DHCP Relay 的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. 转发 DHCP 广播到服务器",
+            "B. 在接口配置 dhcp relay",
+            "C. 使用 Option 82 添加信息",
+            "D. 替代 DHCP 服务器"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_n18",
+      "conceptId": "hcip_n18-c",
+      "concept": "MPLS LSP",
+      "domain": "Network Solutions",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "mpls",
+        "lsp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 MPLS LSP（标签交换路径）的描述，以下哪些是正确的？（选3个）",
+          "options": [
+            "A. LSP 是单向的",
+            "B. 入节点压入标签",
+            "C. 出节点弹出标签",
+            "D. 使用 STP 建立"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_034",
+      "conceptId": "hcip-mult-034",
+      "concept": "BGP 路由优选原则",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "BGP 选路时优先级最高的属性是以下哪些？（选2项）",
+          "options": [
+            "A. Local_Preference",
+            "B. AS_PATH",
+            "C. MED",
+            "D. Preferred_Value"
+          ],
+          "answer": "A,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_035",
+      "conceptId": "hcip-mult-035",
+      "concept": "BGP 路由优选原则 II",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "BGP 选路时，以下哪些因素会影响路径选择？（选3项）",
+          "options": [
+            "A. 路由的 Local_Preference",
+            "B. 路由的下一跳可达性",
+            "C. 路由的 Cost",
+            "D. AS_PATH 长度"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_036",
+      "conceptId": "hcip-mult-036",
+      "concept": "BGP 团体属性",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "community"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些属于 BGP 公认团体属性？（选3项）",
+          "options": [
+            "A. NO_EXPORT",
+            "B. NO_ADVERTISE",
+            "C. LOCAL_AS",
+            "D. NO_EXPORT_SUBCONFED"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_037",
+      "conceptId": "hcip-mult-037",
+      "concept": "BGP 路由反射器规则",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "rr"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "BGP 路由反射器中，以下哪些描述是正确的？（选2项）",
+          "options": [
+            "A. 客户端收到的路由会反射给所有其他客户端",
+            "B. 非客户端收到的路由不会反射给其他非客户端",
+            "C. 反射器会修改 AS_PATH 属性",
+            "D. 反射器会修改 Next_Hop 属性"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_038",
+      "conceptId": "hcip-mult-038",
+      "concept": "BGP 路由聚合",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "aggregate"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "BGP 路由聚合时，以下哪些说法正确？（选2项）",
+          "options": [
+            "A. 手动聚合会继承所有具体路由的属性",
+            "B. 自动聚合会继承所有具体路由的属性",
+            "C. 手动聚合可以生成比自动聚合更精确的路由",
+            "D. 聚合路由可以减少路由表条目"
+          ],
+          "answer": "C,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_single__039",
+      "conceptId": "hcip-single_-039",
+      "concept": "BGP 选路 IGP Metric",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp"
+      ],
+      "type": "single",
+      "variants": [
+        {
+          "text": "BGP 选路规则中，如果所有比较都相同，最后用什么属性决定最优路径？",
+          "options": [
+            "A. Router_ID",
+            "B. Cluster_List",
+            "C. Originator_ID",
+            "D. Peer_Address"
+          ],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_040",
+      "conceptId": "hcip-mult-040",
+      "concept": "BGP 路由过滤方式",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "filter"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些方法可以用来过滤 BGP 路由？（选3项）",
+          "options": [
+            "A. IP-Prefix List",
+            "B. Route-Policy",
+            "C. ACL",
+            "D. STP"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_041",
+      "conceptId": "hcip-mult-041",
+      "concept": "BGP Keepalive 机制",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "keepalive"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 BGP Keepalive 报文，以下哪些描述正确？（选2项）",
+          "options": [
+            "A. 默认发送间隔为 60 秒",
+            "B. 默认发送间隔为 30 秒",
+            "C. Keepalive 报文包含完整的 BGP 路由表",
+            "D. 保持时间（Hold Time）默认为 180 秒"
+          ],
+          "answer": "A,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_042",
+      "conceptId": "hcip-mult-042",
+      "concept": "BGP 路由黑洞",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "blackhole"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 BGP 路由黑洞问题，以下哪些解决方式正确？（选2项）",
+          "options": [
+            "A. 使用 MPLS LSP 解决",
+            "B. 使用全互联 IBGP 连接",
+            "C. 使用默认路由",
+            "D. 在 ASBR 上做 NAT"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_043",
+      "conceptId": "hcip-mult-043",
+      "concept": "BGP 4 字节 AS 号",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "asn"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 BGP 4 字节 AS 号，以下哪些说法正确？（选2项）",
+          "options": [
+            "A. 4 字节 AS 号取值范围为 1-4294967295",
+            "B. 兼容模式下使用 AS_TRANS（23456）",
+            "C. 所有 BGP 实现都原生支持 4 字节 AS 号",
+            "D. AS 号只能为 2 字节格式"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_044",
+      "conceptId": "hcip-mult-044",
+      "concept": "BGP 路由负载分担",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "load-balance"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "BGP 实现负载分担需要满足哪些条件？（选3项）",
+          "options": [
+            "A. 两条路由的 Preferred_Value 相同",
+            "B. 两条路由的 LOCAL_PREF 相同",
+            "C. 两条路由的 AS_PATH 长度必须相同",
+            "D. 两条路由的 MED 必须相同"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_045",
+      "conceptId": "hcip-mult-045",
+      "concept": "BGP 路由策略控制",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "policy"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "通过 Route-Policy 可以控制 BGP 路由的哪些属性？（选3项）",
+          "options": [
+            "A. Local_Preference",
+            "B. MED",
+            "C. TTL",
+            "D. AS_PATH"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_046",
+      "conceptId": "hcip-mult-046",
+      "concept": "BGP 邻居状态机",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "fsm"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "BGP 邻居状态机中，以下哪些状态可能接收 OPEN 报文？（选2项）",
+          "options": [
+            "A. Active",
+            "B. OpenSent",
+            "C. OpenConfirm",
+            "D. Connect"
+          ],
+          "answer": "A,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_047",
+      "conceptId": "hcip-mult-047",
+      "concept": "BGP 团体属性传递",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "community"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "要使 BGP 团体属性能够传递给邻居，需要配置哪些命令？（选2项）",
+          "options": [
+            "A. peer X.X.X.X advertise-community",
+            "B. peer X.X.X.X reflect-client",
+            "C. ip community-filter",
+            "D. route-policy 中引用 community 属性"
+          ],
+          "answer": "A,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_048",
+      "conceptId": "hcip-mult-048",
+      "concept": "BGP ORF 能力",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "orf"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 BGP 基于前缀的 ORF（Outbound Route Filtering），以下哪些描述正确？（选2项）",
+          "options": [
+            "A. 发送端可以在出方向过滤路由",
+            "B. 接收端可以在入方向请求前缀过滤",
+            "C. ORF 依赖 BGP 的能力协商",
+            "D. ORF 只能在 EBGP 邻居间使用"
+          ],
+          "answer": "B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_049",
+      "conceptId": "hcip-mult-049",
+      "concept": "BGP 路由反射器集群",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "cluster"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 BGP 路由反射器集群，以下哪些说法正确？（选2项）",
+          "options": [
+            "A. 同一集群内可以有多个 RR",
+            "B. Cluster_List 用于防止路由环路",
+            "C. 不同集群间必须使用全互联",
+            "D. Cluster_List 由 Originator_ID 替代"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_028",
+      "conceptId": "hcip-drag-028",
+      "concept": "BGP 选路顺序",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 BGP 选路原则按默认优先级从高到低排列：",
+          "options": [
+            "Preferred_Value",
+            "Local_Preference",
+            "AS_PATH 长度",
+            "MED"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_029",
+      "conceptId": "hcip-drag-029",
+      "concept": "BGP 邻居建立过程",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "neighbor"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 BGP 邻居建立过程按正确顺序排列：",
+          "options": [
+            "发送 OPEN 报文",
+            "TCP 三次握手",
+            "收到 OPEN 并发送 Keepalive",
+            "收到 Keepalive 建立连接"
+          ],
+          "answer": "1,0,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_030",
+      "conceptId": "hcip-drag-030",
+      "concept": "BGP 路由学习过程",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 BGP 路由学习过程按正确顺序排列：",
+          "options": [
+            "建立 TCP 连接",
+            "交换 OPEN 参数",
+            "发送 UPDATE 报文",
+            "维护 Keepalive"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_031",
+      "conceptId": "hcip-drag-031",
+      "concept": "BGP 路由聚合方式选择",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "aggregate"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请按推荐程度从高到低排列 BGP 路由聚合方式：",
+          "options": [
+            "手动聚合（aggregate）",
+            "自动聚合（summary automatic）",
+            "不聚合"
+          ],
+          "answer": "0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_032",
+      "conceptId": "hcip-drag-032",
+      "concept": "BGP 路由属性传递过程",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请按 BGP 报文处理流程将以下步骤排序：",
+          "options": [
+            "接收 UPDATE 报文",
+            "应用入方向 Route-Policy",
+            "BGP 选路",
+            "应用出方向 Route-Policy"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_033",
+      "conceptId": "hcip-drag-033",
+      "concept": "BGP AS_PATH 处理",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "将以下 BGP 路由传播场景按 AS_PATH 长度从短到长排列：",
+          "options": [
+            "EBGP 单跳",
+            "跨 2 个 AS",
+            "跨 3 个 AS",
+            "同一 AS 内的 IBGP"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_031",
+      "conceptId": "hcip-fill-031",
+      "concept": "BGP Hold Time",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "BGP 协议中，Hold Time 的推荐默认值是______秒。",
+          "options": [],
+          "answer": "180"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_032",
+      "conceptId": "hcip-fill-032",
+      "concept": "BGP 路由优先级",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "Huawei 设备上，EBGP 路由的默认协议优先级是______。",
+          "options": [],
+          "answer": "255"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_033",
+      "conceptId": "hcip-fill-033",
+      "concept": "BGP 报文类型数量",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "BGP 协议一共有______种报文类型。",
+          "options": [],
+          "answer": "4"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_034",
+      "conceptId": "hcip-fill-034",
+      "concept": "BGP 更新组",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "update-group"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "BGP 动态对等体功能中，对等体模板使用______关键字来创建。",
+          "options": [],
+          "answer": "peer"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_035",
+      "conceptId": "hcip-fill-035",
+      "concept": "BGP GTSM",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp",
+        "gtsm"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "BGP GTSM（通用 TTL 安全检查）中，EBGP 连接的 TTL 值范围设置为______。",
+          "options": [],
+          "answer": "255"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_036",
+      "conceptId": "hcip-fill-036",
+      "concept": "BGP Router-ID 长度",
+      "domain": "BGP",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "BGP Router-ID 长度为______位。",
+          "options": [],
+          "answer": "32"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_037",
+      "conceptId": "hcip-fill-037",
+      "concept": "BGP 路由数量限制",
+      "domain": "BGP",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bgp"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "BGP 命令 `peer X.X.X.X route-limit` 用于限制从邻居学习到的______数量。",
+          "options": [],
+          "answer": "路由"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_050",
+      "conceptId": "hcip-mult-050",
+      "concept": "OSPF 邻居状态",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 OSPF 邻居状态机的有效状态？（选3项）",
+          "options": [
+            "A. Down",
+            "B. Init",
+            "C. Established",
+            "D. Two-Way"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_051",
+      "conceptId": "hcip-mult-051",
+      "concept": "OSPF LSA 类型",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "lsa"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSPF 中以下哪些 LSA 类型是在区域内泛洪的？（选2项）",
+          "options": [
+            "A. Router LSA (Type 1)",
+            "B. Network LSA (Type 2)",
+            "C. Summary LSA (Type 3)",
+            "D. ASBR Summary LSA (Type 4)"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_052",
+      "conceptId": "hcip-mult-052",
+      "concept": "OSPF 特殊区域",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "area"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 OSPF 特殊区域类型？（选3项）",
+          "options": [
+            "A. Stub Area",
+            "B. NSSA",
+            "C. Backbone Area",
+            "D. Totally Stub Area"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_053",
+      "conceptId": "hcip-mult-053",
+      "concept": "OSPF DR/BDR 选举",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "dr"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 OSPF DR/BDR 选举，以下哪些描述正确？（选2项）",
+          "options": [
+            "A. DR 优先级为 0 的路由器不参与选举",
+            "B. DR 优先级越大越优先成为 DR",
+            "C. 抢占机制确保 DR 变更时立即切换",
+            "D. BDR 在 DR 失效时接替 DR"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_054",
+      "conceptId": "hcip-mult-054",
+      "concept": "OSPF 虚连接",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "virtual-link"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 OSPF 虚连接，以下哪些说法正确？（选2项）",
+          "options": [
+            "A. 虚连接用于连接非骨干区域到骨干区域",
+            "B. 虚连接可以是穿越 Stub 区域",
+            "C. 虚连接使用 Type 3 LSA 传递路由",
+            "D. 虚连接的两端必须是 ABR"
+          ],
+          "answer": "A,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_055",
+      "conceptId": "hcip-mult-055",
+      "concept": "OSPF LSA 泛洪机制",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "flooding"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些措施可以优化 OSPF LSA 泛洪？（选2项）",
+          "options": [
+            "A. 使用 passive-interface",
+            "B. 调整 SPF 计算间隔",
+            "C. 将区域设为 Stub",
+            "D. 增加 MTU"
+          ],
+          "answer": "A,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_056",
+      "conceptId": "hcip-mult-056",
+      "concept": "OSPF 认证方式",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "auth"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSPF 支持以下哪些认证方式？（选3项）",
+          "options": [
+            "A. 空认证",
+            "B. 简单明文认证",
+            "C. MD5 认证",
+            "D. HMAC-SHA256 认证"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_057",
+      "conceptId": "hcip-mult-057",
+      "concept": "OSPF 网络类型",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "network-type"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSPF 协议支持以下哪些网络类型？（选3项）",
+          "options": [
+            "A. Broadcast",
+            "B. NBMA",
+            "C. P2P",
+            "D. P2MP"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_058",
+      "conceptId": "hcip-mult-058",
+      "concept": "OSPF 路由汇总",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "summary"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 OSPF 路由汇总，以下哪些描述正确？（选2项）",
+          "options": [
+            "A. ABR 可以汇总 Type 3 LSA",
+            "B. ASBR 可以汇总 Type 5 LSA",
+            "C. 汇总路由始终优于明细路由",
+            "D. 汇总只能在区域边界进行"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_059",
+      "conceptId": "hcip-mult-059",
+      "concept": "OSPF 外部路由类型",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "external"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 OSPF 外部路由（Type 5 LSA）的度量值，以下哪些正确？（选2项）",
+          "options": [
+            "A. Type 1 外部路由包含内部成本",
+            "B. Type 2 外部路由只包含 ASBR 指定的成本",
+            "C. Type 1 度量值计算与 MED 无关",
+            "D. Type 2 是默认的外部路由类型"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_060",
+      "conceptId": "hcip-mult-060",
+      "concept": "OSPF Fast Convergence",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "convergence"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSPF 快速收敛技术包括以下哪些？（选3项）",
+          "options": [
+            "A. 增量 SPF（ISPF）",
+            "B. LSA 快速泛洪",
+            "C. 智能定时器",
+            "D. BFD 联动检测"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_061",
+      "conceptId": "hcip-mult-061",
+      "concept": "OSPF Stub 区域限制",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "stub"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSPF Stub 区域中不能包含以下哪些 LSA 类型？（选3项）",
+          "options": [
+            "A. Type 4 LSA",
+            "B. Type 5 LSA",
+            "C. Type 3 LSA",
+            "D. Type 7 LSA"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_062",
+      "conceptId": "hcip-mult-062",
+      "concept": "OSPF 链路开销计算",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "cost"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSPF 接口开销可以基于以下哪些因素计算？（选2项）",
+          "options": [
+            "A. 接口带宽",
+            "B. 手动配置开销值",
+            "C. 接口延迟",
+            "D. MTU 大小"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_063",
+      "conceptId": "hcip-mult-063",
+      "concept": "OSPF Graceful Restart",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "gr"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 OSPF Graceful Restart，以下哪些描述正确？（选2项）",
+          "options": [
+            "A. GR 期间邻居仍宣告该路由器可达",
+            "B. 需要邻居支持 GR 能力",
+            "C. GR 期间重新计算 SPF",
+            "D. GR 不会发送 Grace LSA"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_064",
+      "conceptId": "hcip-mult-064",
+      "concept": "OSPF 数据库描述报文",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf",
+        "dd"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "OSPF DD 报文中包含以下哪些标志位？（选2项）",
+          "options": [
+            "A. I（Init）位",
+            "B. M（More）位",
+            "C. S（Sync）位",
+            "D. MS（Master/Slave）位"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_034",
+      "conceptId": "hcip-drag-034",
+      "concept": "OSPF 邻居建立步骤",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 OSPF 邻居建立过程按正确顺序排列：",
+          "options": [
+            "发送 Hello 报文",
+            "收到 Hello 进入 Init",
+            "收到带有自己 Router-ID 的 Hello 进入 Two-Way",
+            "ExStart 状态开始 DD 交换"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_035",
+      "conceptId": "hcip-drag-035",
+      "concept": "OSPF LSA 老化过程",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 OSPF LSA 老化过程按正确顺序排列：",
+          "options": [
+            "LSA 被创建并泛洪",
+            "LSA 每隔 30 分钟被刷新",
+            "LSA 在 LSDB 中老化",
+            "LSA 达到 MaxAge 被移除"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_036",
+      "conceptId": "hcip-drag-036",
+      "concept": "OSPF 区域类型对比",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请按 LSA 类型数量从多到少排列以下区域类型：",
+          "options": [
+            "标准区域",
+            "NSSA 区域",
+            "Stub 区域",
+            "Totally Stub 区域"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_037",
+      "conceptId": "hcip-drag-037",
+      "concept": "OSPF 路由类型优先级",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请按 OSPF 路由优先级从高到低排列以下路由类型：",
+          "options": [
+            "区域内路由（Intra-Area）",
+            "区域间路由（Inter-Area）",
+            "Type 1 外部路由",
+            "Type 2 外部路由"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_038",
+      "conceptId": "hcip-drag-038",
+      "concept": "OSPF 报文类型处理顺序",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 OSPF 报文处理按接收顺序排列：",
+          "options": [
+            "Hello 报文",
+            "DD 报文",
+            "LSR 报文",
+            "LSU 报文"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_038",
+      "conceptId": "hcip-fill-038",
+      "concept": "OSPF 默认优先级",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "Huawei 设备上 OSPF 内部路由的默认协议优先级是______。",
+          "options": [],
+          "answer": "10"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_039",
+      "conceptId": "hcip-fill-039",
+      "concept": "OSPF Hello 间隔",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "OSPF 广播网络中 Hello 报文默认发送间隔是______秒。",
+          "options": [],
+          "answer": "10"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_040",
+      "conceptId": "hcip-fill-040",
+      "concept": "OSPF Dead 间隔",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "OSPF 广播网络中 Dead 间隔默认是 Hello 间隔的______倍。",
+          "options": [],
+          "answer": "4"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_041",
+      "conceptId": "hcip-fill-041",
+      "concept": "OSPF LSA 最大老化时间",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "OSPF LSA 最大老化时间（MaxAge）为______分钟。",
+          "options": [],
+          "answer": "60"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_042",
+      "conceptId": "hcip-fill-042",
+      "concept": "OSPF 外部路由默认度量值",
+      "domain": "OSPF",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "OSPF 引入外部路由时默认的外部路由类型为 Type______。",
+          "options": [],
+          "answer": "2"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_043",
+      "conceptId": "hcip-fill-043",
+      "concept": "OSPF LSA 刷新间隔",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "OSPF 路由器刷新 LSU 中间一个 LSA 的最大间隔为______分钟。",
+          "options": [],
+          "answer": "50"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_044",
+      "conceptId": "hcip-fill-044",
+      "concept": "OSPF 中 Type 7 LSA 转换者",
+      "domain": "OSPF",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ospf"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "NSSA 区域中，负责将 Type 7 LSA 转换为 Type 5 LSA 的是______。",
+          "options": [],
+          "answer": "ABR"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_065",
+      "conceptId": "hcip-mult-065",
+      "concept": "路由策略控制工具",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是路由策略常用的匹配工具？（选3项）",
+          "options": [
+            "A. IP-Prefix List",
+            "B. ACL",
+            "C. Route-Policy",
+            "D. STP"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_066",
+      "conceptId": "hcip-mult-066",
+      "concept": "Route-Policy 应用场景",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "Route-Policy 可以应用于以下哪些场景？（选3项）",
+          "options": [
+            "A. 路由引入时修改属性",
+            "B. 控制路由发布",
+            "C. BGP 邻居过滤路由",
+            "D. 修改接口 IP 地址"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_067",
+      "conceptId": "hcip-mult-067",
+      "concept": "路由优先级的比较场景",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下关于不同协议路由优先级的描述，哪些正确？（选2项）",
+          "options": [
+            "A. 直连路由优先级高于静态路由",
+            "B. OSPF 优先级高于静态路由",
+            "C. 不同协议间优先级值越小越优先",
+            "D. 优先级不能手动修改"
+          ],
+          "answer": "A,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_068",
+      "conceptId": "hcip-mult-068",
+      "concept": "路由过滤方式",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy",
+        "filter"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是路由过滤方法？（选2项）",
+          "options": [
+            "A. 使用 IP-Prefix List 过滤",
+            "B. 使用 ACL 过滤",
+            "C. 使用 VLAN 过滤",
+            "D. 使用 NAT 过滤"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_069",
+      "conceptId": "hcip-mult-069",
+      "concept": "路由引入的问题",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy",
+        "redistribute"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "路由引入时可能产生哪些问题？（选2项）",
+          "options": [
+            "A. 路由环路",
+            "B. 路由次优",
+            "C. 路由自动汇总",
+            "D. BFD 检测失效"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_070",
+      "conceptId": "hcip-mult-070",
+      "concept": "Filter-Policy 应用",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy",
+        "filter-policy"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 Filter-Policy 的以下描述，哪些正确？（选2项）",
+          "options": [
+            "A. 可以过滤接收的路由",
+            "B. 可以过滤发布的路由",
+            "C. 会影响 LSDB 的内容",
+            "D. 只能在 OSPF 中使用"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_071",
+      "conceptId": "hcip-mult-071",
+      "concept": "路由策略匹配逻辑",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "Route-Policy 的 node 节点中，以下哪些说法正确？（选2项）",
+          "options": [
+            "A. node 值越小优先级越高",
+            "B. if-match 匹配所有条件才执行 apply",
+            "C. node 值越大优先级越高",
+            "D. 默认不匹配任何路由时拒绝通过"
+          ],
+          "answer": "A,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_072",
+      "conceptId": "hcip-mult-072",
+      "concept": "IP-Prefix List 用法",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ip-prefix"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 IP-Prefix List 的匹配规则，以下哪些正确？（选2项）",
+          "options": [
+            "A. greater-equal 指定前缀长度下限",
+            "B. less-equal 指定前缀长度上限",
+            "C. index 决定匹配优先级",
+            "D. 默认匹配所有路由"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_073",
+      "conceptId": "hcip-mult-073",
+      "concept": "路由策略调试",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "调试路由策略时可以使用以下哪些命令？（选2项）",
+          "options": [
+            "A. display route-policy",
+            "B. display ip routing-table",
+            "C. display this",
+            "D. display ospf routing"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_039",
+      "conceptId": "hcip-drag-039",
+      "concept": "路由策略处理流程",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 Route-Policy 的处理流程按正确顺序排列：",
+          "options": [
+            "检查路由是否匹配 if-match 条件",
+            "按 node 顺序依次匹配",
+            "执行 apply 子句修改属性",
+            "返回处理结果"
+          ],
+          "answer": "1,0,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_040",
+      "conceptId": "hcip-drag-040",
+      "concept": "路由引入流程",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将路由引入的处理顺序排列：",
+          "options": [
+            "确定引入的源协议",
+            "配置 Route-Policy 修改属性",
+            "执行 import-route 命令",
+            "查看路由表验证结果"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_041",
+      "conceptId": "hcip-drag-041",
+      "concept": "路由选路决策流程",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将路由选路过程按正确顺序排列：",
+          "options": [
+            "比较路由优先级",
+            "比较路由度量值",
+            "最长前缀匹配",
+            "根据下一跳转发"
+          ],
+          "answer": "2,0,1,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_045",
+      "conceptId": "hcip-fill-045",
+      "concept": "路由优先级 IBGP",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "Huawei 设备上 IBGP 路由的默认协议优先级是______。",
+          "options": [],
+          "answer": "255"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_046",
+      "conceptId": "hcip-fill-046",
+      "concept": "路由策略过滤工具",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "在 Route-Policy 中使用 `if-match ip-prefix` 命令引用______。",
+          "options": [],
+          "answer": "前缀列表"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_047",
+      "conceptId": "hcip-fill-047",
+      "concept": "路由策略默认动作",
+      "domain": "Route Control",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "Route-Policy 的默认动作是______。",
+          "options": [],
+          "answer": "拒绝"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_048",
+      "conceptId": "hcip-fill-048",
+      "concept": "路由引入度量值默认值",
+      "domain": "Route Control",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "route-policy"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "BGP 引入 IGP 路由时默认的 MED 值为______。",
+          "options": [],
+          "answer": "0"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_074",
+      "conceptId": "hcip-mult-074",
+      "concept": "IGMP 版本",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "igmp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 IGMP 协议的版本？（选3项）",
+          "options": [
+            "A. IGMPv1",
+            "B. IGMPv2",
+            "C. IGMPv3",
+            "D. IGMPv4"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_075",
+      "conceptId": "hcip-mult-075",
+      "concept": "PIM 模式",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "pim"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "PIM 协议支持以下哪些工作模式？（选2项）",
+          "options": [
+            "A. PIM-DM",
+            "B. PIM-SM",
+            "C. PIM-BM",
+            "D. PIM-SSM"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_076",
+      "conceptId": "hcip-mult-076",
+      "concept": "组播分发树",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "multicast",
+        "mdt"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是组播分发树类型？（选2项）",
+          "options": [
+            "A. SPT（最短路径树）",
+            "B. RPT（共享树）",
+            "C. MST（最小生成树）",
+            "D. DDT（动态分发树）"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_077",
+      "conceptId": "hcip-mult-077",
+      "concept": "IGMP 查询器",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "igmp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 IGMP 查询器，以下哪些说法正确？（选2项）",
+          "options": [
+            "A. 在二层网络中选举查询器",
+            "B. 查询器负责发送成员查询报文",
+            "C. 查询器由 PIM 选举产生",
+            "D. 接口 IP 地址最小的成为查询器"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_078",
+      "conceptId": "hcip-mult-078",
+      "concept": "PIM-DM 工作流程",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "pim-dm"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "PIM-DM 的工作机制包括以下哪些？（选3项）",
+          "options": [
+            "A. 扩散（Flooding）",
+            "B. 剪枝（Pruning）",
+            "C. 嫁接（Grafting）",
+            "D. 注册（Register）"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_079",
+      "conceptId": "hcip-mult-079",
+      "concept": "PIM-SM 工作机制",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "pim-sm"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "PIM-SM 的工作机制包括以下哪些？（选3项）",
+          "options": [
+            "A. RP 发现",
+            "B. 接收者加入共享树",
+            "C. 源注册过程",
+            "D. 全网扩散"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_080",
+      "conceptId": "hcip-mult-080",
+      "concept": "组播 RP 部署方式",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "multicast",
+        "rp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "组播 RP 的部署方式有哪些？（选3项）",
+          "options": [
+            "A. 静态 RP",
+            "B. Auto-RP",
+            "C. BSR（自举路由器）",
+            "D. 动态 ARP"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_081",
+      "conceptId": "hcip-mult-081",
+      "concept": "组播转发树切换",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "multicast",
+        "switchover"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 PIM-SM 中共享树到 SPT 的切换，以下哪些描述正确？（选2项）",
+          "options": [
+            "A. 流量超过阈值时触发切换",
+            "B. 默认情况下第一个数据包就触发切换",
+            "C. 切换后走最短路径",
+            "D. 切换后必须经过 RP"
+          ],
+          "answer": "A,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_042",
+      "conceptId": "hcip-drag-042",
+      "concept": "PIM-DM 工作过程",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "pim-dm"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 PIM-DM 的工作过程按正确顺序排列：",
+          "options": [
+            "全网扩散组播数据",
+            "无下游的路由器发送剪枝",
+            "被剪枝的网段通过嫁接恢复",
+            "定期重新扩散"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_043",
+      "conceptId": "hcip-drag-043",
+      "concept": "组播数据转发流程",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "multicast"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将组播数据转发过程按正确顺序排列：",
+          "options": [
+            "主机发送 IGMP 加入",
+            "路由器建立组播转发表",
+            "组播源发送数据到 RP",
+            "RP 向接收者转发数据"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_044",
+      "conceptId": "hcip-drag-044",
+      "concept": "组播 RP 选举过程",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "multicast"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 BSR 机制选举 RP 的步骤按正确顺序排列：",
+          "options": [
+            "C-BSR 发送 Bootstrap 消息",
+            "选举 BSR",
+            "C-RP 向 BSR 发送候选报文",
+            "BSR 收集 RP 信息并分发"
+          ],
+          "answer": "1,0,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_049",
+      "conceptId": "hcip-fill-049",
+      "concept": "组播 MAC 地址前缀",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "multicast"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "组播 MAC 地址的最高 24 位是 01-00-5E，其中第 25 位固定为______。",
+          "options": [],
+          "answer": "0"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_050",
+      "conceptId": "hcip-fill-050",
+      "concept": "PIM 协议号",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "pim"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "PIM 协议在 IP 层使用的协议号是______。",
+          "options": [],
+          "answer": "103"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_051",
+      "conceptId": "hcip-fill-051",
+      "concept": "IGMP 查询间隔",
+      "domain": "Multicast",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "igmp"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "IGMPv2 中查询器发送通用查询报文的默认间隔是______秒。",
+          "options": [],
+          "answer": "60"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_052",
+      "conceptId": "hcip-fill-052",
+      "concept": "组播 RPF 检查",
+      "domain": "Multicast",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "multicast"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "组播转发依赖______检查来防止环路。",
+          "options": [],
+          "answer": "RPF"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_082",
+      "conceptId": "hcip-mult-082",
+      "concept": "ACL 类型",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "acl"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是华为设备上的 ACL 类型？（选3项）",
+          "options": [
+            "A. 基本 ACL（2000-2999）",
+            "B. 高级 ACL（3000-3999）",
+            "C. 二层 ACL（4000-4999）",
+            "D. 用户自定义 ACL（5000-5999）"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_083",
+      "conceptId": "hcip-mult-083",
+      "concept": "防火墙区域",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "firewall"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "华为防火墙中默认的安全区域包括以下哪些？（选3项）",
+          "options": [
+            "A. Trust",
+            "B. Untrust",
+            "C. DMZ",
+            "D. VPN"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_084",
+      "conceptId": "hcip-mult-084",
+      "concept": "NAT 类型",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "nat"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 NAT 的类型？（选3项）",
+          "options": [
+            "A. 静态 NAT",
+            "B. 动态 NAT",
+            "C. NAPT（端口转换）",
+            "D. 反向 Telnet"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_085",
+      "conceptId": "hcip-mult-085",
+      "concept": "IPSec 协议",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ipsec"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IPSec 框架包含以下哪些安全协议？（选2项）",
+          "options": [
+            "A. AH（认证头）",
+            "B. ESP（封装安全载荷）",
+            "C. SSL",
+            "D. TLS"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_086",
+      "conceptId": "hcip-mult-086",
+      "concept": "IPSec 工作模式",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ipsec"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IPSec 的两种工作模式是以下哪些？（选2项）",
+          "options": [
+            "A. 传输模式",
+            "B. 隧道模式",
+            "C. 透明模式",
+            "D. 混杂模式"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_087",
+      "conceptId": "hcip-mult-087",
+      "concept": "网络安全攻击防御",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "security"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些属于常见的网络安全攻击类型？（选3项）",
+          "options": [
+            "A. DDoS 攻击",
+            "B. ARP 欺骗",
+            "C. MAC 地址泛洪",
+            "D. STP 根桥选举"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_088",
+      "conceptId": "hcip-mult-088",
+      "concept": "AAA 认证",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "aaa"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "AAA 架构包含以下哪些组件？（选3项）",
+          "options": [
+            "A. 认证（Authentication）",
+            "B. 授权（Authorization）",
+            "C. 计费（Accounting）",
+            "D. 访问控制列表（ACL）"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_089",
+      "conceptId": "hcip-mult-089",
+      "concept": "DHCP Snooping",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "security",
+        "dhcp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "DHCP Snooping 的功能包括以下哪些？（选2项）",
+          "options": [
+            "A. 防止 DHCP 欺骗攻击",
+            "B. 设置信任接口",
+            "C. 自动分配 IP 地址",
+            "D. 防止 MAC 泛洪"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_045",
+      "conceptId": "hcip-drag-045",
+      "concept": "NAT 转换过程",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "nat"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 NAPT 的转换过程按正确顺序排列：",
+          "options": [
+            "内网主机发起连接",
+            "NAT 设备转换源 IP 和端口",
+            "建立地址转换表项",
+            "外网返回数据时反向转换"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_046",
+      "conceptId": "hcip-drag-046",
+      "concept": "IPSec 协商过程",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ipsec"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 IPSec IKE 协商过程按正确顺序排列：",
+          "options": [
+            "IKE 第一阶段协商（主模式）",
+            "建立 IKE SA",
+            "IKE 第二阶段协商（快速模式）",
+            "建立 IPSec SA"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_047",
+      "conceptId": "hcip-drag-047",
+      "concept": "防火墙包过滤流程",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "firewall"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将防火墙包过滤过程按正确顺序排列：",
+          "options": [
+            "数据包到达接口",
+            "匹配安全策略规则",
+            "检查会话表",
+            "执行允许或拒绝动作"
+          ],
+          "answer": "0,2,1,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_053",
+      "conceptId": "hcip-fill-053",
+      "concept": "DHCP 服务器端口",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "dhcp"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "DHCP 服务器监听 UDP 端口______。",
+          "options": [],
+          "answer": "67"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_054",
+      "conceptId": "hcip-fill-054",
+      "concept": "ACL 默认动作",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "acl"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "华为设备上 ACL 的默认动作是______。",
+          "options": [],
+          "answer": "拒绝"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_055",
+      "conceptId": "hcip-fill-055",
+      "concept": "防火墙安全策略默认动作",
+      "domain": "Network Security",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "firewall"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "华为防火墙默认安全策略的动作是______。",
+          "options": [],
+          "answer": "拒绝"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_056",
+      "conceptId": "hcip-fill-056",
+      "concept": "IKE 使用的端口",
+      "domain": "Network Security",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "ipsec"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "IKE 协商使用 UDP 端口______。",
+          "options": [],
+          "answer": "500"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_090",
+      "conceptId": "hcip-mult-090",
+      "concept": "IS-IS 区域类型",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IS-IS 中以下哪些是路由器类型？（选3项）",
+          "options": [
+            "A. Level-1",
+            "B. Level-2",
+            "C. Level-1-2",
+            "D. Backbone Router"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_091",
+      "conceptId": "hcip-mult-091",
+      "concept": "IS-IS LSP 类型",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IS-IS 协议中 LSP 的类型包括以下哪些？（选2项）",
+          "options": [
+            "A. Level-1 LSP",
+            "B. Level-2 LSP",
+            "C. Level-3 LSP",
+            "D. P2P LSP"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_092",
+      "conceptId": "hcip-mult-092",
+      "concept": "IS-IS 度量值类型",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IS-IS 支持以下哪些度量值类型？（选2项）",
+          "options": [
+            "A. Narrow",
+            "B. Wide",
+            "C. Extended",
+            "D. Standard"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_093",
+      "conceptId": "hcip-mult-093",
+      "concept": "IS-IS 网络类型",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IS-IS 支持的物理网络类型包括以下哪些？（选2项）",
+          "options": [
+            "A. 广播网络（Broadcast）",
+            "B. 点到点网络（P2P）",
+            "C. NBMA",
+            "D. P2MP"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_094",
+      "conceptId": "hcip-mult-094",
+      "concept": "IS-IS 邻接关系",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 IS-IS 邻接关系建立，以下哪些正确？（选2项）",
+          "options": [
+            "A. Level-1 路由器只与 Level-1 建立邻接",
+            "B. Level-2 路由器只与 Level-2 建立邻接",
+            "C. Level-1-2 可以与 Level-1 和 Level-2 建立邻接",
+            "D. 同一区域才能建立 Level-2 邻接"
+          ],
+          "answer": "A,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_095",
+      "conceptId": "hcip-mult-095",
+      "concept": "IS-IS DIS 选举",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 IS-IS DIS 选举，以下哪些说法正确？（选2项）",
+          "options": [
+            "A. DIS 优先级越高越优先成为 DIS",
+            "B. DIS 选举是抢占式的",
+            "C. 广播网络中支持 DIS",
+            "D. P2P 网络中也需要选举 DIS"
+          ],
+          "answer": "A,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_096",
+      "conceptId": "hcip-mult-096",
+      "concept": "IS-IS 与 OSPF 对比",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis",
+        "ospf"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IS-IS 相比 OSPF 的优势包括以下哪些？（选2项）",
+          "options": [
+            "A. 扩展性更好，支持更多路由",
+            "B. 对 SPF 算法进行了优化",
+            "C. 配置更简单",
+            "D. CPU 占用始终更低"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_048",
+      "conceptId": "hcip-drag-048",
+      "concept": "IS-IS 邻居建立过程",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 IS-IS 邻居建立过程按正确顺序排列：",
+          "options": [
+            "发送 IIH 报文",
+            "收到 IIH 并协商参数",
+            "建立邻接关系",
+            "交换 LSP"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_049",
+      "conceptId": "hcip-drag-049",
+      "concept": "IS-IS 路由计算过程",
+      "domain": "IS-IS",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "isis"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 IS-IS 路由计算过程按正确顺序排列：",
+          "options": [
+            "建立链路数据库",
+            "SPF 计算",
+            "生成路由表",
+            "LSP 同步"
+          ],
+          "answer": "0,3,1,2"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_050",
+      "conceptId": "hcip-drag-050",
+      "concept": "IS-IS LSP 泛洪过程",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 IS-IS LSP 泛洪过程按正确顺序排列：",
+          "options": [
+            "路由器生成 LSP",
+            "LSP 通过接口发送给邻居",
+            "邻居接收并更新 LSDB",
+            "邻居继续泛洪给其他邻居"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_057",
+      "conceptId": "hcip-fill-057",
+      "concept": "IS-IS NSAP 地址长度",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "IS-IS 使用 NSAP 地址，其最长可达______个字节。",
+          "options": [],
+          "answer": "20"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_058",
+      "conceptId": "hcip-fill-058",
+      "concept": "IS-IS 协议号",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "IS-IS 协议直接运行在______层之上。",
+          "options": [],
+          "answer": "数据链路"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_059",
+      "conceptId": "hcip-fill-059",
+      "concept": "IS-IS DIS 优先级范围",
+      "domain": "IS-IS",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "isis"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "IS-IS 中 DIS 优先级的取值范围是 0~______。",
+          "options": [],
+          "answer": "127"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_097",
+      "conceptId": "hcip-mult-097",
+      "concept": "VRRP 状态机",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "vrrp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "VRRP 路由器的状态包括以下哪些？（选3项）",
+          "options": [
+            "A. Initialize",
+            "B. Master",
+            "C. Backup",
+            "D. Active"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_098",
+      "conceptId": "hcip-mult-098",
+      "concept": "BFD 检测机制",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "bfd"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "BFD 检测可以用于以下哪些场景？（选3项）",
+          "options": [
+            "A. OSPF 快速收敛",
+            "B. BGP 快速检测链路故障",
+            "C. VRRP 主备切换",
+            "D. 替代 STP"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_099",
+      "conceptId": "hcip-mult-099",
+      "concept": "链路聚合类型",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "link-aggregation"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "链路聚合支持的负载分担模式包括以下哪些？（选2项）",
+          "options": [
+            "A. 基于逐流的负载分担",
+            "B. 基于逐包的负载分担",
+            "C. 基于 MAC 地址的负载分担",
+            "D. 基于 VLAN 的负载分担"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_100",
+      "conceptId": "hcip-mult-100",
+      "concept": "VRRP 优先级",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "vrrp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 VRRP 优先级，以下哪些描述正确？（选2项）",
+          "options": [
+            "A. 优先级范围是 1-254",
+            "B. 默认优先级是 100",
+            "C. 优先级越高越优",
+            "D. 优先级可以设置为 255"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_101",
+      "conceptId": "hcip-mult-101",
+      "concept": "BFD 工作模式",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bfd"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "BFD 的两种工作模式包括以下哪些？（选2项）",
+          "options": [
+            "A. 异步模式",
+            "B. 查询模式",
+            "C. 同步模式",
+            "D. 触发模式"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_102",
+      "conceptId": "hcip-mult-102",
+      "concept": "DLDP 协议",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "dldp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "关于 DLDP（设备链路检测协议），以下哪些描述正确？（选2项）",
+          "options": [
+            "A. 用于检测单向链路",
+            "B. 可以隔离故障端口",
+            "C. 替代 BFD 功能",
+            "D. 需要手工启用"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_103",
+      "conceptId": "hcip-mult-103",
+      "concept": "E-Trunk 特性",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "reliability",
+        "trunk"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "E-Trunk 可以应用于以下哪些场景？（选2项）",
+          "options": [
+            "A. 跨设备的链路聚合",
+            "B. 双归接入场景",
+            "C. 替代 VRRP",
+            "D. 替代 STP"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_051",
+      "conceptId": "hcip-drag-051",
+      "concept": "VRRP 主备切换流程",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "vrrp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 VRRP 主备切换过程按正确顺序排列：",
+          "options": [
+            "Master 设备发生故障",
+            "Backup 设备在超时后未收到报文",
+            "Backup 切换为 Master",
+            "新 Master 发送免费 ARP"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_052",
+      "conceptId": "hcip-drag-052",
+      "concept": "BFD 会话建立过程",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bfd"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 BFD 会话建立过程按正确顺序排列：",
+          "options": [
+            "双方发送 BFD 控制报文",
+            "协商 BFD 参数",
+            "建立 BFD 会话",
+            "周期性发送检测报文"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_053",
+      "conceptId": "hcip-drag-053",
+      "concept": "链路聚合协商过程",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "link-aggregation"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将链路聚合 LACP 协商过程按正确顺序排列：",
+          "options": [
+            "双方发送 LACPDU",
+            "互相交换系统优先级",
+            "确定主动端和被动端",
+            "选定活动链路"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_060",
+      "conceptId": "hcip-fill-060",
+      "concept": "VRRP 默认优先级",
+      "domain": "Network Reliability",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "vrrp"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "VRRP 设备默认优先级为______。",
+          "options": [],
+          "answer": "100"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_061",
+      "conceptId": "hcip-fill-061",
+      "concept": "BFD 最小检测间隔",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "bfd"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "BFD 支持的最小检测间隔是______毫秒。",
+          "options": [],
+          "answer": "3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_062",
+      "conceptId": "hcip-fill-062",
+      "concept": "VRRP 虚拟 MAC 地址格式",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "vrrp"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "VRRP 虚拟 MAC 地址的格式是 00-00-5E-00-01-______。",
+          "options": [],
+          "answer": "XX"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_063",
+      "conceptId": "hcip-fill-063",
+      "concept": "链路聚合活动端口数量限制",
+      "domain": "Network Reliability",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "link-aggregation"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "华为设备上一个 Eth-Trunk 接口最多可以绑定______个活动成员端口。",
+          "options": [],
+          "answer": "8"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_104",
+      "conceptId": "hcip-mult-104",
+      "concept": "VLAN 类型",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "vlan"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是常见的 VLAN 划分方式？（选3项）",
+          "options": [
+            "A. 基于端口划分",
+            "B. 基于 MAC 地址划分",
+            "C. 基于 IP 子网划分",
+            "D. 基于路由表划分"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_105",
+      "conceptId": "hcip-mult-105",
+      "concept": "STP 端口角色",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "stp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "STP 协议中的端口角色包括以下哪些？（选3项）",
+          "options": [
+            "A. 根端口（Root Port）",
+            "B. 指定端口（Designated Port）",
+            "C. 阻塞端口（Blocking Port）",
+            "D. Alternate 端口"
+          ],
+          "answer": "A,B,D"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_106",
+      "conceptId": "hcip-mult-106",
+      "concept": "RSTP 端口状态",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "rstp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "RSTP 中定义的端口状态包括以下哪些？（选3项）",
+          "options": [
+            "A. Discarding",
+            "B. Learning",
+            "C. Forwarding",
+            "D. Listening"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_107",
+      "conceptId": "hcip-mult-107",
+      "concept": "MSTP 实例",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "mstp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "MSTP 中关于实例的描述，以下哪些正确？（选2项）",
+          "options": [
+            "A. 实例 0 是默认的 IST 实例",
+            "B. 可以创建多个 MSTI",
+            "C. 每个实例只能映射一个 VLAN",
+            "D. 实例号范围为 1-4094"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_108",
+      "conceptId": "hcip-mult-108",
+      "concept": "端口安全特性",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "port-security"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "交换机的端口安全特性包括以下哪些？（选2项）",
+          "options": [
+            "A. 限制 MAC 地址学习数量",
+            "B. 配置静态 MAC 地址绑定",
+            "C. 自动创建 VLAN",
+            "D. 启用 STP"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_109",
+      "conceptId": "hcip-mult-109",
+      "concept": "二层环路消除技术",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "stp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "消除二层环路的技术包括以下哪些？（选3项）",
+          "options": [
+            "A. STP",
+            "B. RSTP",
+            "C. MSTP",
+            "D. VRRP"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_110",
+      "conceptId": "hcip-mult-110",
+      "concept": "堆叠技术",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "stack",
+        "switch"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "华为 iStack 堆叠技术的特点包括以下哪些？（选2项）",
+          "options": [
+            "A. 多台交换机虚拟为一台逻辑交换机",
+            "B. 支持跨设备链路聚合",
+            "C. 必须使用相同型号的设备",
+            "D. 不支持热插拔"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_054",
+      "conceptId": "hcip-drag-054",
+      "concept": "STP 选举过程",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "stp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 STP 的选举过程按正确顺序排列：",
+          "options": [
+            "选举根桥",
+            "选举根端口",
+            "选举指定端口",
+            "阻塞非指定端口"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_055",
+      "conceptId": "hcip-drag-055",
+      "concept": "MSTP 区域配置流程",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "mstp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 MSTP 配置过程按正确顺序排列：",
+          "options": [
+            "配置 VLAN 到实例的映射",
+            "配置实例名称和修订级别",
+            "激活 MSTP 区域配置",
+            "配置实例的根桥"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_064",
+      "conceptId": "hcip-fill-064",
+      "concept": "VLAN 最大数量",
+      "domain": "Switching",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "vlan"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "标准 802.1Q 协议支持的 VLAN 数量最大为______个。",
+          "options": [],
+          "answer": "4094"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_065",
+      "conceptId": "hcip-fill-065",
+      "concept": "RSTP 快速收敛关键",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "rstp"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "RSTP 实现快速收敛的关键是引入______机制代替计时器等待。",
+          "options": [],
+          "answer": "协商"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_066",
+      "conceptId": "hcip-fill-066",
+      "concept": "堆叠系统拥有多少成员",
+      "domain": "Switching",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "stack"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "华为 iStack 最多支持______台设备组成堆叠。",
+          "options": [],
+          "answer": "9"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_111",
+      "conceptId": "hcip-mult-111",
+      "concept": "WLAN 标准",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些属于 IEEE 802.11 标准定义的频段？（选3项）",
+          "options": [
+            "A. 2.4 GHz",
+            "B. 5 GHz",
+            "C. 6 GHz",
+            "D. 900 MHz"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_112",
+      "conceptId": "hcip-mult-112",
+      "concept": "CAPWAP 隧道",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "capwap"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "CAPWAP 隧道的功能包括以下哪些？（选2项）",
+          "options": [
+            "A. AC 与 AP 之间的控制通道",
+            "B. AC 与 AP 之间的数据通道",
+            "C. AP 与客户端之间的直接通信",
+            "D. AC 之间的备份通道"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_113",
+      "conceptId": "hcip-mult-113",
+      "concept": "无线漫游类型",
+      "domain": "WLAN",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "roaming"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是无线漫游的类型？（选2项）",
+          "options": [
+            "A. 二层漫游",
+            "B. 三层漫游",
+            "C. 四层漫游",
+            "D. 跨 AC 漫游"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_114",
+      "conceptId": "hcip-mult-114",
+      "concept": "无线加密方式",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 WLAN 常用的加密方式？（选3项）",
+          "options": [
+            "A. WEP",
+            "B. WPA2-PSK",
+            "C. WPA3-SAE",
+            "D. IPSec"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_115",
+      "conceptId": "hcip-mult-115",
+      "concept": "AP 工作模式",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan",
+        "ap"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "华为 AP 可以工作在以下哪些模式？（选2项）",
+          "options": [
+            "A. Fit AP 模式",
+            "B. Fat AP 模式",
+            "C. Cloud AP 模式",
+            "D. 网桥模式"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_116",
+      "conceptId": "hcip-mult-116",
+      "concept": "射频资源管理",
+      "domain": "WLAN",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan",
+        "rrm"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "AC 的射频资源管理功能包括以下哪些？（选2项）",
+          "options": [
+            "A. 信道自动调整",
+            "B. 功率自动调整",
+            "C. 切换 AP 型号",
+            "D. 配置 SSID"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_056",
+      "conceptId": "hcip-drag-056",
+      "concept": "无线接入过程",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将无线客户端接入过程按正确顺序排列：",
+          "options": [
+            "扫描信道发现 AP",
+            "认证（Authentication）",
+            "关联（Association）",
+            "获取 IP 地址"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_057",
+      "conceptId": "hcip-drag-057",
+      "concept": "CAPWAP 隧道建立过程",
+      "domain": "WLAN",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "capwap"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 CAPWAP 隧道建立过程按正确顺序排列：",
+          "options": [
+            "AP 发现 AC",
+            "AP 与 AC 建立 DTLS 连接",
+            "AP 下载软件版本和配置",
+            "AP 进入正常运营状态"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_067",
+      "conceptId": "hcip-fill-067",
+      "concept": "802.11g 最大速率",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "802.11g 标准支持的最大理论速率是______Mbps。",
+          "options": [],
+          "answer": "54"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_068",
+      "conceptId": "hcip-fill-068",
+      "concept": "AP 上线默认端口",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "AP 向 AC 发起 CAPWAP 连接时，默认使用的端口号是______。",
+          "options": [],
+          "answer": "5246"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_069",
+      "conceptId": "hcip-fill-069",
+      "concept": "无线 AC 默认管理端口",
+      "domain": "WLAN",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "wlan"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "华为 AC 的 Web 管理界面默认使用 HTTPS 端口______。",
+          "options": [],
+          "answer": "8443"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_117",
+      "conceptId": "hcip-mult-117",
+      "concept": "IPv6 地址类型",
+      "domain": "IPv6",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ipv6"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 IPv6 地址类型？（选3项）",
+          "options": [
+            "A. 单播地址（Unicast）",
+            "B. 组播地址（Multicast）",
+            "C. 任播地址（Anycast）",
+            "D. 广播地址（Broadcast）"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_118",
+      "conceptId": "hcip-mult-118",
+      "concept": "IPv6 SLAAC",
+      "domain": "IPv6",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ipv6"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IPv6 SLAAC 使用以下哪些报文？（选2项）",
+          "options": [
+            "A. 路由器请求（RS）",
+            "B. 路由器通告（RA）",
+            "C. DHCPv6 请求",
+            "D. DNS 查询"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_119",
+      "conceptId": "hcip-mult-119",
+      "concept": "IPv6 过渡技术",
+      "domain": "IPv6",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ipv6"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "IPv6 过渡技术包括以下哪些？（选3项）",
+          "options": [
+            "A. 双栈",
+            "B. 隧道",
+            "C. NAT64",
+            "D. VLSM"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_058",
+      "conceptId": "hcip-drag-058",
+      "concept": "IPv6 无状态地址配置过程",
+      "domain": "IPv6",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ipv6"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 IPv6 无状态地址配置过程按正确顺序排列：",
+          "options": [
+            "主机发送 RS 报文",
+            "路由器回复 RA 报文",
+            "主机使用前缀和接口 ID 生成地址",
+            "主机进行 DAD 重复地址检测"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_070",
+      "conceptId": "hcip-fill-070",
+      "concept": "IPv6 地址长度",
+      "domain": "IPv6",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "ipv6"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "IPv6 地址长度为______位。",
+          "options": [],
+          "answer": "128"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_120",
+      "conceptId": "hcip-mult-120",
+      "concept": "路由分类",
+      "domain": "Routing Basics",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "按目的网络是否直接可达，路由可以分为以下哪些？（选2项）",
+          "options": [
+            "A. 直连路由",
+            "B. 间接路由",
+            "C. 静态路由",
+            "D. 动态路由"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_121",
+      "conceptId": "hcip-mult-121",
+      "concept": "动态路由协议分类",
+      "domain": "Routing Basics",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "按工作范围分类，动态路由协议包括以下哪些？（选2项）",
+          "options": [
+            "A. IGP（内部网关协议）",
+            "B. EGP（外部网关协议）",
+            "C. BGP 是唯一的 EGP",
+            "D. OSPF 属于 EGP"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_122",
+      "conceptId": "hcip-mult-122",
+      "concept": "路由表构成",
+      "domain": "Routing Basics",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "路由表中的关键字段包括以下哪些？（选3项）",
+          "options": [
+            "A. 目的网络地址",
+            "B. 下一跳地址",
+            "C. 出接口",
+            "D. TTL 值"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_059",
+      "conceptId": "hcip-drag-059",
+      "concept": "路由表查找过程",
+      "domain": "Routing Basics",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将路由查找过程按正确顺序排列：",
+          "options": [
+            "检查是否有匹配的默认路由",
+            "查找精确匹配路由表条目",
+            "最长前缀匹配",
+            "转发数据包"
+          ],
+          "answer": "1,2,0,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_071",
+      "conceptId": "hcip-fill-071",
+      "concept": "路由表默认最大条目",
+      "domain": "Routing Basics",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "routing"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "华为设备默认路由表最多支持______条路由。",
+          "options": [],
+          "answer": "1048576"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_123",
+      "conceptId": "hcip-mult-123",
+      "concept": "DHCP 原理",
+      "domain": "Network Services",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "dhcp"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "DHCP 协议的工作流程包括以下哪些报文？（选3项）",
+          "options": [
+            "A. DHCP DISCOVER",
+            "B. DHCP OFFER",
+            "C. DHCP REQUEST",
+            "D. HTTP GET"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_124",
+      "conceptId": "hcip-mult-124",
+      "concept": "DNS 解析过程",
+      "domain": "Network Services",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "dns"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是 DNS 解析的类型？（选2项）",
+          "options": [
+            "A. 递归查询",
+            "B. 迭代查询",
+            "C. 反向查询",
+            "D. 并行查询"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_060",
+      "conceptId": "hcip-drag-060",
+      "concept": "DHCP 报文交互流程",
+      "domain": "Network Services",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "dhcp"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 DHCP 获取 IP 的过程按正确顺序排列：",
+          "options": [
+            "客户端发送 DHCP DISCOVER",
+            "服务器回复 DHCP OFFER",
+            "客户端发送 DHCP REQUEST",
+            "服务器回复 DHCP ACK"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_072",
+      "conceptId": "hcip-fill-072",
+      "concept": "DHCP 续约时间点",
+      "domain": "Network Services",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "dhcp"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "DHCP 客户端在租期到达______时开始尝试续约。",
+          "options": [],
+          "answer": "50%"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_125",
+      "conceptId": "hcip-mult-125",
+      "concept": "网络管理协议",
+      "domain": "Network Solutions",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "network-management"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是常见的网络管理协议？（选3项）",
+          "options": [
+            "A. SNMP",
+            "B. NetStream",
+            "C. Telemetry",
+            "D. HTTP"
+          ],
+          "answer": "A,B,C"
+        }
+      ]
+    },
+    {
+      "id": "hcip_multi_126",
+      "conceptId": "hcip-mult-126",
+      "concept": "网络自动化技术",
+      "domain": "Network Solutions",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "automation"
+      ],
+      "type": "multiple",
+      "variants": [
+        {
+          "text": "以下哪些是网络自动化技术？（选2项）",
+          "options": [
+            "A. NETCONF",
+            "B. YANG 模型",
+            "C. DHCP",
+            "D. STP"
+          ],
+          "answer": "A,B"
+        }
+      ]
+    },
+    {
+      "id": "hcip_drag_061",
+      "conceptId": "hcip-drag-061",
+      "concept": "NETCONF 会话建立流程",
+      "domain": "Network Solutions",
+      "difficulty": "hard",
+      "source": "hcip-pool",
+      "tags": [
+        "netconf"
+      ],
+      "type": "drag",
+      "variants": [
+        {
+          "text": "请将 NETCONF 会话建立过程按正确顺序排列：",
+          "options": [
+            "建立 SSH 连接",
+            "交换 Hello 消息（含能力集）",
+            "发送 RPC 请求",
+            "接收响应数据"
+          ],
+          "answer": "0,1,2,3"
+        }
+      ]
+    },
+    {
+      "id": "hcip_fill_073",
+      "conceptId": "hcip-fill-073",
+      "concept": "SNMP 端口",
+      "domain": "Network Solutions",
+      "difficulty": "medium",
+      "source": "hcip-pool",
+      "tags": [
+        "snmp"
+      ],
+      "type": "fill",
+      "variants": [
+        {
+          "text": "SNMPv2c 使用的默认端口号为______。",
+          "options": [],
+          "answer": "161"
+        }
       ]
     }
-  ]
+  ],
+  "_newCount": 33,
+  "_new": 18
 }
