@@ -27,30 +27,76 @@ Generates **pure JSON question banks** for the NetLearner platform. Unlike the l
 
 ## Output Format
 
-### File Location
+### Critical Rules for Cisco vs Huawei Separation
 
-Save to `questions/generated/{exam-id}.json` in the NetLearner project.
+**Cisco (CCNA/CCNP)** — questions MUST be in English only:
+```
+✓ "Which OSI layer is responsible for logical addressing and routing?"
+✗ "以下哪些是..."
+✗ "请将..."
+✗ "关于...的描述"
+```
+
+**Huawei (HCIA/HCIP)** — questions MUST be in Chinese only:
+```
+✓ "OSI 参考模型中，TCP/IP 模型的应用层对应 OSI 的哪几层？"
+✗ "Which of the following..."
+```
+
+**NEVER mix:** Cisco pool = English only. Huawei pool = Chinese only. No cross-pollution.
 
 ### JSON Structure (per question)
 
+Each question in the pool has the format with `variants[]`:
+
 ```json
 {
-  "id": "q_ccna_nf_001",
-  "text": "Which OSI layer is responsible for logical addressing and routing?",
-  "options": [
-    "A. Physical Layer",
-    "B. Data Link Layer",
-    "C. Network Layer",
-    "D. Transport Layer"
-  ],
-  "answer": "C",
-  "explanation": "The Network Layer (Layer 3) handles logical addressing (IP) and routing. Layer 2 (Data Link) handles MAC addressing. Layer 4 (Transport) manages end-to-end connections. Layer 1 (Physical) deals with raw bit transmission.",
+  "id": "ccna_001",
+  "conceptId": "ccna-c001",
+  "concept": "brief English concept description",
   "domain": "Network Fundamentals",
-  "difficulty": "easy",
-  "tags": ["osi-model", "routing", "ip-addressing"],
-  "source": "ccna-level-demo"
+  "difficulty": "medium",
+  "source": "ccna-pool",
+  "tags": ["osi-model"],
+  "type": "single",
+  "variants": [
+    {
+      "text": "Which OSI layer is responsible for logical addressing and routing?",
+      "options": [
+        "A. Physical Layer",
+        "B. Data Link Layer",
+        "C. Network Layer",
+        "D. Transport Layer"
+      ],
+      "answer": "C",
+      "explanation": "The Network Layer (Layer 3) handles logical addressing (IP) and routing."
+    }
+  ]
 }
 ```
+
+### Bilingual Support (optional, Cisco only)
+
+When generating Cisco questions, you MAY add Chinese translations as separate fields:
+
+```json
+{
+  "variants": [{
+    "text": "Which OSI layer is responsible for logical addressing...",
+    "options": ["A. Physical Layer", "B. Data Link Layer", ...],
+    "answer": "C",
+    "explanation": "...",
+    "textCn": "OSI 模型中，哪一层负责逻辑寻址和路由？",
+    "optionsCn": ["A. 物理层", "B. 数据链路层", "C. 网络层", "D. 传输层"]
+  }]
+}
+```
+
+**Rules for bilingual fields:**
+1. `textCn` and `optionsCn` are optional — only add when you have a proper translation
+2. `textCn` MUST be the exact Chinese translation of `text`, never a different question
+3. `optionsCn` MUST match the same order and meaning as `options`
+4. DO NOT add bilingual fields to Huawei questions (they stay Chinese only)
 
 ### Field Rules
 
