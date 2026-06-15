@@ -20,3 +20,4 @@ scripts/build-all-questions.js
 scripts/expand-ccnp-mock.js
 scripts/add-ccnp-questions.js
 *.bak
+*.bak

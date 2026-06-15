@@ -27,7 +27,14 @@
             "C. Wireless design",
             "D. Policy enforcement"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "DNA Center Assurance 提供：",
+          "optionsCn": [
+            "A. 设备配置自动化",
+            "B. 带有主动洞察的网络监控",
+            "C. 无线设计",
+            "D. 策略执行"
+          ]
         }
       ],
       "type": "single"
@@ -51,7 +58,14 @@
             "C. Access-edge",
             "D. Core-only"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "园区设计中第3层边界放置在：",
+          "optionsCn": [
+            "A. 接入-分布",
+            "B. 分布-核心",
+            "C. 接入-边缘",
+            "D. 仅核心"
+          ]
         }
       ],
       "type": "single"
@@ -75,7 +89,14 @@
             "C. Route distribution",
             "D. Data forwarding"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "在 SD-WAN 中，vManage 提供：",
+          "optionsCn": [
+            "A. 认证",
+            "B. 管理和监控",
+            "C. 路由分发",
+            "D. 数据转发"
+          ]
         }
       ],
       "type": "single"
@@ -99,7 +120,14 @@
             "C. Three-tier",
             "D. Fabric"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "哪种设计使用两层架构，将核心和分布层合并？",
+          "optionsCn": [
+            "",
+            "B. 折叠核心",
+            "C. 三层",
+            "D. 架构"
+          ]
         }
       ],
       "type": "single"
@@ -123,7 +151,14 @@
             "C. IPv4 from IPv6",
             "D. Data from control"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "LISP 将什么与什么分离？",
+          "optionsCn": [
+            "A. 路由与交换",
+            "B. EID 与 RLOC",
+            "C. IPv4 与 IPv6",
+            "D. 数据与控制"
+          ]
         }
       ],
       "type": "single"
@@ -147,7 +182,14 @@
             "C. Policy distribution",
             "D. Data plane"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "在 SD-WAN 中，vBond 处理：",
+          "optionsCn": [
+            "A. 管理",
+            "B. 认证和NAT穿越",
+            "C. 策略分发",
+            "D. 数据平面"
+          ]
         }
       ],
       "type": "single"
@@ -171,7 +213,14 @@
             "C. SNMP to CLI",
             "D. JSON to YAML"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco DNA Center Policy 转换：",
+          "optionsCn": [
+            "A. 业务意图到配置",
+            "B. IP 到 MAC",
+            "",
+            "D. JSON 到 YAML"
+          ]
         }
       ],
       "type": "single"
@@ -195,7 +244,14 @@
             "C. APs to WLC",
             "D. Spine to leaf"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "SD-Access 边界节点（Border Node）连接：",
+          "optionsCn": [
+            "A. 终端到架构",
+            "B. 架构到外部网络",
+            "C. AP 到 WLC",
+            "D. Spine 到 leaf"
+          ]
         }
       ],
       "type": "single"
@@ -219,7 +275,14 @@
             "C. Collapsed Core",
             "D. Hub-Spoke"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "具有可预测东西向延迟的企业园区架构：",
+          "optionsCn": [
+            "A. 三层",
+            "",
+            "C. 折叠核心",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -243,7 +306,8 @@
             "C. 16",
             "D. 32"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "VXLAN VNI 是多少位？"
         }
       ],
       "type": "single"
@@ -267,7 +331,14 @@
             "C. VRF-lite supports IPv6 only",
             "D. No difference"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "VRF-lite 和 MPLS L3VPN 之间的区别是什么？",
+          "optionsCn": [
+            "A. VRF-lite 使用 BGP",
+            "B. VRF-lite 没有 MPLS 标签",
+            "C. VRF-lite 仅支持 IPv6",
+            "D. 没有区别"
+          ]
         }
       ],
       "type": "single"
@@ -291,7 +362,14 @@
             "C. Runs as application",
             "D. Runs in browser"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "Type 1 虚拟机监视器：",
+          "optionsCn": [
+            "A. 运行在主机操作系统上",
+            "B. 直接在硬件上运行",
+            "C. 作为应用程序运行",
+            "D. 在浏览器中运行"
+          ]
         }
       ],
       "type": "single"
@@ -315,7 +393,14 @@
             "C. Automatic summarization",
             "D. Encrypted routing"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "VRF 实现：",
+          "optionsCn": [
+            "A. 单台路由器上的多个路由表",
+            "B. 更快的查找",
+            "C. 自动汇总",
+            "D. 加密路由"
+          ]
         }
       ],
       "type": "single"
@@ -339,7 +424,14 @@
             "C. Routing",
             "D. Authentication"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "VTEP 执行：",
+          "optionsCn": [
+            "A. 加密",
+            "",
+            "C. 路由",
+            "D. 认证"
+          ]
         }
       ],
       "type": "single"
@@ -363,7 +455,14 @@
             "C. Xen",
             "D. Hyper-V"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "容器使用哪个 Linux 特性进行隔离？",
+          "optionsCn": [
+            "",
+            "B. 命名空间",
+            "",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -387,7 +486,8 @@
             "C. LOCAL_AS",
             "D. INTERNET"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "哪个 BGP 社群属性阻止向任何对等体通告？"
         }
       ],
       "type": "single"
@@ -411,7 +511,14 @@
             "C. NSSA translation",
             "D. Interface config"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "OSPF area X range Y 命令的作用：",
+          "optionsCn": [
+            "A. 在 ABR 上进行路由汇总",
+            "B. 过滤邻居",
+            "C. NSSA 转换",
+            "D. 接口配置"
+          ]
         }
       ],
       "type": "single"
@@ -435,7 +542,14 @@
             "C. Configures STP",
             "D. Enables EtherChannel"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在交换机端口上配置 \"mls qos trust dscp\"：",
+          "optionsCn": [
+            "A. 将流量标记为可信",
+            "B. 启用端口安全",
+            "C. 配置 STP",
+            "D. 启用 EtherChannel"
+          ]
         }
       ],
       "type": "single"
@@ -459,7 +573,14 @@
             "C. EIGRP is disabled",
             "D. SIA detected"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "show ip eigrp topology 显示 passive 状态表示：",
+          "optionsCn": [
+            "A. 路由是稳定的",
+            "B. 路由正在重新计算",
+            "",
+            "D. 检测到 SIA"
+          ]
         }
       ],
       "type": "single"
@@ -483,7 +604,14 @@
             "C. Convergence time",
             "D. Path attributes"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "BGP 路由反射器减少：",
+          "optionsCn": [
+            "A. 路由表大小",
+            "B. iBGP 对等体数量",
+            "C. 收敛时间",
+            "D. 路径属性"
+          ]
         }
       ],
       "type": "single"
@@ -507,7 +635,14 @@
             "C. 180s",
             "D. 240s"
           ],
-          "answer": "C"
+          "answer": "C",
+          "textCn": "默认 BGP 保持时间（Hold time）：",
+          "optionsCn": [
+            "A. 90秒",
+            "B. 120秒",
+            "C. 180秒",
+            "D. 240秒"
+          ]
         }
       ],
       "type": "single"
@@ -531,7 +666,14 @@
             "C. Authentication",
             "D. Encryption"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "BGP AS_PATH 用于：",
+          "optionsCn": [
+            "A. 负载均衡",
+            "B. 环路预防",
+            "C. 认证",
+            "D. 加密"
+          ]
         }
       ],
       "type": "single"
@@ -555,7 +697,8 @@
             "C. DR",
             "D. Every router"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "OSPF Type 3 LSA 由谁生成？"
         }
       ],
       "type": "single"
@@ -579,7 +722,8 @@
             "C. 110",
             "D. 170"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "EIGRP 内部管理距离（AD）："
         }
       ],
       "type": "single"
@@ -603,7 +747,14 @@
             "C. BackboneFast",
             "D. Loop Guard"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "哪种 STP 增强功能提供快速根端口故障切换？",
+          "optionsCn": [
+            "",
+            "",
+            "",
+            "D. Loop Guard"
+          ]
         }
       ],
       "type": "single"
@@ -627,7 +778,14 @@
             "C. Uses only shared trees",
             "D. No RP needed"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "PIM 稀疏模式（Sparse Mode）的默认行为：",
+          "optionsCn": [
+            "A. 泛洪然后剪枝",
+            "B. 使用 RP 并切换到 SPT",
+            "C. 仅使用共享树",
+            "D. 不需要 RP"
+          ]
         }
       ],
       "type": "single"
@@ -651,7 +809,14 @@
             "C. Blocks Type 3 only",
             "D. Blocks Type 1 and 2"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "OSPF Stub 区域：",
+          "optionsCn": [
+            "A. 阻止 Type 3 和 Type 5",
+            "B. 仅阻止 Type 5",
+            "C. 仅阻止 Type 3",
+            "D. 阻止 Type 1 和 Type 2"
+          ]
         }
       ],
       "type": "single"
@@ -675,7 +840,14 @@
             "C. By port",
             "D. By protocol"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "EtherChannel src-dst-ip 基于以下进行负载均衡：",
+          "optionsCn": [
+            "A. MAC 地址",
+            "B. IP 对",
+            "C. 端口",
+            "D. 协议"
+          ]
         }
       ],
       "type": "single"
@@ -699,7 +871,8 @@
             "C. 239.0.0.0/8",
             "D. 232.0.0.0/8"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "链路本地组播范围："
         }
       ],
       "type": "single"
@@ -723,7 +896,14 @@
             "C. Router ID",
             "D. Network type"
           ],
-          "answer": "D"
+          "answer": "D",
+          "textCn": "R1 和 R2 无法在以太网上建立 OSPF 邻接关系。两者都在区域 0 中。应首先检查什么？",
+          "optionsCn": [
+            "A. 进程 ID",
+            "B. 子网掩码",
+            "C. 路由器 ID",
+            "D. 网络类型"
+          ]
         }
       ],
       "type": "single"
@@ -747,7 +927,8 @@
             "C. EIGRP",
             "D. BGP"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "哪种技术在第 2 层防止环路？"
         }
       ],
       "type": "single"
@@ -771,7 +952,14 @@
             "C. Routing tables",
             "D. STP topology"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "VLAN 中继协议（VTP）分发：",
+          "optionsCn": [
+            "",
+            "B. MAC 地址",
+            "C. 路由表",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -795,7 +983,14 @@
             "C. OSPF to BGP",
             "D. Two routing processes"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "OSPF ABR 连接：",
+          "optionsCn": [
+            "",
+            "B. 两个 OSPF 区域",
+            "",
+            "D. 两个路由进程"
+          ]
         }
       ],
       "type": "single"
@@ -819,7 +1014,14 @@
             "C. Packet loss",
             "D. Throughput"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "IP SLA ICMP Echo 测量：",
+          "optionsCn": [
+            "A. 往返时间",
+            "B. 抖动",
+            "C. 丢包",
+            "D. 吞吐量"
+          ]
         }
       ],
       "type": "single"
@@ -843,7 +1045,14 @@
             "C. Aggregates links",
             "D. Analyzes routing"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "SPAN（交换端口分析器）：",
+          "optionsCn": [
+            "A. 增加带宽",
+            "B. 镜像流量用于监控",
+            "C. 聚合链路",
+            "D. 分析路由"
+          ]
         }
       ],
       "type": "single"
@@ -867,7 +1076,14 @@
             "C. Bandwidth available",
             "D. Latency"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "DNA Center Assurance 中的健康评分（Health score）：",
+          "optionsCn": [
+            "A. 设备/客户端健康评分",
+            "B. 端口利用率",
+            "C. 可用带宽",
+            "D. 延迟"
+          ]
         }
       ],
       "type": "single"
@@ -891,7 +1107,14 @@
             "C. Syslog",
             "D. Configuration"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "NetFlow 导出：",
+          "optionsCn": [
+            "A. 流量流元数据",
+            "",
+            "C. 系统日志",
+            "D. 配置"
+          ]
         }
       ],
       "type": "single"
@@ -915,7 +1138,14 @@
             "C. Ignores violations",
             "D. Increases MAC limit"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "\"errdisable recovery cause psecure-violation\" 的作用：",
+          "optionsCn": [
+            "A. 在端口安全违规后自动恢复端口",
+            "B. 防止错误禁用",
+            "C. 忽略违规",
+            "D. 增加 MAC 限制"
+          ]
         }
       ],
       "type": "single"
@@ -939,7 +1169,14 @@
             "C. Push model with Syslog",
             "D. Batch processing"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "模型驱动遥测（Model-driven telemetry）使用：",
+          "optionsCn": [
+            "A. 基于 gRPC 的推送模型",
+            "B. 基于 SNMP 的拉取模型",
+            "C. 基于 Syslog 的推送模型",
+            "D. 批处理"
+          ]
         }
       ],
       "type": "single"
@@ -963,7 +1200,14 @@
             "C. QoS marking",
             "D. Encryption"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "Cisco TrustSec SGT 实现：",
+          "optionsCn": [
+            "A. 基于 IP 的 ACL",
+            "B. 基于身份的策略",
+            "C. QoS 标记",
+            "D. 加密"
+          ]
         }
       ],
       "type": "single"
@@ -987,7 +1231,14 @@
             "C. ARP spoofing",
             "D. VLAN hopping"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "CoPP 防护：",
+          "optionsCn": [
+            "A. MAC 泛洪",
+            "B. 控制平面过载",
+            "",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -1011,7 +1262,14 @@
             "C. The RADIUS server",
             "D. The DHCP server"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "在 802.1X 中，认证者（authenticator）是：",
+          "optionsCn": [
+            "A. 客户端",
+            "B. 中继 EAP 的交换机",
+            "C. RADIUS 服务器",
+            "D. DHCP 服务器"
+          ]
         }
       ],
       "type": "single"
@@ -1035,7 +1293,14 @@
             "C. Changes VLAN",
             "D. Restarts port"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "CoA 会话重新认证（Session Reauthenticate）：",
+          "optionsCn": [
+            "A. 断开用户连接",
+            "B. 触发重新认证",
+            "C. 更改 VLAN",
+            "D. 重启端口"
+          ]
         }
       ],
       "type": "single"
@@ -1059,7 +1324,14 @@
             "C. Routing table entries",
             "D. ARP cache"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "DHCP Snooping 绑定数据库包含：",
+          "optionsCn": [
+            "A. IP-MAC-VLAN-端口映射",
+            "B. 用户凭据",
+            "C. 路由表条目",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -1083,7 +1355,14 @@
             "C. Routing updates",
             "D. DNS queries"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "DAI 验证：",
+          "optionsCn": [
+            "",
+            "",
+            "C. 路由更新",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -1107,7 +1386,14 @@
             "C. Encrypts traffic",
             "D. Logs all traffic"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "自反 ACL（Reflexive ACL）：",
+          "optionsCn": [
+            "A. 为返回流量创建动态允许",
+            "B. 仅过滤源 IP",
+            "C. 加密流量",
+            "D. 记录所有流量"
+          ]
         }
       ],
       "type": "single"
@@ -1131,7 +1417,14 @@
             "C. VTI uses IKEv1 only",
             "D. VTI is deprecated"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "IPsec VTI 与加密映射（crypto maps）的区别：",
+          "optionsCn": [
+            "A. VTI 支持组播",
+            "B. VTI 更困难",
+            "C. VTI 仅使用 IKEv1",
+            "D. VTI 已被弃用"
+          ]
         }
       ],
       "type": "single"
@@ -1155,7 +1448,14 @@
             "C. Same thing",
             "D. Auth=logging, Authz=identity"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "认证（Authentication）与授权（Authorization）的区别是什么？",
+          "optionsCn": [
+            "A. 认证=你是谁，授权=你能做什么",
+            "B. 认证=你做什么，授权=你是谁",
+            "C. 同一回事",
+            "D. 认证=日志记录，授权=身份"
+          ]
         }
       ],
       "type": "single"
@@ -1179,7 +1479,14 @@
             "C. Uses UDP",
             "D. Is open standard"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "TACACS+ 与 RADIUS：TACACS+",
+          "optionsCn": [
+            "A. 加密整个数据包",
+            "B. 仅加密密码",
+            "C. 使用 UDP",
+            "D. 是开放标准"
+          ]
         }
       ],
       "type": "single"
@@ -1203,7 +1510,14 @@
             "C. Enables trunking",
             "D. Disables STP"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "带 sticky MAC 的端口安全（Port Security）：",
+          "optionsCn": [
+            "A. 学习并将 MAC 转换为安全条目",
+            "B. 阻止所有流量",
+            "C. 启用中继",
+            "D. 禁用 STP"
+          ]
         }
       ],
       "type": "single"
@@ -1227,7 +1541,14 @@
             "C. IPSG",
             "D. Port Security"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "哪个功能防止 rogue DHCP 服务器？",
+          "optionsCn": [
+            "",
+            "",
+            "",
+            "D. 端口安全"
+          ]
         }
       ],
       "type": "single"
@@ -1251,7 +1572,8 @@
             "C. YAML",
             "D. Python"
           ],
-          "answer": "C"
+          "answer": "C",
+          "textCn": "Ansible 剧本（playbooks）使用什么语言编写？"
         }
       ],
       "type": "single"
@@ -1275,7 +1597,8 @@
             "C. PUT",
             "D. DELETE"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "RESTCONF 使用哪种 HTTP 方法检索数据？"
         }
       ],
       "type": "single"
@@ -1299,7 +1622,14 @@
             "C. Can be reversed",
             "D. Manual approval"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "幂等（Idempotent）意味着：",
+          "optionsCn": [
+            "A. 运行一次",
+            "B. 每次结果相同",
+            "C. 可以撤销",
+            "D. 手动审批"
+          ]
         }
       ],
       "type": "single"
@@ -1323,7 +1653,14 @@
             "C. Performance monitoring",
             "D. Topology mapping"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Git 在网络自动化中提供：",
+          "optionsCn": [
+            "A. 版本控制",
+            "B. 配置部署",
+            "C. 性能监控",
+            "D. 拓扑映射"
+          ]
         }
       ],
       "type": "single"
@@ -1347,7 +1684,8 @@
             "C. {}",
             "D. <>"
           ],
-          "answer": "C"
+          "answer": "C",
+          "textCn": "Python 字典（dict）用什么创建？"
         }
       ],
       "type": "single"
@@ -1371,7 +1709,8 @@
             "C. HTTPS",
             "D. Telnet"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "NETCONF 传输协议："
         }
       ],
       "type": "single"
@@ -1395,7 +1734,8 @@
             "C. ansible.cfg",
             "D. requirements.txt"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Ansible 清单文件（inventory file）通常命名为："
         }
       ],
       "type": "single"
@@ -1419,7 +1759,14 @@
             "C. Provision",
             "D. Assurance"
           ],
-          "answer": "D"
+          "answer": "D",
+          "textCn": "在 Cisco DNA Center 中，哪个组件监控性能？",
+          "optionsCn": [
+            "A. 设计",
+            "B. 策略",
+            "C. 配置",
+            "D. 保障"
+          ]
         }
       ],
       "type": "single"
@@ -1443,7 +1790,8 @@
             "C. CLI",
             "D. Telnet"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "YANG 与以下协议一起使用："
         }
       ],
       "type": "single"
@@ -1468,7 +1816,8 @@
             "C. NEXT_HOP",
             "D. Local_Preference"
           ],
-          "answer": "A,C"
+          "answer": "A,C",
+          "textCn": "哪些 BGP 属性是公认必遵（well-known mandatory）的？（选择 2 项）"
         }
       ]
     },
@@ -1493,7 +1842,14 @@
             "C. Type-2 Network LSA",
             "D. Type-5 External LSA"
           ],
-          "answer": "A,C"
+          "answer": "A,C",
+          "textCn": "哪些 LSA 类型必须出现在每个 OSPF 区域中？（选择 2 项）",
+          "optionsCn": [
+            "A. Type-1 Router LSA",
+            "B. Type-3 Summary LSA",
+            "C. Type-2 Network LSA",
+            "D. Type-5 External LSA"
+          ]
         }
       ]
     },
@@ -1516,7 +1872,13 @@
             "Master",
             "Slave"
           ],
-          "answer": "1,0,2"
+          "answer": "1,0,2",
+          "textCn": "按从高优先级到低优先级排列堆叠成员角色：",
+          "optionsCn": [
+            "Standby",
+            "Master",
+            "Slave"
+          ]
         }
       ]
     },
@@ -1535,7 +1897,8 @@
         {
           "text": "The IP protocol number for IPsec ESP is ______.",
           "options": [],
-          "answer": "50"
+          "answer": "50",
+          "textCn": "IPsec ESP 的 IP 协议号是 ______。"
         }
       ]
     },
@@ -1558,7 +1921,8 @@
             "C. ORIGIN, LOCAL_PREF, NEXT_HOP",
             "D. AS_PATH, MED, ORIGIN"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "BGP 中哪些属性是公认必遵（well-known mandatory）的？"
         }
       ],
       "type": "single"
@@ -1583,7 +1947,14 @@
             "C. Increase routing table size",
             "D. Provide NAT services"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "VRRP/HSRP 的主要功能是什么？",
+          "optionsCn": [
+            "A. 提供网关冗余",
+            "B. 负载均衡网络流量",
+            "C. 增加路由表大小",
+            "D. 提供 NAT 服务"
+          ]
         }
       ],
       "type": "single"
@@ -1602,7 +1973,14 @@
             "C. Fabric Control Node",
             "D. Fabric WAN Edge"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 Cisco SD-Access 中，哪个节点在架构内实现第 2 层和第 3 层转发？",
+          "optionsCn": [
+            "A. 架构边缘节点",
+            "B. 架构边界节点",
+            "C. 架构控制节点",
+            "D. 架构广域网边缘"
+          ]
         }
       ],
       "id": "ccnp_gen_068",
@@ -1624,7 +2002,8 @@
             "C. OSPF",
             "D. IS-IS"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco SD-Access 中使用哪个协议作为控制平面？"
         }
       ],
       "id": "ccnp_gen_069",
@@ -1646,7 +2025,14 @@
             "C. Provision",
             "D. Policy"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个 Cisco DNA Center 能力使用 AI/ML 进行主动网络健康监控？",
+          "optionsCn": [
+            "A. 保障",
+            "B. 设计",
+            "C. 配置",
+            "D. 策略"
+          ]
         }
       ],
       "id": "ccnp_gen_070",
@@ -1668,7 +2054,14 @@
             "C. Acts as the DHCP server",
             "D. Manages authentication"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "SD-Access 中 Fabric Border Node（边界节点）的功能是什么？",
+          "optionsCn": [
+            "A. 将架构连接到外部网络",
+            "B. 提供无线接入",
+            "C. 充当 DHCP 服务器",
+            "D. 管理认证"
+          ]
         }
       ],
       "id": "ccnp_gen_071",
@@ -1690,7 +2083,14 @@
             "C. Dynamic routing protocol isolation",
             "D. Layer 2 path isolation"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "VRF 在路由器上提供什么？",
+          "optionsCn": [
+            "A. 单台路由器上的多个独立路由表",
+            "B. VLAN 之间的虚拟交换",
+            "C. 动态路由协议隔离",
+            "D. 第 2 层路径隔离"
+          ]
         }
       ],
       "id": "ccnp_gen_072",
@@ -1712,7 +2112,8 @@
             "C. VLAN",
             "D. StackWise"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪种技术使单台物理交换机能够作为多台逻辑交换机运行？"
         }
       ],
       "id": "ccnp_gen_073",
@@ -1734,7 +2135,8 @@
             "C. VMware Workstation",
             "D. Microsoft Virtual PC"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个是 Type-1（裸机）虚拟机监视器？"
         }
       ],
       "id": "ccnp_gen_074",
@@ -1756,7 +2158,14 @@
             "C. Type 5 and Type 7",
             "D. Type 1 and Type 2"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在标准 OSPF Stub 区域中，哪些 LSA 类型被阻止？",
+          "optionsCn": [
+            "A. Type 4 和 Type 5",
+            "B. Type 3 和 Type 4",
+            "C. Type 5 和 Type 7",
+            "D. Type 1 和 Type 2"
+          ]
         }
       ],
       "id": "ccnp_gen_075",
@@ -1778,7 +2187,14 @@
             "C. Lowest hop count",
             "D. Highest reliability"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 EIGRP 中，什么决定后继路由（successor route）？",
+          "optionsCn": [
+            "A. 最低可行距离",
+            "B. 最高带宽",
+            "C. 最低跳数",
+            "D. 最高可靠性"
+          ]
         }
       ],
       "id": "ccnp_gen_076",
@@ -1800,7 +2216,8 @@
             "C. LOCAL_AS",
             "D. INTERNET"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个 BGP 社群属性阻止路由被通告给任何对等体？"
         }
       ],
       "id": "ccnp_gen_077",
@@ -1822,7 +2239,14 @@
             "C. Modify BGP attributes",
             "D. Establish EBGP connections"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "BGP 路由反射器的目的是什么？",
+          "optionsCn": [
+            "A. 减少 IBGP 对等需求",
+            "B. 过滤 BGP 路由",
+            "C. 修改 BGP 属性",
+            "D. 建立 EBGP 连接"
+          ]
         }
       ],
       "id": "ccnp_gen_078",
@@ -1844,7 +2268,14 @@
             "C. Revision number and root bridge",
             "D. VLAN-to-instance map and port cost"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪些属性必须匹配才能使交换机属于同一个 MST 区域？",
+          "optionsCn": [
+            "A. 区域名称、修订号、VLAN到实例映射",
+            "B. 区域名称和桥优先级",
+            "C. 修订号和根桥",
+            ""
+          ]
         }
       ],
       "id": "ccnp_gen_079",
@@ -1866,7 +2297,14 @@
             "C. Supports multiple neighbors",
             "D. Enables authentication"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在以太网上使用 OSPF 网络类型 point-to-point 的优势是什么？",
+          "optionsCn": [
+            "A. 消除 DR/BDR 选举",
+            "B. 增加 Hello 间隔",
+            "C. 支持多个邻居",
+            "D. 启用认证"
+          ]
         }
       ],
       "id": "ccnp_gen_080",
@@ -1888,7 +2326,14 @@
             "C. Metric is less than feasible distance",
             "D. Hop count is less than feasible distance"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 EIGRP 中，可行性条件（feasibility condition）是什么？",
+          "optionsCn": [
+            "A. 报告距离（Reported distance）小于可行距离",
+            "B. 可行距离（Feasible distance）小于报告距离",
+            "C. 度量（Metric）小于可行距离",
+            "D. 跳数（Hop count）小于可行距离"
+          ]
         }
       ],
       "id": "ccnp_gen_081",
@@ -1910,7 +2355,8 @@
             "C. 255",
             "D. 0"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "HSRP 的默认优先级值是多少？"
         }
       ],
       "id": "ccnp_gen_082",
@@ -1932,7 +2378,8 @@
             "C. VNI",
             "D. VXLAN Controller"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 VXLAN 中，哪个设备封装和解封装帧？"
         }
       ],
       "id": "ccnp_gen_083",
@@ -1954,7 +2401,14 @@
             "C. Traffic is tunneled to WLC",
             "D. Clients are disconnected"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "当 FlexConnect AP 处于本地模式（local mode）且无法到达 WLC 时，会发生什么？",
+          "optionsCn": [
+            "A. 客户端流量继续本地交换",
+            "B. 流量被丢弃",
+            "C. 流量通过隧道传输到 WLC",
+            "D. 客户端断开连接"
+          ]
         }
       ],
       "id": "ccnp_gen_084",
@@ -1976,7 +2430,14 @@
             "C. QoS packet marking",
             "D. ACL filtering"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "NetFlow 的主要用途是什么？",
+          "optionsCn": [
+            "A. 流量分析和监控",
+            "B. 路由收敛",
+            "C. QoS 数据包标记",
+            "D. ACL 过滤"
+          ]
         }
       ],
       "id": "ccnp_gen_085",
@@ -1998,7 +2459,14 @@
             "C. RSPAN uses GRE",
             "D. SPAN only monitors egress"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "SPAN 和 RSPAN 的区别是什么？",
+          "optionsCn": [
+            "A. RSPAN 通过 VLAN 跨交换机进行镜像，SPAN 是本地镜像",
+            "B. SPAN 跨交换机进行镜像",
+            "C. RSPAN 使用 GRE",
+            "D. SPAN 仅监控出向流量"
+          ]
         }
       ],
       "id": "ccnp_gen_086",
@@ -2020,7 +2488,14 @@
             "C. CPU utilization",
             "D. Routing convergence time"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco IP SLA 测量什么？",
+          "optionsCn": [
+            "",
+            "B. 带宽利用率",
+            "C. CPU 利用率",
+            "D. 路由收敛时间"
+          ]
         }
       ],
       "id": "ccnp_gen_087",
@@ -2042,7 +2517,14 @@
             "C. Informs use TCP",
             "D. Traps only exist in SNMPv3"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "SNMP informs 和 traps 的关键区别是什么？",
+          "optionsCn": [
+            "A. Informs 需要接收方的确认",
+            "B. Traps 更可靠",
+            "C. Informs 使用 TCP",
+            "D. Traps 仅存在于 SNMPv3 中"
+          ]
         }
       ],
       "id": "ccnp_gen_088",
@@ -2064,7 +2546,14 @@
             "C. Level 3 (Error)",
             "D. Level 0 (Emergency)"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个 syslog 级别指示严重状况（critical condition）？",
+          "optionsCn": [
+            "A. Level 2",
+            "B. Level 1",
+            "C. Level 3",
+            "D. Level 0"
+          ]
         }
       ],
       "id": "ccnp_gen_089",
@@ -2086,7 +2575,14 @@
             "C. Unauthorized management access",
             "D. VLAN hopping"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "控制平面策略（CoPP）防护什么？",
+          "optionsCn": [
+            "A. 针对路由器控制平面的过量流量",
+            "B. 数据平面 DDoS 攻击",
+            "C. 未授权的管理访问",
+            ""
+          ]
         }
       ],
       "id": "ccnp_gen_090",
@@ -2108,7 +2604,14 @@
             "C. Authentication Server",
             "D. RADIUS Proxy"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 802.1X 中，交换机扮演什么角色？",
+          "optionsCn": [
+            "A. 认证者",
+            "B. 请求者",
+            "C. 认证服务器",
+            ""
+          ]
         }
       ],
       "id": "ccnp_gen_091",
@@ -2130,7 +2633,14 @@
             "C. Wireless security",
             "D. Application encryption"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "MACsec（802.1AE）提供什么？",
+          "optionsCn": [
+            "A. 第 2 层加密和认证",
+            "B. 第 3 层 VPN 加密",
+            "C. 无线安全",
+            "D. 应用层加密"
+          ]
         }
       ],
       "id": "ccnp_gen_092",
@@ -2152,7 +2662,8 @@
             "C. LDAP",
             "D. Kerberos"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个协议加密整个数据包（而不仅仅是密码）？"
         }
       ],
       "id": "ccnp_gen_093",
@@ -2174,7 +2685,14 @@
             "C. Accounting",
             "D. Access control"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个 AAA 组件定义了用户在登录后可以做什么？",
+          "optionsCn": [
+            "A. 授权",
+            "B. 认证",
+            "C. 记账",
+            "D. 访问控制"
+          ]
         }
       ],
       "id": "ccnp_gen_094",
@@ -2196,7 +2714,14 @@
             "C. Ports connected to clients",
             "D. All trunk ports"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 DHCP Snooping 中，哪些端口应被信任？",
+          "optionsCn": [
+            "A. 连接到 DHCP 服务器的端口",
+            "B. 所有接入端口",
+            "C. 连接到客户端的端口",
+            "D. 所有中继端口"
+          ]
         }
       ],
       "id": "ccnp_gen_095",
@@ -2218,7 +2743,14 @@
             "C. DHCP starvation",
             "D. VLAN hopping"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "动态 ARP 检测（DAI）防止什么？",
+          "optionsCn": [
+            "",
+            "B. MAC 泛洪",
+            "",
+            ""
+          ]
         }
       ],
       "id": "ccnp_gen_096",
@@ -2240,7 +2772,8 @@
             "C. PUT",
             "D. DELETE"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 REST API 中，哪个 HTTP 方法创建新资源？"
         }
       ],
       "id": "ccnp_gen_097",
@@ -2262,7 +2795,8 @@
             "C. YAML",
             "D. CSV"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪种数据格式使用花括号和键值对？"
         }
       ],
       "id": "ccnp_gen_098",
@@ -2284,7 +2818,14 @@
             "C. On a dedicated automation server",
             "D. In the cloud"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Ansible 剧本（playbooks）在哪里执行？",
+          "optionsCn": [
+            "A. 控制节点，通过 SSH 推送到受管节点",
+            "B. 直接在每个受管节点上",
+            "C. 在专用自动化服务器上",
+            "D. 在云中"
+          ]
         }
       ],
       "id": "ccnp_gen_099",
@@ -2306,7 +2847,14 @@
             "C. Data visualization",
             "D. Database queries"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Python Netmiko 用于什么？",
+          "optionsCn": [
+            "",
+            "B. 对 Web 服务器的 REST API 调用",
+            "C. 数据可视化",
+            "D. 数据库查询"
+          ]
         }
       ],
       "id": "ccnp_gen_100",
@@ -2328,7 +2876,14 @@
             "C. Orchestration workflows",
             "D. Monitoring dashboards"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "YANG 用于什么？",
+          "optionsCn": [
+            "A. 用于 NETCONF/RESTCONF 的数据建模",
+            "B. 配置模板化",
+            "C. 编排工作流",
+            "D. 监控仪表板"
+          ]
         }
       ],
       "id": "ccnp_gen_101",
@@ -2350,7 +2905,8 @@
             "C. Telnet",
             "D. SNMP"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "RESTCONF 使用什么传输协议？"
         }
       ],
       "id": "ccnp_gen_102",
@@ -2372,7 +2928,14 @@
             "C. Both Ansible and Puppet",
             "D. Python"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个自动化工具需要在受管节点上安装代理（agent）？",
+          "optionsCn": [
+            "",
+            "",
+            "C. Ansible 和 Puppet 都需要",
+            ""
+          ]
         }
       ],
       "id": "ccnp_gen_103",
@@ -2394,7 +2957,8 @@
             "C. 403 Forbidden",
             "D. 500 Server Error"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个 HTTP 状态码表示 API 调用成功？"
         }
       ],
       "id": "ccnp_gen_104",
@@ -2416,7 +2980,14 @@
             "C. Fabric Border Node",
             "D. Fabric Control Node"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 SD-Access 无线网络中，控制平面终止于哪个设备？",
+          "optionsCn": [
+            "",
+            "B. 架构边缘节点",
+            "C. 架构边界节点",
+            "D. 架构控制节点"
+          ]
         }
       ],
       "id": "ccnp_gen_105",
@@ -2438,7 +3009,8 @@
             "C. dst-ip",
             "D. src-dst-mac"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪种 EtherChannel 负载均衡方法同时使用源和目标 IP？"
         }
       ],
       "id": "ccnp_gen_106",
@@ -2460,7 +3032,14 @@
             "C. Both IPv4 and IPv6",
             "D. CLNP"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "OSPFv3 运行在哪个协议之上？",
+          "optionsCn": [
+            "",
+            "",
+            "C. IPv4 和 IPv6 都可以",
+            ""
+          ]
         }
       ],
       "id": "ccnp_gen_107",
@@ -2482,7 +3061,14 @@
             "C. Lower CPU usage",
             "D. Supports more routes"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "EIGRP 命名模式（named mode）相比经典模式（classic mode）的优势是什么？",
+          "optionsCn": [
+            "A. 在单一配置下支持 IPv4 和 IPv6",
+            "B. 更快的收敛",
+            "C. 更低的 CPU 使用率",
+            "D. 支持更多路由"
+          ]
         }
       ],
       "id": "ccnp_gen_108",
@@ -2504,7 +3090,14 @@
             "C. Ignores incoming BPDUs",
             "D. Converts the port to trunk"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 PortFast 端口上配置 BPDU Guard 时，它会做什么？",
+          "optionsCn": [
+            "A. 如果收到 BPDU，则禁用端口",
+            "B. 转发收到的 BPDU",
+            "C. 忽略传入的 BPDU",
+            "D. 将端口转换为中继端口"
+          ]
         }
       ],
       "id": "ccnp_gen_109",
@@ -2526,7 +3119,14 @@
             "C. MAC flooding",
             "D. DHCP starvation"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "IP Source Guard（IPSG）防止什么？",
+          "optionsCn": [
+            "A. IP 地址欺骗攻击",
+            "",
+            "C. MAC 泛洪",
+            ""
+          ]
         }
       ],
       "id": "ccnp_gen_110",
@@ -2548,7 +3148,14 @@
             "C. On a TACACS+ server",
             "D. On an LDAP server"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在本地 AAA 认证中，用户名和密码存储在哪里？",
+          "optionsCn": [
+            "A. 在路由器本地数据库中",
+            "B. 在 RADIUS 服务器上",
+            "C. 在 TACACS+ 服务器上",
+            "D. 在 LDAP 服务器上"
+          ]
         }
       ],
       "id": "ccnp_gen_111",
@@ -2570,7 +3177,14 @@
             "C. Monitoring SNMP traps",
             "D. Routing protocol convergence"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco EEM（嵌入式事件管理器）用于什么？",
+          "optionsCn": [
+            "A. 在设备上自动化响应网络事件",
+            "B. 管理 ACL 配置",
+            "C. 监控 SNMP 陷阱",
+            "D. 路由协议收敛"
+          ]
         }
       ],
       "id": "ccnp_gen_112",
@@ -2592,7 +3206,8 @@
             "C. 1 million (20-bit)",
             "D. 4 billion (32-bit)"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "有多少个 VNI（VXLAN 网络标识符）可用？"
         }
       ],
       "id": "ccnp_gen_113",
@@ -2619,7 +3234,14 @@
             "C. Border Node",
             "D. Fabric WLC"
           ],
-          "answer": "B"
+          "answer": "B",
+          "textCn": "在 Cisco SD-Access 中，哪个设备充当架构控制平面？",
+          "optionsCn": [
+            "A. 边缘节点",
+            "B. 控制平面节点",
+            "C. 边界节点",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -2643,7 +3265,14 @@
             "C. vManage NMS",
             "D. vEdge router"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 Cisco SD-WAN 中，哪个组件负责编排控制平面连接？",
+          "optionsCn": [
+            "A. vBond 编排器",
+            "B. vSmart 控制器",
+            "",
+            "D. vEdge 路由器"
+          ]
         }
       ],
       "type": "single"
@@ -2667,7 +3296,14 @@
             "C. Cisco SD-WAN",
             "D. Cisco ACI"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个 Cisco 架构框架使用核心层、分布层和接入层的三层模型？",
+          "optionsCn": [
+            "A. Cisco 企业园区架构",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -2691,7 +3327,14 @@
             "C. Simplified management",
             "D. Improved security"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在园区网络核心层部署冗余设备的主要好处是什么？",
+          "optionsCn": [
+            "A. 提高网络可用性",
+            "B. 降低运营成本",
+            "C. 简化管理",
+            "D. 提高安全性"
+          ]
         }
       ],
       "type": "single"
@@ -2715,7 +3358,14 @@
             "C. Wireless signal processing",
             "D. Power over Ethernet"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Catalyst 9000 系列交换机中的 Cisco UADP ASIC 设计用于什么？",
+          "optionsCn": [
+            "A. 可编程流水线，用于灵活转发",
+            "B. 仅第 2 层交换",
+            "C. 无线信号处理",
+            "D. 以太网供电"
+          ]
         }
       ],
       "type": "single"
@@ -2739,7 +3389,14 @@
             "C. IP Precedence",
             "D. MPLS EXP"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "第 2 层用于服务等级（Class of Service）的 QoS 标记是什么？",
+          "optionsCn": [
+            "",
+            "",
+            "C. IP 优先级",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -2763,7 +3420,8 @@
             "C. qos trust boundary extend",
             "D. auto qos trust"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个命令将 QoS 信任边界扩展到终端设备？"
         }
       ],
       "type": "single"
@@ -2788,7 +3446,14 @@
             "C. Policy plane: SGACL enforcement",
             "D. Management plane: device onboarding"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 SD-Access 中，LISP 在架构中的目的是什么？",
+          "optionsCn": [
+            "A. 控制平面：将 EID 映射到 RLOC",
+            "B. 数据平面：VXLAN 封装",
+            "C. 策略平面：SGACL 执行",
+            "D. 管理平面：设备接入"
+          ]
         }
       ],
       "type": "single"
@@ -2813,7 +3478,8 @@
             "C. MPLS",
             "D. IPsec"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco SD-Access 中使用哪个协议作为数据平面封装？"
         }
       ],
       "type": "single"
@@ -2838,7 +3504,8 @@
             "C. OSPF",
             "D. EIGRP"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco SD-WAN 中用于控制平面通信的协议是什么？"
         }
       ],
       "type": "single"
@@ -2862,7 +3529,14 @@
             "C. Only monitoring",
             "D. Only inventory"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个 Cisco DNA Center 角色提供基于意图的网络（intent-based networking）能力？",
+          "optionsCn": [
+            "A. 自动化和保障",
+            "B. 仅设备管理",
+            "C. 仅监控",
+            "D. 仅清单"
+          ]
         }
       ],
       "type": "single"
@@ -2886,7 +3560,14 @@
             "C. Guest portal hosting",
             "D. Certificate authority"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco ISE PAN（策略管理节点，Policy Administration Node）的目的是什么？",
+          "optionsCn": [
+            "A. 集中策略管理和报告",
+            "",
+            "C. 访客门户托管",
+            "D. 证书颁发机构"
+          ]
         }
       ],
       "type": "single"
@@ -2910,7 +3591,14 @@
             "C. VLAN ACL",
             "D. DHCP snooping"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个功能防止对设备控制台端口的未经授权访问？",
+          "optionsCn": [
+            "A. 密码保护和 exec-timeout",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -2935,7 +3623,14 @@
             "C. Route redistribution",
             "D. Firewall inspection"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "vManage 在 Cisco SD-WAN 解决方案中的作用是什么？",
+          "optionsCn": [
+            "A. 集中管理和监控仪表板",
+            "B. 数据平面转发",
+            "C. 路由重分发",
+            "D. 防火墙检查"
+          ]
         }
       ],
       "type": "single"
@@ -2960,7 +3655,14 @@
             "C. Core layer switches",
             "D. Internet edge router"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在园区 LAN 中，推荐的 STP 根桥放置在哪里？",
+          "optionsCn": [
+            "A. 分布层交换机",
+            "B. 接入层交换机",
+            "C. 核心层交换机",
+            "D. 互联网边缘路由器"
+          ]
         }
       ],
       "type": "single"
@@ -2984,7 +3686,14 @@
             "C. DSL",
             "D. Cable modem"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪种 WAN 技术使用 MPLS 在企业站点之间提供私有连接？",
+          "optionsCn": [
+            "",
+            "",
+            "",
+            "D. Cable modem"
+          ]
         }
       ],
       "type": "single"
@@ -3008,7 +3717,14 @@
             "C. VPN policy",
             "D. VSmart policy"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 Cisco SD-WAN 中，哪种类型的策略控制流量采用的路径？",
+          "optionsCn": [
+            "A. 应用路由策略",
+            "B. cflowd 策略",
+            "C. VPN 策略",
+            "D. VSmart 策略"
+          ]
         }
       ],
       "type": "single"
@@ -3032,7 +3748,14 @@
             "C. Control Plane Node",
             "D. Wireless Controller"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个 Cisco SD-Access 节点类型提供到架构的外部连接？",
+          "optionsCn": [
+            "A. 边界节点",
+            "B. 边缘节点",
+            "C. 控制平面节点",
+            "D. 无线控制器"
+          ]
         }
       ],
       "type": "single"
@@ -3056,7 +3779,14 @@
             "C. Each Meraki device",
             "D. Local server"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 Cisco Meraki 云管理网络中，控制平面位于何处？",
+          "optionsCn": [
+            "A. Cisco Meraki 云",
+            "B. 本地控制器",
+            "C. 每个 Meraki 设备",
+            "D. 本地服务器"
+          ]
         }
       ],
       "type": "single"
@@ -3080,7 +3810,14 @@
             "C. Leaf-spine interconnection",
             "D. External routing"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 Cisco ACI 中，APIC 控制器的功能是什么？",
+          "optionsCn": [
+            "A. 集中策略和管理",
+            "B. 数据平面转发",
+            "C. Leaf-Spine 互连",
+            "D. 外部路由"
+          ]
         }
       ],
       "type": "single"
@@ -3104,7 +3841,14 @@
             "C. FIFO",
             "D. Tail Drop"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪种 QoS 工具可用于保证特定流量类别的带宽？",
+          "optionsCn": [
+            "",
+            "",
+            "",
+            "D. Tail Drop"
+          ]
         }
       ],
       "type": "single"
@@ -3128,7 +3872,14 @@
             "C. Syslog message collection",
             "D. CLI output scraping"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "什么是模型驱动遥测（MDT，Model-Driven Telemetry）？",
+          "optionsCn": [
+            "A. 来自网络设备的基于推送的数据流",
+            "B. 基于拉取的 SNMP 轮询",
+            "C. Syslog 消息收集",
+            "D. CLI 输出抓取"
+          ]
         }
       ],
       "type": "single"
@@ -3152,7 +3903,14 @@
             "C. Policy plane",
             "D. Forwarding plane"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 SDN 架构中，哪个平面与数据平面分离？",
+          "optionsCn": [
+            "A. 控制平面",
+            "B. 管理平面",
+            "C. 策略平面",
+            "D. 转发平面"
+          ]
         }
       ],
       "type": "single"
@@ -3176,7 +3934,14 @@
             "C. A VPN segment",
             "D. A policy rule"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "TLOC（传输位置，Transport Location）在 Cisco SD-WAN 中表示什么？",
+          "optionsCn": [
+            "A. 具有颜色、IP 和封装的 WAN 接口",
+            "B. 路由协议实例",
+            "C. VPN 分段",
+            "D. 策略规则"
+          ]
         }
       ],
       "type": "single"
@@ -3200,7 +3965,14 @@
             "C. SD-WAN management",
             "D. Data center orchestration"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco DNA Spaces 用于什么？",
+          "optionsCn": [
+            "A. 使用无线基础设施的位置分析",
+            "B. 有线网络自动化",
+            "C. SD-WAN 管理",
+            "D. 数据中心编排"
+          ]
         }
       ],
       "type": "single"
@@ -3224,7 +3996,8 @@
             "C. MSDP",
             "D. MBGP"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个组播协议运行在最后一跳路由器和主机之间？"
         }
       ],
       "type": "single"
@@ -3248,7 +4021,14 @@
             "C. Improve network encryption",
             "D. Enable faster switching"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在大规模企业网络中，路由汇总的目的是什么？",
+          "optionsCn": [
+            "A. 减少路由表大小和更新开销",
+            "B. 提高路由安全性",
+            "C. 改进网络加密",
+            "D. 实现更快的交换"
+          ]
         }
       ],
       "type": "single"
@@ -3272,7 +4052,14 @@
             "C. Provide mesh networking",
             "D. Support IoT devices"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 Cisco 无线中，FlexConnect 的目的是什么？",
+          "optionsCn": [
+            "A. 允许 AP 在到 WLC 的 WAN 链路故障时本地切换流量",
+            "B. 提高 Wi-Fi 速度",
+            "C. 提供网状网络",
+            "D. 支持 IoT 设备"
+          ]
         }
       ],
       "type": "single"
@@ -3296,7 +4083,14 @@
             "C. IPsec VPN connectivity",
             "D. Wireless signal range"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "OTV（覆盖传输虚拟化，Overlay Transport Virtualization）通过第 3 层网络扩展什么？",
+          "optionsCn": [
+            "A. 数据中心之间的第 2 层连接",
+            "B. VRF 实例之间的第 3 层路由",
+            "",
+            "D. 无线信号范围"
+          ]
         }
       ],
       "type": "single"
@@ -3320,7 +4114,14 @@
             "C. Carry STP BPDUs",
             "D. Synchronize routing updates"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 Cisco Nexus vPC 中，keepalive 链路的功能是什么？",
+          "optionsCn": [
+            "A. 检测对等交换机故障",
+            "B. 转发数据流量",
+            "C. 承载 STP BPDU",
+            "D. 同步路由更新"
+          ]
         }
       ],
       "type": "single"
@@ -3344,7 +4145,14 @@
             "C. VRF uses policy-based routing",
             "D. VRF is a physical routing concept"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "VRF 实例如何维护独立的路由表？",
+          "optionsCn": [
+            "A. 每个 VRF 有自己的 RIB 和 FIB",
+            "B. VRF 共享同一个路由表，带有不同的标记",
+            "C. VRF 使用策略路由",
+            "D. VRF 是一种物理路由概念"
+          ]
         }
       ],
       "type": "single"
@@ -3368,7 +4176,14 @@
             "C. Creating virtual LANs",
             "D. Virtual private networking"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "什么是网络功能虚拟化（NFV，Network Functions Virtualization）？",
+          "optionsCn": [
+            "A. 在通用硬件上以软件形式运行网络功能",
+            "B. 仅虚拟化交换功能",
+            "C. 创建虚拟 LAN",
+            "D. 虚拟专用网络"
+          ]
         }
       ],
       "type": "single"
@@ -3392,7 +4207,14 @@
             "C. A wireless LAN controller VM",
             "D. A network management VM"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco CSR 1000V 是什么？",
+          "optionsCn": [
+            "A. 用于云和虚拟化环境的虚拟路由器",
+            "B. 物理园区路由器",
+            "C. 无线 LAN 控制器 VM",
+            "D. 网络管理 VM"
+          ]
         }
       ],
       "type": "single"
@@ -3417,7 +4239,14 @@
             "C. IOS-XR does not support routing",
             "D. IOS-XE is monolithic only"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco IOS-XE 和 IOS-XR 的关键区别是什么？",
+          "optionsCn": [
+            "A. IOS-XR 具有模块化微内核架构",
+            "B. IOS-XE 仅用于服务提供商",
+            "C. IOS-XR 不支持路由",
+            "D. IOS-XE 仅是单体架构"
+          ]
         }
       ],
       "type": "single"
@@ -3441,7 +4270,14 @@
             "C. Labels packets for forwarding",
             "D. Encrypts VPN traffic"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 MPLS L3VPN 中，路由区分符（RD，Route Distinguisher）的作用是什么？",
+          "optionsCn": [
+            "A. 使可能重叠的 IPv4 前缀全局唯一",
+            "B. 选择到目标的最佳路径",
+            "C. 为数据包打标签以进行转发",
+            "D. 加密 VPN 流量"
+          ]
         }
       ],
       "type": "single"
@@ -3465,7 +4301,14 @@
             "C. Provides virtual switching for containers",
             "D. Manages VXLAN policy"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "VTEP 在 VXLAN 中的角色是什么？",
+          "optionsCn": [
+            "A. 封装和解封装 VXLAN 帧",
+            "B. 在 VLAN 之间路由 VXLAN 数据包",
+            "C. 为容器提供虚拟交换",
+            "D. 管理 VXLAN 策略"
+          ]
         }
       ],
       "type": "single"
@@ -3489,7 +4332,14 @@
             "C. GRE replacement for routing",
             "D. Layer 3 VPN only"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "GENEVE 封装协议设计用于什么？",
+          "optionsCn": [
+            "A. 灵活、可扩展的覆盖封装",
+            "",
+            "",
+            "D. 仅第 3 层 VPN"
+          ]
         }
       ],
       "type": "single"
@@ -3514,7 +4364,14 @@
             "C. VRRP on the VXLAN interface",
             "D. Static routing between VTEPs"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 VXLAN EVPN 中，VTEP 冗余如何实现？",
+          "optionsCn": [
+            "A. 使用任意播 VTEP IP（Anycast VTEP IP）和多个 VTEP",
+            "B. 在 VTEP 之间使用 HSRP",
+            "",
+            "D. VTEP 之间的静态路由"
+          ]
         }
       ],
       "type": "single"
@@ -3538,7 +4395,14 @@
             "C. GRE tunneling",
             "D. MPLS L3VPN only"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "VRF-Lite 用于什么？",
+          "optionsCn": [
+            "A. 单台设备上的多个路由表实例",
+            "B. 虚拟交换",
+            "",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -3562,7 +4426,8 @@
             "C. 51",
             "D. 89"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "GRE 在 IP 头部中使用的协议号是多少？"
         }
       ],
       "type": "single"
@@ -3586,7 +4451,14 @@
             "C. AH mode",
             "D. ESP mode"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪种 IPsec 模式加密整个 IP 数据包（包括原始头部）？",
+          "optionsCn": [
+            "A. 隧道模式",
+            "B. 传输模式",
+            "C. AH 模式",
+            "D. ESP 模式"
+          ]
         }
       ],
       "type": "single"
@@ -3610,7 +4482,14 @@
             "C. Spokes cannot form tunnels between each other",
             "D. Requires MPLS"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在 DMVPN Phase 2 中，Spoke-to-Spoke 隧道的关键特性是什么？",
+          "optionsCn": [
+            "A. 不经过 Hub 的直接 Spoke-to-Spoke 通信",
+            "B. 所有流量都经过 Hub",
+            "C. Spokes 之间不能建立隧道",
+            "D. 需要 MPLS"
+          ]
         }
       ],
       "type": "single"
@@ -3634,7 +4513,8 @@
             "C. IP-in-IP",
             "D. GRE"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "VXLAN 使用什么封装在第 3 层网络上传输第 2 层帧？"
         }
       ],
       "type": "single"
@@ -3658,7 +4538,14 @@
             "C. Reduce CPU load",
             "D. Eliminate routing table size"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "使用子接口与802.1Q的Cisco IOS优势是什么？",
+          "optionsCn": [
+            "A. 在单个物理接口上支持多个VLAN",
+            "B. 增加接口带宽",
+            "C. 降低CPU负载",
+            "D. 消除路由表大小"
+          ]
         }
       ],
       "type": "single"
@@ -3682,7 +4569,14 @@
             "C. A cloud switching service",
             "D. A virtual firewall"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "什么是Cisco VSS（虚拟交换系统）？",
+          "optionsCn": [
+            "A. 两台物理交换机作为一个逻辑交换机运行",
+            "B. 虚拟机管理程序",
+            "C. 云交换服务",
+            "D. 虚拟防火墙"
+          ]
         }
       ],
       "type": "single"
@@ -3706,7 +4600,14 @@
             "C. A cloud-based switch service",
             "D. A routing protocol for VMs"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在数据中心虚拟化中，什么是虚拟交换机（vSwitch）？",
+          "optionsCn": [
+            "A. 虚拟机管理程序内的基于软件的交换机",
+            "B. 在虚拟化环境中使用的物理交换机",
+            "C. 基于云的交换服务",
+            "D. 用于虚拟机的路由协议"
+          ]
         }
       ],
       "type": "single"
@@ -3730,7 +4631,14 @@
             "C. A virtual firewall",
             "D. A routing appliance"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "什么是Cisco Nexus 1000V？",
+          "optionsCn": [
+            "A. 用于VMware虚拟机管理程序的软件虚拟交换机",
+            "B. 物理数据中心交换机",
+            "C. 虚拟防火墙",
+            "D. 路由设备"
+          ]
         }
       ],
       "type": "single"
@@ -3754,7 +4662,14 @@
             "C. Generates NetFlow packets on the router",
             "D. Configures NetFlow export parameters"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "NetFlow收集器（NetFlow collector）的作用是什么？",
+          "optionsCn": [
+            "A. 接收并存储导出的流记录以供分析",
+            "B. 从线路上捕获原始数据包",
+            "C. 在路由器上生成NetFlow数据包",
+            "D. 配置NetFlow导出参数"
+          ]
         }
       ],
       "type": "single"
@@ -3778,7 +4693,14 @@
             "C. OSPF over IPsec tunnels",
             "D. Static routes on each vEdge"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在Cisco SD-WAN中，OMP如何在网络中传播路由？",
+          "optionsCn": [
+            "A. OMP通告带有TLOC下一跳信息的路由",
+            "B. vEdge路由器之间的传统BGP",
+            "",
+            "D. 每个vEdge上的静态路由"
+          ]
         }
       ],
       "type": "single"
@@ -3802,7 +4724,14 @@
             "C. Improve convergence at hub",
             "D. All of the above"
           ],
-          "answer": "D"
+          "answer": "D",
+          "textCn": "在远程站点部署EIGRP Stub路由器的目的是什么？",
+          "optionsCn": [
+            "A. 防止远程站点成为中转路由器",
+            "B. 减少EIGRP查询范围",
+            "C. 改善枢纽站的收敛",
+            "D. 以上全部"
+          ]
         }
       ],
       "type": "single"
@@ -3826,7 +4755,14 @@
             "C. Disable LSA throttling",
             "D. Use a single area for all routers"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "如何改善园区网络中的OSPF收敛速度？",
+          "optionsCn": [
+            "A. 使用BFD与OSPF实现亚秒级故障检测",
+            "B. 将OSPF Hello定时器增加到30秒",
+            "C. 禁用LSA抑制",
+            "D. 所有路由器使用单个区域"
+          ]
         }
       ],
       "type": "single"
@@ -3850,7 +4786,14 @@
             "C. Convert IPv6 to IPv4 packets",
             "D. Compress IPv6 headers"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "IPv6隧道（例如6to4或GRE）的目的是什么？",
+          "optionsCn": [
+            "A. 通过IPv4基础设施承载IPv6流量",
+            "B. 加密IPv6数据包",
+            "C. 将IPv6数据包转换为IPv4数据包",
+            "D. 压缩IPv6头部"
+          ]
         }
       ],
       "type": "single"
@@ -3874,7 +4817,14 @@
             "C. Using DTP dynamic trunks",
             "D. Using LLDP-MED"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "如何跨多台交换机实现VLAN负载均衡？",
+          "optionsCn": [
+            "A. 在PVST+中对不同VLAN使用不同的STP优先级",
+            "B. 使用VTP修剪",
+            "C. 使用DTP动态中继",
+            "D. 使用LLDP-MED"
+          ]
         }
       ],
       "type": "single"
@@ -3898,7 +4848,14 @@
             "C. PoE power management",
             "D. Fiber optic cleaning"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "连接故障管理（CFM）用于什么？",
+          "optionsCn": [
+            "A. 端到端以太网路径故障检测和隔离",
+            "B. 线缆诊断",
+            "C. PoE电源管理",
+            "D. 光纤清洁"
+          ]
         }
       ],
       "type": "single"
@@ -3922,7 +4879,8 @@
             "C. ISIS",
             "D. EIGRP"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "现代数据中心中VXLAN使用什么控制平面协议？"
         }
       ],
       "type": "single"
@@ -3946,7 +4904,14 @@
             "C. Simplify router configuration",
             "D. Automate BGP peering"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "MPLS TE（流量工程）的好处是什么？",
+          "optionsCn": [
+            "A. 基于带宽和约束优化流量路径",
+            "B. 减少MPLS标签栈深度",
+            "C. 简化路由器配置",
+            "D. 自动化BGP对等体建立"
+          ]
         }
       ],
       "type": "single"
@@ -3970,7 +4935,14 @@
             "C. Point-to-point",
             "D. Point-to-multipoint"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪种OSPF网络类型默认使用单播邻居？",
+          "optionsCn": [
+            "",
+            "B. 广播",
+            "C. 点到点",
+            "D. 点到多点"
+          ]
         }
       ],
       "type": "single"
@@ -3994,7 +4966,14 @@
             "C. Type 4 (ASBR Summary)",
             "D. Type 7 (NSSA External)"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪种OSPF LSA类型不会泛洪到其始发区域之外？",
+          "optionsCn": [
+            "A. Type 1（路由器LSA）（Type 1 (Router LSA)）",
+            "B. Type 5（外部LSA）（Type 5 (External LSA)）",
+            "C. Type 4（ASBR汇总）（Type 4 (ASBR Summary)）",
+            "D. Type 7（NSSA外部）（Type 7 (NSSA External)）"
+          ]
         }
       ],
       "type": "single"
@@ -4018,7 +4997,8 @@
             "C. route-map to filter OSPF",
             "D. prefix-list deny"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "什么命令用于在ABR上过滤Type 3 LSA？"
         }
       ],
       "type": "single"
@@ -4042,7 +5022,14 @@
             "C. Simple password authentication",
             "D. SHA-256 HMAC"
           ],
-          "answer": "D"
+          "answer": "D",
+          "textCn": "最强的OSPF认证方法是什么？",
+          "optionsCn": [
+            "A. MD5加密认证",
+            "B. 空认证",
+            "C. 简单密码认证",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -4066,7 +5053,14 @@
             "C. Requires all routes to be redistributed",
             "D. No authentication support"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "EIGRP命名模式配置的一个好处是什么？",
+          "optionsCn": [
+            "A. 具有AF（地址族）和拓扑的层次化配置结构",
+            "B. 仅支持IPv4",
+            "C. 要求所有路由都被重分发",
+            "D. 不支持认证"
+          ]
         }
       ],
       "type": "single"
@@ -4090,7 +5084,14 @@
             "C. Load and Reliability",
             "D. MTU and Delay"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "默认情况下，EIGRP使用哪些度量值来计算复合度量？",
+          "optionsCn": [
+            "A. 带宽和延迟",
+            "B. 带宽和跳数",
+            "C. 负载和可靠性",
+            "D. MTU和延迟"
+          ]
         }
       ],
       "type": "single"
@@ -4114,7 +5115,14 @@
             "C. Any route learned from a neighbor",
             "D. A redistributed static route"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在EIGRP中，什么定义了可行后继路由（feasible successor route）？",
+          "optionsCn": [
+            "",
+            "B. 路由表中的主路由",
+            "C. 从邻居学到的任何路由",
+            "D. 重分发的静态路由"
+          ]
         }
       ],
       "type": "single"
@@ -4138,7 +5146,14 @@
             "C. AS_PATH (shortest)",
             "D. MED (lowest)"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在路径选择过程中，哪个BGP属性是第一个被考虑的？",
+          "optionsCn": [
+            "A. Weight（最高胜出）（Weight (highest)）",
+            "B. Local Preference（本地优先级，最高胜出）（Local Preference (highest)）",
+            "C. AS_PATH（最短胜出）（AS_PATH (shortest)）",
+            "D. MED（最低胜出）（MED (lowest)）"
+          ]
         }
       ],
       "type": "single"
@@ -4162,7 +5177,14 @@
             "C. Only in EBGP updates",
             "D. Via IGP redistribution"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "BGP本地优先级（local preference）如何在AS内传播？",
+          "optionsCn": [
+            "",
+            "B. 在IP头部中作为DSCP值",
+            "C. 仅在EBGP更新中",
+            "D. 通过IGP重分发"
+          ]
         }
       ],
       "type": "single"
@@ -4186,7 +5208,14 @@
             "C. Create virtual routing tables",
             "D. Aggregate multiple AS paths"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "BGP团体属性（BGP communities）的目的是什么？",
+          "optionsCn": [
+            "A. 使用属性标记路由以实施策略",
+            "B. 按地理位置对BGP发言者分组",
+            "C. 创建虚拟路由表",
+            "D. 聚合多条AS路径"
+          ]
         }
       ],
       "type": "single"
@@ -4210,7 +5239,14 @@
             "C. The AS path must be empty",
             "D. The next hop must be reachable"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "BGP同步（synchronization）在向EBGP对等体通告iBGP路由之前要求什么？",
+          "optionsCn": [
+            "A. 前缀必须存在于IGP路由表中",
+            "B. 前缀必须通过OSPF学习",
+            "C. AS路径必须为空",
+            "D. 下一跳必须可达"
+          ]
         }
       ],
       "type": "single"
@@ -4234,7 +5270,14 @@
             "C. bgp multipath-relax",
             "D. load-balance bgp"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "什么功能使BGP能够安装多条路径以实现负载均衡？",
+          "optionsCn": [
+            "A. maximum-paths命令",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -4258,7 +5301,14 @@
             "C. Only Bandwidth",
             "D. Administrative Distance"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "将OSPF重分发到EIGRP时，必须指定哪些度量值？",
+          "optionsCn": [
+            "A. 带宽、延迟、可靠性、负载、MTU",
+            "B. 开销和跳数",
+            "C. 仅带宽",
+            "D. 管理距离"
+          ]
         }
       ],
       "type": "single"
@@ -4282,7 +5332,14 @@
             "C. Routing blackhole",
             "D. Load balancing imbalance"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "当路由被重新注入回源协议时，常见的路由重分发问题叫什么？",
+          "optionsCn": [
+            "A. 路由反馈环路",
+            "B. 次优路由",
+            "C. 路由黑洞",
+            "D. 负载均衡不平衡"
+          ]
         }
       ],
       "type": "single"
@@ -4306,7 +5363,14 @@
             "C. Eliminate all Layer 2 loops",
             "D. Faster convergence than RSTP"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "MSTP（多生成树协议）的目的是什么？",
+          "optionsCn": [
+            "A. 将多个VLAN映射到更少的生成树实例中",
+            "B. 完全替代RSTP",
+            "C. 消除所有二层环路",
+            "D. 比RSTP更快的收敛"
+          ]
         }
       ],
       "type": "single"
@@ -4330,7 +5394,14 @@
             "C. Layer 4 port numbers",
             "D. Round-robin per packet"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco EtherChannel默认基于什么进行负载均衡？",
+          "optionsCn": [
+            "A. 源和目标MAC地址",
+            "B. 源和目标IP地址",
+            "C. 四层端口号",
+            "D. 基于数据包的轮询"
+          ]
         }
       ],
       "type": "single"
@@ -4354,7 +5425,14 @@
             "C. On",
             "D. Auto"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪种LACP模式主动发起协商？",
+          "optionsCn": [
+            "A. Active",
+            "B. Passive",
+            "C. On",
+            "D. Auto"
+          ]
         }
       ],
       "type": "single"
@@ -4378,7 +5456,14 @@
             "C. MAC table overflow",
             "D. Routing loops"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "UDLD（单向链路检测）防止什么问题？",
+          "optionsCn": [
+            "",
+            "B. 广播风暴",
+            "C. MAC表溢出",
+            "D. 路由环路"
+          ]
         }
       ],
       "type": "single"
@@ -4402,7 +5487,14 @@
             "C. RPF checks are not needed",
             "D. Dense flooding first then pruning"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "PIM稀疏模式（PIM Sparse Mode）如何构建组播分发树？",
+          "optionsCn": [
+            "A. 接收者通过显式RP发现加入",
+            "B. 路由器泛洪所有组播流量",
+            "C. 不需要RPF检查",
+            "D. 先密集泛洪然后修剪"
+          ]
         }
       ],
       "type": "single"
@@ -4426,7 +5518,14 @@
             "C. Increase multicast transmission speed",
             "D. Convert multicast to unicast"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "交换机上的IGMP侦听（IGMP snooping）的主要好处是什么？",
+          "optionsCn": [
+            "A. 将组播流量限制到仅感兴趣的接收者",
+            "B. 消除所有组播流量",
+            "C. 增加组播传输速度",
+            "D. 将组播转换为单播"
+          ]
         }
       ],
       "type": "single"
@@ -4451,7 +5550,8 @@
             "C. OSPFv3 only supports IPv4",
             "D. OSPFv3 uses a different SPF algorithm"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "OSPFv2和OSPFv3之间的关键区别是什么？"
         }
       ],
       "type": "single"
@@ -4475,7 +5575,14 @@
             "C. Type 1 and Type 2",
             "D. Only Type 5"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "OSPF Stub区域中阻止哪些LSA类型？",
+          "optionsCn": [
+            "A. Type 4和Type 5",
+            "B. Type 3和Type 4",
+            "C. Type 1和Type 2",
+            "D. 仅Type 5"
+          ]
         }
       ],
       "type": "single"
@@ -4499,7 +5606,14 @@
             "C. External Type 1 (E1)",
             "D. External Type 2 (E2)"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪种OSPF路径类型具有最高优先级？",
+          "optionsCn": [
+            "A. Intra-area",
+            "B. Inter-area",
+            "C. External Type 1",
+            "D. External Type 2"
+          ]
         }
       ],
       "type": "single"
@@ -4523,7 +5637,8 @@
             "C. 65536 × classic metric",
             "D. 1000 × classic metric"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "EIGRP宽度量（命名模式）的缩放因子是多少？"
         }
       ],
       "type": "single"
@@ -4547,7 +5662,14 @@
             "C. MED is only used in IBGP",
             "D. MED replaces AS_PATH"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "BGP MED在路径选择中如何使用？",
+          "optionsCn": [
+            "A. 较低MED优先，发送给EBGP对等体",
+            "B. 较高MED优先",
+            "C. MED仅在IBGP中使用",
+            "D. MED替代AS_PATH"
+          ]
         }
       ],
       "type": "single"
@@ -4571,7 +5693,14 @@
             "C. Encrypts the AS_PATH attribute",
             "D. Sorts the AS_PATH in numerical order"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "AS_PATH prepending（AS路径追加）的作用是什么？",
+          "optionsCn": [
+            "A. 添加虚拟AS号使路径看起来更长",
+            "B. 从AS_PATH中移除AS号",
+            "C. 加密AS_PATH属性",
+            "D. 按数字顺序对AS_PATH排序"
+          ]
         }
       ],
       "type": "single"
@@ -4595,7 +5724,14 @@
             "C. Increases bandwidth between BGP peers",
             "D. Automatically redistributes IGP routes"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "BGP路由反射器（route reflector）解决了什么问题？",
+          "optionsCn": [
+            "A. 减少所需的IBGP对等会话数量",
+            "B. 消除EBGP对等体",
+            "C. 增加BGP对等体间的带宽",
+            "D. 自动重分发IGP路由"
+          ]
         }
       ],
       "type": "single"
@@ -4619,7 +5755,14 @@
             "C. BGP communities",
             "D. BGP multipath"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "BGP联盟（BGP confederations）是以下哪种方案的替代方案？",
+          "optionsCn": [
+            "A. 用于IBGP可扩展性的路由反射器",
+            "B. EBGP多跳",
+            "",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -4643,7 +5786,14 @@
             "C. Configure QoS policies",
             "D. Automate device backups"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco IP SLA的主要用途是什么？",
+          "optionsCn": [
+            "A. 测量网络性能指标，如延迟和抖动",
+            "B. 改善路由收敛",
+            "C. 配置QoS策略",
+            "D. 自动化设备备份"
+          ]
         }
       ],
       "type": "single"
@@ -4667,7 +5817,14 @@
             "C. IPv6-to-IPv6 only translation",
             "D. Encrypted network traversal"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "NAT64支持什么功能？",
+          "optionsCn": [
+            "A. 仅IPv6的客户端与IPv4服务器通信",
+            "B. IPv4到IPv4的转换",
+            "C. 仅IPv6到IPv6的转换",
+            "D. 加密的网络穿越"
+          ]
         }
       ],
       "type": "single"
@@ -4691,7 +5848,14 @@
             "C. Only DNS server",
             "D. Only domain name"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在有状态DHCPv6操作中，服务器分配什么？",
+          "optionsCn": [
+            "A. IPv6地址和其他参数",
+            "B. 仅前缀信息",
+            "C. 仅DNS服务器",
+            "D. 仅域名"
+          ]
         }
       ],
       "type": "single"
@@ -4715,7 +5879,8 @@
             "C. GLBP",
             "D. ICMP Router Discovery"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪种FHRP协议是Cisco专有的并使用主/备模型？"
         }
       ],
       "type": "single"
@@ -4739,7 +5904,14 @@
             "C. Virtual IP address",
             "D. Preemption capability"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "GLBP提供了哪些HSRP没有的独特功能？",
+          "optionsCn": [
+            "A. 跨多台路由器的负载均衡",
+            "B. 主/备故障切换",
+            "C. 虚拟IP地址",
+            "D. 抢占能力"
+          ]
         }
       ],
       "type": "single"
@@ -4763,7 +5935,8 @@
             "C. 4 (all active)",
             "D. 32 (16 active, 16 standby)"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco交换机上单个EtherChannel中允许的最大LACP端口数量是多少？"
         }
       ],
       "type": "single"
@@ -4787,7 +5960,14 @@
             "C. A QoS scheduling mechanism",
             "D. A virtual port channel technology"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "什么是Cisco FlexLinks？",
+          "optionsCn": [
+            "A. 一对二层接口，一个活动一个备用",
+            "B. 一种光纤连接器",
+            "C. 一种QoS调度机制",
+            "D. 一种虚拟端口通道技术"
+          ]
         }
       ],
       "type": "single"
@@ -4811,7 +5991,14 @@
             "C. A virtual router redundancy protocol",
             "D. A cloud-based switching service"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Catalyst 9500交换机上的Cisco StackWise Virtual是什么？",
+          "optionsCn": [
+            "A. 两台物理交换机作为一个逻辑交换机运行",
+            "B. 一种物理堆叠线缆技术",
+            "C. 一种虚拟路由器冗余协议",
+            "D. 一种基于云的交换服务"
+          ]
         }
       ],
       "type": "single"
@@ -4835,7 +6022,14 @@
             "C. Configure trunk ports dynamically",
             "D. Manage switch MAC address tables"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "VTP（VLAN中继协议）的目的是什么？",
+          "optionsCn": [
+            "A. 跨交换机分发VLAN信息",
+            "B. 自动为交换机分配IP地址",
+            "C. 动态配置中继端口",
+            "D. 管理交换机MAC地址表"
+          ]
         }
       ],
       "type": "single"
@@ -4859,7 +6053,14 @@
             "C. Dynamically adjust OSPF metrics",
             "D. Filter BGP routes"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "基于策略的路由（PBR）用于什么？",
+          "optionsCn": [
+            "A. 基于扩展ACL匹配转发数据包",
+            "B. 替换路由表",
+            "C. 动态调整OSPF度量值",
+            "D. 过滤BGP路由"
+          ]
         }
       ],
       "type": "single"
@@ -4883,7 +6084,8 @@
             "C. dhcp relay agent",
             "D. ip forward-address x.x.x.x"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "什么命令在Cisco接口上配置DHCP中继？"
         }
       ],
       "type": "single"
@@ -4907,7 +6109,14 @@
             "C. MAC Table and CAM Table",
             "D. CAM and TCAM"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "CEF中使用的两个主要表是什么？",
+          "optionsCn": [
+            "A. FIB（转发信息库）和邻接表",
+            "B. 路由表和ARP缓存",
+            "C. MAC表和CAM表",
+            "D. CAM和TCAM"
+          ]
         }
       ],
       "type": "single"
@@ -4931,7 +6140,14 @@
             "C. Encrypt data plane traffic",
             "D. Manage power over Ethernet"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "TCAM在交换机中用于什么？",
+          "optionsCn": [
+            "A. 以线速对ACL和QoS进行高速查找",
+            "B. 存储OSPF路由表",
+            "C. 加密数据平面流量",
+            "D. 管理以太网供电（PoE）"
+          ]
         }
       ],
       "type": "single"
@@ -4955,7 +6171,14 @@
             "C. Router that forwards broadcast to multicast",
             "D. Multicast source discovery"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在PIM SM中，RP（汇集点）的功能是什么？",
+          "optionsCn": [
+            "A. 组播源和接收者的汇合点",
+            "B. 共享分发树的根",
+            "C. 将广播转发为组播的路由器",
+            "D. 组播源发现"
+          ]
         }
       ],
       "type": "single"
@@ -4979,7 +6202,14 @@
             "C. Eliminate IGMP snooping",
             "D. Faster PIM convergence"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "PIM中的Anycast RP用于什么？",
+          "optionsCn": [
+            "A. RP功能的冗余和负载分担",
+            "B. 替代MSDP需求",
+            "C. 消除IGMP侦听",
+            "D. 更快的PIM收敛"
+          ]
         }
       ],
       "type": "single"
@@ -5003,7 +6233,14 @@
             "C. Reduce OSPF database size",
             "D. Automatically adjust OSPF timers"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "OSPF优雅重启（Graceful Restart）的目的是什么？",
+          "optionsCn": [
+            "A. 在控制平面重启期间继续转发",
+            "B. 更快地重启路由器",
+            "C. 减小OSPF数据库大小",
+            "D. 自动调整OSPF定时器"
+          ]
         }
       ],
       "type": "single"
@@ -5027,7 +6264,14 @@
             "C. Dynamically add BGP peers",
             "D. Add route reflectors automatically"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "BGP add-path功能支持什么？",
+          "optionsCn": [
+            "A. 通告同一前缀的多条路径",
+            "B. 向路由表添加新路径",
+            "C. 动态添加BGP对等体",
+            "D. 自动添加路由反射器"
+          ]
         }
       ],
       "type": "single"
@@ -5051,7 +6295,14 @@
             "C. Filter Type 5 LSAs",
             "D. Disable OSPF on an interface"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "OSPF前缀抑制（prefix suppression）的作用是什么？",
+          "optionsCn": [
+            "A. 不在Type 1 LSA中通告某些前缀",
+            "B. 抑制链路上的所有LSA泛洪",
+            "C. 过滤Type 5 LSA",
+            "D. 在接口上禁用OSPF"
+          ]
         }
       ],
       "type": "single"
@@ -5075,7 +6326,14 @@
             "C. Compress BGP update messages",
             "D. Encrypt BGP sessions"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "BGP Flowspec用于什么？",
+          "optionsCn": [
+            "A. 分发流量流规范以进行过滤或限速",
+            "B. 加速BGP收敛",
+            "C. 压缩BGP更新消息",
+            "D. 加密BGP会话"
+          ]
         }
       ],
       "type": "single"
@@ -5099,7 +6357,14 @@
             "C. Manual CLI-based troubleshooting",
             "D. Only wireless monitoring"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco DNA Assurance提供什么功能？",
+          "optionsCn": [
+            "A. 具有AI/ML洞察力的主动网络监控",
+            "B. 基本的SNMP轮询和警报",
+            "C. 基于手动CLI的故障排除",
+            "D. 仅无线监控"
+          ]
         }
       ],
       "type": "single"
@@ -5123,7 +6388,14 @@
             "C. Config rollback timer",
             "D. Version control integration"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪种Cisco功能可以自动备份配置？",
+          "optionsCn": [
+            "A. Archive和RCP/TFTP",
+            "B. Auto-backup",
+            "C. Config rollback timer",
+            "D. Version control integration"
+          ]
         }
       ],
       "type": "single"
@@ -5147,7 +6419,14 @@
             "C. Speed up NTP synchronization",
             "D. Reduce NTP traffic"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "NTP认证的目的是什么？",
+          "optionsCn": [
+            "A. 防止未经授权的时间源篡改",
+            "B. 加密NTP数据包",
+            "C. 加快NTP同步速度",
+            "D. 减少NTP流量"
+          ]
         }
       ],
       "type": "single"
@@ -5171,7 +6450,14 @@
             "C. Only available for routers",
             "D. Licenses expire after 30 days"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco智能许可（Smart Licensing）与传统许可有何不同？",
+          "optionsCn": [
+            "A. 无需PAK密钥：许可证从池中消费",
+            "B. 需要每设备许可证密钥",
+            "C. 仅适用于路由器",
+            "D. 许可证30天后过期"
+          ]
         }
       ],
       "type": "single"
@@ -5195,7 +6481,14 @@
             "C. Only ICMP",
             "D. Only Syslog"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco DNA Center使用哪些协议进行设备监控？",
+          "optionsCn": [
+            "",
+            "B. 仅SNMP",
+            "C. 仅ICMP",
+            "D. 仅Syslog"
+          ]
         }
       ],
       "type": "single"
@@ -5219,7 +6512,14 @@
             "C. Automate routing protocol configuration",
             "D. Replace NetFlow"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco EEM可用于什么？",
+          "optionsCn": [
+            "",
+            "B. 替代SNMP轮询",
+            "C. 自动化路由协议配置",
+            "D. 替代NetFlow"
+          ]
         }
       ],
       "type": "single"
@@ -5243,7 +6543,14 @@
             "C. Provide SNMP trap generation",
             "D. Increase IP SLA security"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "IP SLA响应者（responder）的主要用途是什么？",
+          "optionsCn": [
+            "A. 实现精确的单向延迟和抖动测量",
+            "B. 更快地响应ICMP回显请求",
+            "C. 提供SNMP陷阱生成",
+            "D. 提高IP SLA安全性"
+          ]
         }
       ],
       "type": "single"
@@ -5267,7 +6574,14 @@
             "C. Event-driven uses more CPU",
             "D. No difference in operation"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "周期性和事件驱动遥测之间有什么区别？",
+          "optionsCn": [
+            "A. 周期性按间隔流式传输数据；事件驱动在状态变化时发送",
+            "B. 周期性需要更多带宽",
+            "C. 事件驱动使用更多CPU",
+            "D. 操作上没有区别"
+          ]
         }
       ],
       "type": "single"
@@ -5291,7 +6605,14 @@
             "C. A transport protocol for network management",
             "D. A database schema"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "什么是YANG模型？",
+          "optionsCn": [
+            "A. 定义网络设备配置和状态的数据模型",
+            "B. 用于自动化的脚本语言",
+            "C. 用于网络管理的传输协议",
+            "D. 数据库模式"
+          ]
         }
       ],
       "type": "single"
@@ -5315,7 +6636,8 @@
             "C. ARP only",
             "D. STP only"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco设备使用什么协议来发现直接相连的邻居？"
         }
       ],
       "type": "single"
@@ -5339,7 +6661,14 @@
             "C. Only uptime",
             "D. Only signal strength"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco DNA Assurance用于客户端体验评分的度量是什么？",
+          "optionsCn": [
+            "A. 网络、应用和设备评分",
+            "B. 仅带宽利用率",
+            "C. 仅运行时间",
+            "D. 仅信号强度"
+          ]
         }
       ],
       "type": "single"
@@ -5363,7 +6692,14 @@
             "C. Agent, Manager, Monitor",
             "D. Source, Destination, Flow"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco NetFlow的三个主要组件是什么？",
+          "optionsCn": [
+            "A. 导出器（Exporter）、收集器（Collector）、分析器",
+            "B. 传感器（Sensor）、服务器（Server）、数据库",
+            "C. 代理（Agent）、管理器（Manager）、监视器",
+            "D. 源（Source）、目标（Destination）、流"
+          ]
         }
       ],
       "type": "single"
@@ -5387,7 +6723,14 @@
             "C. Destination IP only",
             "D. MAC address only"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "NetFlow流键（flow key）通常由什么定义？",
+          "optionsCn": [
+            "",
+            "B. 仅源IP",
+            "C. 仅目标IP",
+            "D. 仅MAC地址"
+          ]
         }
       ],
       "type": "single"
@@ -5411,7 +6754,8 @@
             "C. authPriv",
             "D. noAuthPriv"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪种SNMPv3安全级别使用认证但不使用加密？"
         }
       ],
       "type": "single"
@@ -5435,7 +6779,14 @@
             "C. User credentials",
             "D. Backup configuration files"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "SNMP MIB中存储了什么？",
+          "optionsCn": [
+            "A. 受管设备属性的分层对象标识符",
+            "B. 日志记录配置",
+            "C. 用户凭据",
+            "D. 备份配置文件"
+          ]
         }
       ],
       "type": "single"
@@ -5459,7 +6810,8 @@
             "C. TCP Connect",
             "D. DHCP"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪种IP SLA操作测量UDP抖动？"
         }
       ],
       "type": "single"
@@ -5483,7 +6835,14 @@
             "C. RSPAN can only monitor one port at a time",
             "D. SPAN only works on routers"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "SPAN和RSPAN之间有什么区别？",
+          "optionsCn": [
+            "A. RSPAN跨网络将镜像流量传输到远程分析器",
+            "B. SPAN使用VLAN标签，RSPAN不使用",
+            "C. RSPAN一次只能监控一个端口",
+            "D. SPAN仅适用于路由器"
+          ]
         }
       ],
       "type": "single"
@@ -5507,7 +6866,8 @@
             "C. UDP encapsulation",
             "D. VLAN stacking"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "ERSPAN使用什么封装来传输镜像流量？"
         }
       ],
       "type": "single"
@@ -5531,7 +6891,14 @@
             "C. Level 4 (Warning)",
             "D. Level 1 (Alert)"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个syslog严重级别表示关键条件？",
+          "optionsCn": [
+            "A. Level 2（Critical）",
+            "B. Level 3（Error）",
+            "C. Level 4（Warning）",
+            "D. Level 1（Alert）"
+          ]
         }
       ],
       "type": "single"
@@ -5555,7 +6922,8 @@
             "C. 389 and 636",
             "D. 443 and 80"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "RADIUS使用哪些UDP端口？"
         }
       ],
       "type": "single"
@@ -5579,7 +6947,8 @@
             "C. TCP 1645",
             "D. TCP 389"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "TACACS+使用哪个TCP端口？"
         }
       ],
       "type": "single"
@@ -5603,7 +6972,14 @@
             "C. DHCPv6 spoofing",
             "D. IPv6 fragmentation attacks"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "IPv6 RA Guard防止什么？",
+          "optionsCn": [
+            "A. 网段上的恶意路由器通告",
+            "B. 地址重复检测攻击",
+            "",
+            "D. IPv6分片攻击"
+          ]
         }
       ],
       "type": "single"
@@ -5627,7 +7003,14 @@
             "C. Block IPv6 Neighbor Discovery",
             "D. Rate-limit DHCPv6 requests"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "DHCPv6 Guard的目的是什么？",
+          "optionsCn": [
+            "A. 阻止未经授权的DHCPv6服务器回复",
+            "B. 加密DHCPv6流量",
+            "C. 阻止IPv6邻居发现",
+            "D. 限速DHCPv6请求"
+          ]
         }
       ],
       "type": "single"
@@ -5651,7 +7034,14 @@
             "C. TCP sequence numbers",
             "D. ARP cache validity"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "单播RPF（反向路径转发）检查什么？",
+          "optionsCn": [
+            "A. 源IP与路由表中的返回路径条目匹配",
+            "B. 目标IP可达性",
+            "",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -5675,7 +7065,14 @@
             "C. Extend VLAN across WAN",
             "D. Create private VLAN for guests"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "私有VLAN（Private VLAN）的目的是什么？",
+          "optionsCn": [
+            "A. 在二层隔离同一VLAN内的端口",
+            "B. 加密VLAN流量",
+            "C. 跨WAN扩展VLAN",
+            "D. 为访客创建私有VLAN"
+          ]
         }
       ],
       "type": "single"
@@ -5699,7 +7096,14 @@
             "C. Filter all BPDUs on the switch",
             "D. Rate-limit BPDUs received"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "BPDU Guard在接入端口上做什么？",
+          "optionsCn": [
+            "A. 如果收到BPDU则关闭端口",
+            "B. 阻止中继端口上的BPDU传输",
+            "C. 在交换机上过滤所有BPDU",
+            "D. 限速接收到的BPDU"
+          ]
         }
       ],
       "type": "single"
@@ -5723,7 +7127,14 @@
             "C. Block BPDUs on the port",
             "D. Disable STP on the port"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "STP根保护（Root Guard）的作用是什么？",
+          "optionsCn": [
+            "A. 防止端口成为STP根端口",
+            "B. 防止交换机成为根桥",
+            "C. 阻止端口上的BPDU",
+            "D. 在端口上禁用STP"
+          ]
         }
       ],
       "type": "single"
@@ -5747,7 +7158,14 @@
             "C. DHCP starvation attacks",
             "D. VLAN hopping attacks"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "IP Source Guard防止什么？",
+          "optionsCn": [
+            "A. 通过将IP绑定到端口和MAC来防止IP欺骗",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -5771,7 +7189,14 @@
             "C. DNS replies",
             "D. CDP neighbor information"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "动态ARP检测（DAI）依赖于什么进行验证？",
+          "optionsCn": [
+            "",
+            "B. 静态ARP条目",
+            "",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -5795,7 +7220,14 @@
             "C. Prevent routing protocol storms",
             "D. Control CPU storm conditions"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "风暴控制（storm control）的目的是什么？",
+          "optionsCn": [
+            "A. 限制广播、组播或未知单播流量速率",
+            "B. 阻止所有广播流量",
+            "C. 防止路由协议风暴",
+            "D. 控制CPU风暴条件"
+          ]
         }
       ],
       "type": "single"
@@ -5819,7 +7251,14 @@
             "C. Encryption methods for VPN",
             "D. Logging level for user actions"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "AAA授权（authorization）控制什么？",
+          "optionsCn": [
+            "A. 用户认证后可以访问哪些服务",
+            "B. 用户密码复杂度",
+            "C. VPN的加密方法",
+            "D. 用户操作的日志级别"
+          ]
         }
       ],
       "type": "single"
@@ -5843,7 +7282,14 @@
             "C. Routing updates only",
             "D. Interface state changes only"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "AAA记账（accounting）跟踪什么？",
+          "optionsCn": [
+            "A. 用于审计和计费的用户活动",
+            "B. 仅密码更改",
+            "C. 仅路由更新",
+            "D. 仅接口状态更改"
+          ]
         }
       ],
       "type": "single"
@@ -5867,7 +7313,14 @@
             "C. Does not support SSH",
             "D. Only works with Telnet"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "本地AAA认证的一个局限性是什么？",
+          "optionsCn": [
+            "A. 可扩展性差，因为每台设备存储自己的用户数据库",
+            "B. 无法加密密码",
+            "C. 不支持SSH",
+            "D. 仅适用于Telnet"
+          ]
         }
       ],
       "type": "single"
@@ -5891,7 +7344,14 @@
             "C. Does not need certificates",
             "D. Only uses AES encryption"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "IKEv2相比IKEv1的一个优势是什么？",
+          "optionsCn": [
+            "A. 内置NAT穿越（NAT traversal）、DPD和MOBIKE支持",
+            "B. 建立时所需数据包更少",
+            "C. 不需要证书",
+            "D. 仅使用AES加密"
+          ]
         }
       ],
       "type": "single"
@@ -5915,7 +7375,14 @@
             "C. GET VPN",
             "D. SSL VPN"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco FlexVPN基于什么？",
+          "optionsCn": [
+            "A. IKEv2，广泛使用AAA进行策略管理",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -5939,7 +7406,14 @@
             "C. Site-to-site IPsec VPN",
             "D. SSL VPN for enterprise"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "GET VPN主要用于什么？",
+          "optionsCn": [
+            "A. 无需隧道的组加密，保留IP头部",
+            "B. 远程接入VPN",
+            "C. 站点到站点IPsec VPN",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -5963,7 +7437,14 @@
             "C. Application layer encryption",
             "D. Wireless encryption"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "MACsec（802.1AE）提供什么？",
+          "optionsCn": [
+            "A. 直接连接的设备之间的二层加密",
+            "B. 三层IPsec加密",
+            "C. 应用层加密",
+            "D. 无线加密"
+          ]
         }
       ],
       "type": "single"
@@ -5987,7 +7468,14 @@
             "C. CPPr only applies to the management plane",
             "D. CoPP applies to Layer 3 only"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "CoPP和CPPr之间有什么区别？",
+          "optionsCn": [
+            "A. CPPr在控制平面内提供更精细的子分类",
+            "B. CoPP更精细",
+            "C. CPPr仅适用于管理平面",
+            "D. CoPP仅适用于三层"
+          ]
         }
       ],
       "type": "single"
@@ -6011,7 +7499,14 @@
             "C. Network access control",
             "D. Endpoint antivirus"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco Umbrella提供什么安全功能？",
+          "optionsCn": [
+            "A. 云交付的DNS层安全和互联网威胁防护",
+            "B. 本地防火墙",
+            "C. 网络访问控制",
+            "D. 终端防病毒"
+          ]
         }
       ],
       "type": "single"
@@ -6035,7 +7530,14 @@
             "C. Application logs only",
             "D. User passwords"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco Stealthwatch分析什么以检测安全威胁？",
+          "optionsCn": [
+            "A. NetFlow数据以检测异常行为",
+            "B. 数据包负载内容",
+            "C. 仅应用日志",
+            "D. 用户密码"
+          ]
         }
       ],
       "type": "single"
@@ -6059,7 +7561,14 @@
             "C. VPN concentrator",
             "D. Wireless security scanner"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco AMP（高级恶意软件防护）用于网络的是什么？",
+          "optionsCn": [
+            "A. 跨网络流量的文件分析和威胁检测",
+            "B. 防火墙替代",
+            "C. VPN集中器",
+            "D. 无线安全扫描器"
+          ]
         }
       ],
       "type": "single"
@@ -6083,7 +7592,14 @@
             "C. Only L2TP VPN",
             "D. Only DMVPN"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco AnyConnect支持哪些VPN类型？",
+          "optionsCn": [
+            "",
+            "B. 仅PPTP VPN",
+            "C. 仅L2TP VPN",
+            "D. 仅DMVPN"
+          ]
         }
       ],
       "type": "single"
@@ -6107,7 +7623,8 @@
             "C. EAP-TLS",
             "D. RADIUS Key Management"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco交换机上用于MACsec密钥协商的协议是什么？"
         }
       ],
       "type": "single"
@@ -6131,7 +7648,14 @@
             "C. Certificate management",
             "D. VPN session management"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco安全生态系统中pxGrid的目的是什么？",
+          "optionsCn": [
+            "A. 安全产品之间的实时上下文和策略共享",
+            "",
+            "C. 证书管理",
+            "D. VPN会话管理"
+          ]
         }
       ],
       "type": "single"
@@ -6155,7 +7679,14 @@
             "C. VLAN hopping attacks",
             "D. DHCP starvation"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "CoPP保护路由器控制平面免受什么影响？",
+          "optionsCn": [
+            "A. 过量的流量压倒CPU",
+            "B. MAC地址表溢出",
+            "",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -6179,7 +7710,14 @@
             "C. VLAN hopping attacks",
             "D. DHCP starvation"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "CoPP保护路由器控制平面免受什么影响？",
+          "optionsCn": [
+            "A. 过量的流量压倒CPU",
+            "B. MAC地址表溢出",
+            "",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -6203,7 +7741,14 @@
             "C. Zone-based firewall policy",
             "D. QoS on all interfaces"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "如何在Cisco路由器上配置CoPP？",
+          "optionsCn": [
+            "A. 使用class-map匹配流量，policy-map设置管制（police），应用于control-plane",
+            "B. 在管理接口上使用ACL",
+            "C. 基于区域的防火墙策略",
+            "D. 在所有接口上使用QoS"
+          ]
         }
       ],
       "type": "single"
@@ -6227,7 +7772,14 @@
             "C. User, AP, Controller",
             "D. Host, NAS, DNS Server"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "802.1X认证中的三个角色是什么？",
+          "optionsCn": [
+            "A. 申请者（Supplicant）、认证者（Authenticator）、认证服务器",
+            "B. 客户端（Client）、交换机（Switch）、路由器",
+            "C. 用户（User）、AP、控制器",
+            "D. 主机（Host）、NAS、DNS服务器"
+          ]
         }
       ],
       "type": "single"
@@ -6251,7 +7803,14 @@
             "C. To encrypt the authentication process",
             "D. To replace VLAN assignment"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在802.1X框架中，MAB何时使用？",
+          "optionsCn": [
+            "A. 用于不支持802.1X申请者的设备",
+            "B. 作为RADIUS的替代",
+            "C. 加密认证过程",
+            "D. 替代VLAN分配"
+          ]
         }
       ],
       "type": "single"
@@ -6275,7 +7834,14 @@
             "C. IP address",
             "D. MAC address"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco TrustSec使用什么进行端点分类？",
+          "optionsCn": [
+            "",
+            "",
+            "C. IP地址",
+            "D. MAC地址"
+          ]
         }
       ],
       "type": "single"
@@ -6299,7 +7865,14 @@
             "C. Replace 802.1X authentication",
             "D. Monitor network traffic"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "SXP（SGT交换协议）用于什么？",
+          "optionsCn": [
+            "A. 跨网络设备传播SGT映射",
+            "B. 加密IPsec数据包",
+            "C. 替代802.1X认证",
+            "D. 监控网络流量"
+          ]
         }
       ],
       "type": "single"
@@ -6323,7 +7896,14 @@
             "C. Always denied",
             "D. Permitted if ACL allows"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在Cisco基于区域的防火墙（ZBFW）中，从区域A到区域B的流量必须...",
+          "optionsCn": [
+            "A. 由区域对策略显式允许",
+            "B. 始终允许",
+            "C. 始终拒绝",
+            "D. 如果ACL允许则允许"
+          ]
         }
       ],
       "type": "single"
@@ -6347,7 +7927,14 @@
             "C. Inspect all traffic",
             "D. Log only"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "ZBFW中区域间流量的默认操作是什么？",
+          "optionsCn": [
+            "",
+            "B. 允许",
+            "C. 检测所有流量",
+            "D. 仅记录"
+          ]
         }
       ],
       "type": "single"
@@ -6371,7 +7958,14 @@
             "C. WAN optimization",
             "D. Network automation"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco ISE主要用于什么？",
+          "optionsCn": [
+            "A. 基于身份的网络访问控制和策略实施",
+            "B. 路由协议管理",
+            "C. WAN优化",
+            "D. 网络自动化"
+          ]
         }
       ],
       "type": "single"
@@ -6395,7 +7989,14 @@
             "C. Generate reports only",
             "D. Act as a certificate authority"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco ISE PSN（策略服务节点）的功能是什么？",
+          "optionsCn": [
+            "A. 处理RADIUS认证和授权请求",
+            "B. 存储所有策略配置",
+            "C. 仅生成报告",
+            "D. 充当证书颁发机构"
+          ]
         }
       ],
       "type": "single"
@@ -6419,7 +8020,14 @@
             "C. Both encrypt all traffic",
             "D. Neither provides encryption"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个协议加密所有通信，包括数据包正文？",
+          "optionsCn": [
+            "",
+            "",
+            "C. 两者都加密所有流量",
+            "D. 两者都不提供加密"
+          ]
         }
       ],
       "type": "single"
@@ -6443,7 +8051,14 @@
             "C. NetFlow export format",
             "D. Simple CLI command output"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco IOS XE REST API基于什么？",
+          "optionsCn": [
+            "A. 通过RESTCONF使用YANG数据模型的RESTful API",
+            "B. 基于SOAP的API",
+            "C. NetFlow导出格式",
+            "D. 简单的CLI命令输出"
+          ]
         }
       ],
       "type": "single"
@@ -6467,7 +8082,14 @@
             "C. Open models are easier to implement",
             "D. Native models cannot be extended"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "YANG原生模型和开放模型之间有什么区别？",
+          "optionsCn": [
+            "A. 原生模型是厂商特定的；开放模型是基于标准的",
+            "B. 原生模型始终用于配置",
+            "C. 开放模型更容易实现",
+            "D. 原生模型无法扩展"
+          ]
         }
       ],
       "type": "single"
@@ -6491,7 +8113,14 @@
             "C. Reduced need for authentication",
             "D. Manual configuration with less errors"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "模型驱动可编程性的好处是什么？",
+          "optionsCn": [
+            "A. 结构化数据、编程访问和多厂商支持",
+            "B. 更快的CLI脚本编写",
+            "C. 减少认证需求",
+            "D. 手动配置且错误更少"
+          ]
         }
       ],
       "type": "single"
@@ -6516,7 +8145,14 @@
             "C. A network monitoring tool",
             "D. A YANG validator"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Nornir自动化框架是什么？",
+          "optionsCn": [
+            "A. 用于多线程网络自动化的Python框架",
+            "B. 用Go编写的Ansible替代品",
+            "C. 网络监控工具",
+            "D. YANG验证器"
+          ]
         }
       ],
       "type": "single"
@@ -6540,7 +8176,14 @@
             "C. Configure network devices directly",
             "D. Monitor network performance"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Git在网络自动化中如何使用？",
+          "optionsCn": [
+            "A. 网络配置和自动化脚本的版本控制",
+            "B. 运行自动化剧本",
+            "C. 直接配置网络设备",
+            "D. 监控网络性能"
+          ]
         }
       ],
       "type": "single"
@@ -6564,7 +8207,14 @@
             "C. Automatically rejecting all changes",
             "D. Replacing the need for network engineers"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "CI/CD管道用于网络变更的好处是什么？",
+          "optionsCn": [
+            "A. 部署前的自动化测试和验证",
+            "B. 手动审批流程",
+            "C. 自动拒绝所有变更",
+            "D. 替代网络工程师的需求"
+          ]
         }
       ],
       "type": "single"
@@ -6588,7 +8238,14 @@
             "C. Only backup configurations",
             "D. Only view dashboard graphs"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco SD-WAN vManage API可用于什么？",
+          "optionsCn": [
+            "A. 自动化策略创建、设备模板部署和监控",
+            "B. 仅读取syslog消息",
+            "C. 仅备份配置",
+            "D. 仅查看仪表板图表"
+          ]
         }
       ],
       "type": "single"
@@ -6612,7 +8269,8 @@
             "C. ios_cli",
             "D. run_ios_commands"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Ansible使用哪个模块在Cisco设备上运行CLI命令？"
         }
       ],
       "type": "single"
@@ -6636,7 +8294,14 @@
             "C. YANG model compilation",
             "D. Configuration backup"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Postman在网络自动化中通常用于什么？",
+          "optionsCn": [
+            "A. 测试针对网络控制器的REST API调用",
+            "B. 自动化脚本编写",
+            "C. YANG模型编译",
+            "D. 配置备份"
+          ]
         }
       ],
       "type": "single"
@@ -6660,7 +8325,8 @@
             "C. PUT",
             "D. DELETE"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个HTTP方法用于从REST API检索数据？"
         }
       ],
       "type": "single"
@@ -6684,7 +8350,14 @@
             "C. No Content",
             "D. Accepted"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "HTTP状态码201在REST API响应中表示什么？",
+          "optionsCn": [
+            "",
+            "",
+            "C. No Content",
+            "D. Accepted"
+          ]
         }
       ],
       "type": "single"
@@ -6708,7 +8381,14 @@
             "C. Only String and Boolean",
             "D. String, Number, Boolean, Function"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "JSON中哪些数据类型是有效的？",
+          "optionsCn": [
+            "A. 字符串（String）、数字（Number）、布尔（Boolean）、数组（Array）、对象（Object）、空",
+            "B. 仅字符串和数字",
+            "C. 仅字符串和布尔",
+            "D. 字符串、数字、布尔、函数"
+          ]
         }
       ],
       "type": "single"
@@ -6732,7 +8412,14 @@
             "C. Better suited for document markup",
             "D. Supports comments natively"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "对于API通信，JSON相对于XML的一个关键优势是什么？",
+          "optionsCn": [
+            "A. 更紧凑且更易于解析",
+            "B. 支持命名空间",
+            "C. 更适合文档标记",
+            "D. 原生支持注释"
+          ]
         }
       ],
       "type": "single"
@@ -6756,7 +8443,8 @@
             "C. TLS",
             "D. Telnet"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "NETCONF使用什么传输协议？"
         }
       ],
       "type": "single"
@@ -6780,7 +8468,14 @@
             "C. JSON, XML, YANG, SSH",
             "D. HTTP, TLS, TCP, IP"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "NETCONF协议栈中的各层是什么？",
+          "optionsCn": [
+            "A. 传输（Transport）、消息（Messages）、操作（Operations）、内容",
+            "B. 物理（Physical）、数据（Data）、网络（Network）、传输",
+            "",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -6804,7 +8499,14 @@
             "C. A transport protocol for network management",
             "D. A database query language"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "YANG在网络自动化的目的是什么？",
+          "optionsCn": [
+            "A. 定义配置和状态数据的数据模型",
+            "B. 用于自动化脚本的脚本语言",
+            "C. 用于网络管理的传输协议",
+            "D. 数据库查询语言"
+          ]
         }
       ],
       "type": "single"
@@ -6828,7 +8530,14 @@
             "C. A single configuration parameter",
             "D. A data type definition"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "在YANG中，container语句定义了什么？",
+          "optionsCn": [
+            "A. 用于对相关叶子节点进行分组的内层数据节点",
+            "B. 配置条目的列表",
+            "C. 单个配置参数",
+            "D. 数据类型定义"
+          ]
         }
       ],
       "type": "single"
@@ -6852,7 +8561,14 @@
             "C. Telnet with XML",
             "D. UDP with JSON"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "RESTCONF使用什么传输和编码？",
+          "optionsCn": [
+            "A. HTTP/HTTPS，使用JSON或XML",
+            "",
+            "C. Telnet，使用XML",
+            ""
+          ]
         }
       ],
       "type": "single"
@@ -6877,7 +8593,14 @@
             "C. RESTCONF uses XML only; NETCONF uses JSON only",
             "D. RESTCONF is for monitoring; NETCONF is for configuration"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "RESTCONF和NETCONF之间的一个关键区别是什么？",
+          "optionsCn": [
+            "",
+            "B. RESTCONF使用SSH；NETCONF使用HTTP",
+            "C. RESTCONF仅使用XML；NETCONF仅使用JSON",
+            "D. RESTCONF用于监控；NETCONF用于配置"
+          ]
         }
       ],
       "type": "single"
@@ -6901,7 +8624,14 @@
             "C. Only backup configurations",
             "D. Only monitor network status"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco DNA Center REST API可用于什么？",
+          "optionsCn": [
+            "A. 自动化网络配置、保障和设备管理",
+            "B. 仅从设备读取配置",
+            "C. 仅备份配置",
+            "D. 仅监控网络状态"
+          ]
         }
       ],
       "type": "single"
@@ -6925,7 +8655,8 @@
             "C. YAML",
             "D. CSV"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Cisco Meraki REST API主要返回什么编码？"
         }
       ],
       "type": "single"
@@ -6949,7 +8680,14 @@
             "C. Store device configurations",
             "D. Replace the need for a network OS"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Ansible Playbook在网络自动化中的目的是什么？",
+          "optionsCn": [
+            "A. 定义针对受管设备的YAML自动化任务",
+            "B. 编译Python代码",
+            "C. 存储设备配置",
+            "D. 替代网络操作系统的需求"
+          ]
         }
       ],
       "type": "single"
@@ -6973,7 +8711,14 @@
             "C. Contains playbook execution logs",
             "D. Defines YANG models"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Ansible清单文件（inventory file）的目的是什么？",
+          "optionsCn": [
+            "A. 定义受管主机和组",
+            "B. 存储自动化任务",
+            "C. 包含Playbook执行日志",
+            "D. 定义YANG模型"
+          ]
         }
       ],
       "type": "single"
@@ -6997,7 +8742,8 @@
             "C. paramiko",
             "D. netmiko"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "哪个Python库常用于使用NETCONF进行网络自动化？"
         }
       ],
       "type": "single"
@@ -7021,7 +8767,14 @@
             "C. NETCONF client library",
             "D. YANG model parser"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Python Paramiko库用于什么？",
+          "optionsCn": [
+            "",
+            "B. HTTP/HTTPS客户端",
+            "C. NETCONF客户端库",
+            "D. YANG模型解析器"
+          ]
         }
       ],
       "type": "single"
@@ -7046,7 +8799,14 @@
             "C. SNMP library for Python",
             "D. YANG data model compiler"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "Netmiko用于什么？",
+          "optionsCn": [
+            "A. 用于网络设备的多厂商SSH库",
+            "B. 用于网络设备的REST API客户端",
+            "",
+            "D. YANG数据模型编译器"
+          ]
         }
       ],
       "type": "single"
@@ -7070,7 +8830,14 @@
             "C. A TCL script for SNMP",
             "D. A shell command executed manually"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "什么是Cisco EEM applet？",
+          "optionsCn": [
+            "A. 由事件触发的CLI定义的自动化脚本",
+            "B. 在设备上运行的Python脚本",
+            "C. 用于SNMP的TCL脚本",
+            "D. 手动执行的Shell命令"
+          ]
         }
       ],
       "type": "single"
@@ -7094,7 +8861,14 @@
             "C. Only interface state changes",
             "D. Only periodic timers"
           ],
-          "answer": "A"
+          "answer": "A",
+          "textCn": "EEM applet可以响应哪种事件类型？",
+          "optionsCn": [
+            "A. syslog模式匹配、定时器、CLI命令、计数器阈值",
+            "B. 仅路由协议事件",
+            "C. 仅接口状态变化",
+            "D. 仅周期性定时器"
+          ]
         }
       ],
       "type": "single"
@@ -7120,7 +8894,8 @@
             "C. Cisco ISE",
             "D. TrustSec"
           ],
-          "answer": "A,C"
+          "answer": "A,C",
+          "textCn": "在Cisco SD-Access架构中，以下哪些是控制平面组件？（选择2项）"
         }
       ]
     },
@@ -7144,7 +8919,8 @@
             "StackWise-480",
             "StackWise-160"
           ],
-          "answer": "0,1,2"
+          "answer": "0,1,2",
+          "textCn": "请按带宽从高到低的顺序排列以下堆叠技术："
         }
       ]
     },
@@ -7169,7 +8945,8 @@
             "C. SNMPv3",
             "D. SNMPv4"
           ],
-          "answer": "A,B,C"
+          "answer": "A,B,C",
+          "textCn": "关于容器网络，哪些描述是正确的？（选择2项）"
         }
       ]
     },
@@ -7195,7 +8972,8 @@
             "C. XML",
             "D. MP4"
           ],
-          "answer": "A,B,C"
+          "answer": "A,B,C",
+          "textCn": "以下哪些数据格式常用于网络自动化？（选择3项）"
         }
       ]
     },
@@ -7220,7 +8998,8 @@
             "C. DVMRP",
             "D. OSPF"
           ],
-          "answer": "A,B,C"
+          "answer": "A,B,C",
+          "textCn": "以下哪些是组播路由协议？（选择3项）"
         }
       ]
     },
@@ -7245,7 +9024,8 @@
             "C. NetFlow",
             "D. STP"
           ],
-          "answer": "A,B,C"
+          "answer": "A,B,C",
+          "textCn": "以下哪些是常用的网络监控和管理工具？（选择3项）"
         }
       ]
     },
@@ -7270,7 +9050,8 @@
             "YAML",
             "XML"
           ],
-          "answer": "0,1,2"
+          "answer": "0,1,2",
+          "textCn": "请按解析效率从高到低的顺序排列以下数据格式："
         }
       ]
     },
@@ -7294,7 +9075,14 @@
             "C. IPv6 Snooping",
             "D. NAT66"
           ],
-          "answer": "A,B,C"
+          "answer": "A,B,C",
+          "textCn": "以下哪些是典型的服务器虚拟化类型？（选择2项）",
+          "optionsCn": [
+            "A. RA Guard",
+            "",
+            "C. IPv6 Snooping",
+            ""
+          ]
         }
       ],
       "type": "multiple"
@@ -7319,7 +9107,8 @@
             "C. DES",
             "D. RSA"
           ],
-          "answer": "A,B,C"
+          "answer": "A,B,C",
+          "textCn": "以下哪些是对称加密算法？（选择3项）"
         }
       ],
       "type": "multiple"
@@ -7344,7 +9133,8 @@
             "C. SHA-256",
             "D. RSA"
           ],
-          "answer": "A,B,C"
+          "answer": "A,B,C",
+          "textCn": "以下哪些是常用的哈希算法？（选择3项）"
         }
       ],
       "type": "multiple"
@@ -7364,7 +9154,8 @@
         {
           "text": "In NETCONF, the __________ layer is responsible for encoding RPC messages.",
           "options": [],
-          "answer": "3"
+          "answer": "3",
+          "textCn": "在NETCONF中，__________层负责编码RPC消息。"
         }
       ],
       "type": "fill"

@@ -343,45 +343,8 @@ function renderQ() {
   const ans = engine.getAns(q.id);
   const typeLabel = { single:'单选题', multiple:'多选题', fill:'填空题', drag:'拖拽题', boolean:'判断题' };
 
-  let optsHtml = '';
-  if (t === 'single' || t === 'boolean') {
-    const opts = qOptions(q);
-    optsHtml = opts.map(o => {
-      const k = typeof o === 'string' ? o.charAt(0) : '';
-      const content = typeof o === 'string' ? o : o;
-      return `<div class="option ${ans===k?'sel':''}" onclick="ansEx('${q.id}','${k}')">${content}</div>`;
-    }).join('');
-  } else if (t === 'multiple') {
-    const selParts = ans ? ans.split(',') : [];
-    const opts = qOptions(q);
-    optsHtml = opts.map(o => {
-      const k = typeof o === 'string' ? o.charAt(0) : '';
-      const content = typeof o === 'string' ? o : o;
-      const active = selParts.includes(k);
-      return `<div class="option ${active?'sel':''}" onclick="multiEx('${q.id}','${k}')">${content}${active?' ✓':''}</div>`;
-    }).join('');
-    optsHtml += `<div style="margin-top:8px;font-size:12px;color:var(--text-muted)">多选：点击选择多个选项</div>`;
-  } else if (t === 'fill') {
-    optsHtml = `<input id="fill-input" type="text" class="fill-input" value="${ans||''}" placeholder="在此输入答案..." autocomplete="off" style="width:100%;padding:12px 16px;background:var(--bg-input);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text-primary);font-size:16px;font-family:inherit">
-      <div style="margin-top:8px;display:flex;gap:6px">
-        <button class="btn btn-sm btn-primary" onclick="fillEx('${q.id}')">确认答案</button>
-      </div>`;
-  } else if (t === 'drag') {
-    const order = ans ? ans.split(',').map(Number) : q.options.map((_,i) => i);
-    optsHtml = `<div class="drag-list">`;
-    order.forEach((itemIdx, pos) => {
-      optsHtml += `<div class="drag-item">
-        <span class="drag-pos">${pos+1}</span>
-        <span class="drag-text">${q.options[itemIdx]}</span>
-        <div class="drag-arrows">
-          <button class="btn btn-sm" onclick="dragEx('${q.id}',${pos},-1)" ${pos===0?'disabled':''}>▲</button>
-          <button class="btn btn-sm" onclick="dragEx('${q.id}',${pos},1)" ${pos===order.length-1?'disabled':''}>▼</button>
-        </div>
-      </div>`;
-    });
-    optsHtml += `</div>`;
-  }
-
+  let optsHtml = renderOpts(q, ans);
+  
   body.innerHTML = `<div class="q-card">
     <div class="q-meta">
       <span class="domain-badge ${dc}">${q.domain}</span>
@@ -694,22 +657,48 @@ function qText(q) {
   return `<div class="q-text">${q.textEn || q.text}</div>`;
 }
 
-function qOptions(q) {
-  const lang = getLang();
-  if (lang === 'bilingual') {
-    const enOpts = q.optionsEn || q.options;
-    const cnOpts = q.optionsCn || q.options;
-    const hasTranslation = enOpts.some((o, i) => o !== cnOpts[i]);
-    if (hasTranslation) {
-      return q.options.map((o, i) => {
-        const en = enOpts[i] || o;
-        const cn = cnOpts[i] || o;
-        if (en === cn) return en;
-        return `<span class="opt-en">${en}</span><span class="opt-cn">${cn}</span>`;
-      });
-    }
+function renderOpts(q, selAns) {
+  const t = q.type || 'single';
+  const opts = q.optionsEn || q.options;
+  
+  let html;
+  if (t === 'single' || t === 'boolean') {
+    html = '';
+    opts.forEach(o => {
+      const k = o.charAt(0);
+      const isSel = selAns === k;
+      html += `<div class="option ${isSel?'sel':''}" onclick="ansEx('${q.id}','${k}')">${o}</div>`;
+    });
+  } else if (t === 'multiple') {
+    const selParts = selAns ? selAns.split(',') : [];
+    html = '';
+    opts.forEach(o => {
+      const k = o.charAt(0);
+      const active = selParts.includes(k);
+      html += `<div class="option ${active?'sel':''}" onclick="multiEx('${q.id}','${k}')">${o}${active?' ✓':''}</div>`;
+    });
+    html += '<div style="margin-top:8px;font-size:12px;color:var(--text-muted)">多选：点击选择多个选项</div>';
+  } else if (t === 'fill') {
+    html = `<input id="fill-input" type="text" class="fill-input" value="${selAns||''}" placeholder="在此输入答案..." autocomplete="off" style="width:100%;padding:12px 16px;background:var(--bg-input);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text-primary);font-size:16px;font-family:inherit">
+      <div style="margin-top:8px;display:flex;gap:6px">
+        <button class="btn btn-sm btn-primary" onclick="fillEx('${q.id}')">确认答案</button>
+      </div>`;
+  } else if (t === 'drag') {
+    const order = selAns ? selAns.split(',').map(Number) : opts.map((_,i) => i);
+    html = `<div class="drag-list">`;
+    order.forEach((itemIdx, pos) => {
+      html += `<div class="drag-item">
+        <span class="drag-pos">${pos+1}</span>
+        <span class="drag-text">${opts[itemIdx]}</span>
+        <div class="drag-arrows">
+          <button class="btn btn-sm" onclick="dragEx('${q.id}',${pos},-1)" ${pos===0?'disabled':''}>▲</button>
+          <button class="btn btn-sm" onclick="dragEx('${q.id}',${pos},1)" ${pos===order.length-1?'disabled':''}>▼</button>
+        </div>
+      </div>`;
+    });
+    html += `</div>`;
   }
-  return (q.optionsEn || q.options).slice();
+  return html;
 }
 
 function updateStorageSize() {
