@@ -685,22 +685,31 @@ function setLang(l) {
 function qText(q) {
   const lang = getLang();
   if (lang === 'bilingual') {
-    return `<div class="q-text-en">${q.textEn || q.text}</div><div class="q-text-cn">${q.textCn || q.text}</div>`;
+    const en = q.textEn || q.text;
+    const cn = q.textCn || en;
+    if (en !== cn) {
+      return `<div class="q-text-en">${en}</div><div class="q-text-cn">${cn}</div>`;
+    }
   }
   return `<div class="q-text">${q.textEn || q.text}</div>`;
 }
 
 function qOptions(q) {
   const lang = getLang();
-  if (lang === 'bilingual' && q.optionsEn && q.optionsCn && q.optionsEn.length > 0) {
-    return q.options.map((o, i) => {
-      const en = q.optionsEn[i] || o;
-      const cn = q.optionsCn[i] || o;
-      if (en === cn) return en;
-      return `<span class="opt-en">${en}</span><span class="opt-cn">${cn}</span>`;
-    });
+  if (lang === 'bilingual') {
+    const enOpts = q.optionsEn || q.options;
+    const cnOpts = q.optionsCn || q.options;
+    const hasTranslation = enOpts.some((o, i) => o !== cnOpts[i]);
+    if (hasTranslation) {
+      return q.options.map((o, i) => {
+        const en = enOpts[i] || o;
+        const cn = cnOpts[i] || o;
+        if (en === cn) return en;
+        return `<span class="opt-en">${en}</span><span class="opt-cn">${cn}</span>`;
+      });
+    }
   }
-  return (lang === 'en' && q.optionsEn) ? q.optionsEn.slice() : q.options.slice();
+  return (q.optionsEn || q.options).slice();
 }
 
 function updateStorageSize() {

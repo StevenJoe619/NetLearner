@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NetLearner 题库批量导入工具</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; background: #0f1117; color: #e4e7eb; padding: 20px; }
+.container { max-width: 960px; margin: 0 auto; }
+h1 { font-size: 22px; margin-bottom: 20px; color: #4fc3f7; }
+h2 { font-size: 16px; margin: 16px 0 8px; }
+.card { background: #1e2231; border: 1px solid #2a2e3d; border-radius: 10px; padding: 20px; margin-bottom: 16px; }
+label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 4px; color: #9499a6; }
+textarea, select, input { width: 100%; padding: 10px; background: #181b24; border: 1px solid #2a2e3d; border-radius: 6px; color: #e4e7eb; font-size: 14px; font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace; }
+textarea:focus, select:focus, input:focus { outline: none; border-color: #4fc3f7; }
+textarea { resize: vertical; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+.btn { display: inline-flex; align-items: center; gap: 5px; padding: 8px 20px; border: 1px solid #2a2e3d; border-radius: 6px; font-size: 13px; font-weight: 600; background: #1e2231; color: #e4e7eb; cursor: pointer; transition: 0.12s; }
+.btn:hover { border-color: #4fc3f7; background: #262b3d; }
+.btn-primary { background: #4fc3f7; color: #000; border-color: #4fc3f7; }
+.btn-primary:hover { opacity: 0.85; }
+.btn-danger { border-color: #ef5350; color: #ef5350; }
+.btn-danger:hover { background: #ef5350; color: #fff; }
+.btn-success { background: #66bb6a; color: #000; border-color: #66bb6a; }
+.btn-success:hover { opacity: 0.85; }
+.btn-sm { padding: 5px 12px; font-size: 12px; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+#output { display: none; }
+pre { background: #0f1117; border: 1px solid #2a2e3d; border-radius: 6px; padding: 16px; font-size: 12px; max-height: 500px; overflow: auto; white-space: pre-wrap; }
+#status { font-size: 13px; color: #66bb6a; margin-top: 8px; white-space: pre-wrap; }
+#status.error { color: #ef5350; }
+.help { font-size: 12px; color: #9499a6; margin-top: 4px; }
+.example-box { background: #181b24; border: 1px solid #2a2e3d; border-radius: 6px; padding: 12px; margin-top: 8px; font-size: 12px; white-space: pre-wrap; color: #9499a6; max-height: 200px; overflow: auto; }
+.qlist { margin-top: 12px; }
+.qitem { background: #181b24; border: 1px solid #2a2e3d; border-radius: 6px; padding: 10px 12px; margin-bottom: 6px; font-size: 13px; }
+.qitem .qtext { font-weight: 600; margin-bottom: 3px; }
+.qitem .qmeta { font-size: 11px; color: #9499a6; }
+.tag { display: inline-block; padding: 1px 7px; border-radius: 10px; font-size: 11px; font-weight: 600; margin-right: 3px; }
+.tag-easy { background: #1b5e20; color: #a5d6a7; }
+.tag-medium { background: #e65100; color: #ffcc80; }
+.tag-hard { background: #b71c1c; color: #ef9a9a; }
+.hidden { display: none; }
+.tab-bar { display: flex; gap: 2px; margin-bottom: 8px; }
+.tab-btn { padding: 6px 14px; font-size: 12px; font-weight: 600; border: 1px solid #2a2e3d; border-radius: 6px 6px 0 0; background: #181b24; color: #9499a6; cursor: pointer; border-bottom: none; }
+.tab-btn.active { background: #1e2231; color: #4fc3f7; }
+.stats-bar { display: flex; gap: 12px; flex-wrap: wrap; margin: 8px 0; font-size: 12px; color: #9499a6; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>📦 NetLearner 题库批量导入工具</h1>
+
+  <div class="card">
+    <h2>1. 试卷信息</h2>
+    <div class="row" style="margin-bottom:10px">
+      <div>
+        <label>试卷 ID <span class="help">(文件名，不含 .json)</span></label>
+        <input id="examId" value="hcia-mock-1" placeholder="例: hcia-mock-1">
+      </div>
+      <div>
+        <label>试卷标题</label>
+        <input id="examTitle" value="HCIA 模拟考试（60题）" placeholder="例: HCIA 模拟考试">
+      </div>
+    </div>
+    <div class="row-3">
+      <div>
+        <label>类型</label>
+        <select id="examType">
+          <option value="mock-exam" selected>模拟考试</option>
+          <option value="level-test">水平测试</option>
+        </select>
+      </div>
+      <div>
+        <label>目标认证</label>
+        <input id="examTarget" value="HCIA" placeholder="HCIA / HCIP">
+      </div>
+      <div>
+        <label>厂商</label>
+        <select id="examVendor"><option value="huawei">Huawei</option><option value="cisco">Cisco</option></select>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>2. 粘贴题目</h2>
+    <p class="help">从 CSDN/博客园直接复制全部题目粘贴到下面。支持多种格式，<strong>一次贴 50 题都没问题</strong>。</p>
+
+    <div class="tab-bar">
+      <div class="tab-btn active" onclick="showExample('csdn')">📋 CSDN 格式示例</div>
+      <div class="tab-btn" onclick="showExample('simple')">📝 简洁格式</div>
+    </div>
+    <div id="example-csdn" class="example-box">51. 192.168.1.1/28 的网络中，可增加的主机数量是？
+A. 12
+B. 13
+C. 14
+D. 15
+【答案】C
+【解析】主机位4位，共16个地址，除去网络地址和广播地址，剩14个可用地址，已有1个已分配，可增加13个。
+
+52. OSPF 协议中，Router ID 的选择顺序是？
+A. 最大物理接口IP > 最大Loopback IP > 手动配置
+B. 手动配置 > 最大Loopback IP > 最大物理接口IP
+C. 最大Loopback IP > 手动配置 > 最大物理接口IP
+D. 手动配置 > 最大物理接口IP > 最大Loopback IP
+答案：B
+解析：OSPF Router ID 优先选择手动配置的值，其次选择最大的Loopback接口地址，最后选择最大的物理接口地址。</div>
+    <div id="example-simple" class="example-box hidden">题目描述内容？
+A. 选项A
+B. 选项B
+C. 选项C
+D. 选项D
+答案: A
+解析: 解析内容
+域: Ethernet Switching    ← 可选，默认 General
+难度: easy               ← 可选，默认 medium</div>
+
+    <textarea id="rawInput" rows="12" placeholder="从 CSDN 复制题目后粘贴到这里...&#10;&#10;支持格式：&#10;· 【答案】A 或 答案：A&#10;· 【解析】或 解析：&#10;· 带序号的行自动识别为新题目&#10;· 多选答案如 ABCD 也支持" style="margin-top:8px;width:100%"></textarea>
+    <div class="actions">
+      <button class="btn btn-primary" onclick="parseQuestions()">🔍 解析题目</button>
+      <button class="btn" onclick="document.getElementById('rawInput').value=''">清空</button>
+    </div>
+    <div id="status"></div>
+  </div>
+
+  <div id="parsedArea" class="card hidden">
+    <h2>3. 预览</h2>
+    <div class="stats-bar" id="statsBar"></div>
+    <div class="actions" style="margin-top:4px">
+      <button class="btn btn-sm btn-success" onclick="exportJSON()">⬇ 下载 JSON</button>
+      <button class="btn btn-sm" onclick="clearParsed()">🗑 清空</button>
+      <span id="parsedStatus" style="font-size:12px;color:#9499a6;line-height:28px"></span>
+    </div>
+    <div id="qlist" class="qlist"></div>
+  </div>
+
+  <div id="output" class="card">
+    <h2>4. 输出 JSON</h2>
+    <p class="help">将此内容保存到 <code>questions/generated/&lt;试卷ID&gt;.json</code></p>
+    <div class="actions">
+      <button class="btn btn-sm btn-primary" onclick="downloadJSON()">⬇ 下载文件</button>
+      <button class="btn btn-sm" onclick="copyJSON()">📋 复制到剪贴板</button>
+    </div>
+    <pre id="jsonOutput"></pre>
+  </div>
+</div>
+
+<script>
+let parsedQuestions = [];
+
+function showExample(type) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.textContent.includes(type === 'csdn' ? 'CSDN' : '简洁')));
+  document.getElementById('example-csdn').classList.toggle('hidden', type !== 'csdn');
+  document.getElementById('example-simple').classList.toggle('hidden', type !== 'simple');
+}
+
+function parseQuestions() {
+  const raw = document.getElementById('rawInput').value;
+  if (!raw.trim()) { showStatus('请先粘贴题目', 'error'); return; }
+
+  // Try blank-line splitting first, then fall back to sequential detection
+  let blocks = raw.split(/\n\s*\n/).filter(b => b.trim());
+  let questions = [];
+
+  if (blocks.length >= 2) {
+    // Try parsing as blank-line separated blocks
+    blocks.forEach((block, idx) => {
+      const q = parseSingleQ(block.trim());
+      if (q) { q._order = idx; questions.push(q); }
+    });
+  }
+
+  // If blank-line parsing didn't work well, try sequential parsing
+  if (questions.length < 2) {
+    questions = parseSequential(raw);
+  }
+
+  // Also try sequential on top for any missed questions
+  const seqQs = parseSequential(raw);
+  if (seqQs.length > questions.length) {
+    questions = seqQs;
+  }
+
+  if (!questions.length) {
+    showStatus('❌ 未能解析出题目，请检查格式。支持 CSDN 格式：\n  编号. 题目\n  A. 选项\n  B. 选项\n  【答案】X\n  【解析】...', 'error');
+    return;
+  }
+
+  parsedQuestions = parsedQuestions.concat(questions);
+  renderPreview();
+  showStatus(`✅ 成功解析 ${questions.length} 题，累计 ${parsedQuestions.length} 题`);
+  document.getElementById('parsedArea').classList.remove('hidden');
+}
+
+function parseSequential(raw) {
+  const lines = raw.split('\n');
+  const qBlocks = [];
+  let current = [];
+  let foundQ = false;
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (!line) { current.push(''); continue; }
+
+    // Check if this line starts a new question (numbered line that isn't an option or answer)
+    const isNewQ = isQuestionStart(line, current);
+
+    if (isNewQ && foundQ) {
+      // Save previous question
+      qBlocks.push(current.join('\n').trim());
+      current = [line];
+    } else {
+      current.push(line);
+      foundQ = true;
+    }
+  }
+  if (current.length) qBlocks.push(current.join('\n').trim());
+
+  return qBlocks.map((block, idx) => {
+    const q = parseSingleQ(block);
+    if (q) q._order = idx;
+    return q;
+  }).filter(Boolean);
+}
+
+function isQuestionStart(line, currentBlock) {
+  // A new question starts when we see a numbered line pattern
+  // But only if we already have content (we're past the first question)
+
+  // Pattern: "51.", "51、", "51.", "801题：", "**51.**"
+  const numbered = /^(\*\*)?\s*\d+[.、）)题：:]\s*\*{0,2}/.test(line);
+  if (!numbered) return false;
+
+  // But exclude lines like "A. 51." (options that happen to have numbers)
+  if (/^[A-Da-d][.、．]/.test(line)) return false;
+
+  // Exclude answer/explanation lines
+  if (/^[【\[]?(答案|解析|解释|考点|难度)[】\]：:]/.test(line)) return false;
+
+  return currentBlock.length > 2;
+}
+
+function parseSingleQ(block) {
+  const lines = block.split('\n').map(l => l.trim()).filter(l => l);
+  if (lines.length < 3) return null;
+
+  let qText = '';
+  const options = [];
+  let answer = '';
+  let explanation = '';
+  let domain = '';
+  let difficulty = 'medium';
+  let currentSection = 'text';
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+
+    // Skip comment lines
+    if (/^[#//]/.test(line)) continue;
+
+    // Remove bold markers for CSDN ** format
+    const clean = line.replace(/\*\*/g, '').trim();
+
+    // Detection by pattern priority
+
+    // 1. Answer line: 【答案】A, 答案: A, 答案：A, [答案] A
+    if (/^[【\[]?\s*(答案|Answer|正确|correct)\s*[】\]：:]\s*/.test(clean)) {
+      answer = clean.replace(/^[【\[]?\s*(答案|Answer|正确|correct)\s*[】\]：:]\s*/i, '').trim().toUpperCase();
+      currentSection = 'meta';
+      continue;
+    }
+
+    // 2. Explanation line: 【解析】, 解析：, 【解释】
+    if (/^[【\[]?\s*(解析|解释|Explanation)\s*[】\]：:]\s*/.test(clean)) {
+      const val = clean.replace(/^[【\[]?\s*(解析|解释|Explanation)\s*[】\]：:]\s*/i, '').trim();
+      if (val) explanation = val;
+      currentSection = 'meta';
+      continue;
+    }
+
+    // 3. Domain line
+    if (/^[【\[]?\s*(域|Domain)\s*[】\]：:]\s*/i.test(clean)) {
+      domain = clean.replace(/^[【\[]?\s*(域|Domain)\s*[】\]：:]\s*/i, '').trim();
+      currentSection = 'meta';
+      continue;
+    }
+
+    // 4. Difficulty line
+    if (/^[【\[]?\s*(难度|Difficulty)\s*[】\]：:]\s*/i.test(clean)) {
+      const d = clean.replace(/^[【\[]?\s*(难度|Difficulty)\s*[】\]：:]\s*/i, '').trim().toLowerCase();
+      if (['easy','medium','hard'].includes(d)) difficulty = d;
+      currentSection = 'meta';
+      continue;
+    }
+
+    // 5. Option lines: A. xxx, A、xxx, A．xxx, **A.** xxx
+    const optMatch = clean.match(/^[A-Da-d][.、．) )]\s*/);
+    if (optMatch) {
+      options.push(clean);
+      // If we haven't captured question text yet but passed options, that's wrong
+      if (!qText) currentSection = 'options';
+      else currentSection = 'options';
+      continue;
+    }
+
+    // 6. Arrow format detection: → **A. xxx**
+    const arrowMatch = clean.match(/^.*?→\s*\*{0,2}([A-D])[.、．]\s*/);
+    if (arrowMatch && !qText) {
+      qText = clean;
+      currentSection = 'text';
+      continue;
+    }
+
+    // 7. If we're still in text section and no option/answer yet, this is question text
+    if (currentSection === 'text' || !qText) {
+      if (qText) qText += ' ' + clean;
+      else qText = clean;
+      continue;
+    }
+
+    // 8. Explanation continuation (after answer section)
+    if (currentSection === 'meta') {
+      if (explanation) explanation += '\n' + clean;
+      continue;
+    }
+  }
+
+  // Clean up question text: remove leading numbers like "51. ", "801题："
+  if (qText) {
+    qText = qText.replace(/^(\*\*)?\s*\d+[.、）)题：:]\s*\*{0,2}/, '').trim();
+    // Remove arrow prefix for format like "→ **A.** text"
+    qText = qText.replace(/^.*?→\s*\*{0,2}[A-D][.、．]\s*\*{0,2}\s*/, '').trim();
+  }
+
+  // Validation
+  if (!qText || options.length < 2 || !answer) return null;
+
+  // Handle multi-select answers (ABCD → A)
+  // For multi-select, take the first char or full string
+  const finalAnswer = answer.length > 1 && answer.length <= 4 ? answer : answer.charAt(0);
+
+  return {
+    id: 'q_' + Date.now() + '_' + Math.random().toString(36).slice(2,6),
+    text: qText,
+    options: options,
+    answer: finalAnswer,
+    explanation: explanation || '暂无解析',
+    domain: domain || 'General',
+    difficulty: difficulty,
+    tags: [],
+    source: document.getElementById('examId').value
+  };
+}
+
+function renderPreview() {
+  const list = document.getElementById('qlist');
+  list.innerHTML = parsedQuestions.map((q, i) => {
+    const ansStr = Array.isArray(q.answer) ? q.answer.join('') : q.answer;
+    return `<div class="qitem">
+      <div class="qtext">${i+1}. ${q.text}</div>
+      <div style="font-size:11px;color:#5c6170;margin-top:2px">${q.options.map(o => o.replace(/\*\*/g, '')).join(' │ ')}</div>
+      <div class="qmeta" style="margin-top:3px">
+        ✅ 答案: ${ansStr} &nbsp;│&nbsp;
+        <span class="tag tag-${q.difficulty}">${q.difficulty}</span> &nbsp;
+        <span style="color:#4fc3f7">${q.domain}</span>
+        <button class="btn btn-sm" style="float:right;padding:1px 8px;font-size:10px;line-height:1.6" onclick="removeQ(${i})">✕</button>
+      </div>
+    </div>`;
+  }).join('');
+
+  document.getElementById('statsBar').innerHTML = `
+    <span>📝 共 <strong>${parsedQuestions.length}</strong> 题</span>
+    <span>📊 easy: ${parsedQuestions.filter(q=>q.difficulty==='easy').length}</span>
+    <span>📊 medium: ${parsedQuestions.filter(q=>q.difficulty==='medium').length}</span>
+    <span>📊 hard: ${parsedQuestions.filter(q=>q.difficulty==='hard').length}</span>
+  `;
+}
+
+function removeQ(idx) {
+  parsedQuestions.splice(idx, 1);
+  renderPreview();
+  if (!parsedQuestions.length) document.getElementById('parsedArea').classList.add('hidden');
+}
+
+function clearParsed() {
+  parsedQuestions = [];
+  renderPreview();
+  document.getElementById('parsedArea').classList.add('hidden');
+  document.getElementById('output').style.display = 'none';
+}
+
+function exportJSON() {
+  if (!parsedQuestions.length) { showStatus('没有题目可导出', 'error'); return; }
+
+  const examId = document.getElementById('examId').value.trim() || 'hcia-mock-1';
+  const qs = parsedQuestions.map((q, i) => ({
+    id: examId + '_' + String(i+1).padStart(3, '0'),
+    text: q.text,
+    options: q.options.map(o => o.replace(/\*\*/g, '')),
+    answer: q.answer,
+    explanation: q.explanation || '暂无解析',
+    domain: q.domain || 'General',
+    difficulty: q.difficulty || 'medium',
+    tags: q.tags || [],
+    source: examId
+  }));
+
+  const type = document.getElementById('examType').value;
+  const output = {
+    _meta: {
+      id: examId,
+      title: document.getElementById('examTitle').value.trim() || examId,
+      type: type,
+      target: document.getElementById('examTarget').value.trim() || '',
+      vendor: document.getElementById('examVendor').value,
+      questionCount: qs.length,
+      timeLimit: type === 'mock-exam' ? 120 : 0
+    },
+    questions: qs
+  };
+
+  document.getElementById('jsonOutput').textContent = JSON.stringify(output, null, 2);
+  document.getElementById('output').style.display = 'block';
+  document.getElementById('jsonOutput').scrollIntoView({ behavior: 'smooth' });
+  showStatus(`✅ 已生成 ${qs.length} 题的 JSON，点击下载或复制`);
+}
+
+function downloadJSON() {
+  const jsonText = document.getElementById('jsonOutput').textContent;
+  if (!jsonText) return;
+  const blob = new Blob([jsonText], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = (document.getElementById('examId').value.trim() || 'questions') + '.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function copyJSON() {
+  const jsonText = document.getElementById('jsonOutput').textContent;
+  if (!jsonText) return;
+  navigator.clipboard.writeText(jsonText).then(() => showStatus('✅ 已复制到剪贴板')).catch(() => showStatus('复制失败，请手动选择复制', 'error'));
+}
+
+function showStatus(msg, type) {
+  const el = document.getElementById('status');
+  el.textContent = msg;
+  el.className = type === 'error' ? 'error' : '';
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,1912 @@
+[
+  {
+    "en": "Which network device primarily forwards traffic based on MAC addresses and builds a MAC address table to determine which port to forward frames to?",
+    "domain": "nf",
+    "topic": "1.1",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Router",
+        "cn": "路由器"
+      },
+      {
+        "k": "B",
+        "en": "Switch",
+        "cn": "交换机"
+      },
+      {
+        "k": "C",
+        "en": "Firewall",
+        "cn": "防火墙"
+      },
+      {
+        "k": "D",
+        "en": "Access Point",
+        "cn": "无线接入点"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 1
+  },
+  {
+    "en": "Which type of fiber optic cable uses a narrower core (typically 8–10 microns) and laser-based optics, transmitting data over distances up to 40 km or more?",
+    "domain": "nf",
+    "topic": "1.3",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Multimode fiber",
+        "cn": "多模光纤"
+      },
+      {
+        "k": "B",
+        "en": "Single-mode fiber",
+        "cn": "单模光纤"
+      },
+      {
+        "k": "C",
+        "en": "Copper coaxial cable",
+        "cn": "铜轴电缆"
+      },
+      {
+        "k": "D",
+        "en": "Cat 6A UTP",
+        "cn": "超六类非屏蔽双绞线"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 2
+  },
+  {
+    "en": "Which three features are characteristics of TCP? (Choose three.)",
+    "domain": "nf",
+    "topic": "1.5",
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "opts": [
+      {
+        "k": "A",
+        "en": "Connection-oriented communication",
+        "cn": "面向连接的通信"
+      },
+      {
+        "k": "B",
+        "en": "Best-effort delivery with no acknowledgments",
+        "cn": "尽力而为的交付，无确认机制"
+      },
+      {
+        "k": "C",
+        "en": "Flow control using windowing",
+        "cn": "使用窗口机制进行流量控制"
+      },
+      {
+        "k": "D",
+        "en": "Sequence numbers for data reassembly",
+        "cn": "使用序列号进行数据重组"
+      },
+      {
+        "k": "E",
+        "en": "No retransmission of lost segments",
+        "cn": "不重传丢失的报文段"
+      },
+      {
+        "k": "F",
+        "en": "Lower overhead than UDP",
+        "cn": "比 UDP 开销更低"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 3
+  },
+  {
+    "en": "A data center network design that uses a two-layer topology where every leaf switch connects to every spine switch is called:",
+    "domain": "nf",
+    "topic": "1.2",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Three-tier architecture",
+        "cn": "三层架构"
+      },
+      {
+        "k": "B",
+        "en": "Spine-Leaf architecture",
+        "cn": "叶脊架构"
+      },
+      {
+        "k": "C",
+        "en": "Collapsed core architecture",
+        "cn": "折叠核心架构"
+      },
+      {
+        "k": "D",
+        "en": "Ring topology",
+        "cn": "环形拓扑"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 4
+  },
+  {
+    "en": "You are given the IP address 192.168.50.0/27. How many usable host addresses are available in this subnet?",
+    "domain": "nf",
+    "topic": "1.6",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "14",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "30",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "62",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "126",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 5
+  },
+  {
+    "en": "Which RFC 1918 address range is reserved for private networks and supports the largest number of host addresses?",
+    "domain": "nf",
+    "topic": "1.7",
+    "answer": "A",
+    "opts": [
+      {
+        "k": "A",
+        "en": "10.0.0.0/8",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "172.16.0.0/12",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "192.168.0.0/16",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "169.254.0.0/16 (APIPA)",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 6
+  },
+  {
+    "en": "Which IPv6 address type is used for one-to-nearest communication, where the same address is assigned to multiple devices and traffic is routed to the nearest one?",
+    "domain": "nf",
+    "topic": "1.9",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Global unicast",
+        "cn": "全球单播"
+      },
+      {
+        "k": "B",
+        "en": "Anycast",
+        "cn": "任播"
+      },
+      {
+        "k": "C",
+        "en": "Multicast",
+        "cn": "组播"
+      },
+      {
+        "k": "D",
+        "en": "Link-local",
+        "cn": "链路本地"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 7
+  },
+  {
+    "en": "Which IEEE 802.11 standard operates in both the 2.4 GHz and 5 GHz bands simultaneously and introduced MU-MIMO technology?",
+    "domain": "nf",
+    "topic": "1.11",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "802.11n",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "802.11ac (Wi-Fi 5)",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "802.11ax (Wi-Fi 6)",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "802.11g",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 8
+  },
+  {
+    "en": "What IPv6 prefix length is typically assigned to an end-user subnet (analogous to a /24 in IPv4)?",
+    "domain": "nf",
+    "topic": "1.8",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "/32",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "/48",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "/64",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "/128",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 9
+  },
+  {
+    "en": "A switch receives a frame with a destination MAC address that is not in its MAC address table. What action does the switch take?",
+    "domain": "nf",
+    "topic": "1.13",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Drop the frame immediately",
+        "cn": "立即丢弃该帧"
+      },
+      {
+        "k": "B",
+        "en": "Forward the frame to the default gateway",
+        "cn": "将帧转发到默认网关"
+      },
+      {
+        "k": "C",
+        "en": "Flood the frame out all ports except the receiving port",
+        "cn": "将帧泛洪到除接收端口外的所有端口"
+      },
+      {
+        "k": "D",
+        "en": "Send an ARP request to locate the destination",
+        "cn": "发送 ARP 请求来定位目标"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 10
+  },
+  {
+    "en": "A network engineer notices a high number of CRC errors on an Ethernet interface. What is the most likely cause?",
+    "domain": "nf",
+    "topic": "1.4",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Duplex mismatch",
+        "cn": "双工不匹配"
+      },
+      {
+        "k": "B",
+        "en": "Physical cable damage or EMI interference",
+        "cn": "物理线缆损坏或电磁干扰"
+      },
+      {
+        "k": "C",
+        "en": "Speed mismatch",
+        "cn": "速率不匹配"
+      },
+      {
+        "k": "D",
+        "en": "VLAN mismatch",
+        "cn": "VLAN 不匹配"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 11
+  },
+  {
+    "en": "Which technology allows a single physical router to maintain multiple separate routing tables, effectively creating virtual routers on the same hardware?",
+    "domain": "nf",
+    "topic": "1.12",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "VLAN",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "VRF (Virtual Routing and Forwarding)",
+        "cn": "虚拟路由转发"
+      },
+      {
+        "k": "C",
+        "en": "STP",
+        "cn": "生成树协议"
+      },
+      {
+        "k": "D",
+        "en": "EtherChannel",
+        "cn": "链路聚合"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 12
+  },
+  {
+    "en": "Which command configures a switch port as an access port and assigns it to VLAN 10?",
+    "domain": "na",
+    "topic": "2.1",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "switchport mode trunk && switchport trunk vlan 10",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "switchport mode access && switchport access vlan 10",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "vlan 10 && interface vlan 10",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "switchport vlan 10 mode access",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 13
+  },
+  {
+    "en": "On an 802.1Q trunk link, what is the purpose of the native VLAN?",
+    "domain": "na",
+    "topic": "2.2",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "It carries only voice traffic",
+        "cn": "仅承载语音流量"
+      },
+      {
+        "k": "B",
+        "en": "It carries untagged frames across the trunk",
+        "cn": "在 Trunk 上承载未标记帧"
+      },
+      {
+        "k": "C",
+        "en": "It is used for switch management traffic only",
+        "cn": "仅用于交换机管理流量"
+      },
+      {
+        "k": "D",
+        "en": "It provides encryption for trunk traffic",
+        "cn": "为 Trunk 流量提供加密"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 14
+  },
+  {
+    "en": "Which two protocols are used for Layer 2 neighbor discovery on Cisco switches? (Choose two.)",
+    "domain": "na",
+    "topic": "2.3",
+    "answer": [
+      "A",
+      "C"
+    ],
+    "opts": [
+      {
+        "k": "A",
+        "en": "CDP (Cisco Discovery Protocol)",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "OSPF",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "LLDP (Link Layer Discovery Protocol)",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "ARP",
+        "cn": ""
+      },
+      {
+        "k": "E",
+        "en": "ICMP",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 15
+  },
+  {
+    "en": "You need to bundle four physical interfaces into a single logical link using an industry-standard protocol. Which two commands can be used on each member interface? (Choose two.)",
+    "domain": "na",
+    "topic": "2.4",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "opts": [
+      {
+        "k": "A",
+        "en": "channel-group 1 mode on",
+        "cn": "（静态 EtherChannel，无协商协议）"
+      },
+      {
+        "k": "B",
+        "en": "channel-group 1 mode active",
+        "cn": "（LACP 主动协商模式）"
+      },
+      {
+        "k": "C",
+        "en": "channel-protocol lacp",
+        "cn": "（仅设置协议类型）"
+      },
+      {
+        "k": "D",
+        "en": "channel-group 1 mode desirable",
+        "cn": "（PAgP，Cisco 专有）"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 16
+  },
+  {
+    "en": "In Rapid PVST+, which port role indicates a port that is not forwarding traffic but can transition to forwarding immediately if the current root port fails?",
+    "domain": "na",
+    "topic": "2.5",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Blocking",
+        "cn": "阻塞"
+      },
+      {
+        "k": "B",
+        "en": "Listening",
+        "cn": "监听"
+      },
+      {
+        "k": "C",
+        "en": "Alternate",
+        "cn": "替代端口"
+      },
+      {
+        "k": "D",
+        "en": "Disabled",
+        "cn": "禁用"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 17
+  },
+  {
+    "en": "Which spanning-tree feature allows an access port to bypass the listening and learning states and immediately transition to the forwarding state?",
+    "domain": "na",
+    "topic": "2.5",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "BPDU Guard",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "Root Guard",
+        "cn": "根保护"
+      },
+      {
+        "k": "C",
+        "en": "PortFast",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "Loop Guard",
+        "cn": "环路保护"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 18
+  },
+  {
+    "en": "Which spanning-tree feature should be enabled on all access ports to automatically shut down a port if a BPDU is received, preventing unauthorized switches from being connected?",
+    "domain": "na",
+    "topic": "2.5",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "UplinkFast",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "PortFast",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "BPDU Guard",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "BackboneFast",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 19
+  },
+  {
+    "en": "Which type of Cisco Access Point relies on a Wireless LAN Controller (WLC) for its configuration, management, and data forwarding via CAPWAP tunnels?",
+    "domain": "na",
+    "topic": "2.6",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Autonomous AP",
+        "cn": "自主 AP"
+      },
+      {
+        "k": "B",
+        "en": "Lightweight AP",
+        "cn": "轻量 AP"
+      },
+      {
+        "k": "C",
+        "en": "Mesh AP",
+        "cn": "网状 AP"
+      },
+      {
+        "k": "D",
+        "en": "FlexConnect AP (standalone mode)",
+        "cn": "FlexConnect AP（独立模式）"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 20
+  },
+  {
+    "en": "In a WLC deployment, what switch port configuration is required to carry traffic from multiple WLANs mapped to different VLANs?",
+    "domain": "na",
+    "topic": "2.7",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Access port",
+        "cn": "接入端口"
+      },
+      {
+        "k": "B",
+        "en": "802.1Q Trunk port",
+        "cn": "802.1Q Trunk 端口"
+      },
+      {
+        "k": "C",
+        "en": "Routed port",
+        "cn": "路由端口"
+      },
+      {
+        "k": "D",
+        "en": "SPAN port",
+        "cn": "镜像端口"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 21
+  },
+  {
+    "en": "Which protocol should be used for secure remote management access to a WLC instead of Telnet?",
+    "domain": "na",
+    "topic": "2.8",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "HTTP",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "SSH",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "FTP",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "SNMP",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 22
+  },
+  {
+    "en": "What is the default VLAN on a Cisco switch (before any configuration changes)?",
+    "domain": "na",
+    "topic": "2.1",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "VLAN 0",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "VLAN 1",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "VLAN 100",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "VLAN 1002",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 23
+  },
+  {
+    "en": "In the WLC GUI, which security setting is required to configure a WLAN with WPA2-Personal authentication?",
+    "domain": "na",
+    "topic": "2.9",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "802.1X with RADIUS server",
+        "cn": "802.1X + RADIUS 服务器"
+      },
+      {
+        "k": "B",
+        "en": "Pre-Shared Key (PSK)",
+        "cn": "预共享密钥"
+      },
+      {
+        "k": "C",
+        "en": "Web Authentication (Captive Portal)",
+        "cn": "Web 认证（强制门户）"
+      },
+      {
+        "k": "D",
+        "en": "Open Authentication",
+        "cn": "开放认证"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 24
+  },
+  {
+    "en": "A routing table shows: <code>O 192.168.10.0/24 [110/65] via 10.0.1.2, Gi0/1</code>. What does <b>110</b> represent?",
+    "domain": "ic",
+    "topic": "3.1",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "The metric of the route",
+        "cn": "路由的度量值 (metric)"
+      },
+      {
+        "k": "B",
+        "en": "The administrative distance of OSPF",
+        "cn": "OSPF 的管理距离 (AD)"
+      },
+      {
+        "k": "C",
+        "en": "The next-hop IP address",
+        "cn": "下一跳 IP 地址"
+      },
+      {
+        "k": "D",
+        "en": "The route's uptime in seconds",
+        "cn": "路由的运行时间（秒）"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 25
+  },
+  {
+    "en": "A router has three routes to the same destination: static (AD=1), OSPF (AD=110), and RIP (AD=120). Which route is installed in the routing table?",
+    "domain": "ic",
+    "topic": "3.2",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "OSPF — best metric",
+        "cn": "OSPF——度量值最优"
+      },
+      {
+        "k": "B",
+        "en": "Static — lowest administrative distance",
+        "cn": "静态——管理距离最小"
+      },
+      {
+        "k": "C",
+        "en": "RIP — most recently learned",
+        "cn": "RIP——最近学习到"
+      },
+      {
+        "k": "D",
+        "en": "All three — load-balanced",
+        "cn": "全部——负载均衡"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 26
+  },
+  {
+    "en": "Which Cisco IOS command configures a default static route that sends all unknown traffic to next-hop 203.0.113.1?",
+    "domain": "ic",
+    "topic": "3.3",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "ip route 0.0.0.0 255.255.255.255 203.0.113.1",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "ip route 0.0.0.0 0.0.0.0 203.0.113.1",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "ip default-gateway 203.0.113.1",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "ip route default 203.0.113.1",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 27
+  },
+  {
+    "en": "You want a backup static route used only if the primary OSPF route fails. How is this achieved?",
+    "domain": "ic",
+    "topic": "3.3",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Add the keyword \"backup\" to the ip route command",
+        "cn": "在 ip route 命令中添加 \"backup\" 关键字"
+      },
+      {
+        "k": "B",
+        "en": "Add the keyword \"floating\" to the ip route command",
+        "cn": "在 ip route 命令中添加 \"floating\" 关键字"
+      },
+      {
+        "k": "C",
+        "en": "Specify a higher administrative distance (e.g., 200) after the next-hop",
+        "cn": "在下一跳后指定更高的管理距离（如 200）"
+      },
+      {
+        "k": "D",
+        "en": "Configure it under a different OSPF process ID",
+        "cn": "在不同的 OSPF 进程 ID 下配置"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 28
+  },
+  {
+    "en": "In OSPFv2, what is the default hello timer interval (in seconds) on a broadcast network such as Ethernet?",
+    "domain": "ic",
+    "topic": "3.4",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "5",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "10",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "30",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "40",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 29
+  },
+  {
+    "en": "On a multi-access broadcast network running OSPF, which two roles are elected to reduce the number of adjacencies? (Choose two.)",
+    "domain": "ic",
+    "topic": "3.4",
+    "answer": [
+      "B",
+      "C"
+    ],
+    "opts": [
+      {
+        "k": "A",
+        "en": "Root Bridge",
+        "cn": "根桥"
+      },
+      {
+        "k": "B",
+        "en": "Designated Router (DR)",
+        "cn": "指定路由器"
+      },
+      {
+        "k": "C",
+        "en": "Backup Designated Router (BDR)",
+        "cn": "备份指定路由器"
+      },
+      {
+        "k": "D",
+        "en": "Active Virtual Gateway",
+        "cn": "活动虚拟网关"
+      },
+      {
+        "k": "E",
+        "en": "Forwarder",
+        "cn": "转发器"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 30
+  },
+  {
+    "en": "Which command manually sets the OSPF Router ID on a Cisco router?",
+    "domain": "ic",
+    "topic": "3.4",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "ospf router-id 1.1.1.1 (interface config mode)",
+        "cn": "接口配置模式下"
+      },
+      {
+        "k": "B",
+        "en": "router-id 1.1.1.1 (OSPF router config mode)",
+        "cn": "OSPF 路由器配置模式下"
+      },
+      {
+        "k": "C",
+        "en": "ip ospf router-id 1.1.1.1 (global config mode)",
+        "cn": "全局配置模式下"
+      },
+      {
+        "k": "D",
+        "en": "set ospf router-id 1.1.1.1",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 31
+  },
+  {
+    "en": "Which command configures an IPv6 static default route pointing to next-hop 2001:db8::1?",
+    "domain": "ic",
+    "topic": "3.3",
+    "answer": "A",
+    "opts": [
+      {
+        "k": "A",
+        "en": "ipv6 route ::/0 2001:db8::1",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "ipv6 route default 2001:db8::1",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "ipv6 route 0.0.0.0 0.0.0.0 2001:db8::1",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "ipv6 default-route 2001:db8::1",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 32
+  },
+  {
+    "en": "Which FHRP is Cisco-proprietary and provides gateway redundancy with load balancing across multiple gateways?",
+    "domain": "ic",
+    "topic": "3.5",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "VRRP",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "HSRP",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "GLBP",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "CARP",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 33
+  },
+  {
+    "en": "A packet destined for 10.1.1.55 arrives. Routes: 10.1.1.0/24, 10.1.1.48/28, 10.1.0.0/16. Which route is used?",
+    "domain": "ic",
+    "topic": "3.1",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "10.1.1.0/24 — most specific /24 match",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "10.1.1.48/28 — longest prefix match (covers .48–.63)",
+        "cn": "最长前缀匹配（覆盖 .48–.63）"
+      },
+      {
+        "k": "C",
+        "en": "10.1.0.0/16 — broadest coverage",
+        "cn": "最广覆盖范围"
+      },
+      {
+        "k": "D",
+        "en": "Load-balance across all three",
+        "cn": "三条路由负载均衡"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 34
+  },
+  {
+    "en": "Two OSPF routers fail to form an adjacency. Which three parameters must match? (Choose three.)",
+    "domain": "ic",
+    "topic": "3.4",
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "opts": [
+      {
+        "k": "A",
+        "en": "Hello and Dead timers",
+        "cn": "Hello 和 Dead 定时器"
+      },
+      {
+        "k": "B",
+        "en": "Area ID",
+        "cn": "区域 ID"
+      },
+      {
+        "k": "C",
+        "en": "Router ID (must be unique per router)",
+        "cn": "Router ID（每台路由器必须唯一）"
+      },
+      {
+        "k": "D",
+        "en": "Subnet mask (on broadcast networks)",
+        "cn": "子网掩码（广播网络上）"
+      },
+      {
+        "k": "E",
+        "en": "Process ID",
+        "cn": "进程 ID"
+      },
+      {
+        "k": "F",
+        "en": "Router priority",
+        "cn": "路由器优先级"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 35
+  },
+  {
+    "en": "When a router performs a forwarding decision, which two factors are considered, and in which order? (Choose two.)",
+    "domain": "ic",
+    "topic": "3.2",
+    "answer": [
+      "A",
+      "B"
+    ],
+    "opts": [
+      {
+        "k": "A",
+        "en": "Longest prefix match first",
+        "cn": "最长前缀匹配优先"
+      },
+      {
+        "k": "B",
+        "en": "Lowest administrative distance (if equal prefix length)",
+        "cn": "最低管理距离（前缀长度相同时）"
+      },
+      {
+        "k": "C",
+        "en": "Random selection among all matches",
+        "cn": "从所有匹配中随机选择"
+      },
+      {
+        "k": "D",
+        "en": "Route learned from the fastest interface",
+        "cn": "从最快接口学习的路由"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 36
+  },
+  {
+    "en": "What OSPF neighbor state indicates that two routers have fully exchanged their LSDB (Link-State Database)?",
+    "domain": "ic",
+    "topic": "3.4",
+    "answer": "D",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Init",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "Two-Way",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "Exstart",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "Full",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 37
+  },
+  {
+    "en": "Which command disables the DR/BDR election on an OSPF-enabled point-to-point serial interface?",
+    "domain": "ic",
+    "topic": "3.4",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "ip ospf priority 0",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "ip ospf network point-to-point",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "no ip ospf dr election",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "ospf network-type broadcast",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 38
+  },
+  {
+    "en": "Which HSRP state describes the router actively forwarding packets on behalf of the virtual IP address?",
+    "domain": "ic",
+    "topic": "3.5",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Standby / 备份",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "Active / 活动",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "Listen / 监听",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "Speak / 发言",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 39
+  },
+  {
+    "en": "Which NAT type maps a single public IP to multiple private IPs by using different source port numbers per session?",
+    "domain": "is",
+    "topic": "4.1",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Static NAT / 静态 NAT",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "Dynamic NAT / 动态 NAT",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "PAT (Port Address Translation / NAT Overload)",
+        "cn": "端口地址转换 / NAT 过载"
+      },
+      {
+        "k": "D",
+        "en": "Destination NAT / 目标 NAT",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 40
+  },
+  {
+    "en": "A DHCP server is on a different subnet from the clients. What must be configured on the router interface facing the clients?",
+    "domain": "is",
+    "topic": "4.6",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "ip dhcp server 192.168.1.10",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "ip helper-address 192.168.1.10",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "ip forward-protocol udp 67",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "dhcp relay 192.168.1.10",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 41
+  },
+  {
+    "en": "Which syslog severity level indicates an emergency — the system is unusable?",
+    "domain": "is",
+    "topic": "4.5",
+    "answer": "A",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Level 0",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "Level 3",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "Level 5",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "Level 7",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 42
+  },
+  {
+    "en": "Which QoS mechanism delays excess traffic by buffering it and sending it later when bandwidth is available?",
+    "domain": "is",
+    "topic": "4.7",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Policing / 限速（丢弃）",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "Shaping / 整形（缓冲）",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "Classification / 分类",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "Marking / 标记",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 43
+  },
+  {
+    "en": "Your network devices need to synchronize their clocks to a reliable external time source. Which protocol should you configure?",
+    "domain": "is",
+    "topic": "4.2",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "DHCP",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "SNMP",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "NTP",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "DNS",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 44
+  },
+  {
+    "en": "Which protocol is designed for centralized collection of traffic statistics and interface status from network devices?",
+    "domain": "is",
+    "topic": "4.4",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Syslog",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "SNMP",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "NetFlow",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "RADIUS",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 45
+  },
+  {
+    "en": "Which command configures a local user with the highest encryption level for the password?",
+    "domain": "sf",
+    "topic": "5.3",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "username admin password cisco123",
+        "cn": "（明文存储）"
+      },
+      {
+        "k": "B",
+        "en": "username admin secret cisco123",
+        "cn": "（MD5 哈希）"
+      },
+      {
+        "k": "C",
+        "en": "username admin algorithm-type sha-256 secret cisco123",
+        "cn": "（SHA-256 哈希）"
+      },
+      {
+        "k": "D",
+        "en": "username admin privilege 15 password cisco123",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 46
+  },
+  {
+    "en": "Which command creates a standard numbered ACL denying host 10.1.1.100 but permitting all others?",
+    "domain": "sf",
+    "topic": "5.6",
+    "answer": "A",
+    "opts": [
+      {
+        "k": "A",
+        "en": "access-list 10 deny 10.1.1.100 0.0.0.0; access-list 10 permit any",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "access-list 100 deny host 10.1.1.100; access-list 100 permit any",
+        "cn": "（100 是扩展 ACL 编号）"
+      },
+      {
+        "k": "C",
+        "en": "ip access-list standard 10 deny host 10.1.1.100; ... permit all",
+        "cn": "（permit all 语法错误）"
+      },
+      {
+        "k": "D",
+        "en": "access-list 10 deny 10.1.1.100; access-list 10 permit 0.0.0.0 255.255.255.255",
+        "cn": "（掩码错误）"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 47
+  },
+  {
+    "en": "Which Layer 2 security feature restricts the number of MAC addresses on a port and triggers violation actions?",
+    "domain": "sf",
+    "topic": "5.7",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "DHCP Snooping",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "Dynamic ARP Inspection (DAI)",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "Port Security",
+        "cn": "端口安全"
+      },
+      {
+        "k": "D",
+        "en": "IP Source Guard",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 48
+  },
+  {
+    "en": "Which feature prevents rogue DHCP servers by blocking server responses on untrusted ports?",
+    "domain": "sf",
+    "topic": "5.7",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Port Security",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "DHCP Snooping",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "VLAN ACL (VACL)",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "Private VLAN",
+        "cn": "私有 VLAN"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 49
+  },
+  {
+    "en": "What does each \"A\" stand for in the AAA framework?",
+    "domain": "sf",
+    "topic": "5.8",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Access, Authorization, Accounting",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "Authentication, Authorization, Accounting",
+        "cn": "认证、授权、计费"
+      },
+      {
+        "k": "C",
+        "en": "Authentication, Access, Accounting",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "Authentication, Authorization, Auditing",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 50
+  },
+  {
+    "en": "Which wireless security protocol introduced SAE to replace the PSK handshake, preventing offline dictionary attacks?",
+    "domain": "sf",
+    "topic": "5.9",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "WPA",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "WPA2",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "WPA3",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "WEP",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 51
+  },
+  {
+    "en": "Which VPN technology uses ESP (IP protocol 50) to encrypt and authenticate the entire original IP packet?",
+    "domain": "sf",
+    "topic": "5.5",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "SSL VPN",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "GRE Tunnel",
+        "cn": "（无加密，仅封装）"
+      },
+      {
+        "k": "C",
+        "en": "IPsec (ESP)",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "L2TP",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 52
+  },
+  {
+    "en": "An attacker sends many TCP SYN packets without completing the three-way handshake, exhausting the server's connection table. This is:",
+    "domain": "sf",
+    "topic": "5.1",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "ARP Poisoning / ARP 欺骗",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "SYN Flood (DoS attack) / SYN 洪水攻击",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "Man-in-the-Middle attack / 中间人攻击",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "DNS Amplification attack / DNS 放大攻击",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 53
+  },
+  {
+    "en": "Where should a standard IPv4 ACL be applied to minimize unnecessary traffic processing?",
+    "domain": "sf",
+    "topic": "5.6",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "As close to the source as possible / 尽可能靠近源",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "As close to the destination as possible / 尽可能靠近目的地",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "On every router in the path / 在路径中的每台路由器上",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "Only on the edge WAN interface / 仅在边缘 WAN 接口上",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 54
+  },
+  {
+    "en": "In SDN, which component makes forwarding decisions and pushes policies to the data plane?",
+    "domain": "ap",
+    "topic": "6.3",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Data plane / 数据平面",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "Control plane (controller) / 控制平面（控制器）",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "Management plane / 管理平面",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "Forwarding plane / 转发平面",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 55
+  },
+  {
+    "en": "An HTTP request to GET https://api.example.com/devices retrieves a device list. Which CRUD operation is this?",
+    "domain": "ap",
+    "topic": "6.5",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "POST — Create / 创建",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "GET — Read / 读取",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "PUT — Update / 更新",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "DELETE — Delete / 删除",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 56
+  },
+  {
+    "en": "Which data format, using key-value pairs and nested objects, do Cisco DNA Center REST APIs use?",
+    "domain": "ap",
+    "topic": "6.6",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "XML",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "YAML",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "JSON",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "CSV",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 57
+  },
+  {
+    "en": "Which configuration management tool is agentless and uses YAML-based playbooks?",
+    "domain": "ap",
+    "topic": "6.7",
+    "answer": "C",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Puppet",
+        "cn": "（需 Agent）"
+      },
+      {
+        "k": "B",
+        "en": "Chef",
+        "cn": "（需 Agent）"
+      },
+      {
+        "k": "C",
+        "en": "Ansible",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "SaltStack",
+        "cn": "（需 Minion）"
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 58
+  },
+  {
+    "en": "Which Cisco DNA Center function provides proactive monitoring, root cause analysis, and AI/ML-guided remediation?",
+    "domain": "ap",
+    "topic": "6.4",
+    "answer": "D",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Design / 设计",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "Provision / 部署",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "Policy / 策略",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "Assurance / 保障",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 59
+  },
+  {
+    "en": "What is a key advantage of controller-based networking over traditional distributed networking?",
+    "domain": "ap",
+    "topic": "6.2",
+    "answer": "B",
+    "opts": [
+      {
+        "k": "A",
+        "en": "Each device independently calculates its forwarding path / 每设备独立计算转发路径",
+        "cn": ""
+      },
+      {
+        "k": "B",
+        "en": "Centralized policy management and automation / 集中策略管理和自动化",
+        "cn": ""
+      },
+      {
+        "k": "C",
+        "en": "Lower hardware cost for all devices / 所有设备硬件成本更低",
+        "cn": ""
+      },
+      {
+        "k": "D",
+        "en": "Elimination of physical cabling / 无需物理布线",
+        "cn": ""
+      }
+    ],
+    "explanation": "",
+    "examNum": 1,
+    "qid": 60
+  }
+]
