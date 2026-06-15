@@ -276,6 +276,15 @@ a { color: var(--blue); text-decoration: none; }
 .theme-tog { display: flex; border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden; }
 .theme-opt { padding: 5px 12px; font-size: 12px; cursor: pointer; border: none; background: transparent; color: var(--text-secondary); }
 .theme-opt.active { background: var(--blue); color: #000; font-weight: 600; }
+.lang-tog { display: flex; border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden; }
+.lang-opt { padding: 5px 12px; font-size: 12px; cursor: pointer; border: none; background: transparent; color: var(--text-secondary); }
+.lang-opt.active { background: var(--blue); color: #000; font-weight: 600; }
+
+/* Bilingual question display */
+.q-text-en { font-size: 15px; line-height: 1.6; color: var(--text-primary); }
+.q-text-cn { font-size: 14px; line-height: 1.5; color: var(--text-secondary); margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--border); }
+.opt-en { font-size: 14px; color: var(--text-primary); }
+.opt-cn { font-size: 13px; color: var(--text-secondary); margin-left: 6px; padding-left: 6px; border-left: 1px solid var(--border); }
 
 /* ============================================================
    Vendor-specific theming (Cisco blue / Huawei red)

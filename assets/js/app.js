@@ -67,6 +67,7 @@ let vendorFilter = 'all';
 
 document.addEventListener('DOMContentLoaded', async () => {
   applyTheme();
+  applyLangUI();
   await loadExamMeta();
   renderHomeStats();
   renderMockList();
@@ -192,7 +193,7 @@ function renderLT() {
 
   body.innerHTML = `<div class="card">
     <div style="font-size:13px;color:var(--text-muted);margin-bottom:10px">第 ${s.idx+1}/${s.total} 题 · ${q.domain}</div>
-    <div class="q-text">${q.text}</div>
+    ${qText(q)}
     ${q.options.map((o,i) => {
       const k = ['A','B','C','D'][i];
       return `<div class="option ${sel===k?'sel':''}" onclick="ansLT('${q.id}','${k}')">${o}</div>`;
@@ -344,16 +345,20 @@ function renderQ() {
 
   let optsHtml = '';
   if (t === 'single' || t === 'boolean') {
-    optsHtml = q.options.map(o => {
-      const k = o.charAt(0);
-      return `<div class="option ${ans===k?'sel':''}" onclick="ansEx('${q.id}','${k}')">${o}</div>`;
+    const opts = qOptions(q);
+    optsHtml = opts.map(o => {
+      const k = typeof o === 'string' ? o.charAt(0) : '';
+      const content = typeof o === 'string' ? o : o;
+      return `<div class="option ${ans===k?'sel':''}" onclick="ansEx('${q.id}','${k}')">${content}</div>`;
     }).join('');
   } else if (t === 'multiple') {
     const selParts = ans ? ans.split(',') : [];
-    optsHtml = q.options.map(o => {
-      const k = o.charAt(0);
+    const opts = qOptions(q);
+    optsHtml = opts.map(o => {
+      const k = typeof o === 'string' ? o.charAt(0) : '';
+      const content = typeof o === 'string' ? o : o;
       const active = selParts.includes(k);
-      return `<div class="option ${active?'sel':''}" onclick="multiEx('${q.id}','${k}')">${o}${active?' ✓':''}</div>`;
+      return `<div class="option ${active?'sel':''}" onclick="multiEx('${q.id}','${k}')">${content}${active?' ✓':''}</div>`;
     }).join('');
     optsHtml += `<div style="margin-top:8px;font-size:12px;color:var(--text-muted)">多选：点击选择多个选项</div>`;
   } else if (t === 'fill') {
@@ -383,7 +388,7 @@ function renderQ() {
       <span style="font-size:11px;color:var(--text-muted);margin-left:6px">${typeLabel[t]||'单选题'}</span>
       ${engine.isMarked(q.id) ? '<span style="color:var(--orange);font-size:12px">🏴 已标记</span>' : ''}
     </div>
-    <div class="q-text">${q.text}</div>
+    ${qText(q)}
     ${optsHtml}
   </div>`;
   if (t === 'fill') {
@@ -648,6 +653,54 @@ function setTheme(t) {
 function applyTheme() {
   const s = storage.get('settings');
   setTheme(s?.theme || 'dark');
+}
+
+function applyLangUI() {
+  const s = storage.get('settings');
+  const lang = s?.lang || 'en';
+  document.querySelectorAll('.lang-opt').forEach(b => b.classList.toggle('active', b.dataset.l === lang));
+}
+
+/* ============================================================
+   Language setting (EN / Bilingual)
+   ============================================================ */
+
+function getLang() {
+  const s = storage.get('settings');
+  return s?.lang || 'en';
+}
+
+function setLang(l) {
+  const s = storage.get('settings') || {};
+  s.lang = l;
+  storage.set('settings', s);
+  document.querySelectorAll('.lang-opt').forEach(b => b.classList.toggle('active', b.dataset.l === l));
+  // Re-render current question if in an exam
+  if (engine && engine.current().q) {
+    if (document.getElementById('mock-exam')?.style.display !== 'none') renderQ();
+    if (document.getElementById('lt-exam')?.style.display !== 'none') renderLT();
+  }
+}
+
+function qText(q) {
+  const lang = getLang();
+  if (lang === 'bilingual') {
+    return `<div class="q-text-en">${q.textEn || q.text}</div><div class="q-text-cn">${q.textCn || q.text}</div>`;
+  }
+  return `<div class="q-text">${q.textEn || q.text}</div>`;
+}
+
+function qOptions(q) {
+  const lang = getLang();
+  if (lang === 'bilingual' && q.optionsEn && q.optionsCn && q.optionsEn.length > 0) {
+    return q.options.map((o, i) => {
+      const en = q.optionsEn[i] || o;
+      const cn = q.optionsCn[i] || o;
+      if (en === cn) return en;
+      return `<span class="opt-en">${en}</span><span class="opt-cn">${cn}</span>`;
+    });
+  }
+  return (lang === 'en' && q.optionsEn) ? q.optionsEn.slice() : q.options.slice();
 }
 
 function updateStorageSize() {

@@ -239,7 +239,9 @@ class ExamEngine {
             used.add(q.conceptId);
             if (q.variants && q.variants.length > 0) {
               const v = q.variants[Math.floor(Math.random() * q.variants.length)];
-              result.push({ ...q, text: v.text, options: v.options, answer: v.answer, variants: undefined });
+              result.push({ ...q, text: v.text, options: v.options, answer: v.answer, explanation: v.explanation,
+                textEn: v.textEn, optionsEn: v.optionsEn, textCn: v.textCn, optionsCn: v.optionsCn,
+                variants: undefined });
             } else {
               result.push({ ...q, variants: undefined });
             }
@@ -260,7 +262,9 @@ class ExamEngine {
             used.add(q.conceptId);
             if (q.variants && q.variants.length > 0) {
               const v = q.variants[Math.floor(Math.random() * q.variants.length)];
-              result.push({ ...q, text: v.text, options: v.options, answer: v.answer, variants: undefined });
+              result.push({ ...q, text: v.text, options: v.options, answer: v.answer, explanation: v.explanation,
+                textEn: v.textEn, optionsEn: v.optionsEn, textCn: v.textCn, optionsCn: v.optionsCn,
+                variants: undefined });
             } else {
               result.push({ ...q, variants: undefined });
             }
@@ -291,7 +295,9 @@ class ExamEngine {
           used.add(q.conceptId);
           if (q.variants && q.variants.length > 0) {
             const v = q.variants[Math.floor(Math.random() * q.variants.length)];
-            result.push({ ...q, text: v.text, options: v.options, answer: v.answer, variants: undefined });
+            result.push({ ...q, text: v.text, options: v.options, answer: v.answer, explanation: v.explanation,
+                textEn: v.textEn, optionsEn: v.optionsEn, textCn: v.textCn, optionsCn: v.optionsCn,
+                variants: undefined });
           } else {
             result.push({ ...q, variants: undefined });
           }
