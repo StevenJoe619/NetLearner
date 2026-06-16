@@ -124,24 +124,75 @@ function resetLT() {
   if (!container || !examMetaCache) return;
 
   const lts = examMetaCache.exams.filter(e => e.type === 'level-test');
-  const vendors = {};
+  const vendorOrder = ['cisco', 'huawei'];
+  const groups = {};
   lts.forEach(e => {
     const v = e.vendor || 'cisco';
-    if (!vendors[v]) vendors[v] = [];
-    vendors[v].push(e);
+    if (!groups[v]) groups[v] = [];
+    groups[v].push(e);
   });
 
-  const vendorOrder = ['cisco', 'huawei'];
-  container.innerHTML = vendorOrder.filter(v => vendors[v]).map(v =>
-    `<div class="vendor-group vendor-${v}">
-      <div class="vendor-label">${v === 'cisco' ? 'Cisco' : 'Huawei'}</div>
-      <div style="display:flex;gap:8px;flex-wrap:wrap">
-        ${vendors[v].map(e =>
-          `<button class="btn btn-vendor" onclick="startLT('${e.target}')">${e.title}</button>`
+  let html = `<div class="vendor-filter">
+    <button class="vf-btn active" onclick="resetLT()">全部</button>
+    ${vendorOrder.filter(v => groups[v]).map(v =>
+      `<button class="vf-btn" onclick="filterLT('${v}')">${v === 'cisco' ? 'Cisco' : 'Huawei'}</button>`
+    ).join('')}
+  </div>`;
+
+  vendorOrder.forEach(v => {
+    if (!groups[v]) return;
+    const label = v === 'cisco' ? 'Cisco' : 'Huawei';
+    html += `<div class="vendor-section vendor-${v}">
+      <h3 class="vendor-heading">${label}</h3>
+      <div class="card-grid">
+        ${groups[v].map(e =>
+          `<div class="card card-feature" onclick="startLT('${e.target}')">
+            <div class="icon">▣</div><h3>${e.title}</h3>
+            <p>水平测试 · 快速摸底</p>
+          </div>`
         ).join('')}
       </div>
-    </div>`
-  ).join('');
+    </div>`;
+  });
+  container.innerHTML = html;
+}
+
+let ltVendorFilter = 'all';
+function filterLT(v) {
+  ltVendorFilter = v;
+  const container = document.getElementById('lt-buttons');
+  if (!container || !examMetaCache) return;
+  const lts = examMetaCache.exams.filter(e => e.type === 'level-test');
+  const filtered = v === 'all' ? lts : lts.filter(e => (e.vendor || 'cisco') === v);
+
+  let html = `<div class="vendor-filter">
+    <button class="vf-btn ${v === 'all' ? 'active' : ''}" onclick="filterLT('all')">全部</button>
+    <button class="vf-btn ${v === 'cisco' ? 'active' : ''}" onclick="filterLT('cisco')">Cisco</button>
+    <button class="vf-btn ${v === 'huawei' ? 'active' : ''}" onclick="filterLT('huawei')">Huawei</button>
+  </div>`;
+
+  const groups = {};
+  filtered.forEach(e => {
+    const vv = e.vendor || 'cisco';
+    if (!groups[vv]) groups[vv] = [];
+    groups[vv].push(e);
+  });
+
+  Object.entries(groups).forEach(([vv, exams]) => {
+    const label = vv === 'cisco' ? 'Cisco' : 'Huawei';
+    html += `<div class="vendor-section vendor-${vv}">
+      <h3 class="vendor-heading">${label}</h3>
+      <div class="card-grid">
+        ${exams.map(e =>
+          `<div class="card card-feature" onclick="startLT('${e.target}')">
+            <div class="icon">▣</div><h3>${e.title}</h3>
+            <p>水平测试 · 快速摸底</p>
+          </div>`
+        ).join('')}
+      </div>
+    </div>`;
+  });
+  container.innerHTML = html;
 }
 
 async function startLT(target) {
@@ -300,7 +351,7 @@ function renderMockList() {
       <div class="card-grid">
         ${groups[v].map(e =>
           `<div class="card card-feature" onclick="loadExam('${e.id}')">
-            <div class="icon">📝</div><h3>${e.title}</h3>
+            <div class="icon">◷</div><h3>${e.title}</h3>
             <p>${e.timeLimit ? e.timeLimit+'min · 贴近真实考试' : ''}</p>
           </div>`
         ).join('')}
@@ -375,7 +426,7 @@ function renderQ() {
     <div class="q-meta">
       <span class="domain-badge ${dc}">${q.domain}</span>
       <span style="font-size:11px;color:var(--text-muted);margin-left:6px">${typeLabel[t]||'单选题'}</span>
-      ${engine.isMarked(q.id) ? '<span style="color:var(--orange);font-size:12px">🏴 已标记</span>' : ''}
+      ${engine.isMarked(q.id) ? '<span style="color:var(--orange);font-size:12px">● 已标记</span>' : ''}
     </div>
     ${qText(q)}
     ${optsHtml}
@@ -791,6 +842,8 @@ function setLang(l) {
 
 function qText(q) {
   const lang = getLang();
+  // testlet 题不需要单独的题干，文本在 renderOpts 里处理
+  if (q.type === 'testlet') return '';
   if (lang === 'bilingual') {
     const en = q.textEn || q.text;
     const cn = q.textCn || en;
