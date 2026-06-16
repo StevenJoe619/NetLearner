@@ -303,6 +303,8 @@ a { color: var(--blue); text-decoration: none; }
   background: var(--bg-card); border: 1px solid var(--border);
   border-radius: var(--radius-sm); cursor: grab; font-size: 14px;
   display: flex; align-items: center; gap: 8px; transition: 0.12s;
+  user-select: none; -webkit-user-select: none;
+  -webkit-user-drag: element;
 }
 .drag-item:hover { border-color: var(--blue); }
 .drag-item.sel { border-color: var(--blue); background: rgba(79,195,247,0.15); }
