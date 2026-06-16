@@ -285,6 +285,33 @@ a { color: var(--blue); text-decoration: none; }
 .q-text-cn { font-size: 14px; line-height: 1.5; color: var(--text-secondary); margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--border); }
 
 /* ============================================================
+   Match (拖拽匹配) — 下拉选择
+   ============================================================ */
+.match-area { margin: 12px 0; }
+.match-cols { display: flex; gap: 16px; }
+.match-left, .match-right { flex: 1; }
+.match-col-header { font-size: 12px; font-weight: 600; color: var(--text-muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+.match-item { padding: 10px 12px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); margin-bottom: 6px; cursor: pointer; font-size: 13px; transition: all 0.15s; }
+.match-item:hover { border-color: var(--blue); }
+.match-item.sel { border-color: var(--blue); background: rgba(79, 195, 247, 0.15); }
+.match-item.used { opacity: 0.7; cursor: default; }
+.match-matched { font-size: 11px; color: var(--green); display: block; margin-top: 2px; }
+.match-slot { margin-bottom: 8px; }
+.match-desc { font-size: 13px; color: var(--text-secondary); margin-bottom: 4px; }
+.match-select { width: 100%; padding: 8px 10px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text-primary); font-size: 13px; font-family: inherit; cursor: pointer; }
+.match-select:focus { outline: none; border-color: var(--blue); }
+.match-select option { background: var(--bg-card); color: var(--text-primary); }
+.match-select option:disabled { color: var(--text-muted); }
+
+/* ============================================================
+   Testlet (场景题)
+   ============================================================ */
+.testlet-scenario { background: var(--bg-secondary); border-left: 3px solid var(--blue); padding: 12px 16px; margin-bottom: 16px; font-size: 14px; line-height: 1.6; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; color: var(--text-primary); white-space: pre-wrap; }
+.testlet-scenario code { background: var(--bg-card); padding: 2px 6px; border-radius: 3px; font-family: 'Consolas', 'Courier New', monospace; font-size: 13px; color: var(--green); border: 1px solid var(--border); }
+.testlet-q { margin-bottom: 16px; padding: 12px; background: var(--bg-card); border-radius: var(--radius-sm); }
+.testlet-q-header { font-size: 12px; font-weight: 600; color: var(--text-muted); margin-bottom: 8px; }
+
+/* ============================================================
    Vendor-specific theming (Cisco blue / Huawei red)
    ============================================================ */
 
@@ -369,11 +396,17 @@ a { color: var(--blue); text-decoration: none; }
 /* ============================================================
    Multi-type questions (drag, fill, multiple)
    ============================================================ */
-.drag-list { display:flex; flex-direction:column; gap:6px; margin-top:8px; }
-.drag-item { display:flex; align-items:center; gap:10px; padding:10px 14px; background:var(--bg-input); border:1px solid var(--border); border-radius:var(--radius-sm); }
-.drag-pos { width:24px; height:24px; display:flex; align-items:center; justify-content:center; background:var(--bg-hover); border-radius:12px; font-size:12px; font-weight:700; flex-shrink:0; }
-.drag-text { flex:1; font-size:14px; }
-.drag-arrows { display:flex; gap:4px; }
+/* Drag (排序拖拽) — 点击选中 + 上下移动 + 拖拽 */
+.drag-list { display: flex; flex-direction: column; gap: 6px; }
+.drag-item { display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); cursor: grab; user-select: none; transition: all 0.15s; }
+.drag-item:hover { border-color: var(--blue); }
+.drag-item.sel { border-color: var(--blue); background: rgba(79, 195, 247, 0.12); box-shadow: 0 0 0 1px var(--blue); }
+.drag-item:active { cursor: grabbing; }
+.drag-pos { width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; background: var(--bg-secondary); border-radius: 50%; font-size: 12px; font-weight: 600; color: var(--text-secondary); flex-shrink: 0; }
+.drag-item.sel .drag-pos { background: var(--blue); color: #000; }
+.drag-text { font-size: 14px; color: var(--text-primary); flex: 1; }
+ 
+ .drag-arrows { display:flex; gap:2px; }
 .drag-arrows .btn { padding:2px 8px; font-size:11px; min-width:28px; }
 
 .fill-input:focus { outline:none; border-color:var(--accent, var(--blue)) !important; }

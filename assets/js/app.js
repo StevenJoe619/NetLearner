@@ -25,8 +25,8 @@ async function loadExamMeta() {
     // Fallback (should not happen with local server)
     examMetaCache = {
       exams: [
-        { id:'ccna-level-demo', title:'CCNA (200-301) 水平测试 · 15题', type:'level-test', target:'CCNA', vendor:'cisco', questionCount:15, timeLimit:0 },
-        { id:'ccna-mock-1', title:'CCNA (200-301) 模拟考试 · 60题', type:'mock-exam', target:'CCNA', vendor:'cisco', questionCount:60, timeLimit:120 },
+        { id:'ccna-level-demo', title:'CCNA (200-301) 水平测试 · 16题', type:'level-test', target:'CCNA', vendor:'cisco', questionCount:15, timeLimit:0 },
+        { id:'ccna-mock-1', title:'CCNA (200-301) 模拟考试 · 103题', type:'mock-exam', target:'CCNA', vendor:'cisco', questionCount:100, timeLimit:120 },
         { id:'ccnp-encor-level-demo', title:'CCNP ENCOR (350-401) 水平测试 · 20题', type:'level-test', target:'CCNP ENCOR', vendor:'cisco', questionCount:20, timeLimit:0 },
         { id:'ccnp-encor-mock-1', title:'CCNP ENCOR (350-401) 模拟考试 · 60题', type:'mock-exam', target:'CCNP ENCOR', vendor:'cisco', questionCount:60, timeLimit:120 },
         { id:'hcia-level-demo', title:'HCIA-Datacom (H12-811) 水平测试 · 15题', type:'level-test', target:'HCIA', vendor:'huawei', questionCount:15, timeLimit:0 },
@@ -155,14 +155,14 @@ async function startLT(target) {
     const poolData = await loadQs(match.poolFile);
     if (!poolData) return;
     const pool = poolData.questions || [];
-    const qs = ExamEngine.pickFromPool(pool, match.questionCount || 10, match.weightings, ExamEngine.TYPE_WEIGHTINGS[target]);
+    const qs = ExamEngine.pickFromPool(pool, match.questionCount || 10, match.weightings, ExamEngine.LEVEL_TEST_WEIGHTINGS[target]);
     if (!qs.length) { toast('题库为空'); return; }
     curQs = qs;
     curMeta = { title: target + ' 水平测试' };
     document.getElementById('lt-setup').style.display = 'none';
     document.getElementById('lt-exam').style.display = 'block';
     document.getElementById('lt-title').textContent = target + ' 水平测试';
-    engine = new ExamEngine({ questions: curQs, mode: 'level-test', timeLimit: 0, allowBack: false });
+    engine = new ExamEngine({ questions: curQs, mode: 'level-test', timeLimit: 0, allowBack: true });
     engine.start();
     renderLT();
     return;
@@ -179,7 +179,7 @@ async function startLT(target) {
   document.getElementById('lt-exam').style.display = 'block';
   document.getElementById('lt-title').textContent = target + ' 水平测试';
 
-  engine = new ExamEngine({ questions: curQs, mode: 'level-test', timeLimit: 0, allowBack: false });
+  engine = new ExamEngine({ questions: curQs, mode: 'level-test', timeLimit: 0, allowBack: true });
   engine.start();
   renderLT();
 }
@@ -189,28 +189,54 @@ function renderLT() {
   if (!s.q) return;
   const q = s.q;
   const body = document.getElementById('lt-body');
+  const t = q.type || 'single';
   const sel = engine.getAns(q.id);
 
-  body.innerHTML = `<div class="card">
-    <div style="font-size:13px;color:var(--text-muted);margin-bottom:10px">第 ${s.idx+1}/${s.total} 题 · ${q.domain}</div>
-    ${qText(q)}
-    ${q.options.map((o,i) => {
-      const k = ['A','B','C','D'][i];
+  const dc = domainClass(q.domain);
+  const typeLabel = { single:'单选题', multiple:'多选题' };
+
+  let optsHtml = '';
+  if (t === 'multiple') {
+    const selParts = sel ? sel.split(',') : [];
+    optsHtml = q.options.map(o => {
+      const k = o.charAt(0);
+      const active = selParts.includes(k);
+      return `<div class="option ${active?'sel':''}" onclick="multiLT('${q.id}','${k}')">${o}${active?' ✓':''}</div>`;
+    }).join('');
+    optsHtml += '<div style="margin-top:8px;font-size:12px;color:var(--text-muted)">多选：点击选择多个选项</div>';
+  } else {
+    optsHtml = q.options.map(o => {
+      const k = o.charAt(0);
       return `<div class="option ${sel===k?'sel':''}" onclick="ansLT('${q.id}','${k}')">${o}</div>`;
-    }).join('')}
+    }).join('');
+  }
+
+  body.innerHTML = `<div class="card">
+    <div style="font-size:13px;color:var(--text-muted);margin-bottom:10px">
+      <span class="domain-badge ${dc}">${q.domain}</span>
+      <span style="margin-left:6px">${typeLabel[t]||'单选题'} · 第 ${s.idx+1}/${s.total} 题</span>
+    </div>
+    ${qText(q)}
+    ${optsHtml}
   </div>
   <div style="text-align:center;margin-top:12px">
     ${s.idx < s.total-1
-      ? `<button class="btn btn-primary" id="lt-next" ${sel?'':'disabled'} onclick="nLT()">下一题 →</button>`
-      : `<button class="btn btn-primary" id="lt-sub" ${sel?'':'disabled'} onclick="subLT()">📝 提交</button>`
+      ? `<button class="btn btn-primary" id="lt-next" style="display:${sel?'':'none'}" onclick="nLT()">下一题 →</button>`
+      : `<button class="btn btn-primary" id="lt-sub" style="display:${sel?'':'none'}" onclick="subLT()">📝 提交</button>`
     }
   </div>`;
-
-  const btn = document.getElementById('lt-next') || document.getElementById('lt-sub');
-  if (sel && btn) btn.disabled = false;
 }
 
-function ansLT(id, k) { engine.answer(id, k); renderLT(); }
+function ansLT(id, k) {
+  engine.answer(id, k);
+  // 单选题答完立即跳到下一题
+  const cur = engine.current();
+  if (cur.q && cur.q.type !== 'multiple' && cur.idx < cur.total - 1) {
+    engine.go('next');
+  }
+  renderLT();
+}
+function multiLT(id, k) { engine.toggleChoice(id, k); renderLT(); }
 function nLT() { engine.go('next'); renderLT(); }
 
 function subLT() {
@@ -275,7 +301,7 @@ function renderMockList() {
         ${groups[v].map(e =>
           `<div class="card card-feature" onclick="loadExam('${e.id}')">
             <div class="icon">📝</div><h3>${e.title}</h3>
-            <p>${e.questionCount} 题 ${e.timeLimit ? '· '+e.timeLimit+'min' : ''}</p>
+            <p>${e.timeLimit ? e.timeLimit+'min · 贴近真实考试' : ''}</p>
           </div>`
         ).join('')}
       </div>
@@ -367,15 +393,7 @@ function fillEx(id) {
   if (v !== undefined) engine.answer(id, v);
   renderQ();
 }
-function dragEx(id, pos, dir) {
-  let order = (engine.getAns(id) || '').split(',').filter(Boolean).map(Number);
-  if (!order.length) { const q = engine.current().q; order = q.options.map((_,i) => i); }
-  const newPos = pos + dir;
-  if (newPos < 0 || newPos >= order.length) return;
-  [order[pos], order[newPos]] = [order[newPos], order[pos]];
-  engine.answer(id, order.join(','));
-  renderQ();
-}
+/* dragEx replaced by selectDrag/moveDrag/resetDrag - see below */
 
 function ansEx(id, k) {
   engine.answer(id, k);
@@ -386,6 +404,132 @@ function ansEx(id, k) {
   }
   renderQ();
 }
+
+/* ============================================================
+   Match (拖拽匹配) — 下拉选择
+   ============================================================ */
+
+function matchSelect(el) {
+  const qId = el.dataset.q;
+  const ri = parseInt(el.dataset.ri);
+  const li = el.value;
+  const q = engine.current().q;
+  if (!q || q.id !== qId) return;
+  
+  let matches = engine.getAns(qId) ? engine.getAns(qId).split(',') : [];
+  while (matches.length < (q.rightItems || []).length) matches.push('');
+  
+  if (li === '') {
+    // 清空该槽位
+    matches[ri] = '';
+  } else {
+    // 如果这个选项已经放在别处，先移除
+    const prevIdx = matches.indexOf(li);
+    if (prevIdx >= 0) matches[prevIdx] = '';
+    // 放到目标槽位
+    matches[ri] = li;
+  }
+  
+  engine.answer(qId, matches.join(','));
+  renderQ();
+}
+
+function resetMatch(qId) {
+  const q = engine.current().q;
+  if (!q || q.id !== qId) return;
+  const empty = (q.rightItems || []).map(() => '');
+  engine.answer(qId, empty.join(','));
+  renderQ();
+}
+
+/* ============================================================
+   Testlet (场景题) 交互
+   ============================================================ */
+
+function getTestletAns(qId) {
+  try { return JSON.parse(engine.getAns(qId) || '[]'); } catch { return []; }
+}
+
+function saveTestletAns(qId, ansArr) {
+  engine.answer(qId, JSON.stringify(ansArr));
+  renderQ();
+}
+
+function ansTestlet(qId, qi, k) {
+  const arr = getTestletAns(qId);
+  arr[qi] = k;
+  saveTestletAns(qId, arr);
+}
+
+function multiTestlet(qId, qi, k) {
+  const arr = getTestletAns(qId);
+  let current = (arr[qi] || '').split(',').filter(Boolean);
+  const idx = current.indexOf(k);
+  if (idx >= 0) current.splice(idx, 1); else current.push(k);
+  arr[qi] = current.sort().join(',');
+  saveTestletAns(qId, arr);
+}
+
+/* ============================================================
+   Drag (排序拖拽) — 点击选中 + 上下移动 + 拖拽
+   ============================================================ */
+
+let _dragSelectedPos = null;
+
+function selectDrag(pos) {
+  _dragSelectedPos = _dragSelectedPos === pos ? null : pos;
+  renderQ();
+}
+
+function moveDrag(qId, dir) {
+  if (_dragSelectedPos === null) return;
+  const newPos = _dragSelectedPos + dir;
+  const q = engine.current().q;
+  const opts = q.optionsEn || q.options;
+  if (newPos < 0 || newPos >= opts.length) return;
+  
+  let order = (engine.getAns(qId) || '').split(',').filter(Boolean).map(Number);
+  if (!order.length) order = opts.map((_, i) => i);
+  
+  // Swap
+  [order[_dragSelectedPos], order[newPos]] = [order[newPos], order[_dragSelectedPos]];
+  engine.answer(qId, order.join(','));
+  _dragSelectedPos = newPos;
+  renderQ();
+}
+
+function resetDrag(qId) {
+  const q = engine.current().q;
+  const opts = q.optionsEn || q.options;
+  const order = opts.map((_, i) => i);
+  engine.answer(qId, order.join(','));
+  _dragSelectedPos = null;
+  renderQ();
+}
+
+function dragStart(e, pos) {
+  e.dataTransfer.setData('text/plain', pos);
+  _dragSelectedPos = pos;
+}
+
+function dragDrop(e, targetPos) {
+  e.preventDefault();
+  const sourcePos = parseInt(e.dataTransfer.getData('text/plain'));
+  if (sourcePos === targetPos) return;
+  
+  const q = engine.current().q;
+  const opts = q.optionsEn || q.options;
+  let order = (engine.getAns(q.id) || '').split(',').filter(Boolean).map(Number);
+  if (!order.length) order = opts.map((_, i) => i);
+  
+  // Move source to target position
+  const [item] = order.splice(sourcePos, 1);
+  order.splice(targetPos, 0, item);
+  engine.answer(q.id, order.join(','));
+  _dragSelectedPos = targetPos;
+  renderQ();
+}
+
 function examGo(dir) { engine.go(dir); renderQ(); }
 function examMark() { const q = engine.current().q; if(q) { engine.toggleMark(q.id); renderQ(); } }
 
@@ -662,7 +806,83 @@ function renderOpts(q, selAns) {
   const opts = q.optionsEn || q.options;
   
   let html;
-  if (t === 'single' || t === 'boolean') {
+  
+  // ---- match: 拖拽匹配 ----
+  if (t === 'match') {
+    const leftItems = q.leftItems || [];
+    const rightItems = q.rightItems || [];
+    const matches = selAns ? selAns.split(',') : [];
+    // Build match state: for each right slot, which left index is placed there
+    const placed = {};
+    matches.forEach((li, ri) => { if (li !== '') placed[ri] = parseInt(li); });
+    const usedLeft = new Set(Object.values(placed));
+    
+    html = '<div class="match-area">';
+    html += '<div class="match-cols"><div class="match-left"><div class="match-col-header">选项</div>';
+    leftItems.forEach((item, i) => {
+      const isUsed = usedLeft.has(i);
+      // Show the matched description name if placed
+      let matchedTo = '';
+      if (isUsed) {
+        for (const [ri, li] of Object.entries(placed)) {
+          if (li === i) { matchedTo = rightItems[parseInt(ri)]; break; }
+        }
+      }
+      html += `<div class="match-item ${isUsed?'used':''}">${item}${isUsed ? '<br><span class="match-matched">→ '+matchedTo+'</span>' : ''}</div>`;
+    });
+    html += '</div><div class="match-right"><div class="match-col-header">请为每条描述选择对应的选项</div>';
+    rightItems.forEach((item, i) => {
+      const li = placed[i];
+      html += `<div class="match-slot">
+        <div class="match-desc">${item}</div>
+        <select class="match-select" data-q="${q.id}" data-ri="${i}" onchange="matchSelect(this)">
+          <option value="">-- 请选择 --</option>
+          ${leftItems.map((liItem, liIdx) => {
+            const selected = placed[i] === liIdx ? 'selected' : '';
+            const disabled = usedLeft.has(liIdx) && placed[i] !== liIdx ? 'disabled' : '';
+            return `<option value="${liIdx}" ${selected} ${disabled}>${liItem}</option>`;
+          }).join('')}
+        </select>
+      </div>`;
+    });
+    html += '</div></div>';
+    html += `<div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px">
+      <span style="font-size:12px;color:var(--text-muted)">为每条描述从下拉框中选择对应的选项</span>
+      <button class="btn btn-sm" onclick="resetMatch('${q.id}')">重置</button>
+    </div>`;
+    
+  // ---- testlet: 场景题 ----
+  } else if (t === 'testlet') {
+    const scenario = q.scenario || '';
+    const questions = q.testletQuestions || [];
+    let ansArr = [];
+    try { ansArr = selAns ? JSON.parse(selAns) : []; } catch {}
+    
+    html = `<div class="testlet-scenario">${scenario.replace(/'([^']+)'/g, "<code>$1</code>")}</div>`;
+    questions.forEach((sq, qi) => {
+      const sqAns = ansArr[qi] || '';
+      const sqType = sq.type || 'single';
+      const isMulti = sqType === 'multiple';
+      const selParts = sqAns ? sqAns.split(',') : [];
+      
+      html += `<div class="testlet-q">
+        <div class="testlet-q-header">问题 ${qi+1}:</div>
+        <div class="q-text">${sq.text}</div>`;
+      
+      (sq.options || []).forEach(o => {
+        const k = o.charAt(0);
+        const active = isMulti ? selParts.includes(k) : sqAns === k;
+        const click = isMulti ? `multiTestlet('${q.id}',${qi},'${k}')` : `ansTestlet('${q.id}',${qi},'${k}')`;
+        html += `<div class="option ${active?'sel':''}" onclick="${click}">${o}${isMulti && active?' ✓':''}</div>`;
+      });
+      
+      if (isMulti) html += '<div style="font-size:12px;color:var(--text-muted);margin:4px 0">多选：点击选择多个选项</div>';
+      html += '</div>';
+    });
+    html += `<div style="margin-top:8px;font-size:12px;color:var(--text-muted)">场景题：阅读场景，回答所有子问题</div>`;
+  
+  // ---- single / boolean ----
+  } else if (t === 'single' || t === 'boolean') {
     html = '';
     opts.forEach(o => {
       const k = o.charAt(0);
@@ -685,18 +905,23 @@ function renderOpts(q, selAns) {
       </div>`;
   } else if (t === 'drag') {
     const order = selAns ? selAns.split(',').map(Number) : opts.map((_,i) => i);
-    html = `<div class="drag-list">`;
+    html = `<div class="drag-list" data-q="${q.id}">`;
     order.forEach((itemIdx, pos) => {
-      html += `<div class="drag-item">
+      const isSel = _dragSelectedPos === pos;
+      html += `<div class="drag-item ${isSel?'sel':''}" data-pos="${pos}" draggable="true"
+        ondragstart="dragStart(event,${pos})" ondrop="dragDrop(event,${pos})" ondragover="event.preventDefault()"
+        onclick="selectDrag(${pos})">
         <span class="drag-pos">${pos+1}</span>
         <span class="drag-text">${opts[itemIdx]}</span>
-        <div class="drag-arrows">
-          <button class="btn btn-sm" onclick="dragEx('${q.id}',${pos},-1)" ${pos===0?'disabled':''}>▲</button>
-          <button class="btn btn-sm" onclick="dragEx('${q.id}',${pos},1)" ${pos===order.length-1?'disabled':''}>▼</button>
-        </div>
       </div>`;
     });
     html += `</div>`;
+    html += `<div style="display:flex;gap:6px;margin-top:8px;justify-content:center;flex-wrap:wrap">
+      <button class="btn btn-sm ${_dragSelectedPos===null?'disabled':''}" onclick="moveDrag('${q.id}',-1)" ${_dragSelectedPos===null?'disabled':''}>▲ 上移</button>
+      <button class="btn btn-sm ${_dragSelectedPos===null?'disabled':''}" onclick="moveDrag('${q.id}',1)" ${_dragSelectedPos===null?'disabled':''}>▼ 下移</button>
+      <button class="btn btn-sm" onclick="resetDrag('${q.id}')">↺ 重置</button>
+    </div>`;
+    html += `<div style="font-size:12px;color:var(--text-muted);margin-top:6px;text-align:center">点击选中项目，再用上下按钮移动；或直接拖拽到目标位置</div>`;
   }
   return html;
 }

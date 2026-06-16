@@ -62,12 +62,28 @@ class ExamEngine {
     if (!ua) return false;
     const t = q.type || 'single';
     if (t === 'single' || t === 'drag' || t === 'boolean') return ua === q.answer;
+    if (t === 'match') {
+      // match答案格式："0,1,2" 表示 left[0]→right[0], left[1]→right[1]
+      const aParts = (q.answer || '').split(',');
+      const uParts = ua.split(',');
+      if (aParts.length !== uParts.length) return false;
+      return aParts.every((v, i) => v === uParts[i]);
+    }
     if (t === 'multiple') {
       const aParts = (q.answer || '').split(',').filter(Boolean).sort().join(',');
       const uParts = ua.split(',').filter(Boolean).sort().join(',');
       return aParts === uParts;
     }
     if (t === 'fill') return ua.trim().toLowerCase() === (q.answer || '').trim().toLowerCase();
+    if (t === 'testlet') {
+      // testlet的答案是一个数组，每个子题一个答案
+      try {
+        const aArr = JSON.parse(q.answer);
+        const uArr = JSON.parse(ua);
+        if (!Array.isArray(aArr) || !Array.isArray(uArr)) return false;
+        return aArr.every((a, i) => uArr[i] === a);
+      } catch { return false; }
+    }
     return ua === q.answer;
   }
 
@@ -168,10 +184,26 @@ class ExamEngine {
    */
   static get TYPE_WEIGHTINGS() {
     return {
-      'CCNA':        { single:0.82, multiple:0.12, drag:0.06 },
-      'CCNP ENCOR':  { single:0.55, multiple:0.20, drag:0.15, fill:0.10 },
-      'HCIA':        { single:0.71, multiple:0.14, boolean:0.15 },
-      'HCIP':        { single:0.52, multiple:0.25, drag:0.10, fill:0.13 },
+      // CCNA 200-301 真实题型分布：~100题/120min, 单选40% 多选25% 拖拽排序15% 拖拽匹配10% 填空5% 场景5%
+      'CCNA':        { single:0.40, multiple:0.25, drag:0.15, match:0.10, fill:0.05, testlet:0.05 },
+      // CCNP ENCOR 350-401: 单选35% 多选25% 拖拽排序15% 拖拽匹配10% 填空10% 场景5%
+      'CCNP ENCOR':  { single:0.35, multiple:0.25, drag:0.15, match:0.10, fill:0.10, testlet:0.05 },
+      // HCIA-Datacom: 单选45% 多选25% 判断20% 拖拽10%
+      'HCIA':        { single:0.45, multiple:0.25, boolean:0.20, drag:0.10 },
+      // HCIP-Datacom: 单选35% 多选25% 拖拽15% 填空15% 判断10%
+      'HCIP':        { single:0.35, multiple:0.25, drag:0.15, fill:0.15, boolean:0.10 },
+    };
+  }
+
+  /**
+   * 水平测试题型比例（仅单选+多选，适合新手）
+   */
+  static get LEVEL_TEST_WEIGHTINGS() {
+    return {
+      'CCNA':        { single:0.60, multiple:0.40 },
+      'CCNP ENCOR':  { single:0.55, multiple:0.45 },
+      'HCIA':        { single:0.65, multiple:0.35 },
+      'HCIP':        { single:0.55, multiple:0.45 },
     };
   }
 
@@ -241,6 +273,7 @@ class ExamEngine {
               const v = q.variants[Math.floor(Math.random() * q.variants.length)];
               result.push({ ...q, text: v.text, options: v.options, answer: v.answer, explanation: v.explanation,
                 textEn: v.textEn, optionsEn: v.optionsEn, textCn: v.textCn, optionsCn: v.optionsCn,
+                leftItems: v.leftItems, rightItems: v.rightItems, scenario: v.scenario, testletQuestions: v.testletQuestions,
                 variants: undefined });
             } else {
               result.push({ ...q, variants: undefined });
@@ -250,25 +283,54 @@ class ExamEngine {
           }
         });
 
-        // 不足本域配额时从剩余补（不限题型）
+        // 不足本域配额时：先尝试从其他域借同题型，最后才不限题型
         if (domainPicked < domainNeeded) {
-          const remaining = Object.values(domainPools).flat().filter(q => !used.has(q.conceptId));
-          for (let i = remaining.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [remaining[i], remaining[j]] = [remaining[j], remaining[i]];
-          }
-          for (const q of remaining) {
+          const needed = domainNeeded - domainPicked;
+          // 优先从其他域借同题型
+          const typeFillOrder = typeEntries.map(([t]) => t).sort((a,b) => {
+            const needed_a = typeEntries.find(([t]) => t === a)?.[1] || 0;
+            const needed_b = typeEntries.find(([t]) => t === b)?.[1] || 0;
+            return needed_b - needed_a; // 优先补权重高的题型
+          });
+          for (const t of typeFillOrder) {
             if (domainPicked >= domainNeeded) break;
-            used.add(q.conceptId);
-            if (q.variants && q.variants.length > 0) {
+            const borrowPool = [];
+            Object.entries(byDomainType).forEach(([d, types]) => {
+              if (d === domain) return;
+              (types[t] || []).forEach(q => { if (!used.has(q.conceptId)) borrowPool.push(q); });
+            });
+            for (let i = borrowPool.length - 1; i > 0; i--) {
+              const j = Math.floor(Math.random() * (i + 1));
+              [borrowPool[i], borrowPool[j]] = [borrowPool[j], borrowPool[i]];
+            }
+            for (const q of borrowPool) {
+              if (domainPicked >= domainNeeded) break;
+              used.add(q.conceptId);
               const v = q.variants[Math.floor(Math.random() * q.variants.length)];
               result.push({ ...q, text: v.text, options: v.options, answer: v.answer, explanation: v.explanation,
                 textEn: v.textEn, optionsEn: v.optionsEn, textCn: v.textCn, optionsCn: v.optionsCn,
+                leftItems: v.leftItems, rightItems: v.rightItems, scenario: v.scenario, testletQuestions: v.testletQuestions,
                 variants: undefined });
-            } else {
-              result.push({ ...q, variants: undefined });
+              domainPicked++;
             }
-            domainPicked++;
+          }
+          // 如果还不够，从本域剩余不限题型补
+          if (domainPicked < domainNeeded) {
+            const remaining = Object.values(domainPools).flat().filter(q => !used.has(q.conceptId));
+            for (let i = remaining.length - 1; i > 0; i--) {
+              const j = Math.floor(Math.random() * (i + 1));
+              [remaining[i], remaining[j]] = [remaining[j], remaining[i]];
+            }
+            for (const q of remaining) {
+              if (domainPicked >= domainNeeded) break;
+              used.add(q.conceptId);
+              const v = q.variants[Math.floor(Math.random() * q.variants.length)];
+              result.push({ ...q, text: v.text, options: v.options, answer: v.answer, explanation: v.explanation,
+                textEn: v.textEn, optionsEn: v.optionsEn, textCn: v.textCn, optionsCn: v.optionsCn,
+                leftItems: v.leftItems, rightItems: v.rightItems, scenario: v.scenario, testletQuestions: v.testletQuestions,
+                variants: undefined });
+              domainPicked++;
+            }
           }
         }
       });

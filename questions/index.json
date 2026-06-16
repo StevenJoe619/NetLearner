@@ -4,7 +4,7 @@
   "exams": [
     {
       "id": "ccna-level-demo",
-      "title": "CCNA (200-301) 水平测试 · 15题",
+      "title": "CCNA (200-301) 水平测试 · 16题",
       "type": "level-test",
       "target": "CCNA",
       "vendor": "cisco",
@@ -22,12 +22,12 @@
     },
     {
       "id": "ccna-mock-1",
-      "title": "CCNA (200-301) 模拟考试 · 60题",
+      "title": "CCNA (200-301) 模拟考试 · 103题",
       "type": "mock-exam",
       "target": "CCNA",
       "vendor": "cisco",
       "poolFile": "ccna-pool",
-      "questionCount": 60,
+      "questionCount": 100,
       "timeLimit": 120,
       "weightings": {
         "Network Fundamentals": 0.20,
